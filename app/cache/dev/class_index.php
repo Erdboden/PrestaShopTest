@@ -445,7 +445,7 @@
   ),
   'AdminFeaturesController' => 
   array (
-    'path' => '',
+    'path' => 'override/controllers/admin/AdminFeaturesController.php',
     'type' => 'class',
     'override' => false,
   ),

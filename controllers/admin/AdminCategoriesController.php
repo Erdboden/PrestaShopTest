@@ -446,7 +446,6 @@ class AdminCategoriesControllerCore extends AdminController
     public function renderForm()
     {
         $this->initToolbar();
-
         /** @var Category $obj */
         $obj = $this->loadObject(true);
         $context = Context::getContext();

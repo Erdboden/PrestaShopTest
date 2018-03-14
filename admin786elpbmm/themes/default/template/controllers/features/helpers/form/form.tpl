@@ -23,7 +23,6 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {extends file="helpers/form/form.tpl"}
-
 {block name="input_row"}
 	{$smarty.block.parent}
 	{if $input.name == 'name'}

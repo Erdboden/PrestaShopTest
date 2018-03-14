@@ -28,6 +28,8 @@ if (!defined('_PS_VERSION_')) {
     exit;
 }
 
+include_once _PS_MODULE_DIR_ . 'iconsforfeatures/classes/FeaturesIcons.php';
+
 class Iconsforfeatures extends Module
 {
     protected $config_form = false;
@@ -61,9 +63,10 @@ class Iconsforfeatures extends Module
     {
         Configuration::updateValue('ICONSFORFEATURES_LIVE_MODE', false);
 
-        $this->maybeAddColumn();
+//        $this->maybeAddColumn();
 
         return parent::install() &&
+            FeaturesIcons::installDB() &&
             $this->registerHook('header') &&
             $this->registerHook('backOfficeHeader');
     }
@@ -72,9 +75,9 @@ class Iconsforfeatures extends Module
     {
         Configuration::deleteByName('ICONSFORFEATURES_LIVE_MODE');
 
-        $this->maybeDeleteColumn();
+//        $this->maybeDeleteColumn();
 
-        return parent::uninstall();
+        return parent::uninstall() && FeaturesIcons::uninstallB();
     }
 
     /**
@@ -280,20 +283,9 @@ class Iconsforfeatures extends Module
 
     public function maybeAddColumn()
     {
-       // $sql = 'DESCRIBE '._DB_PREFIX_.$this->table_name;
-       // $columns = Db::getInstance()->executeS($sql);
-       // $found = false;
-        //foreach($columns as $col){
-         //   if($col['Field']=='image_id'){
-          //      $found = true;
-           //     break;
-           // }
-       // }
-       // if(!$found){
             if (!Db::getInstance()->execute('
             ALTER TABLE `'._DB_PREFIX_.$this->table_name.'` ADD `image_id` int DEFAULT NULL'));
-         //   return false;
-       // }
+
         return true;
     }
 
@@ -314,6 +306,5 @@ class Iconsforfeatures extends Module
         return false;
     }
     return true;
-
-}
+    }
 }
