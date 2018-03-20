@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-03-14 18:08:42
+<?php /* Smarty version Smarty-3.1.19, created on 2018-03-20 17:15:24
          compiled from "module:ps_languageselector/ps_languageselector.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7088051095aa9490a53e661-48305992%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:5992408655ab1258c8af4e8-80272505%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '7088051095aa9490a53e661-48305992',
+  'nocache_hash' => '5992408655ab1258c8af4e8-80272505',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5aa9490a579788_07569479',
+  'unifunc' => 'content_5ab1258c8ed0b5_37525733',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5aa9490a579788_07569479')) {function content_5aa9490a579788_07569479($_smarty_tpl) {?><!-- begin /var/www/html/themes/classic/modules/ps_languageselector/ps_languageselector.tpl -->
+<?php if ($_valid && !is_callable('content_5ab1258c8ed0b5_37525733')) {function content_5ab1258c8ed0b5_37525733($_smarty_tpl) {?><!-- begin /var/www/html/themes/classic/modules/ps_languageselector/ps_languageselector.tpl -->
 <div id="_desktop_language_selector">
   <div class="language-selector-wrapper">
     <span id="language-selector-label" class="hidden-md-up"><?php echo smartyTranslate(array('s'=>'Language:','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>

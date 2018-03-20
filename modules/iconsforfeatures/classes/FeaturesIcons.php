@@ -34,6 +34,8 @@ class FeaturesIcons extends ObjectModel
 
     public $image;
 
+    public $image_dir = _PS_IMG_DIR_.'feature_icons/';
+
     public static $definition = array(
         'table' => 'features_icons',
         'primary' => 'id_feature_icon',
@@ -42,6 +44,11 @@ class FeaturesIcons extends ObjectModel
             'image' => array('type' => self::TYPE_STRING),
         )
     );
+
+    public function deleteImage($force_delete = false)
+    {
+        unlink($this->image_dir.$this->image);
+    }
 
     public static function  installDB()
     {
@@ -54,7 +61,7 @@ class FeaturesIcons extends ObjectModel
 		) ENGINE = '._MYSQL_ENGINE_.' CHARACTER SET utf8 COLLATE utf8_general_ci;'));
     }
 
-    public static function  uninstallB()
+    public static function  uninstallDB()
     {
         return Db::getInstance()->execute('DROP TABLE IF EXISTS `'._DB_PREFIX_.'features_icons`');
     }
