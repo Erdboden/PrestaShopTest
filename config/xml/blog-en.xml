@@ -6,6 +6,22 @@
     <language>en</language>
      <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>PrestaShop launches PrestaTrust, a traceability system based on blockchain</title>
+    <link>https://www.prestashop.com/en/blog/launching-prestatrust</link>
+    <description>After the recent release of its 1.7.3 version, PrestaShop launches PrestaTrust, a traceability system based on blockchain innovation. </description>
+     <pubDate>Tue, 20 Mar 2018 10:43:11 +0100</pubDate>
+ <dc:creator>camille.teissier</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/launching-prestatrust</guid>
+  </item>
+  <item>
+    <title>5 Must-have Tips To Capture More Global Shoppers</title>
+    <link>https://www.prestashop.com/en/blog/5-must-have-tips-to-capture-more-global-shoppers</link>
+    <description>For eCommerce companies, it’s a big world. That may be contrary to Walt Disney’s perception, but “big” is the best word to describe global eCommerce today, as illustrated by stats like these:</description>
+     <pubDate>Tue, 13 Mar 2018 12:26:01 +0100</pubDate>
+ <dc:creator>bluesnap</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/5-must-have-tips-to-capture-more-global-shoppers</guid>
+  </item>
+  <item>
     <title>Three ways of collecting and displaying ratings and reviews can improve your SEO and Organic Search Ranking.</title>
     <link>https://www.prestashop.com/en/blog/three-ways-of-collecting-and-displaying-ratings-and-reviews-can-improve-your-seo-and-organic-search-ranking</link>
     <description>In recent years ratings and reviews have turned into must-haves for every ecommerce business.</description>
@@ -69,22 +85,6 @@ DOES NOT CONCERN:</description>
      <pubDate>Mon, 12 Feb 2018 17:05:16 +0100</pubDate>
  <dc:creator>article88@prestashop.com</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/french-finance-law-of-12-30-2017</guid>
-  </item>
-  <item>
-    <title>How to Optimize Your Social Media Payments Strategy</title>
-    <link>https://www.prestashop.com/en/blog/how-to-optimize-your-social-media-payments-strategy</link>
-    <description>If you were to look back 10 years at the early days of social media, today&#039;s most popular platforms would appear quite different.</description>
-     <pubDate>Thu, 08 Feb 2018 11:49:43 +0100</pubDate>
- <dc:creator>Discover</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/how-to-optimize-your-social-media-payments-strategy</guid>
-  </item>
-  <item>
-    <title>Your 2018 E-Commerce Calendar is ready for download!</title>
-    <link>https://www.prestashop.com/en/blog/your-2018-e-commerce-calendar-is-ready-for-download</link>
-    <description>You have the talent and the ideas, the PrestaShop team has a calendar that will support you throughout the year!</description>
-     <pubDate>Tue, 06 Feb 2018 11:20:03 +0100</pubDate>
- <dc:creator>MHamon</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/your-2018-e-commerce-calendar-is-ready-for-download</guid>
   </item>
   </channel>
 </rss>

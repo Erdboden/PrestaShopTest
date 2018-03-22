@@ -94,9 +94,8 @@ class Iconsforfeatures extends Module
 
         $this->context->smarty->assign('module_dir', $this->_path);
 
-        $output = $this->context->smarty->fetch($this->local_path . 'views/templates/admin/configure.tpl');
 
-        return $output . $this->renderForm();
+        return $this->renderForm();
     }
 
     /**
@@ -277,7 +276,7 @@ class Iconsforfeatures extends Module
     public function hookDisplayProductExtraContent($params)
     {
         $array        = array();
-        $featureIcons = [];
+        $featureIcons = array();
         $templateFile = 'module:iconsforfeatures/views/templates/hook/product-details.tpl';
         $product      = new Product($params['product']->id);
         $features     = $product->getFrontFeatures(Tools::getValue('id_lang'));
@@ -288,21 +287,25 @@ class Iconsforfeatures extends Module
             if (!empty($iconModel)) {
                 $icon = __PS_BASE_URI__ . 'img/feature_icons/' . $iconModel[0]['image'];
             }
-            array_push($featureIcons, [
-                'name'       => $feature['name'],
-                'value'      => $feature['value'],
-                'id_feature' => $feature['id_feature'],
-                'icon'       => $icon,
-            ]);
+            array_push(
+                $featureIcons,
+                array(
+                    'name'       => $feature['name'],
+                    'value'      => $feature['value'],
+                    'id_feature' => $feature['id_feature'],
+                    'icon'       => $icon,
+                )
+            );
         }
 
         $this->context->smarty->assign('grouped_features', $featureIcons);
 
-        $array[] = (new PrestaShop\PrestaShop\Core\Product\ProductExtraContent())->setTitle('Product Details')->setContent($this->fetch($templateFile));
+        $array[] = (new PrestaShop\PrestaShop\Core\Product\ProductExtraContent())
+            ->setTitle('Product Details')
+            ->setContent($this->fetch($templateFile));
         $this->context->controller->addJS($this->_path . 'views/js/front.js');
 
         return $array;
-
     }
 
     public function getModel($obj)
@@ -314,4 +317,5 @@ class Iconsforfeatures extends Module
 
         return Db::getInstance()->executeS($sql);
     }
+
 }

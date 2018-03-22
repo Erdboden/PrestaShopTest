@@ -1,62 +1,127 @@
 <?php
+/**
+ * NOTICE OF LICENSE
+ *
+ * This file is licenced under the Software License Agreement.
+ * With the purchase or the installation of the software in your application
+ * you accept the licence agreement.
+ *
+ * You must not modify, adapt or create derivative works of this source code
+ *
+ * @author    Terranetpro
+ * @copyright 2018 Terranet
+ * @license   LICENSE.txt
+ */
+
 include_once _PS_MODULE_DIR_ . 'iconsforfeatures/classes/FeaturesIcons.php';
 
 class AdminFeaturesController extends AdminFeaturesControllerCore
 {
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-14 11:33:22
-    * version: 1.0.0
-    */
-    protected $_feature = null;
 
     public $image_error = false;
 
     public function renderForm()
     {
-        $obj       = $this->loadObject(true);
-        $icon      = '';
-        $iconModel = $this->getModel($obj);
-        if (!empty($iconModel)) {
-            $icon = _PS_IMG_DIR_ . 'feature_icons/' . $iconModel[0]['image'];
+        $obj = $this->loadObject(true);
+        if ($obj->id != null) {
+            $icon      = "";
+            $iconModel = $this->getModel($obj);
+            if (!empty($iconModel)) {
+                $icon = _PS_IMG_DIR_ . 'feature_icons/' . $iconModel[0]['image'];
+            }
+            $imageType           = pathinfo($icon, PATHINFO_EXTENSION);
+            $icon_url            = ImageManager::thumbnail(
+                $icon,
+                $this->table . '_' . (int)$obj->id . '.' . $imageType,
+                350,
+                $imageType,
+                true,
+                true
+            );
+            $icon_size           = file_exists($icon) ? filesize($icon) / 1000 : false;
+            $this->toolbar_title = $this->trans('Add a new feature', array(), 'Admin.Catalog.Feature');
+            $this->fields_value  = array(
+                'icon' => $icon ? $icon : false,
+            );
+            $this->fields_form   = array(
+                'legend' => array(
+                    'title' => $this->trans('Feature', array(), 'Admin.Catalog.Feature'),
+                    'icon'  => 'icon-info-sign'
+                ),
+                'input'  => array(
+                    array(
+                        'type'     => 'text',
+                        'label'    => $this->trans('Name', array(), 'Admin.Global'),
+                        'name'     => 'name',
+                        'lang'     => true,
+                        'size'     => 33,
+                        'hint'     => $this->trans(
+                                'Invalid characters:',
+                                array(),
+                                'Admin.Notifications.Info'
+                            )
+                            . ' <>;=#{}',
+                        'required' => true
+                    ),
+                    array(
+                        'type'          => 'file',
+                        'label'         => $this->trans('Icon features', array(), 'Admin.Catalog.Feature'),
+                        'name'          => 'icon',
+                        'display_image' => true,
+                        'size'          => $icon_size,
+                        'image'         => $icon_url ? $icon_url : false,
+                        'delete_url'    => self::$currentIndex
+                            . '&id_feature='
+                            . $obj->id
+                            . '&token='
+                            . $this->token
+                            . '&deleteImage=1',
+                        'hint'          => $this->trans(
+                            'Displays a small image in the parent category\'s page, if the theme allows it.',
+                            array(),
+                            'Admin.Catalog.Help'
+                        ),
+                    ),
+                )
+            );
+        } else {
+            $this->toolbar_title = $this->trans('Add a new feature', array(), 'Admin.Catalog.Feature');
+            $this->fields_form   = array(
+                'legend' => array(
+                    'title' => $this->trans('Feature', array(), 'Admin.Catalog.Feature'),
+                    'icon'  => 'icon-info-sign'
+                ),
+                'input'  => array(
+                    array(
+                        'type'     => 'text',
+                        'label'    => $this->trans('Name', array(), 'Admin.Global'),
+                        'name'     => 'name',
+                        'lang'     => true,
+                        'size'     => 33,
+                        'hint'     => $this->trans(
+                                'Invalid characters:',
+                                array(),
+                                'Admin.Notifications.Info'
+                            )
+                            . ' <>;=#{}',
+                        'required' => true
+                    ),
+                    array(
+                        'type'          => 'file',
+                        'label'         => $this->trans('Icon features', array(), 'Admin.Catalog.Feature'),
+                        'name'          => 'icon',
+                        'display_image' => true,
+                        'size'          => false,
+                        'image'         => false,
+                        'hint'          => $this->trans(
+                            'Displays a small image in the parent category\'s page, if the theme allows it.',
+                            array(),
+                            'Admin.Catalog.Help'
+                        ),
+                    ),
+                )
+            );
         }
-
-        $icon_url  = ImageManager::thumbnail($icon, $this->table . '_' . (int)$obj->id . '.' . $this->imageType, 350,
-            $this->imageType, true, true);
-        $icon_size = file_exists($icon) ? filesize($icon) / 1000 : false;
-
-        $this->toolbar_title = $this->trans('Add a new feature', array(), 'Admin.Catalog.Feature');
-        $this->fields_value  = array(
-            'icon' => $icon ? $icon : false,
-        );
-        $this->fields_form   = array(
-            'legend' => array(
-                'title' => $this->trans('Feature', array(), 'Admin.Catalog.Feature'),
-                'icon'  => 'icon-info-sign'
-            ),
-            'input'  => array(
-                array(
-                    'type'     => 'text',
-                    'label'    => $this->trans('Name', array(), 'Admin.Global'),
-                    'name'     => 'name',
-                    'lang'     => true,
-                    'size'     => 33,
-                    'hint'     => $this->trans('Invalid characters:', array(), 'Admin.Notifications.Info') . ' <>;=#{}',
-                    'required' => true
-                ),
-                array(
-                    'type'          => 'file',
-                    'label'         => $this->trans('Icon features', array(), 'Admin.Catalog.Feature'),
-                    'name'          => 'icon',
-                    'display_image' => true,
-                    'size'          => $icon_size,
-                    'image'         => $icon_url ? $icon_url : false,
-                    'delete_url'    => self::$currentIndex . '&id_feature=' . $obj->id . '&token=' . $this->token . '&deleteImage=1',
-                    'hint'          => $this->trans('Displays a small image in the parent category\'s page, if the theme allows it.',
-                        array(), 'Admin.Catalog.Help'),
-                ),
-            )
-        );
         if (Shop::isFeatureActive()) {
             $this->fields_form['input'][] = array(
                 'type'  => 'shop',
@@ -73,23 +138,35 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
     public function postProcess()
     {
-        if (Tools::getValue('deleteImage')) {
+        $this->_join .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
+
+        $this->fields_list['image'] = array(
+            'title'      => 'Image',
+            'filter_key' => 'fi!image'
+        );
+
+        if (Tools::getValue('deleteImage') || $this->action == 'delete' || $this->action == 'bulkdelete') {
             $obj       = $this->loadObject(true);
             $iconModel = new FeaturesIcons($this->getModel($obj)[0]['id_feature_icon']);
             $iconModel->deleteImage(true);
             $iconModel->delete();
         }
-
         if (!Feature::isFeatureActive()) {
             return;
         }
-        if ($this->table == 'feature_value' && ($this->action == 'save' || $this->action == 'delete' || $this->action == 'bulkDelete')) {
-            Hook::exec('displayFeatureValuePostProcess',
-                array('errors' => &$this->errors));
+        if ($this->table == 'feature_value' &&
+            ($this->action == 'save' || $this->action == 'delete' || $this->action == 'bulkDelete')
+        ) {
+            Hook::exec(
+                'displayFeatureValuePostProcess',
+                array('errors' => &$this->errors)
+            );
         } // send errors as reference to allow displayFeatureValuePostProcess to stop saving process
         else {
-            Hook::exec('displayFeaturePostProcess',
-                array('errors' => &$this->errors));
+            Hook::exec(
+                'displayFeaturePostProcess',
+                array('errors' => &$this->errors)
+            );
         } // send errors as reference to allow displayFeaturePostProcess to stop saving process
         parent::postProcess();
         if ($this->table == 'feature_value' && ($this->display == 'edit' || $this->display == 'add')) {
@@ -100,11 +177,32 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
     public function processAdd()
     {
         $object = parent::processAdd();
+        if ($_FILES['icon']['size'] > 0) {
+            $iconModel = new FeaturesIcons($object->id);
+            if (!Validate::isLoadedObject($iconModel)) {
+                $iconModel->id_feature = $object->id;
+                $iconModel->force_id   = true;
+            }
+            $icon             = Tools::fileAttachment('icon');
+            $iconModel->image = $icon["name"];
+            $iconModel->save();
+        }
+
         if (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && !count($this->errors)) {
             if ($this->table == 'feature_value' && ($this->display == 'edit' || $this->display == 'add')) {
-                $this->redirect_after = self::$currentIndex . '&addfeature_value&id_feature=' . (int)Tools::getValue('id_feature') . '&token=' . $this->token;
+                $this->redirect_after = self::$currentIndex
+                    . '&addfeature_value&id_feature='
+                    . (int)Tools::getValue('id_feature')
+                    . '&token='
+                    . $this->token;
             } else {
-                $this->redirect_after = self::$currentIndex . '&' . $this->identifier . '=&conf=3&update' . $this->table . '&token=' . $this->token;
+                $this->redirect_after = self::$currentIndex
+                    . '&'
+                    . $this->identifier
+                    . '=&conf=3&update'
+                    . $this->table
+                    . '&token='
+                    . $this->token;
             }
         } elseif (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && count($this->errors)) {
             $this->display = 'editFeatureValue';
@@ -118,19 +216,24 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         $object = parent::processUpdate();
         if (!count($this->errors)) {
             if (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && !count($this->errors)) {
-                $this->redirect_after = self::$currentIndex . '&' . $this->identifier . '=&conf=3&update' . $this->table . '&token=' . $this->token;
+                $this->redirect_after = self::$currentIndex
+                    . '&'
+                    . $this->identifier
+                    . '=&conf=3&update'
+                    . $this->table
+                    . '&token='
+                    . $this->token;
             }
-
-            $iconModel = new FeaturesIcons($object->id);
-            if (!Validate::isLoadedObject($iconModel)) {
-                $iconModel->id_feature = $object->id;
-                $iconModel->force_id   = true;
-            }
-
             $icon = Tools::fileAttachment('icon');
-
-            $iconModel->image = $icon['name'];
-            $iconModel->save();
+            if ($icon != null) {
+                $iconModel = new FeaturesIcons($object->id);
+                if (!Validate::isLoadedObject($iconModel)) {
+                    $iconModel->id_feature = $object->id;
+                    $iconModel->force_id   = true;
+                }
+                $iconModel->image = $icon["name"];
+                $iconModel->save();
+            }
         }
 
         return $object;
@@ -140,31 +243,40 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
     {
         $ret = parent::postImage($id);
 
+        if (!file_exists(_PS_IMG_DIR_ . 'feature_icons/')) {
+            mkdir(_PS_IMG_DIR_ . 'feature_icons/', 0777, true);
+        }
+        $obj       = $this->loadObject(true);
+        $iconModel = new FeaturesIcons($this->getModel($obj)[0]['id_feature_icon']);
+        if ($iconModel->image != null) {
+            $iconModel->deleteImage(true);
+            $iconModel->delete();
+        }
         $icon = Tools::fileAttachment('icon');
-        if ($icon['mime'] == 'image/svg+xml') {
-            $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
-            $targetFile = $targetDir . basename($icon['name']);
-            file_put_contents($targetFile, $icon['content']);
-
-        } elseif ($error = ImageManager::validateUpload($_FILES['icon'], Tools::getMaxUploadSize())) {
-            $this->errors[] = $error . ', .svg';
-        } elseif (!($tmpName = tempnam(_PS_TMP_IMG_DIR_, 'PS')) || !move_uploaded_file($icon['tmp_name'], $tmpName)) {
-            $ret = false;
-        } else {
-            $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
-            $targetFile = $targetDir . basename($icon['name']);
-            ImageManager::resize($icon['tmp_name'], $targetFile,
-                Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null),
-                Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null));
-
-            if (count($this->errors)) {
-                $ret = false;
+        if ($icon != null) {
+            if ($icon["mime"] == 'image/svg+xml') {
+                $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
+                $targetFile = $targetDir . basename($icon['name']);
+                file_put_contents($targetFile, $icon['content']);
+            } elseif ($error = ImageManager::validateUpload($_FILES['icon'], Tools::getMaxUploadSize())) {
+                $this->errors[] = $error . ', .svg';
+            } else {
+                $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
+                $targetFile = $targetDir . basename($icon['name']);
+                ImageManager::resize(
+                    $icon["tmp_name"],
+                    $targetFile,
+                    Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null),
+                    Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)
+                );
             }
+        }
+        if (count($this->errors)) {
+            $ret = false;
         }
 
         return $ret;
     }
-
 
     public function getList(
         $id_lang,
@@ -213,10 +325,16 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                         if (isset($position) && $feature->updatePosition($way, $position, $id_feature)) {
                             echo 'ok position ' . (int)$position . ' for feature ' . (int)$pos[1] . '\r\n';
                         } else {
-                            echo '{"hasError" : true, "errors" : "Can not update feature ' . (int)$id_feature . ' to position ' . (int)$position . ' "}';
+                            echo '{"hasError" : true, "errors" : "Can not update feature '
+                                . (int)$id_feature
+                                . ' to position '
+                                . (int)$position
+                                . ' "}';
                         }
                     } else {
-                        echo '{"hasError" : true, "errors" : "This feature (' . (int)$id_feature . ') can t be loaded"}';
+                        echo '{"hasError" : true, "errors" : "This feature ('
+                            . (int)$id_feature
+                            . ') can t be loaded"}';
                     }
                     break;
                 }

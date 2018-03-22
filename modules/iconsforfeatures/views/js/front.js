@@ -26,5 +26,5 @@
  * to avoid any conflicts with others containers.
  */
 $(document).ready(function () {
-    $('.nav.nav-tabs').children().eq(1).remove();
+    $('.nav.nav-tabs').children().eq(1).hide();
 });

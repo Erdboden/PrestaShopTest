@@ -1,0 +1,247 @@
+*ERROR* 	v1.7.3.0	2018/03/22 - 10:26:20: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 3<br /><br /><pre>SELECT *
+FROM `ps_features_icons` fi
+WHERE (fi.id_feature = )
+</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:04:29: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:12:13: Unknown column 'ps_features_icons.id_feature' in 'on clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ INNER JOIN `ps_feature` AS f ON (f.`id_feature` = ps_features_icons.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY a.`position` ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:12:26: Unknown column 'ps_a.id_feature' in 'on clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ INNER JOIN `ps_feature` AS f ON (f.`id_feature` = ps_a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY a.`position` ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:14:23: Unknown column 'features.id_feature' in 'on clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ INNER JOIN `ps_features_icons` AS f ON (f.`id_feature` = features.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY a.`position` ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:14:27: Unknown column 'feature.id_feature' in 'on clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ INNER JOIN `ps_features_icons` AS f ON (f.`id_feature` = feature.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY a.`position` ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:30:58: Unknown column 'fi.position' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY fi.`position` ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:31:55: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 5 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:32:00: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 5 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:32:05: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 5 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:32:10: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 5 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:32:22: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 5 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:32:56: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 5 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:33:06: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 5 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:33:14: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 5 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:33:21: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 5 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:33:51: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:35:12: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:36:06: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:36:34: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:36:44: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:37:32: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:37:45: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:39:27: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:41:37: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:43:03: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:46:45: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/22 - 15:47:51: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
