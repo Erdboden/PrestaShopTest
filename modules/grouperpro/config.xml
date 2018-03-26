@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>grouperpro</name>
+    <displayName><![CDATA[Grouper PRO]]></displayName>
+    <version><![CDATA[2.0.0]]></version>
+    <description><![CDATA[The only module that gives you ability to build extended customers groups. Create Groups of Customers by: age, gender, location, registration, opt-ins, their shopping and carreers experience and much more... Grouper PRO allows you to schedule Groups re-build: Every Group may have its own schedule settings.]]></description>
+    <author><![CDATA[Terranet]]></author>
+    <tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[Are you sure you want to uninstall it?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+	<limited_countries></limited_countries>
+</module>

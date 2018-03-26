@@ -5,14 +5,64 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 {
     /*
     * module: iconsforfeatures
-    * date: 2018-03-22 12:28:57
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 16:19:17
     * version: 1.0.0
     */
     public $image_error = false;
 
     /*
     * module: iconsforfeatures
-    * date: 2018-03-22 12:28:57
+    * date: 2018-03-26 15:56:19
     * version: 1.0.0
     */
     public function renderForm()
@@ -65,7 +115,12 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                         'display_image' => true,
                         'size'          => $icon_size,
                         'image'         => $icon_url ? $icon_url : false,
-                        'delete_url'    => self::$currentIndex . '&id_feature=' . $obj->id . '&token=' . $this->token . '&deleteImage=1',
+                        'delete_url'    => self::$currentIndex
+                            . '&id_feature='
+                            . $obj->id
+                            . '&token='
+                            . $this->token
+                            . '&deleteImage=1',
                         'hint'          => $this->trans(
                             'Displays a small image in the parent category\'s page, if the theme allows it.',
                             array(),
@@ -88,9 +143,11 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                         'name'     => 'name',
                         'lang'     => true,
                         'size'     => 33,
-                        'hint'     => $this->trans('Invalid characters:',
+                        'hint'     => $this->trans(
+                                'Invalid characters:',
                                 array(),
-                                'Admin.Notifications.Info')
+                                'Admin.Notifications.Info'
+                            )
                             . ' <>;=#{}',
                         'required' => true
                     ),
@@ -123,21 +180,23 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
         return AdminController::renderForm();
     }
-
     /*
     * module: iconsforfeatures
-    * date: 2018-03-22 12:28:57
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 16:19:17
     * version: 1.0.0
     */
     public function postProcess()
     {
-        $this->_join .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
-
-        $this->fields_list['image'] = array(
-            'title'      => 'Image',
-            'filter_key' => 'fi!image'
+        $this->_join                       .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
+        $this->fields_list['feature_icon'] = array(
+            'title'      => 'Icon',
+            'filter_key' => 'a!position',
         );
-
         if (Tools::getValue('deleteImage') || $this->action == 'delete' || $this->action == 'bulkdelete') {
             $obj       = $this->loadObject(true);
             $iconModel = new FeaturesIcons($this->getModel($obj)[0]['id_feature_icon']);
@@ -147,7 +206,9 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         if (!Feature::isFeatureActive()) {
             return;
         }
-        if ($this->table == 'feature_value' && ($this->action == 'save' || $this->action == 'delete' || $this->action == 'bulkDelete')) {
+        if ($this->table == 'feature_value' &&
+            ($this->action == 'save' || $this->action == 'delete' || $this->action == 'bulkDelete')
+        ) {
             Hook::exec(
                 'displayFeatureValuePostProcess',
                 array('errors' => &$this->errors)
@@ -164,10 +225,14 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             $this->display = 'editFeatureValue';
         }
     }
-
     /*
     * module: iconsforfeatures
-    * date: 2018-03-22 12:28:57
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 16:19:17
     * version: 1.0.0
     */
     public function processAdd()
@@ -185,9 +250,19 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         }
         if (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && !count($this->errors)) {
             if ($this->table == 'feature_value' && ($this->display == 'edit' || $this->display == 'add')) {
-                $this->redirect_after = self::$currentIndex . '&addfeature_value&id_feature=' . (int)Tools::getValue('id_feature') . '&token=' . $this->token;
+                $this->redirect_after = self::$currentIndex
+                    . '&addfeature_value&id_feature='
+                    . (int)Tools::getValue('id_feature')
+                    . '&token='
+                    . $this->token;
             } else {
-                $this->redirect_after = self::$currentIndex . '&' . $this->identifier . '=&conf=3&update' . $this->table . '&token=' . $this->token;
+                $this->redirect_after = self::$currentIndex
+                    . '&'
+                    . $this->identifier
+                    . '=&conf=3&update'
+                    . $this->table
+                    . '&token='
+                    . $this->token;
             }
         } elseif (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && count($this->errors)) {
             $this->display = 'editFeatureValue';
@@ -195,10 +270,14 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
         return $object;
     }
-
     /*
     * module: iconsforfeatures
-    * date: 2018-03-22 12:28:57
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 16:19:17
     * version: 1.0.0
     */
     public function processUpdate()
@@ -206,7 +285,13 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         $object = parent::processUpdate();
         if (!count($this->errors)) {
             if (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && !count($this->errors)) {
-                $this->redirect_after = self::$currentIndex . '&' . $this->identifier . '=&conf=3&update' . $this->table . '&token=' . $this->token;
+                $this->redirect_after = self::$currentIndex
+                    . '&'
+                    . $this->identifier
+                    . '=&conf=3&update'
+                    . $this->table
+                    . '&token='
+                    . $this->token;
             }
             $icon = Tools::fileAttachment('icon');
             if ($icon != null) {
@@ -222,10 +307,14 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
         return $object;
     }
-
     /*
     * module: iconsforfeatures
-    * date: 2018-03-22 12:28:57
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 16:19:17
     * version: 1.0.0
     */
     protected function postImage($id)
@@ -265,10 +354,14 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
         return $ret;
     }
-
     /*
     * module: iconsforfeatures
-    * date: 2018-03-22 12:28:57
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 16:19:17
     * version: 1.0.0
     */
     public function getList(
@@ -298,10 +391,14 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             }
         }
     }
-
     /*
     * module: iconsforfeatures
-    * date: 2018-03-22 12:28:57
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 16:19:17
     * version: 1.0.0
     */
     public function ajaxProcessUpdatePositions()
@@ -323,10 +420,16 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                         if (isset($position) && $feature->updatePosition($way, $position, $id_feature)) {
                             echo 'ok position ' . (int)$position . ' for feature ' . (int)$pos[1] . '\r\n';
                         } else {
-                            echo '{"hasError" : true, "errors" : "Can not update feature ' . (int)$id_feature . ' to position ' . (int)$position . ' "}';
+                            echo '{"hasError" : true, "errors" : "Can not update feature '
+                                . (int)$id_feature
+                                . ' to position '
+                                . (int)$position
+                                . ' "}';
                         }
                     } else {
-                        echo '{"hasError" : true, "errors" : "This feature (' . (int)$id_feature . ') can t be loaded"}';
+                        echo '{"hasError" : true, "errors" : "This feature ('
+                            . (int)$id_feature
+                            . ') can t be loaded"}';
                     }
                     break;
                 }
@@ -334,11 +437,116 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         }
     }
 
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-22 12:28:57
-    * version: 1.0.0
-    */
+    public function renderList()
+    {
+        $this->_join .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
+        $this->addRowAction('view');
+        $this->addRowAction('edit');
+        $this->addRowAction('delete');
+
+        $this->bulk_actions = array(
+            'delete' => array(
+                'text'    => $this->trans('Delete selected', array(), 'Admin.Actions'),
+                'icon'    => 'icon-trash',
+                'confirm' => $this->trans('Delete selected items?', array(), 'Admin.Notifications.Warning')
+            )
+        );
+
+        $this->fields_list = array(
+            'id_feature' => array(
+                'title' => $this->trans('ID', array(), 'Admin.Global'),
+                'align' => 'center',
+                'class' => 'fixed-width-xs'
+            ),
+            'name'       => array(
+                'title'      => $this->trans('Name', array(), 'Admin.Global'),
+                'width'      => 'auto',
+                'filter_key' => 'b!name'
+            ),
+            'value'      => array(
+                'title'   => $this->trans('Values', array(), 'Admin.Global'),
+                'orderby' => false,
+                'search'  => false,
+                'align'   => 'center',
+                'class'   => 'fixed-width-xs'
+            ),
+            'position'   => array(
+                'title'      => $this->trans('Position', array(), 'Admin.Global'),
+                'filter_key' => 'a!position',
+                'align'      => 'center',
+                'class'      => 'fixed-width-xs',
+                'position'   => 'position'
+            ),
+            'image'      => array(
+                'title' => 'Icon',
+                'align' => 'center',
+                'class' => 'fixed-width-xs',
+            )
+        );
+
+        if (!($this->fields_list && is_array($this->fields_list))) {
+            return false;
+        }
+        $this->getGrouperList();
+        $helper = new HelperList();
+
+        if (!is_array($this->_list)) {
+            $this->displayWarning($this->trans('Bad query', array(),
+                    'Modules.Grouperpro.Admin') . '<br />' . htmlspecialchars($this->_list_error));
+
+            return false;
+        }
+
+        $this->setHelperDisplay($helper);
+        $helper->_default_pagination  = $this->_default_pagination;
+        $helper->_pagination          = $this->_pagination;
+        $helper->tpl_vars             = $this->getTemplateListVars();
+        $helper->tpl_delete_link_vars = $this->tpl_delete_link_vars;
+        $helper->simple_header        = false;
+
+        foreach ($this->actions_available as $action) {
+            if (!in_array($action, $this->actions) && isset($this->$action) && $this->$action) {
+                $this->actions[] = $action;
+            }
+        }
+
+        $list = $helper->generateList($this->_list, $this->fields_list);
+
+        return $list;
+
+    }
+
+    protected function getGrouperList()
+    {
+        $returnData = array();
+
+        $sql     = 'SELECT * FROM `' . _DB_PREFIX_ . $this->table . '` ';
+        $content = Db::getInstance()->executeS($sql);
+
+        $this->_listTotal = count($content);
+
+        $CarrierList = Carrier::getCarriers($this->context->language->id);
+        $CarrierVal  = array();
+        if (!empty($CarrierList) && is_array($CarrierList)) {
+            foreach ($CarrierList as $item) {
+                $CarrierVal[$item['id_carrier']] = $item['name'];
+            }
+        }
+
+        $ShopList = Shop::getShops();
+        $k        = 0;
+
+        foreach ($content as $item) {
+            $returnData[$k]['id_feature'] = $item['id_feature'];
+            $returnData[$k]['name']       = $item['name'];
+
+            $k++;
+        }
+        $this->_list = $returnData;
+        dump($this->_list);
+        exit();
+    }
+
     public function getModel($obj)
     {
         $sql = new DbQuery();

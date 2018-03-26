@@ -1336,7 +1336,7 @@ class Ps_MainMenu extends Module implements WidgetInterface
             ),
             'link' => array(
                 'title' => $this->trans('Link', array(), 'Admin.Global'),
-                'type' => 'link',
+                'type' => 'image_field',
             ),
             'new_window' => array(
                 'title' => $this->trans('New window', array(), 'Admin.Navigation.Header'),

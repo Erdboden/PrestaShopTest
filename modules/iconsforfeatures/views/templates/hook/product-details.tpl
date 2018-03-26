@@ -22,12 +22,12 @@
                         {if $feature.icon!=''}
                             {if Configuration::get('ICONSFORFEATURES_ALT', null)}
                                 <img src="{$feature.icon}"
-                                     style="padding-right: {Configuration::get('ICONSFORFEATURES_RIGHT_PADDING', null)}"
+                                     style="padding-right: {Configuration::get('ICONSFORFEATURES_RIGHT_PADDING', null)}px"
                                      title="{$feature.name}"
                                      alt="{$feature.name}">
                             {else}
                                 <img src="{$feature.icon}"
-                                     style="padding-right: {Configuration::get('ICONSFORFEATURES_RIGHT_PADDING', null)}">
+                                     style="padding-right: {Configuration::get('ICONSFORFEATURES_RIGHT_PADDING', null)}px">
                             {/if}
                             {if Configuration::get('ICONSFORFEATURES_FEATURES_TITLE', null)}
                                 {$feature.name}

@@ -139,25 +139,6 @@ class Iconsforfeatures extends Module
                 ),
                 'input'  => array(
                     array(
-                        'type'    => 'switch',
-                        'label'   => $this->l('Live mode'),
-                        'name'    => 'ICONSFORFEATURES_LIVE_MODE',
-                        'is_bool' => true,
-                        'desc'    => $this->l('Use this module in live mode'),
-                        'values'  => array(
-                            array(
-                                'id'    => 'active_on',
-                                'value' => true,
-                                'label' => $this->l('Enabled')
-                            ),
-                            array(
-                                'id'    => 'active_off',
-                                'value' => false,
-                                'label' => $this->l('Disabled')
-                            )
-                        ),
-                    ),
-                    array(
                         'col'   => 3,
                         'type'  => 'text',
                         'desc'  => $this->l('Enter right padding'),

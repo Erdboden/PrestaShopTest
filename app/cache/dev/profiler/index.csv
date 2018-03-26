@@ -1,9 +1,6 @@
-377a36,::1,GET,http://localhost/admin786elpbmm/index.php/configure/advanced/clear_cache?_token=jceSvS4MHZ8LHBPK7yYOubkBmKRuFUMEQkCZStFIHmo,1521726147,,302
-3d76be,::1,GET,http://localhost/admin786elpbmm/index.php/configure/advanced/performance?_token=jceSvS4MHZ8LHBPK7yYOubkBmKRuFUMEQkCZStFIHmo,1521726168,,200
-ee3065,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog?_token=Se_W3ZpdCdhrF598h8U640R68h45CPvV701kDtaOyco,1521726843,,200
-27f9d7,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=Se_W3ZpdCdhrF598h8U640R68h45CPvV701kDtaOyco,1521726855,,200
-1138fe,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/configure/iconsforfeatures?_token=Se_W3ZpdCdhrF598h8U640R68h45CPvV701kDtaOyco,1521726875,,302
-e0d351,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog?_token=Se_W3ZpdCdhrF598h8U640R68h45CPvV701kDtaOyco,1521726917,,200
-a189c7,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=Se_W3ZpdCdhrF598h8U640R68h45CPvV701kDtaOyco,1521726929,,200
-3bdb05,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/disable/iconsforfeatures?_token=Se_W3ZpdCdhrF598h8U640R68h45CPvV701kDtaOyco,1521727093,,200
-529655,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/enable/iconsforfeatures?_token=Se_W3ZpdCdhrF598h8U640R68h45CPvV701kDtaOyco,1521727102,,200
+b2b8f7,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/enable/iconsforfeatures?_token=-B4sHGZqxbS5s2fgyFOoZ41jInOh1Hivp4sag9jvofE,1522068167,,200
+7dab62,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/reset/iconsforfeatures?_token=-B4sHGZqxbS5s2fgyFOoZ41jInOh1Hivp4sag9jvofE,1522068982,,200
+e14b2d,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/reset/iconsforfeatures?_token=-B4sHGZqxbS5s2fgyFOoZ41jInOh1Hivp4sag9jvofE,1522070343,,200
+d9a7a2,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/reset/iconsforfeatures?_token=-B4sHGZqxbS5s2fgyFOoZ41jInOh1Hivp4sag9jvofE,1522070360,,200
+5cb25e,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=-B4sHGZqxbS5s2fgyFOoZ41jInOh1Hivp4sag9jvofE,1522070384,,200
+5b712a,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/configure/grouperpro?_token=-B4sHGZqxbS5s2fgyFOoZ41jInOh1Hivp4sag9jvofE,1522070607,,302

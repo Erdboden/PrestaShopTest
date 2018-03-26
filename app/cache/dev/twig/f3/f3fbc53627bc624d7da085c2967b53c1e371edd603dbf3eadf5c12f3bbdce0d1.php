@@ -15,8 +15,8 @@ class __TwigTemplate_2b383cdd996bec77f296bf789ea5cf7ae48add1c8d9ee8007dc61d30d1e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_fbd92af74bd9a016469f0ccff029aabbb554f4a63087171e95bda4144497d627 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fbd92af74bd9a016469f0ccff029aabbb554f4a63087171e95bda4144497d627->enter($__internal_fbd92af74bd9a016469f0ccff029aabbb554f4a63087171e95bda4144497d627_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:action_menu.html.twig"));
+        $__internal_e06d45ecf4f683ab01dd86fbbf913aaf09283a9b05a74ed897de2d9f192c1919 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e06d45ecf4f683ab01dd86fbbf913aaf09283a9b05a74ed897de2d9f192c1919->enter($__internal_e06d45ecf4f683ab01dd86fbbf913aaf09283a9b05a74ed897de2d9f192c1919_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:action_menu.html.twig"));
 
         // line 25
         list($context["url"], $context["priceRaw"], $context["priceDisplay"], $context["url_active"], $context["urls"], $context["name"]) =         array($this->getAttribute($this->getAttribute(        // line 26
@@ -127,7 +127,7 @@ class __TwigTemplate_2b383cdd996bec77f296bf789ea5cf7ae48add1c8d9ee8007dc61d30d1e
   ";
         }
         
-        $__internal_fbd92af74bd9a016469f0ccff029aabbb554f4a63087171e95bda4144497d627->leave($__internal_fbd92af74bd9a016469f0ccff029aabbb554f4a63087171e95bda4144497d627_prof);
+        $__internal_e06d45ecf4f683ab01dd86fbbf913aaf09283a9b05a74ed897de2d9f192c1919->leave($__internal_e06d45ecf4f683ab01dd86fbbf913aaf09283a9b05a74ed897de2d9f192c1919_prof);
 
     }
 

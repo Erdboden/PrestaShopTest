@@ -1,24 +1,71 @@
 <?php
-/**
- * NOTICE OF LICENSE
- *
- * This file is licenced under the Software License Agreement.
- * With the purchase or the installation of the software in your application
- * you accept the licence agreement.
- *
- * You must not modify, adapt or create derivative works of this source code
- *
- * @author    Terranetpro
- * @copyright 2018 Terranet
- * @license   LICENSE.txt
- */
-
 include_once _PS_MODULE_DIR_ . 'iconsforfeatures/classes/FeaturesIcons.php';
 
 class AdminFeaturesController extends AdminFeaturesControllerCore
 {
-
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
     public $image_error = false;
+
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
+    public function __construct()
+    {
+        $this->table      = 'feature';
+        $this->className  = 'Feature';
+        $this->list_id    = 'feature';
+        $this->identifier = 'id_feature';
+        $this->lang       = true;
+
+        parent::__construct();
+        $this->_join       .= ' LEFT JOIN`' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
+        $this->fields_list = array(
+            'id_feature' => array(
+                'title' => $this->trans('ID', array(), 'Admin.Global'),
+                'align' => 'center',
+                'class' => 'fixed-width-xs'
+            ),
+            'name'       => array(
+                'title'      => $this->trans('Name', array(), 'Admin.Global'),
+                'width'      => 'auto',
+                'filter_key' => 'b!name'
+            ),
+            'value'      => array(
+                'title'   => $this->trans('Values', array(), 'Admin.Global'),
+                'orderby' => false,
+                'search'  => false,
+                'align'   => 'center',
+                'class'   => 'fixed-width-xs'
+            ),
+            'position'   => array(
+                'title'      => $this->trans('Position', array(), 'Admin.Global'),
+                'filter_key' => 'a!position',
+                'align'      => 'center',
+                'class'      => 'fixed-width-xs',
+                'position'   => 'position'
+            ),
+            'image'      => array(
+                'title'      => 'Image',
+                'filter_key' => 'fi!image',
+                'align'      => 'center',
+                'class'      => 'fixed-width-xs',
+            )
+        );
+
+        $this->bulk_actions = array(
+            'delete' => array(
+                'text'    => $this->trans('Delete selected', array(), 'Admin.Actions'),
+                'icon'    => 'icon-trash',
+                'confirm' => $this->trans('Delete selected items?', array(), 'Admin.Notifications.Warning')
+            )
+        );
+    }
 
     public function renderForm()
     {
@@ -136,13 +183,19 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         return AdminController::renderForm();
     }
 
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
     public function postProcess()
     {
-        $this->_join .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
+        $this->_join .= ' LEFT JOIN`' . _DB_PREFIX_ . 'features_icons` AS fis ON (fis.`id_feature` = a.`id_feature`) ';
 
-        $this->fields_list['image'] = array(
+        $this->fields_list['feature_icon'] = array(
             'title'      => 'Image',
-            'filter_key' => 'fi!image'
+            'width'      => 230,
+            'filter_key' => 'fis!image',
         );
 
         if (Tools::getValue('deleteImage') || $this->action == 'delete' || $this->action == 'bulkdelete') {
@@ -174,6 +227,11 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         }
     }
 
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
     public function processAdd()
     {
         $object = parent::processAdd();
@@ -187,7 +245,6 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             $iconModel->image = $icon["name"];
             $iconModel->save();
         }
-
         if (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && !count($this->errors)) {
             if ($this->table == 'feature_value' && ($this->display == 'edit' || $this->display == 'add')) {
                 $this->redirect_after = self::$currentIndex
@@ -211,6 +268,11 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         return $object;
     }
 
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
     public function processUpdate()
     {
         $object = parent::processUpdate();
@@ -239,10 +301,14 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         return $object;
     }
 
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
     protected function postImage($id)
     {
         $ret = parent::postImage($id);
-
         if (!file_exists(_PS_IMG_DIR_ . 'feature_icons/')) {
             mkdir(_PS_IMG_DIR_ . 'feature_icons/', 0777, true);
         }
@@ -278,6 +344,11 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         return $ret;
     }
 
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
     public function getList(
         $id_lang,
         $order_by = null,
@@ -306,6 +377,11 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         }
     }
 
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
     public function ajaxProcessUpdatePositions()
     {
         if ($this->access('edit')) {
@@ -342,6 +418,11 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         }
     }
 
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-26 15:56:19
+    * version: 1.0.0
+    */
     public function getModel($obj)
     {
         $sql = new DbQuery();

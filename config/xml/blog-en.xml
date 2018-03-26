@@ -6,6 +6,14 @@
     <language>en</language>
      <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Meet Pravesh, Ambassador of the month | March 2018</title>
+    <link>https://www.prestashop.com/en/blog/embajador-pravesh-lucknow</link>
+    <description>Pravesh is our Ambassador in Lucknow, India since beginning 2016. We are grateful for the work he has invested in the program thanks to his successful meetups.</description>
+     <pubDate>Mon, 26 Mar 2018 11:42:23 +0200</pubDate>
+ <dc:creator>MLNielsen</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/embajador-pravesh-lucknow</guid>
+  </item>
+  <item>
     <title>PrestaShop launches PrestaTrust, a traceability system based on blockchain</title>
     <link>https://www.prestashop.com/en/blog/launching-prestatrust</link>
     <description>After the recent release of its 1.7.3 version, PrestaShop launches PrestaTrust, a traceability system based on blockchain innovation. </description>
@@ -76,15 +84,6 @@
      <pubDate>Tue, 13 Feb 2018 11:49:08 +0100</pubDate>
  <dc:creator>Anonymous</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashop-loves-you</guid>
-  </item>
-  <item>
-    <title>2018 French Finance Law No. 2017-1837 of 12/30/2017</title>
-    <link>https://www.prestashop.com/en/blog/french-finance-law-of-12-30-2017</link>
-    <description>Yes, this does concern e-commerce 
-DOES NOT CONCERN:</description>
-     <pubDate>Mon, 12 Feb 2018 17:05:16 +0100</pubDate>
- <dc:creator>article88@prestashop.com</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/french-finance-law-of-12-30-2017</guid>
   </item>
   </channel>
 </rss>
