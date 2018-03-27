@@ -5,64 +5,14 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 {
     /*
     * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 16:19:17
+    * date: 2018-03-27 14:16:12
     * version: 1.0.0
     */
     public $image_error = false;
 
     /*
     * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
+    * date: 2018-03-27 14:16:12
     * version: 1.0.0
     */
     public function renderForm()
@@ -180,22 +130,20 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
         return AdminController::renderForm();
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 16:19:17
+    * date: 2018-03-27 14:16:12
     * version: 1.0.0
     */
     public function postProcess()
     {
-        $this->_join                       .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
-        $this->fields_list['feature_icon'] = array(
-            'title'      => 'Icon',
-            'filter_key' => 'a!position',
+        $this->_join                .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
+        $this->fields_list['image'] = array(
+            'title'     => 'Icon',
+            'float'     => true,
+            'search'    => false,
+            'filet_key' => 'image'
         );
         if (Tools::getValue('deleteImage') || $this->action == 'delete' || $this->action == 'bulkdelete') {
             $obj       = $this->loadObject(true);
@@ -225,14 +173,10 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             $this->display = 'editFeatureValue';
         }
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 16:19:17
+    * date: 2018-03-27 14:16:12
     * version: 1.0.0
     */
     public function processAdd()
@@ -270,14 +214,10 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
         return $object;
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 16:19:17
+    * date: 2018-03-27 14:16:12
     * version: 1.0.0
     */
     public function processUpdate()
@@ -307,21 +247,19 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
         return $object;
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 16:19:17
+    * date: 2018-03-27 14:16:12
     * version: 1.0.0
     */
     protected function postImage($id)
     {
         $ret = parent::postImage($id);
-        if (!file_exists(_PS_IMG_DIR_ . 'feature_icons/')) {
-            mkdir(_PS_IMG_DIR_ . 'feature_icons/', 0777, true);
+
+        $targetDir = _PS_IMG_DIR_ . 'feature_icons/';
+        if (!file_exists($targetDir)) {
+            mkdir($targetDir, 0777, true);
         }
         $obj       = $this->loadObject(true);
         $iconModel = new FeaturesIcons($this->getModel($obj)[0]['id_feature_icon']);
@@ -332,8 +270,12 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         $icon = Tools::fileAttachment('icon');
         if ($icon != null) {
             if ($icon["mime"] == 'image/svg+xml') {
-                $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
-                $targetFile = $targetDir . basename($icon['name']);
+
+                if (file_exists($targetDir)) {
+                    $targetFile = $targetDir . basename($icon['name'] . uniqid());
+                } else {
+                    $targetFile = $targetDir . basename($icon['name']);
+                }
                 file_put_contents($targetFile, $icon['content']);
             } elseif ($error = ImageManager::validateUpload($_FILES['icon'], Tools::getMaxUploadSize())) {
                 $this->errors[] = $error . ', .svg';
@@ -354,51 +296,10 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
         return $ret;
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 16:19:17
-    * version: 1.0.0
-    */
-    public function getList(
-        $id_lang,
-        $order_by = null,
-        $order_way = null,
-        $start = 0,
-        $limit = null,
-        $id_lang_shop = false
-    ) {
-        if ($this->table == 'feature_value') {
-            $this->_where .= ' AND (a.custom = 0 OR a.custom IS NULL)';
-        }
-        parent::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop);
-        if ($this->table == 'feature') {
-            $nb_items = count($this->_list);
-            for ($i = 0; $i < $nb_items; ++$i) {
-                $item  = &$this->_list[$i];
-                $query = new DbQuery();
-                $query->select('COUNT(fv.id_feature_value) as count_values');
-                $query->from('feature_value', 'fv');
-                $query->where('fv.id_feature =' . (int)$item['id_feature']);
-                $query->where('(fv.custom=0 OR fv.custom IS NULL)');
-                $res           = Db::getInstance(_PS_USE_SQL_SLAVE_)->getValue($query);
-                $item['value'] = (int)$res;
-                unset($query);
-            }
-        }
-    }
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 16:19:17
+    * date: 2018-03-27 14:16:12
     * version: 1.0.0
     */
     public function ajaxProcessUpdatePositions()
@@ -437,116 +338,62 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         }
     }
 
-    public function renderList()
-    {
-        $this->_join .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
-        $this->addRowAction('view');
-        $this->addRowAction('edit');
-        $this->addRowAction('delete');
-
-        $this->bulk_actions = array(
-            'delete' => array(
-                'text'    => $this->trans('Delete selected', array(), 'Admin.Actions'),
-                'icon'    => 'icon-trash',
-                'confirm' => $this->trans('Delete selected items?', array(), 'Admin.Notifications.Warning')
-            )
-        );
-
-        $this->fields_list = array(
-            'id_feature' => array(
-                'title' => $this->trans('ID', array(), 'Admin.Global'),
-                'align' => 'center',
-                'class' => 'fixed-width-xs'
-            ),
-            'name'       => array(
-                'title'      => $this->trans('Name', array(), 'Admin.Global'),
-                'width'      => 'auto',
-                'filter_key' => 'b!name'
-            ),
-            'value'      => array(
-                'title'   => $this->trans('Values', array(), 'Admin.Global'),
-                'orderby' => false,
-                'search'  => false,
-                'align'   => 'center',
-                'class'   => 'fixed-width-xs'
-            ),
-            'position'   => array(
-                'title'      => $this->trans('Position', array(), 'Admin.Global'),
-                'filter_key' => 'a!position',
-                'align'      => 'center',
-                'class'      => 'fixed-width-xs',
-                'position'   => 'position'
-            ),
-            'image'      => array(
-                'title' => 'Icon',
-                'align' => 'center',
-                'class' => 'fixed-width-xs',
-            )
-        );
-
-        if (!($this->fields_list && is_array($this->fields_list))) {
-            return false;
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-27 14:16:12
+    * version: 1.0.0
+    */
+    public function getList(
+        $id_lang,
+        $order_by = null,
+        $order_way = null,
+        $start = 0,
+        $limit = null,
+        $id_lang_shop = false
+    ) {
+        if ($this->table == 'feature_value') {
+            $this->_where .= ' AND (a.custom = 0 OR a.custom IS NULL)';
         }
-        $this->getGrouperList();
-        $helper = new HelperList();
-
-        if (!is_array($this->_list)) {
-            $this->displayWarning($this->trans('Bad query', array(),
-                    'Modules.Grouperpro.Admin') . '<br />' . htmlspecialchars($this->_list_error));
-
-            return false;
-        }
-
-        $this->setHelperDisplay($helper);
-        $helper->_default_pagination  = $this->_default_pagination;
-        $helper->_pagination          = $this->_pagination;
-        $helper->tpl_vars             = $this->getTemplateListVars();
-        $helper->tpl_delete_link_vars = $this->tpl_delete_link_vars;
-        $helper->simple_header        = false;
-
-        foreach ($this->actions_available as $action) {
-            if (!in_array($action, $this->actions) && isset($this->$action) && $this->$action) {
-                $this->actions[] = $action;
+        parent::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop);
+        if ($this->table == 'feature') {
+            $nb_items = count($this->_list);
+            for ($i = 0; $i < $nb_items; ++$i) {
+                $item  = &$this->_list[$i];
+                $query = new DbQuery();
+                $query->select('COUNT(fv.id_feature_value) as count_values');
+                $query->from('feature_value', 'fv');
+                $query->where('fv.id_feature =' . (int)$item['id_feature']);
+                $query->where('(fv.custom=0 OR fv.custom IS NULL)');
+                $res           = Db::getInstance(_PS_USE_SQL_SLAVE_)->getValue($query);
+                $item['value'] = (int)$res;
+                unset($query);
             }
+            $query = new DbQuery();
+            $query->select('image, f.id_feature');
+            $query->from('feature', 'f');
+            $query->leftJoin('features_icons', 'feat', 'feat.id_feature = f.id_feature');
+            $res      = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS($query);
+            $tempList = array();
+            foreach ($this->_list as $listItem) {
+                foreach ($res as $resItem) {
+                    if ($listItem['id_feature'] == $resItem['id_feature']) {
+                        if ($resItem['image'] != null) {
+                            $listItem['image'] = "<img src='" . __PS_BASE_URI__ . 'img/feature_icons/' . $resItem['image'] . "' width='30' heigth='30'>";
+                        }
+                    }
+                }
+                array_push($tempList, $listItem);
+            }
+            unset($query);
+            $this->_list = $tempList;
         }
-
-        $list = $helper->generateList($this->_list, $this->fields_list);
-
-        return $list;
-
     }
 
-    protected function getGrouperList()
-    {
-        $returnData = array();
-
-        $sql     = 'SELECT * FROM `' . _DB_PREFIX_ . $this->table . '` ';
-        $content = Db::getInstance()->executeS($sql);
-
-        $this->_listTotal = count($content);
-
-        $CarrierList = Carrier::getCarriers($this->context->language->id);
-        $CarrierVal  = array();
-        if (!empty($CarrierList) && is_array($CarrierList)) {
-            foreach ($CarrierList as $item) {
-                $CarrierVal[$item['id_carrier']] = $item['name'];
-            }
-        }
-
-        $ShopList = Shop::getShops();
-        $k        = 0;
-
-        foreach ($content as $item) {
-            $returnData[$k]['id_feature'] = $item['id_feature'];
-            $returnData[$k]['name']       = $item['name'];
-
-            $k++;
-        }
-        $this->_list = $returnData;
-        dump($this->_list);
-        exit();
-    }
-
+    /*
+    * module: iconsforfeatures
+    * date: 2018-03-27 14:16:12
+    * version: 1.0.0
+    */
     public function getModel($obj)
     {
         $sql = new DbQuery();

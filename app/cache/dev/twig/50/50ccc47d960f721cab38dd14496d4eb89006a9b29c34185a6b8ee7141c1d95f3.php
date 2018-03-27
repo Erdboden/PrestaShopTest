@@ -15,8 +15,8 @@ class __TwigTemplate_4660dfe9146be2bf8d3c90d8f73424da72e119c58dd0849a7b6aea8fa48
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_d15cf40cf99405ee9ce3ad81f29a4d88c0571025522eebe273caa21dc344fcd5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_d15cf40cf99405ee9ce3ad81f29a4d88c0571025522eebe273caa21dc344fcd5->enter($__internal_d15cf40cf99405ee9ce3ad81f29a4d88c0571025522eebe273caa21dc344fcd5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Common/_partials:_header_tab.html.twig"));
+        $__internal_9ddab3f596bacf56564e7503d3bba2fe4c9029e220b848d992dcc2979afa1982 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9ddab3f596bacf56564e7503d3bba2fe4c9029e220b848d992dcc2979afa1982->enter($__internal_9ddab3f596bacf56564e7503d3bba2fe4c9029e220b848d992dcc2979afa1982_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Common/_partials:_header_tab.html.twig"));
 
         // line 25
         echo "<a class=\"tab";
@@ -45,7 +45,7 @@ class __TwigTemplate_4660dfe9146be2bf8d3c90d8f73424da72e119c58dd0849a7b6aea8fa48
         echo "</a>
 ";
         
-        $__internal_d15cf40cf99405ee9ce3ad81f29a4d88c0571025522eebe273caa21dc344fcd5->leave($__internal_d15cf40cf99405ee9ce3ad81f29a4d88c0571025522eebe273caa21dc344fcd5_prof);
+        $__internal_9ddab3f596bacf56564e7503d3bba2fe4c9029e220b848d992dcc2979afa1982->leave($__internal_9ddab3f596bacf56564e7503d3bba2fe4c9029e220b848d992dcc2979afa1982_prof);
 
     }
 

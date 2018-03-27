@@ -1,0 +1,269 @@
+*ERROR* 	v1.7.3.0	2018/03/27 - 09:54:35: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 10:00:40: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) 
+WHERE (fv.id_fea' at line 3<br /><br /><pre>SELECT COUNT(fv.id_feature_value) as count_values
+FROM `ps_feature_value` fv
+ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) 
+WHERE (fv.id_feature =1) AND ((fv.custom=0 OR fv.custom IS NULL)) LIMIT 1</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 10:04:32: Unknown column 'a.id_feature' in 'on clause'<br /><br /><pre>SELECT COUNT(fv.id_feature_value) as count_values
+FROM `ps_feature_value` fv
+INNER JOIN `ps_features_icons` `feat` ON a.id_feature = feat.id_feature
+WHERE (fv.id_feature =1) AND ((fv.custom=0 OR fv.custom IS NULL)) LIMIT 1</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 10:12:45: Table 'prestashop_my_shop.ps_ps_feature' doesn't exist<br /><br /><pre>SELECT image
+FROM `ps_ps_feature` f
+INNER JOIN `ps_features_icons` `feat` ON feat.id_feature = f.id_feature
+</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 10:13:47: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 10:25:00: Column 'id_feature' in field list is ambiguous<br /><br /><pre>SELECT image, id_feature
+FROM `ps_feature` f
+LEFT JOIN `ps_features_icons` `feat` ON feat.id_feature = f.id_feature
+</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 10:44:12: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 4 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:29:33: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:29:40: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:35:08: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:42:27: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 1 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:43:07: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:43:47: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:43:50: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:43:52: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:43:53: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:43:54: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:43:57: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:45:20: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:45:27: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:45:40: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:45:41: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:46:01: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:46:03: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:46:05: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:46:13: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:47:49: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:47:51: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 11:47:53: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 14:24:35: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 14:27:39: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/27 - 14:28:08: Column 'id_feature' in where clause is ambiguous<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature_value` a 
+LEFT JOIN `ps_feature_value_lang` b
+                ON (b.`id_feature_value` = a.`id_feature_value` AND b.`id_lang` = 1)
+ LEFT JOIN `ps_features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`)  
+ WHERE 1 AND `id_feature` = 2 AND (a.custom = 0 OR a.custom IS NULL) AND (a.custom = 0 OR a.custom IS NULL) 
+
+ ORDER BY id_feature ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php

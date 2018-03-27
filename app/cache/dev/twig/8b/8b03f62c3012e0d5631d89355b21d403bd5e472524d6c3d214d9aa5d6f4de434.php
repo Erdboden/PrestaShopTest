@@ -15,8 +15,8 @@ class __TwigTemplate_75adb10e8995fb50b73f2eeced5aba8377d331ae71b2f319675dca61817
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_0b75f3c38752e35687b53f5284ed24d73e1376bd5e161d52e9371ced461d53b8 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0b75f3c38752e35687b53f5284ed24d73e1376bd5e161d52e9371ced461d53b8->enter($__internal_0b75f3c38752e35687b53f5284ed24d73e1376bd5e161d52e9371ced461d53b8_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:modal_read_more.html.twig"));
+        $__internal_8ef1c262a47da86f6276c928bb13e4407f4c620fb3efd4ca02df02698c7c1056 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8ef1c262a47da86f6276c928bb13e4407f4c620fb3efd4ca02df02698c7c1056->enter($__internal_8ef1c262a47da86f6276c928bb13e4407f4c620fb3efd4ca02df02698c7c1056_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:modal_read_more.html.twig"));
 
         // line 25
         echo "<div id=\"module-modal-read-more-";
@@ -27,7 +27,7 @@ class __TwigTemplate_75adb10e8995fb50b73f2eeced5aba8377d331ae71b2f319675dca61817
 </div>
 ";
         
-        $__internal_0b75f3c38752e35687b53f5284ed24d73e1376bd5e161d52e9371ced461d53b8->leave($__internal_0b75f3c38752e35687b53f5284ed24d73e1376bd5e161d52e9371ced461d53b8_prof);
+        $__internal_8ef1c262a47da86f6276c928bb13e4407f4c620fb3efd4ca02df02698c7c1056->leave($__internal_8ef1c262a47da86f6276c928bb13e4407f4c620fb3efd4ca02df02698c7c1056_prof);
 
     }
 

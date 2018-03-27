@@ -3,69 +3,8 @@ include_once _PS_MODULE_DIR_ . 'iconsforfeatures/classes/FeaturesIcons.php';
 
 class AdminFeaturesController extends AdminFeaturesControllerCore
 {
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
+
     public $image_error = false;
-
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    public function __construct()
-    {
-        $this->table      = 'feature';
-        $this->className  = 'Feature';
-        $this->list_id    = 'feature';
-        $this->identifier = 'id_feature';
-        $this->lang       = true;
-
-        parent::__construct();
-        $this->_join       .= ' LEFT JOIN`' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
-        $this->fields_list = array(
-            'id_feature' => array(
-                'title' => $this->trans('ID', array(), 'Admin.Global'),
-                'align' => 'center',
-                'class' => 'fixed-width-xs'
-            ),
-            'name'       => array(
-                'title'      => $this->trans('Name', array(), 'Admin.Global'),
-                'width'      => 'auto',
-                'filter_key' => 'b!name'
-            ),
-            'value'      => array(
-                'title'   => $this->trans('Values', array(), 'Admin.Global'),
-                'orderby' => false,
-                'search'  => false,
-                'align'   => 'center',
-                'class'   => 'fixed-width-xs'
-            ),
-            'position'   => array(
-                'title'      => $this->trans('Position', array(), 'Admin.Global'),
-                'filter_key' => 'a!position',
-                'align'      => 'center',
-                'class'      => 'fixed-width-xs',
-                'position'   => 'position'
-            ),
-            'image'      => array(
-                'title'      => 'Image',
-                'filter_key' => 'fi!image',
-                'align'      => 'center',
-                'class'      => 'fixed-width-xs',
-            )
-        );
-
-        $this->bulk_actions = array(
-            'delete' => array(
-                'text'    => $this->trans('Delete selected', array(), 'Admin.Actions'),
-                'icon'    => 'icon-trash',
-                'confirm' => $this->trans('Delete selected items?', array(), 'Admin.Notifications.Warning')
-            )
-        );
-    }
 
     public function renderForm()
     {
@@ -183,21 +122,15 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         return AdminController::renderForm();
     }
 
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
     public function postProcess()
     {
-        $this->_join .= ' LEFT JOIN`' . _DB_PREFIX_ . 'features_icons` AS fis ON (fis.`id_feature` = a.`id_feature`) ';
-
-        $this->fields_list['feature_icon'] = array(
-            'title'      => 'Image',
-            'width'      => 230,
-            'filter_key' => 'fis!image',
+//        $this->_join                .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
+        $this->fields_list['image'] = array(
+            'title'     => 'Icon',
+            'float'     => true,
+            'search'    => false,
+            'filet_key' => 'image'
         );
-
         if (Tools::getValue('deleteImage') || $this->action == 'delete' || $this->action == 'bulkdelete') {
             $obj       = $this->loadObject(true);
             $iconModel = new FeaturesIcons($this->getModel($obj)[0]['id_feature_icon']);
@@ -227,11 +160,6 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         }
     }
 
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
     public function processAdd()
     {
         $object = parent::processAdd();
@@ -268,11 +196,6 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         return $object;
     }
 
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
     public function processUpdate()
     {
         $object = parent::processUpdate();
@@ -301,11 +224,6 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         return $object;
     }
 
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
     protected function postImage($id)
     {
         $ret = parent::postImage($id);
@@ -344,44 +262,6 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         return $ret;
     }
 
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
-    public function getList(
-        $id_lang,
-        $order_by = null,
-        $order_way = null,
-        $start = 0,
-        $limit = null,
-        $id_lang_shop = false
-    ) {
-        if ($this->table == 'feature_value') {
-            $this->_where .= ' AND (a.custom = 0 OR a.custom IS NULL)';
-        }
-        parent::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop);
-        if ($this->table == 'feature') {
-            $nb_items = count($this->_list);
-            for ($i = 0; $i < $nb_items; ++$i) {
-                $item  = &$this->_list[$i];
-                $query = new DbQuery();
-                $query->select('COUNT(fv.id_feature_value) as count_values');
-                $query->from('feature_value', 'fv');
-                $query->where('fv.id_feature =' . (int)$item['id_feature']);
-                $query->where('(fv.custom=0 OR fv.custom IS NULL)');
-                $res           = Db::getInstance(_PS_USE_SQL_SLAVE_)->getValue($query);
-                $item['value'] = (int)$res;
-                unset($query);
-            }
-        }
-    }
-
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
     public function ajaxProcessUpdatePositions()
     {
         if ($this->access('edit')) {
@@ -418,11 +298,57 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         }
     }
 
-    /*
-    * module: iconsforfeatures
-    * date: 2018-03-26 15:56:19
-    * version: 1.0.0
-    */
+    public function getList(
+        $id_lang,
+        $order_by = null,
+        $order_way = null,
+        $start = 0,
+        $limit = null,
+        $id_lang_shop = false
+    ) {
+        if ($this->table == 'feature_value') {
+            $this->_where .= ' AND (a.custom = 0 OR a.custom IS NULL)';
+        }
+
+        parent::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop);
+
+        if ($this->table == 'feature') {
+            $nb_items = count($this->_list);
+            for ($i = 0; $i < $nb_items; ++$i) {
+                $item = &$this->_list[$i];
+
+                $query = new DbQuery();
+                $query->select('COUNT(fv.id_feature_value) as count_values');
+                $query->from('feature_value', 'fv');
+                $query->where('fv.id_feature =' . (int)$item['id_feature']);
+                $query->where('(fv.custom=0 OR fv.custom IS NULL)');
+                $res           = Db::getInstance(_PS_USE_SQL_SLAVE_)->getValue($query);
+                $item['value'] = (int)$res;
+                unset($query);
+            }
+            $query = new DbQuery();
+            $query->select('image, f.id_feature');
+            $query->from('feature', 'f');
+            $query->leftJoin('features_icons', 'feat', 'feat.id_feature = f.id_feature');
+            $res      = Db::getInstance(_PS_USE_SQL_SLAVE_)->executeS($query);
+            $tempList = array();
+            foreach ($this->_list as $listItem) {
+                foreach ($res as $resItem) {
+                    if ($listItem['id_feature'] == $resItem['id_feature']) {
+                        if ($resItem['image'] != null) {
+                            $listItem['image'] = "<img src='" . __PS_BASE_URI__ . 'img/feature_icons/' . $resItem['image'] . "' width='30' heigth='30'>";
+                        }
+                    }
+                }
+                array_push($tempList, $listItem);
+            }
+            unset($query);
+            $this->_list = $tempList;
+        }
+
+    }
+
+
     public function getModel($obj)
     {
         $sql = new DbQuery();

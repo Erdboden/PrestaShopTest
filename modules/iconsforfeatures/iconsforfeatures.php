@@ -264,9 +264,13 @@ class Iconsforfeatures extends Module
         $icon         = '';
 
         foreach ($features as $feature) {
+
             $iconModel = $this->getModel($feature);
+
             if (!empty($iconModel)) {
                 $icon = __PS_BASE_URI__ . 'img/feature_icons/' . $iconModel[0]['image'];
+            }else{
+                $icon='';
             }
             array_push(
                 $featureIcons,
@@ -278,7 +282,6 @@ class Iconsforfeatures extends Module
                 )
             );
         }
-
         $this->context->smarty->assign('grouped_features', $featureIcons);
 
         $array[] = (new PrestaShop\PrestaShop\Core\Product\ProductExtraContent())
