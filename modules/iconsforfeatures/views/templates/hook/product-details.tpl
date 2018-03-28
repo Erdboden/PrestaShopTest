@@ -20,13 +20,61 @@
                     <dt class="name">
                         {if $feature.icon!=''}
                             {if Configuration::get('ICONSFORFEATURES_ALT', null)}
-                                <img src="{$feature.icon}"
-                                     style="padding-right: {Configuration::get('ICONSFORFEATURES_RIGHT_PADDING', null)}px"
-                                     title="{$feature.name}"
-                                     alt="{$feature.name}">
+                                {if Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)==0 && Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)==0}
+                                    <img src="{$feature.icon}"
+                                         style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
+                                                 margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;"
+                                         title="{$feature.name}"
+                                         alt="{$feature.name}">
+                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)==0}
+                                    <img src="{$feature.icon}"
+                                         style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
+                                                 margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;
+                                                 height: {Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)}px;
+                                                 width: auto"
+                                         title="{$feature.name}"
+                                         alt="{$feature.name}">
+                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)==0}
+                                    <img src="{$feature.icon}"
+                                         style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
+                                                 margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;
+                                                 height: auto;
+                                                 width: {Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)}px;"
+                                         title="{$feature.name}"
+                                         alt="{$feature.name}">
+                                {else}
+                                    <img src="{$feature.icon}"
+                                         style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
+                                                 margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;
+                                                 width: {Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)}px;
+                                                 height: {Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)}px;"
+                                         title="{$feature.name}"
+                                         alt="{$feature.name}">
+                                {/if}
                             {else}
-                                <img src="{$feature.icon}"
-                                     style="padding-right: {Configuration::get('ICONSFORFEATURES_RIGHT_PADDING', null)}px">
+                                {if Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)==0 && Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)==0}
+                                    <img src="{$feature.icon}"
+                                         style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
+                                                 margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;">
+                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)==0}
+                                    <img src="{$feature.icon}"
+                                         style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
+                                                 margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;
+                                                 height: {Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)}px;
+                                                 width: auto">
+                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)==0}
+                                    <img src="{$feature.icon}"
+                                         style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
+                                                 margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;
+                                                 height: auto;
+                                                 width: {Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)}px;">
+                                {else}
+                                    <img src="{$feature.icon}"
+                                         style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
+                                                 margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;
+                                                 width: {Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)}px;
+                                                 height: {Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)}px;">
+                                {/if}
                             {/if}
                             {if Configuration::get('ICONSFORFEATURES_FEATURES_TITLE', null)}
                                 {$feature.name}
@@ -35,10 +83,9 @@
                             {$feature.name}
                         {/if}
                     </dt>
-                    <dd class="value">{$feature.value}</dd>
+                    <dd class="value" style="display: flex; align-items: center">{$feature.value}</dd>
                 {/foreach}
             </dl>
         </section>
     {/if}
 {/block}
-

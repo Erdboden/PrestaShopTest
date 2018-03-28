@@ -1,0 +1,15 @@
+{foreach $list as $product}
+    {{$product['image']}}
+
+    {$product['name']}
+
+    {$product['price']}
+
+    {$product['quantity']}
+
+    {$product['price']}
+
+    {$product['description_short']}
+
+    {$product['link']}
+{/foreach}

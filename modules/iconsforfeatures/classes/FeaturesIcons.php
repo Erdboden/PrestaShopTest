@@ -48,6 +48,7 @@ class FeaturesIcons extends ObjectModel
     public function deleteImage($force_delete = false)
     {
         unlink($this->image_dir . $this->image);
+        return parent::deleteImage($force_delete);
     }
 
     public static function installDB()

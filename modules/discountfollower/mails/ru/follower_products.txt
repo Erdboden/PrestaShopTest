@@ -1,0 +1,12 @@
+{shop_name}
+
+{firstname} {lastname}
+
+{products}
+
+{related_products}
+
+To unsubscribe {unsubscribe}
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]

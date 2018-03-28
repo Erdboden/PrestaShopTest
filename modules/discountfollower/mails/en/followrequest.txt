@@ -1,0 +1,8 @@
+[{shop_url}] 
+
+Hi, {mail_var}
+
+You have to confirm your email {link}
+
+{shop_name} [{shop_url}] powered by
+PrestaShop(tm) [http://www.prestashop.com/]

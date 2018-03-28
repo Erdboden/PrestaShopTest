@@ -1,4 +1,14 @@
 <?php
+/**
+ * 2016 TerraNet
+ *
+ * NOTICE OF LICENSE
+ *
+ * @author    TerraNet
+ * @copyright 2016 TerraNet
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+
 include_once _PS_MODULE_DIR_ . 'iconsforfeatures/classes/FeaturesIcons.php';
 
 class AdminFeaturesController extends AdminFeaturesControllerCore
@@ -19,7 +29,7 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             $icon_url            = ImageManager::thumbnail(
                 $icon,
                 $this->table . '_' . (int)$obj->id . '.' . $imageType,
-                350,
+                100,
                 $imageType,
                 true,
                 true
@@ -42,10 +52,10 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                         'lang'     => true,
                         'size'     => 33,
                         'hint'     => $this->trans(
-                                'Invalid characters:',
-                                array(),
-                                'Admin.Notifications.Info'
-                            )
+                            'Invalid characters:',
+                            array(),
+                            'Admin.Notifications.Info'
+                        )
                             . ' <>;=#{}',
                         'required' => true
                     ),
@@ -85,10 +95,10 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                         'lang'     => true,
                         'size'     => 33,
                         'hint'     => $this->trans(
-                                'Invalid characters:',
-                                array(),
-                                'Admin.Notifications.Info'
-                            )
+                            'Invalid characters:',
+                            array(),
+                            'Admin.Notifications.Info'
+                        )
                             . ' <>;=#{}',
                         'required' => true
                     ),
@@ -124,7 +134,6 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
     public function postProcess()
     {
-//        $this->_join                .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
         $this->fields_list['image'] = array(
             'title'     => 'Icon',
             'float'     => true,
@@ -198,7 +207,8 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
     public function processUpdate()
     {
-        $object = parent::processUpdate();
+        $object    = parent::processUpdate();
+        $iconModel = $this->getModel($object);
         if (!count($this->errors)) {
             if (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && !count($this->errors)) {
                 $this->redirect_after = self::$currentIndex
@@ -211,10 +221,9 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             }
             $icon = Tools::fileAttachment('icon');
             if ($icon != null) {
-                $iconModel = new FeaturesIcons($object->id);
+                $iconModel = new FeaturesIcons($iconModel);
                 if (!Validate::isLoadedObject($iconModel)) {
                     $iconModel->id_feature = $object->id;
-                    $iconModel->force_id   = true;
                 }
                 $iconModel->image = $icon["name"];
                 $iconModel->save();
@@ -247,12 +256,7 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             } else {
                 $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
                 $targetFile = $targetDir . basename($icon['name']);
-                ImageManager::resize(
-                    $icon["tmp_name"],
-                    $targetFile,
-                    Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null),
-                    Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)
-                );
+                file_put_contents($targetFile, $icon['content']);
             }
         }
         if (count($this->errors)) {
@@ -336,7 +340,11 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                 foreach ($res as $resItem) {
                     if ($listItem['id_feature'] == $resItem['id_feature']) {
                         if ($resItem['image'] != null) {
-                            $listItem['image'] = "<img src='" . __PS_BASE_URI__ . 'img/feature_icons/' . $resItem['image'] . "' width='30' heigth='30'>";
+                            $listItem['image'] = "<img src='"
+                                . __PS_BASE_URI__
+                                . 'img/feature_icons/'
+                                . $resItem['image']
+                                . "' width='30' heigth='30'>";
                         }
                     }
                 }
@@ -345,9 +353,7 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             unset($query);
             $this->_list = $tempList;
         }
-
     }
-
 
     public function getModel($obj)
     {

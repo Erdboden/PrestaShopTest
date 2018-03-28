@@ -64,7 +64,12 @@ class Iconsforfeatures extends Module
      */
     public function install()
     {
-        Configuration::updateValue('ICONSFORFEATURES_LIVE_MODE', false);
+        Configuration::updateValue('ICONSFORFEATURES_LEFT_MARGIN', '0');
+        Configuration::updateValue('ICONSFORFEATURES_RIGHT_MARGIN', '10');
+        Configuration::updateValue('ICONSFORFEATURES_IMAGE_WIDTH', '0');
+        Configuration::updateValue('ICONSFORFEATURES_IMAGE_HEIGHT', '0');
+        Configuration::updateValue('ICONSFORFEATURES_FEATURES_TITLE', 'true');
+        Configuration::updateValue('ICONSFORFEATURES_ALT', 'true');
 
         return parent::install() &&
             FeaturesIcons::installDB() &&
@@ -75,7 +80,12 @@ class Iconsforfeatures extends Module
 
     public function uninstall()
     {
-        Configuration::deleteByName('ICONSFORFEATURES_LIVE_MODE');
+        Configuration::deleteByName('ICONSFORFEATURES_LEFT_MARGIN');
+        Configuration::deleteByName('ICONSFORFEATURES_RIGHT_MARGIN');
+        Configuration::deleteByName('ICONSFORFEATURES_IMAGE_WIDTH');
+        Configuration::deleteByName('ICONSFORFEATURES_IMAGE_HEIGHT');
+        Configuration::deleteByName('ICONSFORFEATURES_FEATURES_TITLE');
+        Configuration::deleteByName('ICONSFORFEATURES_ALT');
 
         return parent::uninstall() && FeaturesIcons::uninstallDB();
     }
@@ -141,23 +151,30 @@ class Iconsforfeatures extends Module
                     array(
                         'col'   => 3,
                         'type'  => 'text',
-                        'desc'  => $this->l('Enter right padding'),
-                        'name'  => 'ICONSFORFEATURES_RIGHT_PADDING',
-                        'label' => $this->l('Right padding (px)'),
+                        'desc'  => $this->l('0 for original size or auto height'),
+                        'name'  => 'ICONSFORFEATURES_IMAGE_HEIGHT',
+                        'label' => $this->l('Image height (px)'),
                     ),
                     array(
                         'col'   => 3,
                         'type'  => 'text',
-                        'desc'  => $this->l('Enter image width'),
+                        'desc'  => $this->l('0 for original size or auto width'),
                         'name'  => 'ICONSFORFEATURES_IMAGE_WIDTH',
                         'label' => $this->l('Image width (px)'),
                     ),
                     array(
                         'col'   => 3,
                         'type'  => 'text',
-                        'desc'  => $this->l('Enter image height'),
-                        'name'  => 'ICONSFORFEATURES_IMAGE_HEIGHT',
-                        'label' => $this->l('Image height (px)'),
+                        'desc'  => $this->l('Enter right margin'),
+                        'name'  => 'ICONSFORFEATURES_RIGHT_MARGIN',
+                        'label' => $this->l('Right margin (px)'),
+                    ),
+                    array(
+                        'col'   => 3,
+                        'type'  => 'text',
+                        'desc'  => $this->l('Enter left margin'),
+                        'name'  => 'ICONSFORFEATURES_LEFT_MARGIN',
+                        'label' => $this->l('Left margin (px)'),
                     ),
                     array(
                         'col'     => 3,
@@ -213,8 +230,8 @@ class Iconsforfeatures extends Module
     protected function getConfigFormValues()
     {
         return array(
-            'ICONSFORFEATURES_LIVE_MODE'      => Configuration::get('ICONSFORFEATURES_LIVE_MODE', true),
-            'ICONSFORFEATURES_RIGHT_PADDING'  => Configuration::get('ICONSFORFEATURES_RIGHT_PADDING', null),
+            'ICONSFORFEATURES_RIGHT_MARGIN'   => Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null),
+            'ICONSFORFEATURES_LEFT_MARGIN'    => Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null),
             'ICONSFORFEATURES_IMAGE_WIDTH'    => Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null),
             'ICONSFORFEATURES_IMAGE_HEIGHT'   => Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null),
             'ICONSFORFEATURES_FEATURES_TITLE' => Configuration::get('ICONSFORFEATURES_FEATURES_TITLE', null),
@@ -261,16 +278,14 @@ class Iconsforfeatures extends Module
         $templateFile = 'module:iconsforfeatures/views/templates/hook/product-details.tpl';
         $product      = new Product($params['product']->id);
         $features     = $product->getFrontFeatures(Tools::getValue('id_lang'));
-        $icon         = '';
 
         foreach ($features as $feature) {
-
             $iconModel = $this->getModel($feature);
 
             if (!empty($iconModel)) {
                 $icon = __PS_BASE_URI__ . 'img/feature_icons/' . $iconModel[0]['image'];
-            }else{
-                $icon='';
+            } else {
+                $icon = '';
             }
             array_push(
                 $featureIcons,
@@ -301,5 +316,4 @@ class Iconsforfeatures extends Module
 
         return Db::getInstance()->executeS($sql);
     }
-
 }
