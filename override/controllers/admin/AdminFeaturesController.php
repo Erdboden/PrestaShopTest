@@ -1,16 +1,18 @@
 <?php
 include_once _PS_MODULE_DIR_ . 'iconsforfeatures/classes/FeaturesIcons.php';
+
 class AdminFeaturesController extends AdminFeaturesControllerCore
 {
     /*
     * module: iconsforfeatures
-    * date: 2018-03-27 17:24:53
+    * date: 2018-03-29 10:39:06
     * version: 1.0.0
     */
     public $image_error = false;
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-27 17:24:53
+    * date: 2018-03-29 10:39:06
     * version: 1.0.0
     */
     public function renderForm()
@@ -70,7 +72,7 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                             . $this->token
                             . '&deleteImage=1',
                         'hint'          => $this->trans(
-                            'Displays a small image in the parent category\'s page, if the theme allows it.',
+                            'Allowed formats: .gif, .jpg, .png, .svg',
                             array(),
                             'Admin.Catalog.Help'
                         ),
@@ -107,7 +109,7 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                         'size'          => false,
                         'image'         => false,
                         'hint'          => $this->trans(
-                            'Displays a small image in the parent category\'s page, if the theme allows it.',
+                            'Allowed formats: .gif, .jpg, .png, .svg',
                             array(),
                             'Admin.Catalog.Help'
                         ),
@@ -125,16 +127,19 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         $this->fields_form['submit'] = array(
             'title' => $this->trans('Save', array(), 'Admin.Actions'),
         );
+
         return AdminController::renderForm();
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-27 17:24:53
+    * date: 2018-03-29 10:39:06
     * version: 1.0.0
     */
     public function postProcess()
     {
-        $this->_join                .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
+        $this->_join .= ' LEFT JOIN `' . _DB_PREFIX_ . 'features_icons` AS fi ON (fi.`id_feature` = a.`id_feature`) ';
+
         $this->fields_list['image'] = array(
             'title'     => 'Icon',
             'float'     => true,
@@ -169,23 +174,30 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             $this->display = 'editFeatureValue';
         }
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-27 17:24:53
+    * date: 2018-03-29 10:39:06
     * version: 1.0.0
     */
     public function processAdd()
     {
+        $icon   = Tools::fileAttachment('icon');
         $object = parent::processAdd();
-        if ($_FILES['icon']['size'] > 0) {
-            $iconModel = new FeaturesIcons($object->id);
-            if (!Validate::isLoadedObject($iconModel)) {
-                $iconModel->id_feature = $object->id;
-                $iconModel->force_id   = true;
+
+        if ($icon["mime"] == 'image/svg+xml' || !ImageManager::validateUpload($_FILES['icon'],
+                Tools::getMaxUploadSize())
+        ) {
+            if ($_FILES['icon']['size'] > 0) {
+                $iconModel = new FeaturesIcons($object->id);
+                if (!Validate::isLoadedObject($iconModel)) {
+                    $iconModel->id_feature = $object->id;
+                    $iconModel->force_id   = true;
+                }
+                $icon             = Tools::fileAttachment('icon');
+                $iconModel->image = $icon["name"];
+                $iconModel->save();
             }
-            $icon             = Tools::fileAttachment('icon');
-            $iconModel->image = $icon["name"];
-            $iconModel->save();
         }
         if (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && !count($this->errors)) {
             if ($this->table == 'feature_value' && ($this->display == 'edit' || $this->display == 'add')) {
@@ -206,17 +218,21 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         } elseif (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && count($this->errors)) {
             $this->display = 'editFeatureValue';
         }
+
         return $object;
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-27 17:24:53
+    * date: 2018-03-29 10:39:06
     * version: 1.0.0
     */
     public function processUpdate()
     {
-        $object    = parent::processUpdate();
-        $iconModel = $this->getModel($object);
+        $object = parent::processUpdate();
+        if ($object) {
+            $iconModel = $this->getModel($object);
+        }
         if (!count($this->errors)) {
             if (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && !count($this->errors)) {
                 $this->redirect_after = self::$currentIndex
@@ -237,11 +253,13 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                 $iconModel->save();
             }
         }
+
         return $object;
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-27 17:24:53
+    * date: 2018-03-29 10:39:06
     * version: 1.0.0
     */
     protected function postImage($id)
@@ -251,33 +269,30 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             mkdir(_PS_IMG_DIR_ . 'feature_icons/', 0777, true);
         }
         $obj       = $this->loadObject(true);
-        $iconModel = new FeaturesIcons($this->getModel($obj)[0]['id_feature_icon']);
-        if ($iconModel->image != null) {
-            $iconModel->deleteImage(true);
-            $iconModel->delete();
-        }
+        $iconModel = $this->getModel($obj);
+
+
         $icon = Tools::fileAttachment('icon');
         if ($icon != null) {
+
             if ($icon["mime"] == 'image/svg+xml') {
-                $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
-                $targetFile = $targetDir . basename($icon['name']);
-                file_put_contents($targetFile, $icon['content']);
+                $this->addImage($icon, $iconModel, $obj);
             } elseif ($error = ImageManager::validateUpload($_FILES['icon'], Tools::getMaxUploadSize())) {
                 $this->errors[] = $error . ', .svg';
             } else {
-                $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
-                $targetFile = $targetDir . basename($icon['name']);
-                file_put_contents($targetFile, $icon['content']);
+                $this->addImage($icon, $iconModel, $obj);
             }
         }
         if (count($this->errors)) {
             $ret = false;
         }
+
         return $ret;
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-27 17:24:53
+    * date: 2018-03-29 10:39:06
     * version: 1.0.0
     */
     public function ajaxProcessUpdatePositions()
@@ -315,9 +330,10 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             }
         }
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-27 17:24:53
+    * date: 2018-03-29 10:39:06
     * version: 1.0.0
     */
     public function getList(
@@ -335,7 +351,7 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         if ($this->table == 'feature') {
             $nb_items = count($this->_list);
             for ($i = 0; $i < $nb_items; ++$i) {
-                $item = &$this->_list[$i];
+                $item  = &$this->_list[$i];
                 $query = new DbQuery();
                 $query->select('COUNT(fv.id_feature_value) as count_values');
                 $query->from('feature_value', 'fv');
@@ -355,7 +371,11 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                 foreach ($res as $resItem) {
                     if ($listItem['id_feature'] == $resItem['id_feature']) {
                         if ($resItem['image'] != null) {
-                            $listItem['image'] = "<img src='" . __PS_BASE_URI__ . 'img/feature_icons/' . $resItem['image'] . "' width='30' heigth='30'>";
+                            $listItem['image'] = "<img src='"
+                                . __PS_BASE_URI__
+                                . 'img/feature_icons/'
+                                . $resItem['image']
+                                . "' width='30' heigth='30'>";
                         }
                     }
                 }
@@ -365,9 +385,10 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             $this->_list = $tempList;
         }
     }
+
     /*
     * module: iconsforfeatures
-    * date: 2018-03-27 17:24:53
+    * date: 2018-03-29 10:39:06
     * version: 1.0.0
     */
     public function getModel($obj)
@@ -376,6 +397,27 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         $sql->select('*');
         $sql->from('features_icons', 'fi');
         $sql->where('fi.id_feature = ' . $obj->id);
+
         return Db::getInstance()->executeS($sql);
+    }
+
+    /**
+     * @param $icon
+     * @param $iconModel
+     * @param $obj
+     */
+    public function addImage($icon, $iconModel, $obj)
+    {
+        $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
+        $targetFile = $targetDir . basename($icon['name']);
+        file_put_contents($targetFile, $icon['content']);
+        if ($iconModel != null) {
+            $iconModel = new FeaturesIcons($this->getModel($obj)[0]['id_feature_icon']);
+
+            if ($iconModel->image != null) {
+                $iconModel->deleteImage(true);
+                $iconModel->delete();
+            }
+        }
     }
 }

@@ -1,11 +1,11 @@
 <?php
 /**
- * 2016 TerraNet
+ * 2018 TerraNet
  *
  * NOTICE OF LICENSE
  *
  * @author    TerraNet
- * @copyright 2016 TerraNet
+ * @copyright 2018 TerraNet
  * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
@@ -73,7 +73,7 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                             . $this->token
                             . '&deleteImage=1',
                         'hint'          => $this->trans(
-                            'Displays a small image in the parent category\'s page, if the theme allows it.',
+                            'Allowed formats: .gif, .jpg, .png, .svg',
                             array(),
                             'Admin.Catalog.Help'
                         ),
@@ -110,7 +110,7 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
                         'size'          => false,
                         'image'         => false,
                         'hint'          => $this->trans(
-                            'Displays a small image in the parent category\'s page, if the theme allows it.',
+                            'Allowed formats: .gif, .jpg, .png, .svg',
                             array(),
                             'Admin.Catalog.Help'
                         ),
@@ -171,16 +171,21 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
     public function processAdd()
     {
+        $icon   = Tools::fileAttachment('icon');
         $object = parent::processAdd();
-        if ($_FILES['icon']['size'] > 0) {
-            $iconModel = new FeaturesIcons($object->id);
-            if (!Validate::isLoadedObject($iconModel)) {
-                $iconModel->id_feature = $object->id;
-                $iconModel->force_id   = true;
+
+        if ($icon["mime"] == 'image/svg+xml' ||!ImageManager::validateUpload($_FILES['icon'], Tools::getMaxUploadSize())
+        ) {
+            if ($_FILES['icon']['size'] > 0) {
+                $iconModel = new FeaturesIcons($object->id);
+                if (!Validate::isLoadedObject($iconModel)) {
+                    $iconModel->id_feature = $object->id;
+                    $iconModel->force_id   = true;
+                }
+                $icon             = Tools::fileAttachment('icon');
+                $iconModel->image = $icon["name"];
+                $iconModel->save();
             }
-            $icon             = Tools::fileAttachment('icon');
-            $iconModel->image = $icon["name"];
-            $iconModel->save();
         }
         if (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && !count($this->errors)) {
             if ($this->table == 'feature_value' && ($this->display == 'edit' || $this->display == 'add')) {
@@ -207,8 +212,10 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
     public function processUpdate()
     {
-        $object    = parent::processUpdate();
-        $iconModel = $this->getModel($object);
+        $object = parent::processUpdate();
+        if ($object) {
+            $iconModel = $this->getModel($object);
+        }
         if (!count($this->errors)) {
             if (Tools::isSubmit('submitAdd' . $this->table . 'AndStay') && !count($this->errors)) {
                 $this->redirect_after = self::$currentIndex
@@ -240,23 +247,16 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
             mkdir(_PS_IMG_DIR_ . 'feature_icons/', 0777, true);
         }
         $obj       = $this->loadObject(true);
-        $iconModel = new FeaturesIcons($this->getModel($obj)[0]['id_feature_icon']);
-        if ($iconModel->image != null) {
-            $iconModel->deleteImage(true);
-            $iconModel->delete();
-        }
+        $iconModel = $this->getModel($obj);
+
         $icon = Tools::fileAttachment('icon');
         if ($icon != null) {
             if ($icon["mime"] == 'image/svg+xml') {
-                $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
-                $targetFile = $targetDir . basename($icon['name']);
-                file_put_contents($targetFile, $icon['content']);
+                $this->addImage($icon, $iconModel, $obj);
             } elseif ($error = ImageManager::validateUpload($_FILES['icon'], Tools::getMaxUploadSize())) {
                 $this->errors[] = $error . ', .svg';
             } else {
-                $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
-                $targetFile = $targetDir . basename($icon['name']);
-                file_put_contents($targetFile, $icon['content']);
+                $this->addImage($icon, $iconModel, $obj);
             }
         }
         if (count($this->errors)) {
@@ -265,6 +265,7 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
 
         return $ret;
     }
+
 
     public function ajaxProcessUpdatePositions()
     {
@@ -313,14 +314,11 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         if ($this->table == 'feature_value') {
             $this->_where .= ' AND (a.custom = 0 OR a.custom IS NULL)';
         }
-
         parent::getList($id_lang, $order_by, $order_way, $start, $limit, $id_lang_shop);
-
         if ($this->table == 'feature') {
             $nb_items = count($this->_list);
             for ($i = 0; $i < $nb_items; ++$i) {
-                $item = &$this->_list[$i];
-
+                $item  = &$this->_list[$i];
                 $query = new DbQuery();
                 $query->select('COUNT(fv.id_feature_value) as count_values');
                 $query->from('feature_value', 'fv');
@@ -363,5 +361,25 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         $sql->where('fi.id_feature = ' . $obj->id);
 
         return Db::getInstance()->executeS($sql);
+    }
+
+    /**
+     * @param $icon
+     * @param $iconModel
+     * @param $obj
+     */
+    public function addImage($icon, $iconModel, $obj)
+    {
+        $targetDir  = _PS_IMG_DIR_ . 'feature_icons/';
+        $targetFile = $targetDir . basename($icon['name']);
+        file_put_contents($targetFile, $icon['content']);
+        if ($iconModel != null) {
+            $iconModel = new FeaturesIcons($this->getModel($obj)[0]['id_feature_icon']);
+
+            if ($iconModel->image != null) {
+                $iconModel->deleteImage(true);
+                $iconModel->delete();
+            }
+        }
     }
 }

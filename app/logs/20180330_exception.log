@@ -1,0 +1,8 @@
+*ERROR* 	v1.7.3.0	2018/03/30 - 16:52:48: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 3<br /><br /><pre>SELECT `*`
+                        FROM `ps_seoptimize`
+                            ORDER BY `id_seoptimize` LIMIT 1 LIMIT 1</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/30 - 16:54:03: Unknown column 'id_optimize' in 'field list'<br /><br /><pre>INSERT INTO `ps_seoptimize` (`id_optimize`) VALUES ('1')</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/30 - 16:54:34: Duplicate entry '1' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ps_seoptimize` (`id_seoptimize`) VALUES ('1')</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/03/30 - 16:55:43: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DESC `id_seoptimize` LIMIT 1' at line 3<br /><br /><pre>SELECT `*`
+                        FROM `ps_seoptimize`
+                            ORDER BY DESC `id_seoptimize` LIMIT 1</pre> at line 746 in file classes/db/Db.php

@@ -697,8 +697,6 @@ class AdminGrouperController extends AdminController
             $k++;
         }
         $this->_list = $returnData;
-        dump($this->_list);
-        exit();
     }
 
     protected static function getGroupList()

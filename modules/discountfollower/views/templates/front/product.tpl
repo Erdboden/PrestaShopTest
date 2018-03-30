@@ -17,5 +17,6 @@
                 {/block}
             {/foreach}
         </div>
+        {count($listing)} products
     {/if}
 {/block}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>seoptimize</name>
+	<displayName><![CDATA[Seoptimize]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[easily optimize meta title, description and keywords.]]></description>
+	<author><![CDATA[terranetpro.com]]></author>
+	<tab><![CDATA[seo]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>

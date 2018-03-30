@@ -44,6 +44,7 @@ class Iconsforfeatures extends Module
         $this->version       = '1.0.0';
         $this->author        = 'terranetpro.com';
         $this->need_instance = 0;
+        $this->module_key    = '2bca8724a3b061fe7804b2f76c6764d9';
 
         /**
          * Set $this->bootstrap to true if your module is compliant with bootstrap (PrestaShop 1.6)
@@ -104,8 +105,23 @@ class Iconsforfeatures extends Module
 
         $this->context->smarty->assign('module_dir', $this->_path);
 
+        if (count($this->_errors) > 0) {
+            $this->displayErrors();
+        }
 
-        return $this->renderForm();
+        $output_messages = $this->context->smarty->fetch($this->local_path . 'views/templates/admin/configure.tpl');
+
+        return $output_messages . $this->renderForm();
+    }
+
+    public function displayConfirmationMessage()
+    {
+        $this->context->smarty->assign('confirmations', $this->l('Configuration successfully saved'));
+    }
+
+    public function displayErrors()
+    {
+        $this->context->smarty->assign('errors', $this->_errors);
     }
 
     /**
@@ -247,18 +263,15 @@ class Iconsforfeatures extends Module
         $form_values = $this->getConfigFormValues();
 
         foreach (array_keys($form_values) as $key) {
-            Configuration::updateValue($key, Tools::getValue($key));
+            if (ctype_digit(Tools::getValue($key)) || Tools::getValue($key) == "") {
+                Configuration::updateValue($key, Tools::getValue($key));
+            } else {
+                $this->_errors[] = $this->l('Enter numbers only');
+                break;
+            }
         }
-    }
-
-    /**
-     * Add the CSS & JavaScript files you want to be loaded in the BO.
-     */
-    public function hookBackOfficeHeader()
-    {
-        if (Tools::getValue('module_name') == $this->name) {
-            $this->context->controller->addJS($this->_path . 'views/js/back.js');
-            $this->context->controller->addCSS($this->_path . 'views/css/back.css');
+        if ($this->_errors == null) {
+            $this->displayConfirmationMessage();
         }
     }
 
@@ -268,7 +281,6 @@ class Iconsforfeatures extends Module
     public function hookHeader()
     {
         $this->context->controller->addJS($this->_path . '/views/js/front.js');
-        $this->context->controller->addCSS($this->_path . '/views/css/front.css');
     }
 
     public function hookDisplayProductExtraContent($params)

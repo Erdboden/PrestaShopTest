@@ -19,14 +19,14 @@
                 {foreach from=$grouped_features item=feature}
                     <dt class="name">
                         {if $feature.icon!=''}
-                            {if Configuration::get('ICONSFORFEATURES_ALT', null)}
-                                {if Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)==0 && Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)==0}
+                            {if Configuration::get('ICONSFORFEATURES_ALT')}
+                                {if Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH')==0 && Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT')==0}
                                     <img src="{$feature.icon}"
                                          style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
                                                  margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;"
                                          title="{$feature.name}"
                                          alt="{$feature.name}">
-                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)==0}
+                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH')==0}
                                     <img src="{$feature.icon}"
                                          style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
                                                  margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;
@@ -34,7 +34,7 @@
                                                  width: auto"
                                          title="{$feature.name}"
                                          alt="{$feature.name}">
-                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)==0}
+                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT')==0}
                                     <img src="{$feature.icon}"
                                          style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
                                                  margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;
@@ -52,17 +52,17 @@
                                          alt="{$feature.name}">
                                 {/if}
                             {else}
-                                {if Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)==0 && Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)==0}
+                                {if Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH')==0 && Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT')==0}
                                     <img src="{$feature.icon}"
                                          style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
                                                  margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;">
-                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH', null)==0}
+                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_WIDTH')==0}
                                     <img src="{$feature.icon}"
                                          style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
                                                  margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;
                                                  height: {Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)}px;
                                                  width: auto">
-                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)==0}
+                                {elseif Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT')==0}
                                     <img src="{$feature.icon}"
                                          style="margin-right: {Configuration::get('ICONSFORFEATURES_RIGHT_MARGIN', null)}px;
                                                  margin-left: {Configuration::get('ICONSFORFEATURES_LEFT_MARGIN', null)}px;
@@ -76,7 +76,7 @@
                                                  height: {Configuration::get('ICONSFORFEATURES_IMAGE_HEIGHT', null)}px;">
                                 {/if}
                             {/if}
-                            {if Configuration::get('ICONSFORFEATURES_FEATURES_TITLE', null)}
+                            {if Configuration::get('ICONSFORFEATURES_FEATURES_TITLE')}
                                 {$feature.name}
                             {/if}
                         {else}
