@@ -94,7 +94,7 @@ class Seoptimize extends Module
 
         $this->context->smarty->assign('module_dir', $this->_path);
 
-        return $this->renderForm();
+        return $this->renderForm() . $this->renderRulesForm();
     }
 
     /**
@@ -127,15 +127,17 @@ class Seoptimize extends Module
 
     protected function renderRulesForm()
     {
+        dump($this->getRules());
+        exit();
         $helper = new HelperForm();
 
-        $helper->show_toolbar = false;
-        $helper->table = 'category_seo_rule';
-        $helper->module = $this;
-        $helper->default_form_language = $this->context->language->id;
+        $helper->show_toolbar             = false;
+        $helper->table                    = 'category_seo_rule';
+        $helper->module                   = $this;
+        $helper->default_form_language    = $this->context->language->id;
         $helper->allow_employee_form_lang = Configuration::get('PS_BO_ALLOW_EMPLOYEE_FORM_LANG', 0);
 
-        $helper->identifier = $this->identifier;
+        $helper->identifier    = $this->identifier;
         $helper->submit_action = 'submitRulesEdit';
 
         $helper->currentIndex = $this->context->link->getAdminLink('AdminModules', false)
@@ -143,13 +145,33 @@ class Seoptimize extends Module
 
         $helper->token = Tools::getAdminTokenLite('AdminModules');
 
-        $helper->tpl_vars = array(
-            'fields_value' => $this->getRules(),
-            'languages' => $this->context->controller->getLanguages(false),
-            'id_language' => $this->context->language->id,
-        );
+//        $helper->tpl_vars = array(
+//            'fields_value' => $this->getRules(),
+//            'languages' => $this->context->controller->getLanguages(false),
+//            'id_language' => $this->context->language->id,
+//        );
+//
+//        return $helper->generateForm(array($this->getRulesForm()));
+    }
 
-        return $helper->generateForm(array($this->getRulesForm()));
+    public function getRules()
+    {
+//        $ret = array();
+        $ret = Db::getInstance()->executeS('SELECT *
+                        FROM `' . _DB_PREFIX_ . 'seoptimize` AS `s`
+                        JOIN `' . _DB_PREFIX_ . 'category_seo_rule` AS `csr`
+                        ON `s`.`id_seoptimize`=`csr`.`id_seoptimize`');
+        $arr = array();
+        foreach ($ret as $item) {
+            $arr[$item['id_seoptimize']] = array(
+                $item['id_category']
+            );
+        }
+dump($arr);
+        exit();
+        return $ret;
+        //get all rules
+
     }
 
     /**

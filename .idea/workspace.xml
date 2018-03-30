@@ -2,243 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d77deb-5d52-4e7e-a32d-083b5314a557" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/00/5b50726573746153686f7042756e646c655c456e746974795c4c616e67246c616e6775616765436f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/01/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e6724697352746c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/01/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e672469736f436f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/04/5b50726573746153686f7042756e646c655c456e746974795c546162247461624c616e6773405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/07/5b5b435d50726573746153686f7042756e646c655c456e746974795c546162246d6f64756c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/08/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e672464617465466f726d617446756c6c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/0d/5b50726573746153686f7042756e646c655c456e746974795c4c616e67246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/17/5b5b435d50726573746153686f7042756e646c655c456e746974795c54616224616374697665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/1b/5b50726573746153686f7042756e646c655c456e746974795c54616224636c6173734e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/1c/5b5b435d50726573746153686f7042756e646c655c456e746974795c546162405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/26/5b5b435d50726573746153686f7042756e646c655c456e746974795c546162247461624c616e6773405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/29/5b5b435d50726573746153686f7042756e646c655c456e746974795c54616224706f736974696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/49/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/4d/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67246c616e6775616765436f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/53/5b50726573746153686f7042756e646c655c456e746974795c4c616e6724616374697665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/53/5b50726573746153686f7042756e646c655c456e746974795c546162246964506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/53/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/55/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e672473686f7073405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/59/5b50726573746153686f7042756e646c655c456e746974795c4c616e67405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/5a/5b50726573746153686f7042756e646c655c456e746974795c54616224706f736974696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/60/5b50726573746153686f7042756e646c655c456e746974795c54616224616374697665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/64/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e672464617465466f726d61744c697465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/71/5b5b435d50726573746153686f7042756e646c655c456e746974795c5461622468696465486f73744d6f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/7c/5b50726573746153686f7042756e646c655c456e746974795c4c616e67246c6f63616c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/84/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/87/5b50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c436f6e6669677572655c416476616e636564506172616d65746572735c506572666f726d616e6365436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/90/5b5b435d50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c436f6e6669677572655c416476616e636564506172616d65746572735c506572666f726d616e6365436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/93/5b5b435d50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c436f6e6669677572655c416476616e636564506172616d65746572735c506572666f726d616e6365436f6e74726f6c6c657223696e646578416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/94/5b50726573746153686f7042756e646c655c456e746974795c5461622469636f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/98/5b50726573746153686f7042756e646c655c456e746974795c4c616e672464617465466f726d61744c697465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/9d/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223746f6f6c626172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a0/5b50726573746153686f7042756e646c655c456e746974795c4c616e672469736f436f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a2/5b50726573746153686f7042756e646c655c456e746974795c4c616e672464617465466f726d617446756c6c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a2/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67246c6f63616c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a7/5b50726573746153686f7042756e646c655c456e746974795c5461622468696465486f73744d6f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a8/5b5b435d50726573746153686f7042756e646c655c456e746974795c5461622469636f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ae/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ae/5b5b435d50726573746153686f7042756e646c655c456e746974795c546162246964506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/af/5b5b435d50726573746153686f7042756e646c655c456e746974795c54616224636c6173734e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/b1/5b50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c436f6e6669677572655c416476616e636564506172616d65746572735c506572666f726d616e6365436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/bd/5b50726573746153686f7042756e646c655c456e746974795c4c616e6724697352746c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/c5/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e6724616374697665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/cc/5b50726573746153686f7042756e646c655c456e746974795c546162246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/cc/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67247472616e736c6174696f6e73405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/d9/5b53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223746f6f6c626172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/da/5b50726573746153686f7042756e646c655c456e746974795c546162246d6f64756c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/dd/5b53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e3/5b50726573746153686f7042756e646c655c456e746974795c546162405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e7/5b5b435d50726573746153686f7042756e646c655c456e746974795c546162246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ee/5b50726573746153686f7042756e646c655c456e746974795c4c616e67247472616e736c6174696f6e73405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/fa/5b50726573746153686f7042756e646c655c456e746974795c4c616e672473686f7073405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/fc/5b50726573746153686f7042756e646c655c456e746974795c4c616e67246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appParameters.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/cacert.pem" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/class_index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/class_stub.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/classes.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/classes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/classes.php.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/1f/5b726f5f6c6f63616c5f6d6f64756c65735d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/cb/5b656e5f6c6f63616c5f6d6f64756c65735d5b315d.doctrinecache.data" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/namespaced_class_stub.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c7/83/7183c7" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/fe/ce/36cefe" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/ps_mainmenu/MOD_BLOCKTOPMENU_MENU_JSON_2_1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/themes/classic/shop1.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/0f/0f2d14ca777ffc19ed3357eeadf70d2b4658663e92c50a3042782c6869d320eb.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/12/12be60992434456c1b61a31e417df6a07c2889c132f99dc41d13e55e3e2016e2.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/14/145ed6b411fa62b10eda2b4ca6ee2c2c1d3bfa743a62632b75c35a050f134cbd.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/18/18fd9fae9ec5656074a77ba89bddbe5c1e3044f13529d387b40cf27c8cd6d121.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/19/19a602b40f1062db62e6e136ddf02402b566f76d6300f43dd5e972aa636c6881.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/1a/1a7c4a0049d7fa03b278d5e58f68615d3a95f1b7c2ca192f8ac00d0b49e440f6.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/2b/2b3eb081388ffb59640fc66c812a62f10b28ede1dfde7837d0b6cf9dc9822463.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/32/3217674cc711c374f146b1542ad8d8b27cf07133c85c97566c47e17ffe8e2b6e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3b/3b6937f77c9da6359ee3907fd4ceb7fb85d42b70250bbdb2b3e043cc6818e625.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3c/3c38fdd6def6b41e5a90a8de9305c47fdfe4cefdc8ad73f76bf186b02e14b8c7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3c/3c3d43f134f8a84038e48967a7bdd4e4e662f09bf29057cb1fd33dea74e418b3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3c/3cfd73b7d057a1db405101755bcbcc01ea73796b2b58bc1f1fa6b32e212ed221.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3d/3d2959871f3525e3d567ddf0836ed9a3c0984959c7e5c9a4d44077704a1e6743.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/41/41bb0e5a19ad3b0039fdef8d90b78f85f95056b4ddf9bdbacc7bf881992aeef7.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/45/4560341ec286623a5412d8cf8200767ddf86cf99e42aaf644da234f109c0e68e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/51/51849454df4842b0d152e849385eba82a20f2bb0eb7689c5afe00712365682f8.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/56/56dc1995f61ecb63c42ba06996b8c184ed17b28e275956ed3c72ea54a8d190ce.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/5b/5bf9a96e9ead5b3c45092784bbf0973e4157d284176de6e70aa46495f99543f8.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/5c/5c9a5b179ed15901f02149bb9355ad9767c5deb41a24d27b5d62fd12b70224d8.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/76/765ce7b1d5a2d7c8ed3cfe02aa71468a9365a8d0db33ea40d8f2bbe69f420d68.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/77/7710a474bd7b0b73ebeedcd4cd6db0d9dfe31378503197382a178473110759e9.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/7a/7ae969b289533e4ab19f4617b2c70daf5a1dc34040cc718fc434be17cba6a36e.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/81/816bd0fa15c6194b1dec94e54e9049c0b2276924a474da79e4dfdea2ac5a552c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/81/819037c46a3993f1ca53b702815a46ccf6e5c14a09d95e0c49cb5d2c20b5387b.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/87/87bfa3491640fabffc550d9f6e64c48a1f03ddd7eb68c88de16d0142d472e616.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/8e/8eca50a923fdcb551f020ef4b9ce2e8644168ad6b243f8edf26730ddaa71ccfd.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/94/941e8730348d16119fd26a904ef7a44500bff10b7300decff5dfef73a1f2863d.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/98/9811bf3cea3bf0e3b7ac7608ed513e33905958b8c8559e11aa7ff3ca28783662.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a7/a7d0db52bc727dbd6aef64d6fec8534c8ee9b001d4cc39f3e1c67044c40275ce.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a8/a81738fbd4fc04f44313ed7e32b952db01809e433b780bdb9d4ca0f500ae3bf1.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a8/a81f10563061ca24e33e93bec709114fc1a31d0b2b6e39fd3d1145f2f6334b04.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/af/af21576720965c24c55b1b9946ab913d4729c00037a08d371166f113fef6d891.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b4/b42fe6aa30fb3fc46566f4544377ddfd4bd0a0ae2dad493be1feb5458678d731.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b5/b5b015eb5f4f1f0b148c365a4ccf8dab7c0a1fbe9aaf5be81086ad6e4b02efeb.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b8/b812e213dc18c52401df3b9749b892a607d9dde6858952c90c034e72bb434f3c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c5/c52f6d6c864e7eea5442925c1ef79d9260703c64b6d565f90b36e37b8b1c4510.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c7/c787189a296fb5491018d162526e701612efed0425a6d1be724ff8284c564aed.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/cb/cbda2691030d22a578cfa469c4812fbed3cf49cdae84584e9f29c62166d84849.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ce/ceefdf451160287983c09dea6504335f390674faa6cd0b40df751ebdf9ed9c65.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/d7/d70425b646f13869dc3b8c2e2ed506fca64d26488bd4a8dae313d1106000a571.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/d8/d8f9b6ff2d4395d1efd5db69af1353f76e6f8d939f597e4356f4db1f37ce2fc3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/df/df5dd8d300d55d941a72d5a70d7ce15dedf5b3d44530faee12b1595d1e2e8311.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/e9/e975b860e22ba26c04e6066d2b8135ac826fbdf57b3a4a1e1e6c72020aa61598.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ed/ed0a42ba12f849dea1e697da796c39b813895e696c7a5e88e23e4d3b459e1392.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f0/f0ba31b319e94036a07575766c2898dc3a7f814ed3fee56e68661cd434d7bb72.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f2/f244d950873f65d119cf8d9fa294dd7d274258d133113cdeb7a3d89fabe318b5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f5/f59febe16dfa0b20fd36348fc291ee7a07f1d563816fa7dac5270c74d9edac6c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f7/f7223b88f2e2d28085e6112159afc7d4ec26155c331d4bdb7fc54f48e4f68cec.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f8/f8f0e77295e646e38ec65d6e74587e5deace98293b1c606eb1e6ddba83f128ce.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/fe/fe5135ca859e54db25a18d3b9093401600ce0393bdd18107abe8c30f5c515c1f.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/config.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/sql/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/sql/install.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/sql/uninstall.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/translations/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/upgrade/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/upgrade/upgrade-1.1.0.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/views/css/back.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/views/css/front.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/views/css/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/views/img/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/views/js/back.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/logo.png" afterPath="$PROJECT_DIR$/modules/discountfollower/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/img/follower.png" afterPath="$PROJECT_DIR$/modules/discountfollower/views/img/follower.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/logo.png" afterPath="$PROJECT_DIR$/modules/iconsforfeatures/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" afterPath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/tab_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/tab_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tmp/feature_5.svg" afterPath="$PROJECT_DIR$/img/tmp/feature_5.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tmp/fileType" afterPath="$PROJECT_DIR$/img/tmp/fileType" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/classes/FollowList.php" afterPath="$PROJECT_DIR$/modules/discountfollower/classes/FollowList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/classes/FollowProductList.php" afterPath="$PROJECT_DIR$/modules/discountfollower/classes/FollowProductList.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/classes/FollowerStatistic.php" afterPath="$PROJECT_DIR$/modules/discountfollower/classes/FollowerStatistic.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/classes/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/classes/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/controllers/admin/AdminDiscountFollowerController.php" afterPath="$PROJECT_DIR$/modules/discountfollower/controllers/admin/AdminDiscountFollowerController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/controllers/admin/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/controllers/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/controllers/front/ajax.php" afterPath="$PROJECT_DIR$/modules/discountfollower/controllers/front/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/controllers/front/followlist.php" afterPath="$PROJECT_DIR$/modules/discountfollower/controllers/front/followlist.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/controllers/front/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/controllers/front/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/controllers/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/controllers/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/cron.php" afterPath="$PROJECT_DIR$/modules/discountfollower/cron.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/discountfollower.php" afterPath="$PROJECT_DIR$/modules/discountfollower/discountfollower.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/da/follower_email_verification.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/da/follower_email_verification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/da/follower_email_verification.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/da/follower_email_verification.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/da/follower_products.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/da/follower_products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/da/follower_products.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/da/follower_products.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/da/followrequest.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/da/followrequest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/da/followrequest.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/da/followrequest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/da/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/da/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/en/follower_email_verification.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/en/follower_email_verification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/en/follower_email_verification.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/en/follower_email_verification.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/en/follower_products.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/en/follower_products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/en/follower_products.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/en/follower_products.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/en/followrequest.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/en/followrequest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/en/followrequest.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/en/followrequest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/en/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/en/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ro/follower_email_verification.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ro/follower_email_verification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ro/follower_email_verification.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ro/follower_email_verification.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ro/follower_products.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ro/follower_products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ro/follower_products.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ro/follower_products.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ro/followrequest.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ro/followrequest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ro/followrequest.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ro/followrequest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ro/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ro/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ru/follower_email_verification.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ru/follower_email_verification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ru/follower_email_verification.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ru/follower_email_verification.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ru/follower_products.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ru/follower_products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ru/follower_products.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ru/follower_products.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ru/followrequest.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ru/followrequest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ru/followrequest.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ru/followrequest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/ru/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/ru/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/uk/follower_email_verification.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/uk/follower_email_verification.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/uk/follower_email_verification.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/uk/follower_email_verification.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/uk/follower_products.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/uk/follower_products.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/uk/follower_products.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/uk/follower_products.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/uk/followrequest.html" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/uk/followrequest.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/uk/followrequest.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/uk/followrequest.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/mails/uk/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/mails/uk/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/css/front.css" afterPath="$PROJECT_DIR$/modules/discountfollower/views/css/front.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/css/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/css/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/img/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/img/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/js/back.js" afterPath="$PROJECT_DIR$/modules/discountfollower/views/js/back.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/js/front.js" afterPath="$PROJECT_DIR$/modules/discountfollower/views/js/front.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/js/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/js/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/form/form.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/form/form.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/form/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/form/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/list/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/list/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/list/list_content.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/list/list_content.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/cron.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/cron.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/form_date_range_picker.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/form_date_range_picker.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/form_statistic_data.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/form_statistic_data.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/product_form_statistic_data.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/admin/product_form_statistic_data.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/product.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/product.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/product_item.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/product_item.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/public_page.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/public_page.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/undefined_customer.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/undefined_customer.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/verification_execution.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/front/verification_execution.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/button.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/button.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/df_request_mail.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/df_request_mail.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/infos.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/infos.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/product_conf_list.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/product_conf_list.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/product_conf_list.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/product_conf_list.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/related_product_conf_list.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/related_product_conf_list.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/related_product_conf_list.txt" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/related_product_conf_list.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/success_added.tpl" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/hook/success_added.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/discountfollower/views/templates/index.php" afterPath="$PROJECT_DIR$/modules/discountfollower/views/templates/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/grouperpro/controllers/admin/AdminGrouperController.php" afterPath="$PROJECT_DIR$/modules/grouperpro/controllers/admin/AdminGrouperController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/iconsforfeatures.php" afterPath="$PROJECT_DIR$/modules/iconsforfeatures/iconsforfeatures.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/override/controllers/admin/AdminFeaturesController.php" afterPath="$PROJECT_DIR$/modules/iconsforfeatures/override/controllers/admin/AdminFeaturesController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/hook/product-details.tpl" afterPath="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/hook/product-details.tpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/ps_mainmenu/config.xml" afterPath="$PROJECT_DIR$/modules/ps_mainmenu/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/override/controllers/admin/AdminFeaturesController.php" afterPath="$PROJECT_DIR$/override/controllers/admin/AdminFeaturesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/20180330_exception.log" afterPath="$PROJECT_DIR$/app/logs/20180330_exception.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" afterPath="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -265,12 +31,17 @@
       <file leaf-file-name="seoptimize.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="728">
-              <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+            <state relative-caret-position="395">
+              <caret line="166" column="16" lean-forward="false" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
               <folding>
-                <marker date="1522422107590" expanded="true" signature="7896:7988" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
-                <marker date="1522422107590" expanded="true" signature="9294:9423" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522422107590" expanded="true" signature="10469:10551" ph="/** * Add th... " />
+                <marker date="1522424166478" expanded="true" signature="5454:5526" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522424166478" expanded="true" signature="5454:5530" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522424166478" expanded="true" signature="5454:5676" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522424166478" expanded="true" signature="5454:5678" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522424166478" expanded="true" signature="5935:5988" ph="/** * Create... " />
+                <marker date="1522424166478" expanded="true" signature="8625:8717" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
+                <marker date="1522424166478" expanded="true" signature="10023:10152" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522424166478" expanded="true" signature="11198:11280" ph="/** * Add th... " />
               </folding>
             </state>
           </provider>
@@ -310,8 +81,8 @@
       <file leaf-file-name="gshoppingfeed.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-659">
-              <caret line="485" column="71" lean-forward="false" selection-start-line="485" selection-start-column="50" selection-end-line="485" selection-end-column="71" />
+            <state relative-caret-position="291">
+              <caret line="511" column="33" lean-forward="false" selection-start-line="511" selection-start-column="15" selection-end-line="511" selection-end-column="33" />
               <folding>
                 <marker date="1522418858625" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
                 <marker date="1522418858625" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
@@ -333,8 +104,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>name_feed</find>
-      <find>updategshoppingfeed</find>
       <find>getConfigFormValues</find>
       <find>Language::getLanguages</find>
       <find>$languages = Language::getLanguages(false);</find>
@@ -363,6 +132,8 @@
       <find>foreach ($languages as $lang) {</find>
       <find>submitSeoptimizeModule</find>
       <find>render</find>
+      <find>dump</find>
+      <find>getInsta</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -1034,12 +805,12 @@
       <workItem from="1522237820325" duration="2895000" />
       <workItem from="1522242387078" duration="150000" />
       <workItem from="1522306119004" duration="16477000" />
-      <workItem from="1522397699009" duration="24387000" />
+      <workItem from="1522397699009" duration="26444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214711000" />
+    <option name="totallyTimeSpent" value="216768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1035" extended-state="6" />
@@ -1053,7 +824,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21202186" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21115974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25239617" sideWeight="0.50437635" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1509,16 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/db/Db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="665" column="67" lean-forward="false" selection-start-line="665" selection-start-column="61" selection-end-line="665" selection-end-column="67" />
-          <folding>
-            <marker date="1519649749000" expanded="true" signature="15454:15485" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/discountfollower/discountfollower.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="277">
@@ -1538,10 +1299,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="547" column="20" lean-forward="false" selection-start-line="547" selection-start-column="20" selection-end-line="547" selection-end-column="20" />
+          <folding>
+            <marker date="1519649749000" expanded="true" signature="15454:15485" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-659">
-          <caret line="485" column="71" lean-forward="false" selection-start-line="485" selection-start-column="50" selection-end-line="485" selection-end-column="71" />
+        <state relative-caret-position="291">
+          <caret line="511" column="33" lean-forward="false" selection-start-line="511" selection-start-column="15" selection-end-line="511" selection-end-column="33" />
           <folding>
             <marker date="1522418858625" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
             <marker date="1522418858625" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
@@ -1560,12 +1331,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="153" column="0" lean-forward="true" selection-start-line="153" selection-start-column="0" selection-end-line="153" selection-end-column="0" />
+        <state relative-caret-position="395">
+          <caret line="166" column="16" lean-forward="false" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
           <folding>
-            <marker date="1522422107590" expanded="true" signature="7896:7988" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1522422107590" expanded="true" signature="9294:9423" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522422107590" expanded="true" signature="10469:10551" ph="/** * Add th... " />
+            <marker date="1522424166478" expanded="true" signature="5454:5526" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522424166478" expanded="true" signature="5454:5530" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522424166478" expanded="true" signature="5454:5676" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522424166478" expanded="true" signature="5454:5678" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522424166478" expanded="true" signature="5935:5988" ph="/** * Create... " />
+            <marker date="1522424166478" expanded="true" signature="8625:8717" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
+            <marker date="1522424166478" expanded="true" signature="10023:10152" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522424166478" expanded="true" signature="11198:11280" ph="/** * Add th... " />
           </folding>
         </state>
       </provider>
