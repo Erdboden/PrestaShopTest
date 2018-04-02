@@ -1,0 +1,28 @@
+*ERROR* 	v1.7.3.0	2018/04/02 - 10:10:33: Table 'prestashop_my_shop.ps_ category_lang' doesn't exist<br /><br /><pre>SELECT *
+                        FROM `ps_seoptimize` AS `s`
+                        JOIN `ps_category_seo_rule` AS `csr`
+                        ON `s`.`id_seoptimize`=`csr`.`id_seoptimize`
+                        JOIN `ps_ category_lang` as `cl`</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/02 - 10:11:00: Table 'prestashop_my_shop.ps_ category_lang' doesn't exist<br /><br /><pre>SELECT *
+                        FROM `ps_seoptimize` AS `s`
+                        JOIN `ps_category_seo_rule` AS `csr`
+                        ON `s`.`id_seoptimize`=`csr`.`id_seoptimize`
+                        JOIN `ps_ category_lang` as `cl`
+                        on `csr`.`id_category`=`cl`.`id_category`</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/02 - 11:28:44: Column 'id_seoptimize' in group statement is ambiguous<br /><br /><pre>SELECT *
+                        FROM `ps_seoptimize` AS `s`
+                        JOIN `ps_category_seo_rule` AS `csr`
+                        ON `s`.`id_seoptimize`=`csr`.`id_seoptimize`
+                        JOIN `ps_category_lang` as `cl`
+                        on `csr`.`id_category`=`cl`.`id_category`
+                        where `cl`.`id_lang`=1
+                        group by `id_seoptimize`</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/02 - 11:29:39: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '//                        JOIN `ps_category_seo_rule` AS `csr`
+//               ' at line 3<br /><br /><pre>SELECT *
+                        FROM `ps_seoptimize` AS `s`
+//                        JOIN `ps_category_seo_rule` AS `csr`
+//                        ON `s`.`id_seoptimize`=`csr`.`id_seoptimize`
+//                        JOIN `ps_category_lang` as `cl`
+//                        on `csr`.`id_category`=`cl`.`id_category`
+//                        where `cl`.`id_lang`=1
+                        group by `s`.`id_seoptimize`</pre> at line 746 in file classes/db/Db.php

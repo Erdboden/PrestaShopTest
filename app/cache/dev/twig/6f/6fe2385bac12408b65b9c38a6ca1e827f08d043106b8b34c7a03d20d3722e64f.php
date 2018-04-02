@@ -15,8 +15,8 @@ class __TwigTemplate_57d3f4d035494503c8f53fff94c9938ec07e40fa007ed748b6ba4d243e4
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_f292a8f1a00ed6e11d51baa1deb730c4fe6659aa82cf3f4dd6fd0d518bb9e5ec = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_f292a8f1a00ed6e11d51baa1deb730c4fe6659aa82cf3f4dd6fd0d518bb9e5ec->enter($__internal_f292a8f1a00ed6e11d51baa1deb730c4fe6659aa82cf3f4dd6fd0d518bb9e5ec_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:modal_confirm_bulk_action.html.twig"));
+        $__internal_cd60e04aae22f776487cbcba20b19242bcab48b6402b9b6b680cf9ad669ee430 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_cd60e04aae22f776487cbcba20b19242bcab48b6402b9b6b680cf9ad669ee430->enter($__internal_cd60e04aae22f776487cbcba20b19242bcab48b6402b9b6b680cf9ad669ee430_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:modal_confirm_bulk_action.html.twig"));
 
         // line 25
         echo "<div id=\"module-modal-bulk-confirm\" class=\"modal  modal-vcenter fade\" role=\"dialog\">
@@ -70,7 +70,7 @@ class __TwigTemplate_57d3f4d035494503c8f53fff94c9938ec07e40fa007ed748b6ba4d243e4
 </div>
 ";
         
-        $__internal_f292a8f1a00ed6e11d51baa1deb730c4fe6659aa82cf3f4dd6fd0d518bb9e5ec->leave($__internal_f292a8f1a00ed6e11d51baa1deb730c4fe6659aa82cf3f4dd6fd0d518bb9e5ec_prof);
+        $__internal_cd60e04aae22f776487cbcba20b19242bcab48b6402b9b6b680cf9ad669ee430->leave($__internal_cd60e04aae22f776487cbcba20b19242bcab48b6402b9b6b680cf9ad669ee430_prof);
 
     }
 

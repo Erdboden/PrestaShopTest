@@ -2,9 +2,313 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d77deb-5d52-4e7e-a32d-083b5314a557" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/00/5b50726573746153686f7042756e646c655c456e746974795c4c616e67246c616e6775616765436f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/01/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e6724697352746c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/01/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e672469736f436f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/04/5b50726573746153686f7042756e646c655c456e746974795c546162247461624c616e6773405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/04/5b5b435d50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c657223636174616c6f67416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/04/5b5b435d50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/07/5b5b435d50726573746153686f7042756e646c655c456e746974795c546162246d6f64756c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/08/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e672464617465466f726d617446756c6c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/0d/5b50726573746153686f7042756e646c655c456e746974795c4c616e67246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/13/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792373657444617465416464405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/13/5b5b435d50726573746153686f7042756e646c655c456e746974795c5461624c616e67246c616e67405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/16/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279236765744964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/17/5b5b435d50726573746153686f7042756e646c655c456e746974795c54616224616374697665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/1b/5b50726573746153686f7042756e646c655c456e746974795c54616224636c6173734e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/1c/5b5b435d50726573746153686f7042756e646c655c456e746974795c546162405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/1d/5b5b435d50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e246c616e67405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/23/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279237570646174656454696d657374616d7073405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/23/5b50726573746153686f7042756e646c655c456e746974795c53686f70246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/23/5b50726573746153686f7042756e646c655c456e746974795c5461624c616e67246c616e67405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/23/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792367657444617465557064405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/24/5b50726573746153686f7042756e646c655c456e746974795c53686f70247468656d654e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/25/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/26/5b5b435d50726573746153686f7042756e646c655c456e746974795c546162247461624c616e6773405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/28/5b5b435d50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c657223696d706f72744d6f64756c65416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/29/5b5b435d50726573746153686f7042756e646c655c456e746974795c54616224706f736974696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/2f/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792469644d6f64756c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/32/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279236765744964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/34/5b50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/35/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279246964456d706c6f796565405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/40/5b50726573746153686f7042756e646c655c456e746974795c53686f702473686f7047726f7570405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/41/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279237365744964456d706c6f796565405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/43/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/43/5b50726573746153686f7042756e646c655c456e746974795c53686f7024616374697665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/46/5b50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c6572236d616e616765416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/49/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/4a/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279237365744964456d706c6f796565405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/4d/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67246c616e6775616765436f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/50/5b5b435d50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e24646f6d61696e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/53/5b50726573746153686f7042756e646c655c456e746974795c4c616e6724616374697665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/53/5b50726573746153686f7042756e646c655c456e746974795c546162246964506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/53/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/55/5b50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/55/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e672473686f7073405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/58/5b5b435d50726573746153686f7042756e646c655c456e746974795c53686f7024696443617465676f7279405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/59/5b50726573746153686f7042756e646c655c456e746974795c4c616e67405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/5a/5b50726573746153686f7042756e646c655c456e746974795c54616224706f736974696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/5b/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792373657449644d6f64756c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/60/5b50726573746153686f7042756e646c655c456e746974795c54616224616374697665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/62/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792367657444617465557064405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/64/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e672464617465466f726d61744c697465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/6f/5b50726573746153686f7042756e646c655c456e746974795c5461624c616e67246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/71/5b5b435d50726573746153686f7042756e646c655c456e746974795c5461622468696465486f73744d6f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/73/5b5b435d50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e247472616e736c6174696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/75/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792367657449644d6f64756c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/76/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/77/5b5b435d50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c6572236d6f64756c65416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/79/5b50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e24646f6d61696e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/7a/5b5b435d50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c657223636f6e6669677572654d6f64756c65416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/7c/5b50726573746153686f7042756e646c655c456e746974795c4c616e67246c6f63616c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/7c/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279237570646174656454696d657374616d7073405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/7e/5b50726573746153686f7042756e646c655c456e746974795c5461624c616e67246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/7f/5b50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c65722372656672657368436174616c6f67416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/84/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/89/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792464617465416464405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/8c/5b5b435d50726573746153686f7042756e646c655c456e746974795c5461624c616e67405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/8e/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792373657444617465416464405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/94/5b50726573746153686f7042756e646c655c456e746974795c53686f70405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/94/5b50726573746153686f7042756e646c655c456e746974795c5461622469636f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/94/5b50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/96/5b50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c657223636174616c6f67416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/96/5b5b435d50726573746153686f7042756e646c655c456e746974795c53686f702473686f7047726f7570405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/98/5b50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c657223696d706f72744d6f64756c65416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/98/5b50726573746153686f7042756e646c655c456e746974795c4c616e672464617465466f726d61744c697465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/9d/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792464617465416464405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/9d/5b5b435d53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223746f6f6c626172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/9f/5b5b435d50726573746153686f7042756e646c655c456e746974795c53686f70246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a0/5b50726573746153686f7042756e646c655c456e746974795c4c616e672469736f436f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a2/5b50726573746153686f7042756e646c655c456e746974795c4c616e672464617465466f726d617446756c6c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a2/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67246c6f63616c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a2/5b5b435d50726573746153686f7042756e646c655c456e746974795c53686f70246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a5/5b5b435d50726573746153686f7042756e646c655c456e746974795c53686f70405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a6/5b5b435d50726573746153686f7042756e646c655c456e746974795c5461624c616e67246e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a7/5b50726573746153686f7042756e646c655c456e746974795c53686f7024696443617465676f7279405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a7/5b50726573746153686f7042756e646c655c456e746974795c5461622468696465486f73744d6f6465405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a8/5b5b435d50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c6572236d616e616765416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/a8/5b5b435d50726573746153686f7042756e646c655c456e746974795c5461622469636f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ab/5b50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e246b6579405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ab/5b50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e247472616e736c6174696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ac/5b5b435d50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ad/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792373657444617465557064405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ad/5b5b435d50726573746153686f7042756e646c655c456e746974795c5461624c616e67246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ae/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ae/5b5b435d50726573746153686f7042756e646c655c456e746974795c546162246964506172656e74405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/af/5b5b435d50726573746153686f7042756e646c655c456e746974795c54616224636c6173734e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/b7/5b50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e246c616e67405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ba/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279236765744964456d706c6f796565405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/bb/5b50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e247468656d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/bd/5b50726573746153686f7042756e646c655c456e746974795c4c616e6724697352746c405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/bd/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792373657444617465557064405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/bd/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792367657449644d6f64756c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/c0/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/c0/5b5b435d50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e247468656d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/c2/5b50726573746153686f7042756e646c655c456e746974795c5461624c616e67405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/c5/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e6724616374697665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/c6/5b50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c6572236d6f64756c65416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/c6/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279236765744964456d706c6f796565405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/cb/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792464617465557064405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/cb/5b50726573746153686f7042756e646c655c456e746974795c53686f70246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/cc/5b50726573746153686f7042756e646c655c456e746974795c546162246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/cc/5b5b435d50726573746153686f7042756e646c655c456e746974795c4c616e67247472616e736c6174696f6e73405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/cd/5b5b435d50726573746153686f7042756e646c655c456e746974795c53686f7024616374697665405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ce/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792464617465557064405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/d3/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f7279246964456d706c6f796565405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/d9/5b53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c657223746f6f6c626172416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/da/5b50726573746153686f7042756e646c655c456e746974795c546162246d6f64756c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/db/5b5b435d50726573746153686f7042756e646c655c456e746974795c53686f702464656c65746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/dd/5b53796d666f6e795c42756e646c655c57656250726f66696c657242756e646c655c436f6e74726f6c6c65725c50726f66696c6572436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/df/5b50726573746153686f7042756e646c655c456e746974795c53686f702464656c65746564405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e3/5b50726573746153686f7042756e646c655c456e746974795c546162405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e3/5b5b435d50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c65722372656672657368436174616c6f67416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e3/5b5b435d50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e246b6579405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e4/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792469644d6f64756c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e7/5b5b435d50726573746153686f7042756e646c655c456e746974795c546162246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e8/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792373657449644d6f64756c65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e9/5b50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792367657444617465416464405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/e9/5b5b435d50726573746153686f7042756e646c655c456e746974795c4d6f64756c65486973746f72792367657444617465416464405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/eb/5b5b435d50726573746153686f7042756e646c655c456e746974795c5472616e736c6174696f6e246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/ee/5b50726573746153686f7042756e646c655c456e746974795c4c616e67247472616e736c6174696f6e73405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/fa/5b50726573746153686f7042756e646c655c456e746974795c4c616e672473686f7073405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/fb/5b5b435d50726573746153686f7042756e646c655c456e746974795c53686f70247468656d654e616d65405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/fc/5b50726573746153686f7042756e646c655c456e746974795c4c616e67246964405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/annotations/fe/5b50726573746153686f7042756e646c655c436f6e74726f6c6c65725c41646d696e5c4d6f64756c65436f6e74726f6c6c657223636f6e6669677572654d6f64756c65416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlGenerator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlMatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/appParameters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/cacert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/class_index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/class_stub.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/classes.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/classes.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/classes.php.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/1f/5b726f5f6c6f63616c5f6d6f64756c65735d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/30/5b37366637393630306166666237623861343031366531393333623332343433645d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/46/5b656e5f6164646f6e735f6d6f64756c65735d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/66/5b38323132343039346166663039383765333235373766366335363336633434625d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/70/5b73656f7074696d697a655d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/94/5b64626666346438336663373931313432393430643032356334366262366235635d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/98/5b31343732376436666435343735386430633461333262383132323862363433645d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/cb/5b63333131623137343235383365353635333062633439353732636233623334615d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/cb/5b656e5f6c6f63616c5f6d6f64756c65735d5b315d.doctrinecache.data" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/namespaced_class_stub.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/07/f6/90f607" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/17/8a/528a17" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/17/f8/6ff817" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/1f/f0/e8f01f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/21/66/7a6621" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/28/ac/5aac28" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/2b/bd/81bd2b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/30/07/040730" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/3e/3c/e23c3e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/3f/ff/85ff3f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/40/b4/fab440" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/45/f2/b9f245" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/46/d7/61d746" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/4d/6d/c86d4d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/52/33/6b3352" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/5b/9e/659e5b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/5d/9c/8a9c5d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/61/7f/af7f61" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/66/34/7b3466" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/8b/d2/36d28b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/95/51/185195" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/97/11/ab1197" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/a7/b2/6eb2a7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/b1/27/9d27b1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/b1/c3/72c3b1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/bc/c9/4cc9bc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c6/fa/bbfac6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c7/48/8948c7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c8/94/4494c8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/c9/8f/fb8fc9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/cd/5b/a55bcd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ce/3c/953cce" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d2/df/3bdfd2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d4/2a/4a2ad4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d4/e5/b2e5d4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/d8/52/2d52d8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/dc/5f/a35fdc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/e6/8a/e18ae6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ee/71/6971ee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/f0/55/1255f0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/fb/8d/438dfb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/fc/e7/fbe7fc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/ff/44/c444ff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/ps_mainmenu/MOD_BLOCKTOPMENU_MENU_JSON_2_1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/themes/classic/shop1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/08/088dcc9b460ec563f32038fe3c7c6df8bfe8a5e933b8da043dbe38f6c9393a1d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/0f/0f2d14ca777ffc19ed3357eeadf70d2b4658663e92c50a3042782c6869d320eb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/10/10c625ff6037692a77096c098764bb07c953f91fccc46b88e91479ab1c495db5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/12/12be60992434456c1b61a31e417df6a07c2889c132f99dc41d13e55e3e2016e2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/14/145ed6b411fa62b10eda2b4ca6ee2c2c1d3bfa743a62632b75c35a050f134cbd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/19/19a602b40f1062db62e6e136ddf02402b566f76d6300f43dd5e972aa636c6881.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/1a/1a7c4a0049d7fa03b278d5e58f68615d3a95f1b7c2ca192f8ac00d0b49e440f6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/2b/2b3eb081388ffb59640fc66c812a62f10b28ede1dfde7837d0b6cf9dc9822463.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/30/30e7e955f04b93d29d519d995bcd4c0b9eb2a867b7d81be7e66de02cf4f88530.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/31/310911033a06d2b5ed3d309f4be451d9cf2054ac3d632bd57b2856ea0b50f165.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3b/3b6937f77c9da6359ee3907fd4ceb7fb85d42b70250bbdb2b3e043cc6818e625.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3b/3bcdf199b63ce57971e7786604b5aaea4a64951ea3c6151214e3d83688d8f709.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3c/3c38fdd6def6b41e5a90a8de9305c47fdfe4cefdc8ad73f76bf186b02e14b8c7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3c/3c3d43f134f8a84038e48967a7bdd4e4e662f09bf29057cb1fd33dea74e418b3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3c/3cfd73b7d057a1db405101755bcbcc01ea73796b2b58bc1f1fa6b32e212ed221.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/3d/3d2959871f3525e3d567ddf0836ed9a3c0984959c7e5c9a4d44077704a1e6743.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/41/41afb41cf6ffa9f2a3603a279c4b05e2063919f15f4d98a532f7dfc898be24a3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/41/41bb0e5a19ad3b0039fdef8d90b78f85f95056b4ddf9bdbacc7bf881992aeef7.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/45/4560341ec286623a5412d8cf8200767ddf86cf99e42aaf644da234f109c0e68e.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/4a/4ad0b879fb0187d9d8c55eeef180a5f9b56a60a8ee316980c59c1e9861884d7c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/50/50ccc47d960f721cab38dd14496d4eb89006a9b29c34185a6b8ee7141c1d95f3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/51/51849454df4842b0d152e849385eba82a20f2bb0eb7689c5afe00712365682f8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/55/55aa64447e422c9b4121dbac2dce56c3138e9481c883e0d41fc9499d69dfea72.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/56/56dc1995f61ecb63c42ba06996b8c184ed17b28e275956ed3c72ea54a8d190ce.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/5b/5bf9a96e9ead5b3c45092784bbf0973e4157d284176de6e70aa46495f99543f8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/5c/5c9a5b179ed15901f02149bb9355ad9767c5deb41a24d27b5d62fd12b70224d8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/5f/5f76626ed6cbf54a7455154c9052bb7ab94891227ccba3b3457b0bcf44c362ee.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/5f/5f960354370da91b15893fb49491673591c19bb17d942aeb31d88c926ca9f359.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/61/61254a56c164076a2dbc67ca64c6e5cda19aa9c8fe8f0563bb357e39123df7b4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/66/665f4b69c95bdf8ad2e7a40e6d212747bcece52152f427a3712611e2d7b38633.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/69/693c857087f81d288219ffc59e5129896595514dfe22cf3c1f6101c0da99d1b2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/69/697375bf2459e512b6a0e797e2515708e499a64fbcc7c5bbcc4cc5721747cada.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/6f/6fe2385bac12408b65b9c38a6ca1e827f08d043106b8b34c7a03d20d3722e64f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/74/74cc843b3b2ddeaee45e490bac4804e7d570154fb6d553eb6fa5a50f62760c3c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/76/765ce7b1d5a2d7c8ed3cfe02aa71468a9365a8d0db33ea40d8f2bbe69f420d68.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/77/7710a474bd7b0b73ebeedcd4cd6db0d9dfe31378503197382a178473110759e9.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/7a/7aaa70c930d66da9d60f869325ca8da8a71f5a6a8bc8ebffb93582fb38f7f66b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/7f/7f79ef92ac30ffb62b71361f22bc9ae121e9e866add49e212623f4d8b22fb3c0.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/81/816bd0fa15c6194b1dec94e54e9049c0b2276924a474da79e4dfdea2ac5a552c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/87/87bfa3491640fabffc550d9f6e64c48a1f03ddd7eb68c88de16d0142d472e616.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/89/89cb20b50df92d497276ddfd245d7c6f0b3c8da2127a9b7830803968b7221a74.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/8b/8b03f62c3012e0d5631d89355b21d403bd5e472524d6c3d214d9aa5d6f4de434.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/8c/8c01645284e80a2e578753c7b0ff3e0fd3b5c49697988101b03b81a0b6f2725f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/8c/8cc3e044b190ee902e674359dc3e4129e1bad40801e845f50895d27089e3a796.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/8e/8e61ef7ed02eebcae9b2213c0e2e075ce16a71fe636e1c817105e4b2cb02fdd3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/8e/8eca50a923fdcb551f020ef4b9ce2e8644168ad6b243f8edf26730ddaa71ccfd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/94/941e8730348d16119fd26a904ef7a44500bff10b7300decff5dfef73a1f2863d.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/98/9811bf3cea3bf0e3b7ac7608ed513e33905958b8c8559e11aa7ff3ca28783662.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a8/a81738fbd4fc04f44313ed7e32b952db01809e433b780bdb9d4ca0f500ae3bf1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a8/a81f10563061ca24e33e93bec709114fc1a31d0b2b6e39fd3d1145f2f6334b04.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/af/af21576720965c24c55b1b9946ab913d4729c00037a08d371166f113fef6d891.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b1/b1f98872b21164253f52d295de4817ce6f173240e85d6f3e1f42280267393afa.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b2/b276319511af4ccdd11ea61e4167857278c526f0beddf97b5ffaac3def35ee1f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b4/b42fe6aa30fb3fc46566f4544377ddfd4bd0a0ae2dad493be1feb5458678d731.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b5/b5b015eb5f4f1f0b148c365a4ccf8dab7c0a1fbe9aaf5be81086ad6e4b02efeb.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/be/beeb567e3fe63f95a1f5689c97eef185eb76b74c50e3eba4959b340c32710fc5.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c3/c3391237b2c0ba160cca09081c00ed50d387f63f2e2a75de5bda019c2ef4dea8.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c5/c52f6d6c864e7eea5442925c1ef79d9260703c64b6d565f90b36e37b8b1c4510.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c7/c787189a296fb5491018d162526e701612efed0425a6d1be724ff8284c564aed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/c9/c92319df95c11c19af4a8e3d8d79f494aace1be1eec2a0d05b83658e429248c6.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ce/ceefdf451160287983c09dea6504335f390674faa6cd0b40df751ebdf9ed9c65.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/d7/d70425b646f13869dc3b8c2e2ed506fca64d26488bd4a8dae313d1106000a571.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/d7/d7d7bee9eae5f245b2bd20083a0562b53eb35d3c77539c0fe62cdf80b103f11a.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/d8/d8f9b6ff2d4395d1efd5db69af1353f76e6f8d939f597e4356f4db1f37ce2fc3.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/db/db84e7cbf1738f652b0038b1b0072587704b0663606bf9ea016c6ee112842aca.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/df/df5dd8d300d55d941a72d5a70d7ce15dedf5b3d44530faee12b1595d1e2e8311.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/df/dfcbe4c7a43b743e40c24d07828e2fc8957116b1d1da6a92858dcea38edaf6bd.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/e3/e3de90c0b6de7b708ae67517f2b78cb89001a8f3c44bd5d3c62fc8325f2801de.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/e5/e5b1cd7991c9cf6e09089541d259e4772dc3b8f1aa0acf35334523e80c6596ba.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/e7/e7e9589639e4e3b8375abc8bcd709e87e1e91df8c8f675afebdb8a7fb1876f14.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/e9/e975b860e22ba26c04e6066d2b8135ac826fbdf57b3a4a1e1e6c72020aa61598.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/ef/ef8074e960b2f51baa59917215ad4c6a44de78768f6bcbb176c12f69dcc2af6b.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f0/f0ba31b319e94036a07575766c2898dc3a7f814ed3fee56e68661cd434d7bb72.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f3/f3fbc53627bc624d7da085c2967b53c1e371edd603dbf3eadf5c12f3bbdce0d1.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f5/f59febe16dfa0b20fd36348fc291ee7a07f1d563816fa7dac5270c74d9edac6c.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f7/f7dc613ebf5c24ccf2323676ab9b45f7eb8193a4254bbaacbb9304ca4e7c188f.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f8/f8f0e77295e646e38ec65d6e74587e5deace98293b1c606eb1e6ddba83f128ce.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/fc/fcaac2e7226023d72151acfafa7c8ef61164287dd88e91efdd92e78f58d00cee.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/twig/fe/fe5135ca859e54db25a18d3b9093401600ce0393bdd18107abe8c30f5c515c1f.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize.zip" afterPath="$PROJECT_DIR$/modules/seoptimize.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/20180330_exception.log" afterPath="$PROJECT_DIR$/app/logs/20180330_exception.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/Readme.md" afterPath="$PROJECT_DIR$/modules/seoptimize/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/config.xml" afterPath="$PROJECT_DIR$/modules/seoptimize/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" afterPath="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/sql/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/sql/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/sql/install.php" afterPath="$PROJECT_DIR$/modules/seoptimize/sql/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/sql/uninstall.php" afterPath="$PROJECT_DIR$/modules/seoptimize/sql/uninstall.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/translations/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/translations/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/upgrade/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/upgrade/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/upgrade/upgrade-1.1.0.php" afterPath="$PROJECT_DIR$/modules/seoptimize/upgrade/upgrade-1.1.0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/css/back.css" afterPath="$PROJECT_DIR$/modules/seoptimize/views/css/back.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/css/front.css" afterPath="$PROJECT_DIR$/modules/seoptimize/views/css/front.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/css/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/css/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/img/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/img/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/js/back.js" afterPath="$PROJECT_DIR$/modules/seoptimize/views/js/back.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/js/front.js" afterPath="$PROJECT_DIR$/modules/seoptimize/views/js/front.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/js/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/js/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/configure.tpl" afterPath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/configure.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/templates/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/templates/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,52 +331,39 @@
     <favorites_list name="html" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="seoptimize.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="166" column="16" lean-forward="false" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
+            <state relative-caret-position="198">
+              <caret line="188" column="41" lean-forward="true" selection-start-line="188" selection-start-column="41" selection-end-line="188" selection-end-column="41" />
               <folding>
-                <marker date="1522424166478" expanded="true" signature="5454:5526" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522424166478" expanded="true" signature="5454:5530" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522424166478" expanded="true" signature="5454:5676" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522424166478" expanded="true" signature="5454:5678" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522424166478" expanded="true" signature="5935:5988" ph="/** * Create... " />
-                <marker date="1522424166478" expanded="true" signature="8625:8717" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
-                <marker date="1522424166478" expanded="true" signature="10023:10152" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522424166478" expanded="true" signature="11198:11280" ph="/** * Add th... " />
+                <marker date="1522662474691" expanded="true" signature="5768:5844" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522662474691" expanded="true" signature="5768:6175" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522662474691" expanded="true" signature="6864:6947" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1522662474691" expanded="true" signature="7087:7309" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522662474691" expanded="true" signature="10864:10956" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
+                <marker date="1522662474691" expanded="true" signature="12262:12391" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="discountfollower.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/discountfollower/discountfollower.php">
+      <file leaf-file-name="list_content.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="900" column="39" lean-forward="false" selection-start-line="900" selection-start-column="8" selection-end-line="900" selection-end-column="39" />
-              <folding>
-                <marker date="1522238315696" expanded="true" signature="6966:7801" ph="CREATE TABLE... IF" />
-                <marker date="1522238315696" expanded="true" signature="7854:8699" ph="CREATE TABLE... IF" />
-                <marker date="1522238315696" expanded="true" signature="8752:9122" ph="CREATE TABLE... IF" />
-                <marker date="1522238315696" expanded="true" signature="9175:9902" ph="CREATE TABLE... IF" />
-                <marker date="1522238315696" expanded="true" signature="9955:10583" ph="CREATE TABLE... IF" />
-                <marker date="1522238315696" expanded="true" signature="10774:10827" ph="DROP TABLE I... " />
-                <marker date="1522238315696" expanded="true" signature="10877:10929" ph="DROP TABLE I... " />
-                <marker date="1522238315696" expanded="true" signature="10979:11033" ph="DROP TABLE I... " />
-                <marker date="1522238315696" expanded="true" signature="11083:11143" ph="DROP TABLE I... " />
-                <marker date="1522238315696" expanded="true" signature="11193:11251" ph="DROP TABLE I... " />
-              </folding>
+            <state relative-caret-position="338">
+              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="configure.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/configure.tpl">
+      <file leaf-file-name="list_content.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="-572">
+              <caret line="20" column="21" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="20" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -81,8 +372,8 @@
       <file leaf-file-name="gshoppingfeed.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="511" column="33" lean-forward="false" selection-start-line="511" selection-start-column="15" selection-end-line="511" selection-end-column="33" />
+            <state relative-caret-position="239">
+              <caret line="385" column="37" lean-forward="false" selection-start-line="385" selection-start-column="37" selection-end-line="385" selection-end-column="37" />
               <folding>
                 <marker date="1522418858625" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
                 <marker date="1522418858625" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
@@ -104,36 +395,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getConfigFormValues</find>
-      <find>Language::getLanguages</find>
-      <find>$languages = Language::getLanguages(false);</find>
-      <find>DISCOUNTFOLLOWER_WATCH_TEXT_CHANGE_QUANTITY</find>
-      <find>elect categ</find>
-      <find>getCategoryFilterSelected</find>
-      <find>$insert_data</find>
-      <find>$lang_fields</find>
-      <find>update</find>
-      <find>postMailConfigureProcess</find>
-      <find>select</find>
-      <find>insert</find>
-      <find>postpr</find>
-      <find>post</find>
-      <find>submitDiscountfollowerModule</find>
-      <find>submitMailCFDiscountfollowerModule</find>
-      <find>renderMailConfigForm</find>
-      <find>save_general_confiduration</find>
-      <find>postPr</find>
-      <find>submitseo</find>
-      <find>submitSeop</find>
-      <find>submitGshoppingfeedModule</find>
-      <find>postProcess</find>
-      <find>submitTaxonomyEdit</find>
-      <find>ailConfigForm</find>
-      <find>foreach ($languages as $lang) {</find>
-      <find>submitSeoptimizeModule</find>
       <find>render</find>
-      <find>dump</find>
       <find>getInsta</find>
+      <find>getCategoryFilterSelected</find>
+      <find>renderRulesForm</find>
+      <find>getLanguages</find>
+      <find>get</find>
+      <find>taxonomyList</find>
+      <find>GOOGLE TAXONOMY LIST</find>
+      <find>taxonomy_exist</find>
+      <find>TaxonomyList</find>
+      <find>getTaxLangList</find>
+      <find>getR</find>
+      <find>currentIndex</find>
+      <find>dump</find>
+      <find>elect langu</find>
+      <find>renderTaxonomyList</find>
+      <find>list</find>
+      <find>iews/templates/admi</find>
+      <find>tr</find>
+      <find>taxonomy_lists</find>
+      <find>color_field</find>
+      <find>link</find>
+      <find>list_content</find>
+      <find>type</find>
+      <find>type' =&gt; 'link'</find>
+      <find>type' =&gt; 'taxonomy_text</find>
+      <find>taxonomy_text</find>
+      <find>iso</find>
+      <find>getRulesList</find>
+      <find>getRules</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -151,10 +442,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/themes/classic/templates/page.tpl" />
-        <option value="$PROJECT_DIR$/themes/classic/templates/layouts/layout-both-columns.tpl" />
-        <option value="$PROJECT_DIR$/themes/classic/templates/_partials/header.tpl" />
-        <option value="$PROJECT_DIR$/controllers/front/IndexController.php" />
         <option value="$PROJECT_DIR$/themes/classic/templates/contact.tpl" />
         <option value="$PROJECT_DIR$/modules/ps_contactinfo/ps_contactinfo.tpl" />
         <option value="$PROJECT_DIR$/themes/classic/modules/ps_contactinfo/ps_contactinfo.tpl" />
@@ -201,7 +488,11 @@
         <option value="$PROJECT_DIR$/modules/seoptimize/sql/install.php" />
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/taxonomy_configure.tpl" />
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php" />
+        <option value="$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_header.tpl" />
+        <option value="$PROJECT_DIR$/modules/seoptimize/views/templates/_configure/helpers/list/list_content.tpl" />
+        <option value="$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl" />
         <option value="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" />
+        <option value="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl" />
       </list>
     </option>
   </component>
@@ -387,6 +678,48 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="list" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="seoptimize" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -484,6 +817,88 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -672,19 +1087,19 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/hook" />
-      <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/override" />
-      <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/catalog/_partials" />
-      <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/catalog" />
-      <recent name="$PROJECT_DIR$/override/views/templates/catalog" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/seoptimize/views/templates/_configure/helpers/list" />
       <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/admin/_configure/icons/helpers/list" />
       <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/hook" />
       <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/admin/helpers/form" />
       <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/admin/helpers" />
-      <recent name="$PROJECT_DIR$/modules/iconsforfeatures/override/controllers/admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/modules/seoptimize/views/templates/admin" />
+      <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/hook" />
+      <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/override" />
+      <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/catalog/_partials" />
+      <recent name="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/catalog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -805,26 +1220,25 @@
       <workItem from="1522237820325" duration="2895000" />
       <workItem from="1522242387078" duration="150000" />
       <workItem from="1522306119004" duration="16477000" />
-      <workItem from="1522397699009" duration="26444000" />
+      <workItem from="1522397699009" duration="26987000" />
+      <workItem from="1522650062608" duration="12704000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216768000" />
+    <option name="totallyTimeSpent" value="230015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1035" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20607029" sideWeight="0.49562362" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20820022" sideWeight="0.49562362" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21115974" sideWeight="0.5021299" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21115974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21115974" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25239617" sideWeight="0.50437635" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -833,6 +1247,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -849,48 +1264,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/discountfollower/views/css/front.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="252" column="1" lean-forward="false" selection-start-line="252" selection-start-column="1" selection-end-line="252" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/iconsforfeatures/views/templates/hook/product-details.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="22" column="52" lean-forward="true" selection-start-line="22" selection-start-column="52" selection-end-line="22" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/grouperpro/controllers/admin/AdminGrouperController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1022">
-          <caret line="750" column="23" lean-forward="false" selection-start-line="750" selection-start-column="23" selection-end-line="750" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/discountfollower/controllers/admin/AdminDiscountFollowerController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/discountfollower/controllers/front/ajax.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="162" column="21" lean-forward="false" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/grouperpro/grouperpro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/iconsforfeatures/config.xml" />
     <entry file="file://$PROJECT_DIR$/modules/iconsforfeatures/views/templates/admin/helpers/form/form.tpl">
       <provider selected="true" editor-type-id="text-editor">
@@ -903,7 +1276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10868">
           <caret line="441" column="27" lean-forward="false" selection-start-line="441" selection-start-column="27" selection-end-line="441" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -911,7 +1283,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="910">
           <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -919,9 +1290,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9412">
           <caret line="370" column="53" lean-forward="false" selection-start-line="370" selection-start-column="53" selection-end-line="370" selection-end-column="53" />
-          <folding>
-            <element signature="e#6#198#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -929,7 +1297,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
           <caret line="418" column="37" lean-forward="true" selection-start-line="418" selection-start-column="37" selection-end-line="418" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1013,7 +1380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
           <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,7 +1387,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +1395,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -1047,10 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="599">
           <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <marker date="1522309146275" expanded="true" signature="1740:2040" ph="CREATE TABLE... IF" />
-            <marker date="1522309146275" expanded="true" signature="2143:2199" ph="DROP TABLE I... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1058,7 +1418,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="74" column="35" lean-forward="false" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1066,7 +1425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,10 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-          <folding>
-            <marker date="1522317199573" expanded="true" signature="1187:1249" ph="DROP TABLE I... " />
-            <marker date="1522317199573" expanded="true" signature="1263:1320" ph="DROP TABLE I... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1109,9 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1092">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1522397475677" expanded="true" signature="891:967" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1119,15 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1135,7 +1477,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="39" column="26" lean-forward="true" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1143,7 +1484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,7 +1491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="17" column="33" lean-forward="false" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,13 +1498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="120" column="51" lean-forward="true" selection-start-line="120" selection-start-column="51" selection-end-line="120" selection-end-column="51" />
-          <folding>
-            <marker date="1522317199615" expanded="true" signature="909:1145" ph="SELECT `prod... ${_DB_PREFIX_}addtofavoritesmywishlist" />
-            <marker date="1522317199615" expanded="true" signature="3130:3265" ph="SELECT `prod... ${_DB_PREFIX_}addtofavoritesmywishlist" />
-            <marker date="1522317199615" expanded="true" signature="3713:3832" ph="SELECT COUNT... ${_DB_PREFIX_}addtofavoritesmywishlist" />
-            <marker date="1522317199615" expanded="true" signature="4680:4916" ph="SELECT `prod... ${_DB_PREFIX_}addtofavoritesmywishlist" />
-            <marker date="1522317199615" expanded="true" signature="7852:8023" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,11 +1505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding>
-            <marker date="1522317199615" expanded="true" signature="1276:1467" ph="SELECT `id_f... ${_DB_PREFIX_}favorites_statistic" />
-            <marker date="1522317199615" expanded="true" signature="2735:2779" ph="SELECT COUNT... ${_DB_PREFIX_}" />
-            <marker date="1522317199615" expanded="true" signature="3123:3653" ph="SELECT c.`id... ${_DB_PREFIX_}favorites_statistic" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1185,7 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,7 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-963">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1246,25 +1571,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/taxonomy_configure.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/views/templates/admin/configure.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/configure.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
+        <state relative-caret-position="780">
           <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
           <folding />
         </state>
@@ -1280,10 +1596,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="547" column="20" lean-forward="false" selection-start-line="547" selection-start-column="20" selection-end-line="547" selection-end-column="20" />
+          <folding>
+            <marker date="1519649749000" expanded="true" signature="15454:15485" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/taxonomy_configure.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/js/back.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4434">
+          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/discountfollower/discountfollower.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="900" column="39" lean-forward="false" selection-start-line="900" selection-start-column="8" selection-end-line="900" selection-end-column="39" />
+        <state relative-caret-position="213">
+          <caret line="382" column="35" lean-forward="false" selection-start-line="382" selection-start-column="25" selection-end-line="382" selection-end-column="35" />
           <folding>
             <marker date="1522238315696" expanded="true" signature="6966:7801" ph="CREATE TABLE... IF" />
             <marker date="1522238315696" expanded="true" signature="7854:8699" ph="CREATE TABLE... IF" />
@@ -1299,20 +1665,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classes/db/Db.php">
+    <entry file="file://$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/list/list_content.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="547" column="20" lean-forward="false" selection-start-line="547" selection-start-column="20" selection-end-line="547" selection-end-column="20" />
-          <folding>
-            <marker date="1519649749000" expanded="true" signature="15454:15485" ph="DELETE FROM " />
-          </folding>
+        <state relative-caret-position="338">
+          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="511" column="33" lean-forward="false" selection-start-line="511" selection-start-column="15" selection-end-line="511" selection-end-column="33" />
+        <state relative-caret-position="239">
+          <caret line="385" column="37" lean-forward="false" selection-start-line="385" selection-start-column="37" selection-end-line="385" selection-end-column="37" />
           <folding>
             <marker date="1522418858625" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
             <marker date="1522418858625" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
@@ -1329,19 +1693,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="20" column="21" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="20" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="166" column="16" lean-forward="false" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
+        <state relative-caret-position="198">
+          <caret line="188" column="41" lean-forward="true" selection-start-line="188" selection-start-column="41" selection-end-line="188" selection-end-column="41" />
           <folding>
-            <marker date="1522424166478" expanded="true" signature="5454:5526" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522424166478" expanded="true" signature="5454:5530" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522424166478" expanded="true" signature="5454:5676" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522424166478" expanded="true" signature="5454:5678" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522424166478" expanded="true" signature="5935:5988" ph="/** * Create... " />
-            <marker date="1522424166478" expanded="true" signature="8625:8717" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1522424166478" expanded="true" signature="10023:10152" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522424166478" expanded="true" signature="11198:11280" ph="/** * Add th... " />
+            <marker date="1522662474691" expanded="true" signature="5768:5844" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522662474691" expanded="true" signature="5768:6175" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522662474691" expanded="true" signature="6864:6947" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1522662474691" expanded="true" signature="7087:7309" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522662474691" expanded="true" signature="10864:10956" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
+            <marker date="1522662474691" expanded="true" signature="12262:12391" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
           </folding>
         </state>
       </provider>

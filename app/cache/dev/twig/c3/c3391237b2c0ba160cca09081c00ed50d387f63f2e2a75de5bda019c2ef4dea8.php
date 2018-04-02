@@ -15,8 +15,8 @@ class __TwigTemplate_c3737071788dc19dca4d66c64544301bda1d73d2982472d9e279543f129
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_1fd2ea4328d8765b8957d6ea32cefab00f8f5b2829ca759d6006b23e46ace287 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1fd2ea4328d8765b8957d6ea32cefab00f8f5b2829ca759d6006b23e46ace287->enter($__internal_1fd2ea4328d8765b8957d6ea32cefab00f8f5b2829ca759d6006b23e46ace287_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:grid_loader.html.twig"));
+        $__internal_8f29797a93c9a8f70dcc5c54272e796f24646987b249efcc9e93f88f6e13dcaa = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8f29797a93c9a8f70dcc5c54272e796f24646987b249efcc9e93f88f6e13dcaa->enter($__internal_8f29797a93c9a8f70dcc5c54272e796f24646987b249efcc9e93f88f6e13dcaa_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:grid_loader.html.twig"));
 
         // line 26
         echo "<div class=\"module-placeholders-wrapper row\">
@@ -68,7 +68,7 @@ class __TwigTemplate_c3737071788dc19dca4d66c64544301bda1d73d2982472d9e279543f129
 </div>
 ";
         
-        $__internal_1fd2ea4328d8765b8957d6ea32cefab00f8f5b2829ca759d6006b23e46ace287->leave($__internal_1fd2ea4328d8765b8957d6ea32cefab00f8f5b2829ca759d6006b23e46ace287_prof);
+        $__internal_8f29797a93c9a8f70dcc5c54272e796f24646987b249efcc9e93f88f6e13dcaa->leave($__internal_8f29797a93c9a8f70dcc5c54272e796f24646987b249efcc9e93f88f6e13dcaa_prof);
 
     }
 
