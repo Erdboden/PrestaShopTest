@@ -10,10 +10,13 @@
 
 {extends file="helpers/list/list_content.tpl"}
 {block name="td_content"}
-    {foreach from=$tr item=itm}
-        {dump($itm.id_seoptimize)}
-        <b>{$itm.iso|escape:'html':'UTF-8'}</b>
-        : {$itm.item|escape:'html':'UTF-8'}
-        <br/>
-    {/foreach}
+    {if isset($params.type) && $params.type =='categories_list'}
+        {foreach $tr[0] as $item}
+            {$commaSeparated[] = $item.name}
+        {/foreach}
+        {implode(", ",$commaSeparated)}
+        {$commaSeparated = null}
+    {else}
+        {$smarty.block.parent}
+    {/if}
 {/block}

@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-02 12:34:37
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-04 17:55:21
          compiled from "/var/www/html/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1417454215ac1f92d7fd846-02187404%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:6733847045ac4e759a20499-73983977%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'cda242c37a71a339375a6cd436cd84f88dd6f3eb' => 
     array (
       0 => '/var/www/html/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl',
-      1 => 1522658531,
+      1 => 1522661811,
       2 => 'file',
     ),
     'c85c7eba8fbf15f907e18109f55121f007c5833b' => 
@@ -17,7 +17,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1417454215ac1f92d7fd846-02187404',
+  'nocache_hash' => '6733847045ac4e759a20499-73983977',
   'function' => 
   array (
   ),
@@ -55,9 +55,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ac1f92dce1d02_36470048',
+  'unifunc' => 'content_5ac4e759f1ce30_42109119',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ac1f92dce1d02_36470048')) {function content_5ac1f92dce1d02_36470048($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/www/html/vendor/prestashop/smarty/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_5ac4e759f1ce30_42109119')) {function content_5ac4e759f1ce30_42109119($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/www/html/vendor/prestashop/smarty/plugins/function.counter.php';
 ?>
 <?php $_smarty_tpl->_capture_stack[0][] = array('tr_count', null, null); ob_start(); ?><?php echo smarty_function_counter(array('name'=>'tr_count'),$_smarty_tpl);?>
 <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
@@ -151,6 +151,7 @@ $_smarty_tpl->tpl_vars['params']->_loop = true;
     <?php }?>
 
 			
+
     <?php if (isset($_smarty_tpl->tpl_vars['params']->value['type'])&&$_smarty_tpl->tpl_vars['params']->value['type']=='taxonomy_text') {?>
 
         <?php if (is_array($_smarty_tpl->tpl_vars['tr']->value[$_smarty_tpl->tpl_vars['key']->value])) {?>

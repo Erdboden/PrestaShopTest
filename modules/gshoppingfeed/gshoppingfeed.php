@@ -1931,6 +1931,8 @@ class Gshoppingfeed extends Module
             $sql = 'SELECT `category_filter` FROM `' . _DB_PREFIX_ . 'gshoppingfeed` WHERE `id_gshoppingfeed` = ' . (int)Tools::getValue('id_gshoppingfeed');
             $gshoppingfeed = Db::getInstance(_PS_USE_SQL_SLAVE_)->getRow($sql);
             if ($gshoppingfeed['category_filter'] && !empty($gshoppingfeed['category_filter'])) {
+                dump( Tools::jsonDecode($gshoppingfeed['category_filter']));
+                exit();
                 return Tools::jsonDecode($gshoppingfeed['category_filter']);
             }
             return array();
