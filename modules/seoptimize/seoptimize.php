@@ -115,7 +115,7 @@ class Seoptimize extends Module
         $this->context->smarty->assign('module_dir', $this->_path);
         $output_messages = $this->context->smarty->fetch($this->local_path . 'views/templates/admin/configure.tpl');
 
-        return $output_messages . $this->renderForm() . $this->renderRulesList();
+        return $output_messages . $this->renderForm() . $this->renderRulesList() . $this->renderProductsList();
     }
 
     /**
@@ -146,6 +146,44 @@ class Seoptimize extends Module
         );
 
         return $helper->generateForm(array($this->getConfigForm()));
+    }
+
+    protected function renderProductsList(){
+        $this->fields_list                  = array();
+        $this->fields_list['id_product'] = array(
+            'title'   => $this->l('Product'),
+            'type'    => 'text',
+            'search'  => false,
+            'orderby' => false,
+        );
+        $this->fields_list['rules_meta']    = array(
+            'title'   => $this->l('Meta by rules'),
+            'type'    => 'rules_meta',
+            'search'  => false,
+            'orderby' => false,
+        );
+        $this->fields_list['custom_meta']    = array(
+            'title'   => $this->l('Custom meta'),
+            'type'    => 'custom_meta',
+            'search'  => false,
+            'orderby' => false,
+        );
+
+        $helper                = new HelperList();
+        $helper->module        = $this;
+        $helper->simple_header = false;
+        $helper->title         = $this->l('Products');
+        $helper->identifier    = 'id_product';
+        $helper->actions       = array('edit');
+        $helper->show_toolbar  = true;
+        $helper->shopLinkType  = '';
+        $helper->token         = Tools::getAdminTokenLite('AdminModules');
+        $helper->table         = 'seoptimize_products';
+        $helper->table_id      = 'module-seoptimize';
+        $helper->currentIndex  = $this->context->link->getAdminLink('AdminModules', false)
+            . '&configure=' . $this->name . '&module_name=' . $this->name;
+
+        return $helper->generateList($this->getRulesList(), $this->fields_list);
     }
 
     protected function renderRulesList()
