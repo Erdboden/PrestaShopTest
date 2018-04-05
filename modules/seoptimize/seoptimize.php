@@ -92,13 +92,16 @@ class Seoptimize extends Module
         if (((bool)Tools::isSubmit('submitSeoptimizeModule')) == true) {
             $this->postProcess();
         }
-//        if (((bool)Tools::isSubmit('updateseoptimize_category_seo_rule')) == true) {
-//         $this->editRule();
-//
-//            dump('asd');
-//            exit();
-//        }
-
+        if (((bool)Tools::isSubmit('editSeoptimizeModule')) == true) {
+            $this->editPostProcess();
+        }
+        if ((bool)Tools::isSubmit('deleteseoptimize_category_seo_rule') == true && Validate::isInt(Tools::getValue('id_seoptimize'))) {
+            if (Db::getInstance()->delete('seoptimize', 'id_seoptimize= ' . (int)Tools::getValue('id_seoptimize'))) {
+                Tools::redirectAdmin(
+                    AdminController::$currentIndex . '&configure=' . urlencode($this->name) . '&token=' . Tools::getAdminTokenLite('AdminModules') . '&conf=5'
+                );
+            }
+        }
         $this->context->smarty->assign('module_dir', $this->_path);
 
         return $this->renderForm() . $this->renderRulesList();
@@ -117,8 +120,9 @@ class Seoptimize extends Module
         $helper->default_form_language    = $this->context->language->id;
         $helper->allow_employee_form_lang = Configuration::get('PS_BO_ALLOW_EMPLOYEE_FORM_LANG', 0);
 
-        $helper->identifier    = $this->identifier;
-        $helper->submit_action = 'submitSeoptimizeModule';
+        $helper->identifier    = 'id_seoptimize';
+        $helper->submit_action = ((bool)Tools::isSubmit('updateseoptimize_category_seo_rule')) == true ?
+            'editSeoptimizeModule' : 'submitSeoptimizeModule';
         $helper->currentIndex  = $this->context->link->getAdminLink('AdminModules', false)
             . '&configure=' . $this->name . '&tab_module=' . $this->tab . '&module_name=' . $this->name;
         $helper->token         = Tools::getAdminTokenLite('AdminModules');
@@ -154,7 +158,7 @@ class Seoptimize extends Module
         $helper->simple_header = false;
         $helper->title         = $this->l('Rules');
         $helper->identifier    = 'id_seoptimize';
-        $helper->actions       = array('edit');
+        $helper->actions       = array('edit', 'delete');
         $helper->show_toolbar  = true;
         $helper->shopLinkType  = '';
         $helper->token         = Tools::getAdminTokenLite('AdminModules');
@@ -207,47 +211,6 @@ class Seoptimize extends Module
                         FROM `' . _DB_PREFIX_ . 'category_seo_rule` AS `s`');
 
         return $ret;
-    }
-
-    public function getRules()
-    {
-//        $ret = array();
-        $ret = Db::getInstance()->executeS('SELECT *
-                        FROM `' . _DB_PREFIX_ . 'seoptimize` AS `s`
-                        JOIN `' . _DB_PREFIX_ . 'category_seo_rule` AS `csr`
-                        ON `s`.`id_seoptimize`=`csr`.`id_seoptimize`');
-        $arr = array();
-        foreach ($ret as $item) {
-            $arr[$item['id_seoptimize']] = array(
-                $item['id_category']
-            );
-        }
-
-        return $ret;
-        //get all rules
-
-    }
-
-    public function getRulesForm()
-    {
-        return array(
-            'form' => array(
-                'legend' => array(
-                    'title' => $this->l('General'),
-                    'icon'  => 'icon-cogs',
-                ),
-                'input'  => array(
-                    array(
-                        'type'  => 'text',
-                        'tab'   => 'set',
-                        'class' => 'input',
-                        'label' => 'rule1',
-                        'name'  => 'rule1',
-                        'lang'  => true
-                    )
-                )
-            )
-        );
     }
 
     /**
@@ -305,12 +268,26 @@ class Seoptimize extends Module
                         ),
                         'desc'  => $this->l('Select categories')
                     ),
+                    array(
+                        'type' => 'hidden',
+                        'name' => 'id_seoptimize',
+                    ),
                 ),
                 'submit' => array(
-                    'title' => $this->l('Save'),
+                    'title' => ((bool)Tools::isSubmit('updateseoptimize_category_seo_rule')) == true ? $this->l('Edit') : $this->l('Save'),
                 ),
             ),
         );
+        if ((bool)Tools::isSubmit('updateseoptimize') === true && Tools::getValue('id_seoptimize') > 0) {
+            $form['form']['buttons'] = array(
+                array(
+                    'href'  => AdminController::$currentIndex . '&configure=' . $this->name . '&token=' . Tools::getAdminTokenLite('AdminModules'),
+                    'title' => $this->l('Back to list'),
+                    'icon'  => 'process-icon-back'
+                )
+            );
+        }
+        return $form;
     }
 
     protected function getCategoryFilterSelected()
@@ -347,7 +324,7 @@ class Seoptimize extends Module
                     Configuration::get($field, $lang['id_lang']));
             }
         }
-
+        $fields['id_seoptimize'] = null;
         return $fields;
     }
 
@@ -367,7 +344,7 @@ class Seoptimize extends Module
                 $fields[$field][$lang['id_lang']] = $result[$key][$field];
             }
         }
-
+        $fields['id_seoptimize'] = Tools::getValue('id_seoptimize');
         return $fields;
     }
 
@@ -398,6 +375,36 @@ class Seoptimize extends Module
                 Db::getInstance()->insert('seo_rule_lang',
                     array(
                         'id_seoptimize'    => $rule['id_seoptimize'],
+                        'id_lang'          => $lang['id_lang'],
+                        'meta_title'       => $values['meta_title'][$lang['id_lang']],
+                        'meta_description' => $values['meta_description'][$lang['id_lang']],
+                        'meta_keywords'    => $values['meta_keywords'][$lang['id_lang']]
+                    ), false, true);
+            }
+        }
+    }
+
+    protected function editPostProcess()
+    {
+        $categories = Tools::getValue('selected_categories');
+        if ($categories != null) {
+            $ruleId = Tools::getValue('id_seoptimize');
+
+            Db::getInstance()->delete('category_seo_rule', 'id_seoptimize=' . $ruleId);
+            foreach ($categories as $category) {
+                Db::getInstance()->insert('category_seo_rule',
+                    array('id_category' => $category, 'id_seoptimize' => $ruleId), false, true);
+            }
+            $languages = Language::getLanguages(false);
+            $values    = array();
+            Db::getInstance()->delete('seo_rule_lang', 'id_seoptimize=' . $ruleId);
+            foreach ($languages as $lang) {
+                foreach (Seoptimize::$lang_fields as $field) {
+                    $values[$field][(int)$lang['id_lang']] = Tools::getValue($field . '_' . (int)$lang['id_lang']);
+                }
+                Db::getInstance()->insert('seo_rule_lang',
+                    array(
+                        'id_seoptimize'    => $ruleId,
                         'id_lang'          => $lang['id_lang'],
                         'meta_title'       => $values['meta_title'][$lang['id_lang']],
                         'meta_description' => $values['meta_description'][$lang['id_lang']],

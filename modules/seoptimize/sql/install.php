@@ -35,7 +35,8 @@ $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'category_seo_rule` (
     `id_seoptimize_category` int(11) NOT NULL AUTO_INCREMENT,
     `id_category` int(11) unsigned DEFAULT NULL,
     `id_seoptimize` int(11) unsigned DEFAULT NULL,
-    PRIMARY KEY (`id_seoptimize_category`)
+    PRIMARY KEY (`id_seoptimize_category`),
+    FOREIGN KEY (`id_seoptimize`) REFERENCES `'._DB_PREFIX_.'seoptimize`(`id_seoptimize`) ON DELETE CASCADE,
 ) ENGINE='._MYSQL_ENGINE_.' DEFAULT CHARSET=utf8;';
 
 $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seo_rule_lang` (
@@ -45,7 +46,8 @@ $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seo_rule_lang` (
     `meta_title` TEXT DEFAULT NULL,
     `meta_description` TEXT DEFAULT NULL,
     `meta_keywords` TEXT DEFAULT NULL,
-    PRIMARY KEY (`id_seoptimize_lang`)
+    PRIMARY KEY (`id_seoptimize_lang`),
+    FOREIGN KEY (`id_seoptimize`) REFERENCES `'._DB_PREFIX_.'seoptimize`(`id_seoptimize`) ON DELETE CASCADE,
 ) ENGINE='._MYSQL_ENGINE_.' DEFAULT CHARSET=utf8;';
 
 foreach ($sql as $query) {

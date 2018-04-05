@@ -90,12 +90,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/fb/8e/76/fb8e7611ec57530b0a0330b05c8a466a9f75d325.file.content.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/fb/8e/76/fb8e7611ec57530b0a0330b05c8a466a9f75d325.file.content.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/layouts_layout_full_width_tpl/4a/67/88/4a67886a6caaaacadc8478bb70a6ac656f90750c.file.404.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/layouts_layout_full_width_tpl/4a/67/88/4a67886a6caaaacadc8478bb70a6ac656f90750c.file.404.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/blog-en.xml" afterPath="$PROJECT_DIR$/config/xml/blog-en.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" afterPath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php" afterPath="$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" afterPath="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl" afterPath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/sql/install.php" afterPath="$PROJECT_DIR$/modules/seoptimize/sql/install.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -119,248 +119,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="seoptimize.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="seoptimize.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="327" column="42" lean-forward="false" selection-start-line="327" selection-start-column="42" selection-end-line="327" selection-end-column="42" />
+              <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
               <folding>
-                <marker date="1522853594121" expanded="true" signature="5944:6020" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522853594121" expanded="true" signature="5944:6351" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522853594121" expanded="true" signature="7247:7330" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
-                <marker date="1522853594121" expanded="true" signature="7470:7692" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522853594121" expanded="true" signature="11351:11440" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
-                <marker date="1522853594121" expanded="true" signature="12569:12838" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522853594121" expanded="true" signature="12569:12859" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522853594121" expanded="true" signature="12569:12860" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522853594121" expanded="true" signature="12569:12861" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522853594121" expanded="true" signature="13598:13727" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522919165018" expanded="true" signature="6492:6568" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522919165018" expanded="true" signature="6492:6899" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522919165018" expanded="true" signature="7795:7878" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1522919165018" expanded="true" signature="11441:11530" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
+                <marker date="1522919165018" expanded="true" signature="12699:12968" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522919165018" expanded="true" signature="12699:12989" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522919165018" expanded="true" signature="12699:12990" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522919165018" expanded="true" signature="13796:13925" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="discountfollower.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/discountfollower/discountfollower.php">
+      <file leaf-file-name="install.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/seoptimize/sql/install.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="323" column="74" lean-forward="false" selection-start-line="322" selection-start-column="32" selection-end-line="323" selection-end-column="74" />
+            <state relative-caret-position="520">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
-                <element signature="e#200#243#0#PHP" expanded="false" />
-                <element signature="e#742#1058#0#PHP" expanded="false" />
-                <element signature="n#__construct#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#1851#1940#0#PHP" expanded="false" />
-                <element signature="n#install#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="n#installMail#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#5359#5578#0#PHP" expanded="false" />
-                <element signature="e#5589#5691#0#PHP" expanded="false" />
-                <element signature="n#copyMailLangs#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#5840#6723#0#PHP" expanded="false" />
-                <element signature="e#5888#5964#0#PHP" expanded="false" />
-                <element signature="e#5978#6180#0#PHP" expanded="false" />
-                <element signature="e#6194#6713#0#PHP" expanded="false" />
-                <element signature="e#6422#6627#0#PHP" expanded="false" />
-                <element signature="e#6417#6699#0#PHP" expanded="false" />
-                <element signature="n#uninstall#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="n#installDB#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#6938#7804#0#PHP" expanded="false" />
-                <element signature="e#7826#8702#0#PHP" expanded="false" />
-                <element signature="e#8724#9125#0#PHP" expanded="false" />
-                <element signature="e#9147#9905#0#PHP" expanded="false" />
-                <element signature="e#9927#10586#0#PHP" expanded="false" />
-                <element signature="n#uninstallDB#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#10707#11264#0#PHP" expanded="false" />
-                <element signature="n#getTabs#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#14226#14562#0#PHP" expanded="false" />
-                <element signature="e#14245#14552#1#PHP" expanded="false" />
-                <element signature="e#14618#14725#0#PHP" expanded="false" />
-                <element signature="e#14735#14852#0#PHP" expanded="false" />
-                <element signature="e#14862#14973#0#PHP" expanded="false" />
-                <element signature="e#14983#15077#0#PHP" expanded="false" />
-                <element signature="e#16735#16930#0#PHP" expanded="false" />
-                <element signature="n#getConfigFieldsValues#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#17130#17398#0#PHP" expanded="false" />
-                <element signature="e#17174#17388#0#PHP" expanded="false" />
-                <element signature="e#17560#17699#1#PHP" expanded="false" />
-                <element signature="e#17755#18612#1#PHP" expanded="false" />
-                <element signature="e#18029#18528#1#PHP" expanded="false" />
-                <element signature="e#18064#18266#1#PHP" expanded="false" />
-                <element signature="e#18296#18501#1#PHP" expanded="false" />
-                <element signature="e#18634#18742#1#PHP" expanded="false" />
-                <element signature="e#18764#19556#1#PHP" expanded="false" />
-                <element signature="e#19034#19533#1#PHP" expanded="false" />
-                <element signature="e#19069#19271#1#PHP" expanded="false" />
-                <element signature="e#19301#19506#1#PHP" expanded="false" />
-                <element signature="e#19578#20120#1#PHP" expanded="false" />
-                <element signature="e#19804#19993#1#PHP" expanded="false" />
-                <element signature="e#20142#20690#1#PHP" expanded="false" />
-                <element signature="e#20370#20563#1#PHP" expanded="false" />
-                <element signature="e#20712#21071#1#PHP" expanded="false" />
-                <element signature="e#21141#21696#1#PHP" expanded="false" />
-                <element signature="e#21369#21569#1#PHP" expanded="false" />
-                <element signature="e#21718#21992#1#PHP" expanded="false" />
-                <element signature="e#22014#22726#1#PHP" expanded="false" />
-                <element signature="e#22266#22704#1#PHP" expanded="false" />
-                <element signature="e#22312#22579#1#PHP" expanded="false" />
-                <element signature="e#22796#22904#1#PHP" expanded="false" />
-                <element signature="e#22926#23755#1#PHP" expanded="false" />
-                <element signature="e#23233#23732#1#PHP" expanded="false" />
-                <element signature="e#23268#23470#1#PHP" expanded="false" />
-                <element signature="e#23500#23705#1#PHP" expanded="false" />
-                <element signature="e#23777#24322#1#PHP" expanded="false" />
-                <element signature="e#24006#24195#1#PHP" expanded="false" />
-                <element signature="e#24344#24895#1#PHP" expanded="false" />
-                <element signature="e#24575#24768#1#PHP" expanded="false" />
-                <element signature="e#24917#25198#1#PHP" expanded="false" />
-                <element signature="e#25220#25583#1#PHP" expanded="false" />
-                <element signature="e#25605#25977#1#PHP" expanded="false" />
-                <element signature="e#26047#26612#1#PHP" expanded="false" />
-                <element signature="e#26285#26485#1#PHP" expanded="false" />
-                <element signature="e#26634#26918#1#PHP" expanded="false" />
-                <element signature="e#26940#27662#1#PHP" expanded="false" />
-                <element signature="e#27202#27640#1#PHP" expanded="false" />
-                <element signature="e#27248#27515#1#PHP" expanded="false" />
-                <element signature="e#27732#27840#1#PHP" expanded="false" />
-                <element signature="e#27862#28670#1#PHP" expanded="false" />
-                <element signature="e#28148#28647#1#PHP" expanded="false" />
-                <element signature="e#28183#28385#1#PHP" expanded="false" />
-                <element signature="e#28415#28620#1#PHP" expanded="false" />
-                <element signature="e#28692#29129#1#PHP" expanded="false" />
-                <element signature="e#28918#29107#1#PHP" expanded="false" />
-                <element signature="e#29151#29594#1#PHP" expanded="false" />
-                <element signature="e#29379#29572#1#PHP" expanded="false" />
-                <element signature="e#29616#29979#1#PHP" expanded="false" />
-                <element signature="e#30049#30604#1#PHP" expanded="false" />
-                <element signature="e#30277#30477#1#PHP" expanded="false" />
-                <element signature="e#30626#30900#1#PHP" expanded="false" />
-                <element signature="e#30922#31634#1#PHP" expanded="false" />
-                <element signature="e#31174#31612#1#PHP" expanded="false" />
-                <element signature="e#31220#31487#1#PHP" expanded="false" />
-                <element signature="e#31704#31812#1#PHP" expanded="false" />
-                <element signature="e#31834#32647#1#PHP" expanded="false" />
-                <element signature="e#32125#32624#1#PHP" expanded="false" />
-                <element signature="e#32160#32362#1#PHP" expanded="false" />
-                <element signature="e#32392#32597#1#PHP" expanded="false" />
-                <element signature="e#32669#33108#1#PHP" expanded="false" />
-                <element signature="e#32897#33086#1#PHP" expanded="false" />
-                <element signature="e#33130#33575#1#PHP" expanded="false" />
-                <element signature="e#33360#33553#1#PHP" expanded="false" />
-                <element signature="e#33597#33981#1#PHP" expanded="false" />
-                <element signature="e#34051#34608#1#PHP" expanded="false" />
-                <element signature="e#34281#34481#1#PHP" expanded="false" />
-                <element signature="e#34630#34906#1#PHP" expanded="false" />
-                <element signature="e#34928#35642#1#PHP" expanded="false" />
-                <element signature="e#35182#35620#1#PHP" expanded="false" />
-                <element signature="e#35228#35495#1#PHP" expanded="false" />
-                <element signature="e#35238#35455#1#PHP" expanded="false" />
-                <element signature="e#35712#35820#1#PHP" expanded="false" />
-                <element signature="e#35842#36625#1#PHP" expanded="false" />
-                <element signature="e#36103#36602#1#PHP" expanded="false" />
-                <element signature="e#36138#36340#1#PHP" expanded="false" />
-                <element signature="e#36370#36575#1#PHP" expanded="false" />
-                <element signature="e#36647#36901#1#PHP" expanded="false" />
-                <element signature="e#36950#37023#1#PHP" expanded="false" />
-                <element signature="n#getOptionsDay#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#37153#37787#0#PHP" expanded="false" />
-                <element signature="e#37172#37281#1#PHP" expanded="false" />
-                <element signature="e#37295#37404#1#PHP" expanded="false" />
-                <element signature="e#37418#37527#1#PHP" expanded="false" />
-                <element signature="e#37541#37652#1#PHP" expanded="false" />
-                <element signature="e#37666#37777#1#PHP" expanded="false" />
-                <element signature="e#37798#37947#0#PHP" expanded="false" />
-                <element signature="e#37832#37936#0#PHP" expanded="false" />
-                <element signature="n#getOptionRelatedProducts#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#38045#38494#0#PHP" expanded="false" />
-                <element signature="e#38064#38154#1#PHP" expanded="false" />
-                <element signature="e#38168#38262#1#PHP" expanded="false" />
-                <element signature="e#38276#38371#1#PHP" expanded="false" />
-                <element signature="e#38385#38484#1#PHP" expanded="false" />
-                <element signature="n#getMailConfigFormValues#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#38573#42202#0#PHP" expanded="false" />
-                <element signature="n#postMailConfigureProcess#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#42350#43039#0#PHP" expanded="false" />
-                <element signature="e#43049#44125#0#PHP" expanded="false" />
-                <element signature="e#43153#44115#0#PHP" expanded="false" />
-                <element signature="e#43214#43519#0#PHP" expanded="false" />
-                <element signature="e#43382#43519#0#PHP" expanded="false" />
-                <element signature="e#43534#44115#0#PHP" expanded="false" />
-                <element signature="e#43557#44101#0#PHP" expanded="false" />
-                <element signature="e#43634#43993#0#PHP" expanded="false" />
-                <element signature="e#43896#43993#0#PHP" expanded="false" />
-                <element signature="e#44012#44101#0#PHP" expanded="false" />
-                <element signature="e#44214#44446#0#PHP" expanded="false" />
-                <element signature="e#44258#44436#0#PHP" expanded="false" />
-                <element signature="e#44456#44589#0#PHP" expanded="false" />
-                <element signature="n#postConfigureProcess#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#44867#45464#0#PHP" expanded="false" />
-                <element signature="e#44924#45454#0#PHP" expanded="false" />
-                <element signature="e#44979#45346#0#PHP" expanded="false" />
-                <element signature="e#45245#45346#0#PHP" expanded="false" />
-                <element signature="e#45361#45454#0#PHP" expanded="false" />
-                <element signature="n#renderForm#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#45698#48378#0#PHP" expanded="false" />
-                <element signature="e#45760#45884#1#PHP" expanded="false" />
-                <element signature="e#45909#47875#1#PHP" expanded="false" />
-                <element signature="e#45932#46765#1#PHP" expanded="false" />
-                <element signature="e#46151#46606#1#PHP" expanded="false" />
-                <element signature="e#46182#46368#1#PHP" expanded="false" />
-                <element signature="e#46394#46583#1#PHP" expanded="false" />
-                <element signature="e#46636#46747#1#PHP" expanded="false" />
-                <element signature="e#46783#47523#1#PHP" expanded="false" />
-                <element signature="e#47049#47504#1#PHP" expanded="false" />
-                <element signature="e#47080#47266#1#PHP" expanded="false" />
-                <element signature="e#47292#47481#1#PHP" expanded="false" />
-                <element signature="e#47541#47860#1#PHP" expanded="false" />
-                <element signature="e#47901#47996#1#PHP" expanded="false" />
-                <element signature="e#48023#48368#1#PHP" expanded="false" />
-                <element signature="e#48046#48354#1#PHP" expanded="false" />
-                <element signature="e#48628#48958#0#PHP" expanded="false" />
-                <element signature="e#48714#48947#0#PHP" expanded="false" />
-                <element signature="n#getConfigFormValues#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#49530#49848#0#PHP" expanded="false" />
-                <element signature="n#getGlobalConfiguration#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="n#processSaveDefaultSettings#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#50144#50741#0#PHP" expanded="false" />
-                <element signature="e#50201#50731#0#PHP" expanded="false" />
-                <element signature="e#50256#50623#0#PHP" expanded="false" />
-                <element signature="e#50522#50623#0#PHP" expanded="false" />
-                <element signature="e#50638#50731#0#PHP" expanded="false" />
-                <element signature="n#getFormValues#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#50947#51131#0#PHP" expanded="false" />
-                <element signature="n#renderWidget#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#51313#51428#0#PHP" expanded="false" />
-                <element signature="e#51505#51715#0#PHP" expanded="false" />
-                <element signature="e#51631#51715#0#PHP" expanded="false" />
-                <element signature="n#hookDisplayHeader#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#52473#53521#0#PHP" expanded="false" />
-                <element signature="e#52704#53511#0#PHP" expanded="false" />
-                <element signature="e#52853#53497#0#PHP" expanded="false" />
-                <element signature="e#53134#53497#0#PHP" expanded="false" />
-                <element signature="n#hookDisplayBackOfficeHeader#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="n#getWidgetVariables#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#53805#54533#0#PHP" expanded="false" />
-                <element signature="e#54049#54533#0#PHP" expanded="false" />
-                <element signature="e#54360#54522#0#PHP" expanded="false" />
-                <element signature="e#54568#54699#0#PHP" expanded="false" />
-                <element signature="n#confirmEmail#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#54784#54921#0#PHP" expanded="false" />
-                <element signature="e#54931#55086#0#PHP" expanded="false" />
-                <element signature="n#hookActionCustomerAccountAdd#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#55531#55673#0#PHP" expanded="false" />
-                <element signature="n#hookAuthentication#0;n#DiscountFollower#0;n#!!top" expanded="false" />
-                <element signature="e#55951#56427#0#PHP" expanded="false" />
-                <element signature="e#56096#56246#0#PHP" expanded="false" />
-                <marker date="1522238315696" expanded="false" signature="6966:7801" ph="CREATE TABLE... IF" />
-                <marker date="1522238315696" expanded="false" signature="7854:8699" ph="CREATE TABLE... IF" />
-                <marker date="1522238315696" expanded="false" signature="8752:9122" ph="CREATE TABLE... IF" />
-                <marker date="1522238315696" expanded="false" signature="9175:9902" ph="CREATE TABLE... IF" />
-                <marker date="1522238315696" expanded="false" signature="9955:10583" ph="CREATE TABLE... IF" />
-                <marker date="1522238315696" expanded="false" signature="10774:10827" ph="DROP TABLE I... " />
-                <marker date="1522238315696" expanded="false" signature="10877:10929" ph="DROP TABLE I... " />
-                <marker date="1522238315696" expanded="false" signature="10979:11033" ph="DROP TABLE I... " />
-                <marker date="1522238315696" expanded="false" signature="11083:11143" ph="DROP TABLE I... " />
-                <marker date="1522238315696" expanded="false" signature="11193:11251" ph="DROP TABLE I... " />
+                <marker date="1522919354485" expanded="true" signature="1005:1197" ph="CREATE TABLE... IF" />
+                <marker date="1522919354485" expanded="true" signature="1212:1639" ph="CREATE TABLE... IF" />
+                <marker date="1522919354485" expanded="true" signature="1654:2182" ph="CREATE TABLE... IF" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/sql/install.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="910">
+              <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+              <folding>
+                <marker date="1522397475677" expanded="true" signature="226:1818" ph="CREATE TABLE... IF" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/sql/install.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="98" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -378,7 +187,7 @@
       <file leaf-file-name="list_content.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
+            <state relative-caret-position="1404">
               <caret line="54" column="35" lean-forward="false" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
               <folding />
             </state>
@@ -388,21 +197,51 @@
       <file leaf-file-name="gshoppingfeed.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="1933" column="75" lean-forward="false" selection-start-line="1933" selection-start-column="75" selection-end-line="1933" selection-end-column="75" />
+            <state relative-caret-position="213">
+              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="159" selection-end-column="13" />
               <folding>
-                <marker date="1522853455587" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
-                <marker date="1522853455587" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
-                <marker date="1522853455587" expanded="true" signature="23640:23738" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-                <marker date="1522853455587" expanded="true" signature="23920:24060" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-                <marker date="1522853455587" expanded="true" signature="24222:24277" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-                <marker date="1522853455587" expanded="true" signature="62667:63530" ph="SELECT c.id_... ${_DB_PREFIX_}" />
-                <marker date="1522853455587" expanded="true" signature="70451:70543" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
-                <marker date="1522853455587" expanded="true" signature="96697:96789" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
-                <marker date="1522853455587" expanded="true" signature="98673:98749" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
-                <marker date="1522853455587" expanded="true" signature="108130:108349" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
-                <marker date="1522853455587" expanded="true" signature="113739:113937" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
+                <marker date="1522916773289" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
+                <marker date="1522916773289" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
+                <marker date="1522916773289" expanded="true" signature="23640:23738" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+                <marker date="1522916773289" expanded="true" signature="23920:24060" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+                <marker date="1522916773289" expanded="true" signature="24222:24277" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+                <marker date="1522916773289" expanded="true" signature="62667:63530" ph="SELECT c.id_... ${_DB_PREFIX_}" />
+                <marker date="1522916773289" expanded="true" signature="70451:70543" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
+                <marker date="1522916773289" expanded="true" signature="96697:96789" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
+                <marker date="1522916773289" expanded="true" signature="98572:98648" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
+                <marker date="1522916773289" expanded="true" signature="108029:108248" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
+                <marker date="1522916773289" expanded="true" signature="113638:113836" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="back.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/js/back.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4434">
+              <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/form/form.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item-option.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/form/item-option.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-312">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -411,25 +250,12 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getRulesList</find>
-      <find>getRules</find>
-      <find>getCategoriesByRule</find>
-      <find>fields_list</find>
-      <find>GOOGLE TAXONOMY LINK LIST</find>
-      <find>GOOGLE TAXONOMY LIST</find>
-      <find>TAXONOMY LIST SETTINGS:</find>
-      <find>change_taxonomy</find>
-      <find>GOOGLE TAXONOMY LIS</find>
-      <find>foreach</find>
-      <find>formEditTaxonomyList</find>
       <find>taxonomy_lang_list</find>
       <find>submitTaxonomyEdit</find>
       <find>submitTaxonomyLangEdit</find>
       <find>updategshoppingfeed_taxonomy_lang_list</find>
-      <find>submitSeoptimizeModule</find>
       <find>gshoppingfeed_taxonomy_lang_list</find>
       <find>seoptimize_category_seo_rule</find>
-      <find>dump</find>
       <find>$this-&gt;fields_list</find>
       <find>$helper-&gt;currentIndex</find>
       <find>+</find>
@@ -437,10 +263,23 @@
       <find>$mailingControlForm$mailingControlForm</find>
       <find>getEditConfigFormValues</find>
       <find>getCategoryFilterSelected</find>
-      <find>getConfigFormValues</find>
       <find>sql</find>
       <find>execute</find>
       <find>updategshoppingfeed</find>
+      <find>getConfigFormValues</find>
+      <find>getRules</find>
+      <find>getRulesForm</find>
+      <find>submitSeoptimizeModule</find>
+      <find>postProcess</find>
+      <find>Tools::getValue('id_seoptimize')</find>
+      <find>dump</find>
+      <find>GOOGLE SHOPPING FEED SETTINGS:</find>
+      <find>submitGshoppingfeedModule</find>
+      <find>form</find>
+      <find>id_gshoppingfeed</find>
+      <find>getConfigForm</find>
+      <find>delete</find>
+      <find>edit</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -500,7 +339,6 @@
         <option value="$PROJECT_DIR$/override/controllers/admin/AdminFeaturesController.php" />
         <option value="$PROJECT_DIR$/modules/addtofavoritesmywishlist/ajax/Services/Favorite.php" />
         <option value="$PROJECT_DIR$/modules/seoptimize/sql/uninstall.php" />
-        <option value="$PROJECT_DIR$/modules/seoptimize/sql/install.php" />
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/taxonomy_configure.tpl" />
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_header.tpl" />
         <option value="$PROJECT_DIR$/modules/seoptimize/views/templates/_configure/helpers/list/list_content.tpl" />
@@ -509,6 +347,7 @@
         <option value="$PROJECT_DIR$/modules/discountfollower/discountfollower.php" />
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php" />
         <option value="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" />
+        <option value="$PROJECT_DIR$/modules/seoptimize/sql/install.php" />
       </list>
     </option>
   </component>
@@ -554,7 +393,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -893,6 +731,86 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -920,6 +838,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1091,6 +1031,28 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="addtofavoritesmywishlist" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -1115,6 +1077,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1265,22 +1228,22 @@
       <workItem from="1522397699009" duration="26987000" />
       <workItem from="1522650062608" duration="12704000" />
       <workItem from="1522823456540" duration="9183000" />
-      <workItem from="1522848764847" duration="4828000" />
+      <workItem from="1522848764847" duration="5161000" />
+      <workItem from="1522914724494" duration="4630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244026000" />
+    <option name="totallyTimeSpent" value="248989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1035" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21246007" sideWeight="0.49562362" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21458998" sideWeight="0.49562362" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21115974" sideWeight="0.5021299" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1293,6 +1256,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1316,31 +1280,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/iconsforfeatures/views/templates/admin/configure.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/iconsforfeatures/override/controllers/admin/AdminFeaturesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9412">
-          <caret line="370" column="53" lean-forward="false" selection-start-line="370" selection-start-column="53" selection-end-line="370" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/override/controllers/admin/AdminFeaturesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
           <caret line="418" column="37" lean-forward="true" selection-start-line="418" selection-start-column="37" selection-end-line="418" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/sql/install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -1450,20 +1393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="74" column="35" lean-forward="false" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/sql/install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/seoptimize/sql/install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1609,9 +1538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1339">
           <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-          <folding>
-            <marker date="1522238315667" expanded="true" signature="1531:1671" ph="SELECT `id_f... ${_DB_PREFIX_}follower_statistic" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1644,13 +1570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/js/back.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4434">
-          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -1693,7 +1612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="165" column="6" lean-forward="false" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1701,13 +1619,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
           <caret line="20" column="1" lean-forward="false" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
+        <state relative-caret-position="1404">
           <caret line="54" column="35" lean-forward="false" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
           <folding />
         </state>
@@ -1723,7 +1640,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/discountfollower/discountfollower.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
+        <state relative-caret-position="1742">
           <caret line="323" column="74" lean-forward="false" selection-start-line="322" selection-start-column="32" selection-end-line="323" selection-end-column="74" />
           <folding>
             <element signature="e#200#243#0#PHP" expanded="false" />
@@ -1832,7 +1749,6 @@
             <element signature="e#34928#35642#1#PHP" expanded="false" />
             <element signature="e#35182#35620#1#PHP" expanded="false" />
             <element signature="e#35228#35495#1#PHP" expanded="false" />
-            <element signature="e#35238#35455#1#PHP" expanded="false" />
             <element signature="e#35712#35820#1#PHP" expanded="false" />
             <element signature="e#35842#36625#1#PHP" expanded="false" />
             <element signature="e#36103#36602#1#PHP" expanded="false" />
@@ -1944,22 +1860,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/form/form.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/form/item-option.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-312">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/js/back.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4434">
+          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="1933" column="75" lean-forward="false" selection-start-line="1933" selection-start-column="75" selection-end-line="1933" selection-end-column="75" />
+        <state relative-caret-position="213">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="159" selection-end-column="13" />
           <folding>
-            <marker date="1522853455587" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1522853455587" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
-            <marker date="1522853455587" expanded="true" signature="23640:23738" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-            <marker date="1522853455587" expanded="true" signature="23920:24060" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-            <marker date="1522853455587" expanded="true" signature="24222:24277" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-            <marker date="1522853455587" expanded="true" signature="62667:63530" ph="SELECT c.id_... ${_DB_PREFIX_}" />
-            <marker date="1522853455587" expanded="true" signature="70451:70543" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1522853455587" expanded="true" signature="96697:96789" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1522853455587" expanded="true" signature="98673:98749" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1522853455587" expanded="true" signature="108130:108349" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
-            <marker date="1522853455587" expanded="true" signature="113739:113937" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
+            <marker date="1522916773289" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
+            <marker date="1522916773289" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
+            <marker date="1522916773289" expanded="true" signature="23640:23738" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+            <marker date="1522916773289" expanded="true" signature="23920:24060" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+            <marker date="1522916773289" expanded="true" signature="24222:24277" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+            <marker date="1522916773289" expanded="true" signature="62667:63530" ph="SELECT c.id_... ${_DB_PREFIX_}" />
+            <marker date="1522916773289" expanded="true" signature="70451:70543" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
+            <marker date="1522916773289" expanded="true" signature="96697:96789" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
+            <marker date="1522916773289" expanded="true" signature="98572:98648" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
+            <marker date="1522916773289" expanded="true" signature="108029:108248" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
+            <marker date="1522916773289" expanded="true" signature="113638:113836" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
           </folding>
         </state>
       </provider>
@@ -1967,18 +1907,46 @@
     <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="327" column="42" lean-forward="false" selection-start-line="327" selection-start-column="42" selection-end-line="327" selection-end-column="42" />
+          <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
           <folding>
-            <marker date="1522853594121" expanded="true" signature="5944:6020" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522853594121" expanded="true" signature="5944:6351" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522853594121" expanded="true" signature="7247:7330" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
-            <marker date="1522853594121" expanded="true" signature="7470:7692" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522853594121" expanded="true" signature="11351:11440" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1522853594121" expanded="true" signature="12569:12838" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522853594121" expanded="true" signature="12569:12859" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522853594121" expanded="true" signature="12569:12860" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522853594121" expanded="true" signature="12569:12861" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522853594121" expanded="true" signature="13598:13727" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522919165018" expanded="true" signature="6492:6568" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522919165018" expanded="true" signature="6492:6899" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522919165018" expanded="true" signature="7795:7878" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1522919165018" expanded="true" signature="11441:11530" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
+            <marker date="1522919165018" expanded="true" signature="12699:12968" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522919165018" expanded="true" signature="12699:12989" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522919165018" expanded="true" signature="12699:12990" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522919165018" expanded="true" signature="13796:13925" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/sql/install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding>
+            <marker date="1522397475677" expanded="true" signature="226:1818" ph="CREATE TABLE... IF" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/sql/install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/seoptimize/sql/install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <marker date="1522919354485" expanded="true" signature="1005:1197" ph="CREATE TABLE... IF" />
+            <marker date="1522919354485" expanded="true" signature="1212:1639" ph="CREATE TABLE... IF" />
+            <marker date="1522919354485" expanded="true" signature="1654:2182" ph="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
