@@ -33,10 +33,9 @@ $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seoptimize` (
 
 $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'category_seo_rule` (
     `id_seoptimize_category` int(11) NOT NULL AUTO_INCREMENT,
-    `id_category` int(11) unsigned DEFAULT NULL,
+    `id_category` int(11) unsigned UNIQUE,
     `id_seoptimize` int(11) unsigned DEFAULT NULL,
-    PRIMARY KEY (`id_seoptimize_category`),
-    FOREIGN KEY (`id_seoptimize`) REFERENCES `'._DB_PREFIX_.'seoptimize`(`id_seoptimize`) ON DELETE CASCADE,
+    PRIMARY KEY (`id_seoptimize_category`)
 ) ENGINE='._MYSQL_ENGINE_.' DEFAULT CHARSET=utf8;';
 
 $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seo_rule_lang` (
@@ -46,8 +45,14 @@ $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seo_rule_lang` (
     `meta_title` TEXT DEFAULT NULL,
     `meta_description` TEXT DEFAULT NULL,
     `meta_keywords` TEXT DEFAULT NULL,
-    PRIMARY KEY (`id_seoptimize_lang`),
-    FOREIGN KEY (`id_seoptimize`) REFERENCES `'._DB_PREFIX_.'seoptimize`(`id_seoptimize`) ON DELETE CASCADE,
+    PRIMARY KEY (`id_seoptimize_lang`)
+) ENGINE='._MYSQL_ENGINE_.' DEFAULT CHARSET=utf8;';
+
+$sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seoptimize_product_meta` (
+    `id_seoptimize_product_meta` int(11) NOT NULL AUTO_INCREMENT,
+    `id_product` int(11) unsigned DEFAULT NULL,
+    `has_custom_meta` tinyint(1) default 0,
+    PRIMARY KEY (`id_seoptimize_product_meta`)
 ) ENGINE='._MYSQL_ENGINE_.' DEFAULT CHARSET=utf8;';
 
 foreach ($sql as $query) {

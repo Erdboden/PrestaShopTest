@@ -22,27 +22,29 @@
 *  @license   http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
 *  International Registered Trademark & Property of PrestaShop SA
 *}
+{if isset($errors) && count($errors)}
+	<div class="bootstrap">
+		<div class="alert alert-danger">
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
 
-<div class="panel">
-	<h3><i class="icon icon-credit-card"></i> {l s='Seoptimize' mod='seoptimize'}</h3>
-	<p>
-		<strong>{l s='Here is my new generic module!' mod='seoptimize'}</strong><br />
-		{l s='Thanks to PrestaShop, now I have a great module.' mod='seoptimize'}<br />
-		{l s='I can configure it using the following configuration form.' mod='seoptimize'}
-	</p>
-	<br />
-	<p>
-		{l s='This module will boost your sales!' mod='seoptimize'}
-	</p>
-</div>
+            {l s='%d errors' sprintf=$errors|count mod='seoptimize' }
+			<br/>
+			<ol>
+                {foreach $errors as $error}
+					<li>{$error|escape:'htmlall':'UTF-8'}</li>
+                {/foreach}
+			</ol>
 
-<div class="panel">
-	<h3><i class="icon icon-tags"></i> {l s='Documentation' mod='seoptimize'}</h3>
-	<p>
-		&raquo; {l s='You can get a PDF documentation to configure this module' mod='seoptimize'} :
-		<ul>
-			<li><a href="#" target="_blank">{l s='English' mod='seoptimize'}</a></li>
-			<li><a href="#" target="_blank">{l s='French' mod='seoptimize'}</a></li>
-		</ul>
-	</p>
-</div>
+		</div>
+	</div>
+{/if}
+
+{*{if isset($confirmations) && count($confirmations)}*}
+	{*<div class="bootstrap">*}
+		{*<div class="alert alert-success" style="display:block;">*}
+            {*{foreach $confirmations as $conf}*}
+                {*{$conf|escape:'htmlall':'UTF-8'}*}
+            {*{/foreach}*}
+		{*</div>*}
+	{*</div>*}
+{*{/if}*}

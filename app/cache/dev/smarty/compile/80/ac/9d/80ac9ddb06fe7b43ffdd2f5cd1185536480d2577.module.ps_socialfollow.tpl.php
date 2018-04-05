@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-05 11:14:21
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-05 13:37:53
          compiled from "module:ps_socialfollow/ps_socialfollow.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:7762497495ac5dadd89b0e3-21546886%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18080133375ac5fc8135cd81-67092840%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'module',
     ),
   ),
-  'nocache_hash' => '7762497495ac5dadd89b0e3-21546886',
+  'nocache_hash' => '18080133375ac5fc8135cd81-67092840',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5ac5dadd8afe49_76125663',
+  'unifunc' => 'content_5ac5fc81370df6_00084542',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5ac5dadd8afe49_76125663')) {function content_5ac5dadd8afe49_76125663($_smarty_tpl) {?><!-- begin /var/www/html/themes/classic/modules/ps_socialfollow/ps_socialfollow.tpl -->
+<?php if ($_valid && !is_callable('content_5ac5fc81370df6_00084542')) {function content_5ac5fc81370df6_00084542($_smarty_tpl) {?><!-- begin /var/www/html/themes/classic/modules/ps_socialfollow/ps_socialfollow.tpl -->
 
 
   <div class="block-social col-lg-4 col-md-12 col-sm-12">

@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d77deb-5d52-4e7e-a32d-083b5314a557" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/ps_mainmenu/MOD_BLOCKTOPMENU_MENU_JSON_2_1.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize.zip" afterPath="$PROJECT_DIR$/modules/seoptimize.zip" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/30/5b37366637393630306166666237623861343031366531393333623332343433645d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/30/5b37366637393630306166666237623861343031366531393333623332343433645d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/46/5b656e5f6164646f6e735f6d6f64756c65735d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/46/5b656e5f6164646f6e735f6d6f64756c65735d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/66/5b38323132343039346166663039383765333235373766366335363336633434625d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/66/5b38323132343039346166663039383765333235373766366335363336633434625d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/94/5b64626666346438336663373931313432393430643032356334366262366235635d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/94/5b64626666346438336663373931313432393430643032356334366262366235635d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/98/5b31343732376436666435343735386430633461333262383132323862363433645d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/98/5b31343732376436666435343735386430633461333262383132323862363433645d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/cb/5b63333131623137343235383365353635333062633439353732636233623334615d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/cb/5b63333131623137343235383365353635333062633439353732636233623334615d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/cb/5b656e5f6c6f63616c5f6d6f64756c65735d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/cb/5b656e5f6c6f63616c5f6d6f64756c65735d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/03/08/43/0308433c79625ac6dff00228c55b687843527930.file.header.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/03/08/43/0308433c79625ac6dff00228c55b687843527930.file.header.tpl.php" />
@@ -74,6 +71,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/c0/a1/b8/c0a1b8726a276bdd7ce5ec825f2d05952e2e4f92.file.modal.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/c0/a1/b8/c0a1b8726a276bdd7ce5ec825f2d05952e2e4f92.file.modal.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/c0/ee/d3/c0eed3b9df923c327f1706674c280218aa7eaf99.file.dashboard_zone_two.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/c0/ee/d3/c0eed3b9df923c327f1706674c280218aa7eaf99.file.dashboard_zone_two.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/c1/a4/94/c1a4946453d4a43f4e96445e52fa4b42f53bef31.file.layout.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/c1/a4/94/c1a4946453d4a43f4e96445e52fa4b42f53bef31.file.layout.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/c8/5c/7e/c85c7eba8fbf15f907e18109f55121f007c5833b.file.list_content.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/c8/5c/7e/c85c7eba8fbf15f907e18109f55121f007c5833b.file.list_content.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/cd/a2/42/cda242c37a71a339375a6cd436cd84f88dd6f3eb.file.list_content.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/cd/a2/42/cda242c37a71a339375a6cd436cd84f88dd6f3eb.file.list_content.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/cd/a7/bc/cda7bc92f305d635c422b49e3236b177de679246.file.confirmation_messages.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/cd/a7/bc/cda7bc92f305d635c422b49e3236b177de679246.file.confirmation_messages.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/d3/5e/c5/d35ec599d6caf2d9a081abb511587b140342bc6f.file.dashboard_zone_two.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/d3/5e/c5/d35ec599d6caf2d9a081abb511587b140342bc6f.file.dashboard_zone_two.tpl.php" />
@@ -89,13 +87,34 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/f7/ed/4b/f7ed4bb089ecf8da3e88a8e929022f0c9111e034.file.error_messages.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/f7/ed/4b/f7ed4bb089ecf8da3e88a8e929022f0c9111e034.file.error_messages.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/fb/8e/76/fb8e7611ec57530b0a0330b05c8a466a9f75d325.file.content.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/fb/8e/76/fb8e7611ec57530b0a0330b05c8a466a9f75d325.file.content.tpl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/smarty/compile/layouts_layout_full_width_tpl/4a/67/88/4a67886a6caaaacadc8478bb70a6ac656f90750c.file.404.tpl.php" afterPath="$PROJECT_DIR$/app/cache/dev/smarty/compile/layouts_layout_full_width_tpl/4a/67/88/4a67886a6caaaacadc8478bb70a6ac656f90750c.file.404.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/20180405_exception.log" afterPath="$PROJECT_DIR$/app/logs/20180405_exception.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" afterPath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php" afterPath="$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/trusted_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/trusted_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/untrusted_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/untrusted_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/gshoppingfeed/config.xml" afterPath="$PROJECT_DIR$/modules/gshoppingfeed/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/Readme.md" afterPath="$PROJECT_DIR$/modules/seoptimize/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/config.xml" afterPath="$PROJECT_DIR$/modules/seoptimize/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" afterPath="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/sql/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/sql/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/sql/install.php" afterPath="$PROJECT_DIR$/modules/seoptimize/sql/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/sql/uninstall.php" afterPath="$PROJECT_DIR$/modules/seoptimize/sql/uninstall.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/translations/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/translations/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/upgrade/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/upgrade/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/upgrade/upgrade-1.1.0.php" afterPath="$PROJECT_DIR$/modules/seoptimize/upgrade/upgrade-1.1.0.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/css/back.css" afterPath="$PROJECT_DIR$/modules/seoptimize/views/css/back.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/css/front.css" afterPath="$PROJECT_DIR$/modules/seoptimize/views/css/front.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/css/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/css/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/img/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/img/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/js/back.js" afterPath="$PROJECT_DIR$/modules/seoptimize/views/js/back.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/js/front.js" afterPath="$PROJECT_DIR$/modules/seoptimize/views/js/front.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/js/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/js/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl" afterPath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/configure.tpl" afterPath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/configure.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/templates/index.php" afterPath="$PROJECT_DIR$/modules/seoptimize/views/templates/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -119,76 +138,237 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="seoptimize.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
-              <folding>
-                <marker date="1522919165018" expanded="true" signature="6492:6568" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522919165018" expanded="true" signature="6492:6899" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522919165018" expanded="true" signature="7795:7878" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
-                <marker date="1522919165018" expanded="true" signature="11441:11530" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
-                <marker date="1522919165018" expanded="true" signature="12699:12968" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522919165018" expanded="true" signature="12699:12989" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522919165018" expanded="true" signature="12699:12990" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1522919165018" expanded="true" signature="13796:13925" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="install.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="install.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/seoptimize/sql/install.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            <state relative-caret-position="172">
+              <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
               <folding>
-                <marker date="1522919354485" expanded="true" signature="1005:1197" ph="CREATE TABLE... IF" />
-                <marker date="1522919354485" expanded="true" signature="1212:1639" ph="CREATE TABLE... IF" />
-                <marker date="1522919354485" expanded="true" signature="1654:2182" ph="CREATE TABLE... IF" />
+                <marker date="1522933709644" expanded="true" signature="1005:1197" ph="CREATE TABLE... IF" />
+                <marker date="1522933709644" expanded="true" signature="1212:1523" ph="CREATE TABLE... IF" />
+                <marker date="1522933709644" expanded="true" signature="1538:1956" ph="CREATE TABLE... IF" />
+                <marker date="1522933709644" expanded="true" signature="1971:2294" ph="CREATE TABLE... IF" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/sql/install.php">
+      <file leaf-file-name="seoptimize.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+            <state relative-caret-position="172">
+              <caret line="423" column="21" lean-forward="true" selection-start-line="423" selection-start-column="21" selection-end-line="423" selection-end-column="21" />
               <folding>
-                <marker date="1522397475677" expanded="true" signature="226:1818" ph="CREATE TABLE... IF" />
+                <marker date="1522939748682" expanded="true" signature="7052:7459" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522939748682" expanded="true" signature="8354:8437" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1522939748682" expanded="true" signature="11974:12063" ph="SELECT `id_c... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1522939748682" expanded="true" signature="13233:13524" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522939748682" expanded="true" signature="14209:14285" ph="SELECT `*` F... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1522939748682" expanded="true" signature="14209:14314" ph="SELECT `*` F... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1522939748682" expanded="true" signature="14209:14333" ph="SELECT `*` F... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1522939748682" expanded="true" signature="14209:14347" ph="SELECT `*` F... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1522939748682" expanded="true" signature="14209:14495" ph="SELECT `*` F... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1522939748682" expanded="true" signature="14977:15106" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1522939748682" expanded="true" signature="16275:16524" ph="SELECT `*` F... ${_DB_PREFIX_}product_lang" />
+                <marker date="1522939748682" expanded="true" signature="16602:17130" ph="SELECT `name... ${_DB_PREFIX_}category_seo_rule" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/sql/install.php">
+      <file leaf-file-name="class_stub.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/cache/dev/class_stub.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="98" />
+            <state relative-caret-position="213">
+              <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_content.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl">
+      <file leaf-file-name="Product.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/Product.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            <state relative-caret-position="213">
+              <caret line="542" column="77" lean-forward="false" selection-start-line="542" selection-start-column="77" selection-end-line="542" selection-end-column="77" />
+              <folding>
+                <marker date="1519649749000" expanded="true" signature="27952:28180" ph="SELECT cp.`i... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="30420:30590" ph="SELECT `id_p... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="31425:31631" ph="SELECT `id_p... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="33147:33328" ph="SELECT produ... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="33558:33992" ph="SELECT produ... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="34110:34380" ph="SELECT produ... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="34625:34858" ph="SELECT produ... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="42936:43101" ph="SELECT id_ca... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="44501:44825" ph="SELECT c.`id... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="45678:45839" ph="SELECT `id_c... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="46727:46828" ph="SELECT `id_c... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="47906:47979" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
+                <marker date="1519649749000" expanded="true" signature="49706:50705" ph="SELECT p.*, ${_DB_PREFIX_}product" />
+                <marker date="1519649749000" expanded="true" signature="51434:51821" ph="SELECT p.`id... ${_DB_PREFIX_}product" />
+                <marker date="1519649749000" expanded="true" signature="51984:52384" ph="SELECT p.id_... ${_DB_PREFIX_}product" />
+                <marker date="1519649749000" expanded="true" signature="52846:53281" ph="SELECT pac.`... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="71895:72040" ph="SELECT SUM(q... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="74601:74671" ph="DELETE FROM " />
+                <marker date="1519649749000" expanded="true" signature="75085:75178" ph="SELECT id_at... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="75728:75800" ph="DELETE FROM " />
+                <marker date="1519649749000" expanded="true" signature="76233:76307" ph="DELETE FROM " />
+                <marker date="1519649749000" expanded="true" signature="76980:77088" ph="DELETE FROM " />
+                <marker date="1519649749000" expanded="true" signature="77309:77375" ph="DELETE FROM " />
+                <marker date="1519649749000" expanded="true" signature="80591:80924" ph="SELECT p.*, ${_DB_PREFIX_}feature_product" />
+                <marker date="1519649749000" expanded="true" signature="81213:81283" ph="DELETE FROM " />
+                <marker date="1519649749000" expanded="true" signature="81361:81436" ph="DELETE FROM " />
+                <marker date="1519649749000" expanded="true" signature="82480:82709" ph="SELECT pa.*,... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="85202:86245" ph="SELECT pa.*,... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="87297:88421" ph="SELECT pa.*,... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="89337:89434" ph="SELECT `id_p... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="89755:90147" ph="SELECT pai.`... ${_DB_PREFIX_}product_attribute_image" />
+                <marker date="1519649749000" expanded="true" signature="90639:91043" ph="SELECT pai.`... ${_DB_PREFIX_}product_attribute_image" />
+                <marker date="1519649749000" expanded="true" signature="91460:91607" ph="SELECT COUNT... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="93850:94193" ph="SELECT COUNT... ${_DB_PREFIX_}product" />
+                <marker date="1519649749000" expanded="true" signature="99658:99713" ph="INSERT INTO `${_DB_PREFIX_}product_reductions`... " />
+                <marker date="1519649749000" expanded="true" signature="100240:101033" ph="SELECT produ... ${_DB_PREFIX_}product_reductions" />
+                <marker date="1519649749000" expanded="true" signature="105631:106069" ph="SELECT COUNT... ${_DB_PREFIX_}product" />
+                <marker date="1519649749000" expanded="true" signature="109152:109237" ph="SELECT `id_c... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="109826:110245" ph="SELECT cp.`i... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="110803:111042" ph="SELECT c.* F... ${_DB_PREFIX_}product_carrier" />
+                <marker date="1519649749000" expanded="true" signature="111516:111619" ph="DELETE FROM " />
+                <marker date="1519649749000" expanded="true" signature="112298:112625" ph="SELECT image... ${_DB_PREFIX_}image" />
+                <marker date="1519649749000" expanded="true" signature="113047:113238" ph="SELECT image... ${_DB_PREFIX_}image" />
+                <marker date="1519649749000" expanded="true" signature="117963:118091" ph="SELECT SUM(`... ${_DB_PREFIX_}cart_product" />
+                <marker date="1519649749000" expanded="true" signature="131010:131132" ph="SELECT SUM(`... ${_DB_PREFIX_}cart_product" />
+                <marker date="1519649749000" expanded="true" signature="133395:133621" ph="SELECT pa.`i... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="133840:134067" ph="SELECT pa.`i... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="140044:140242" ph="SELECT COUNT... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="140757:140957" ph="SELECT pa.id... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="141087:141266" ph="SELECT MIN(p... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="144080:145639" ph="SELECT ag.`i... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="146572:146974" ph="SELECT p.`id... ${_DB_PREFIX_}accessory" />
+                <marker date="1519649749000" expanded="true" signature="149965:150049" ph="SELECT `id_p... ${_DB_PREFIX_}product_lang" />
+                <marker date="1519649749000" expanded="true" signature="152062:152258" ph="INSERT INTO `${_DB_PREFIX_}feature_product`... " />
+                <marker date="1519649749000" expanded="true" signature="152259:152287" ph="UPDATE `id_f... " />
+                <marker date="1519649749000" expanded="true" signature="152867:153097" ph="SELECT fp.id... ${_DB_PREFIX_}feature_product" />
+                <marker date="1519649749000" expanded="true" signature="153737:153885" ph="SELECT id_fe... ${_DB_PREFIX_}feature_product" />
+                <marker date="1519649749000" expanded="true" signature="154727:155264" ph="SELECT id_pr... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="158520:158689" ph="SELECT pa.*,... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="159070:159171" ph="SELECT * FRO... ${_DB_PREFIX_}product_attribute_combination" />
+                <marker date="1519649749000" expanded="true" signature="160830:160972" ph="SELECT * FRO... ${_DB_PREFIX_}product_supplier" />
+                <marker date="1519649749000" expanded="true" signature="161474:161576" ph="INSERT INTO `${_DB_PREFIX_}attribute_impact`... " />
+                <marker date="1519649749000" expanded="true" signature="162305:162427" ph="SELECT ai.`i... ${_DB_PREFIX_}attribute_impact" />
+                <marker date="1519649749000" expanded="true" signature="163051:163152" ph="SELECT `id_i... ${_DB_PREFIX_}product_attribute_image" />
+                <marker date="1519649749000" expanded="true" signature="163492:163560" ph="SELECT * FRO... ${_DB_PREFIX_}accessory" />
+                <marker date="1519649749000" expanded="true" signature="164003:164085" ph="SELECT `id_t... ${_DB_PREFIX_}product_tag" />
+                <marker date="1519649749000" expanded="true" signature="164631:164835" ph="SELECT `disp... ${_DB_PREFIX_}product_download" />
+                <marker date="1519649749000" expanded="true" signature="166018:166103" ph="SELECT `id_a... ${_DB_PREFIX_}product_attachment" />
+                <marker date="1519649749000" expanded="true" signature="167060:167132" ph="SELECT * FRO... ${_DB_PREFIX_}feature_product" />
+                <marker date="1519649749000" expanded="true" signature="167247:167325" ph="SELECT * FRO... ${_DB_PREFIX_}feature_value" />
+                <marker date="1519649749000" expanded="true" signature="167718:167795" ph="SELECT MAX(`... ${_DB_PREFIX_}feature_value" />
+                <marker date="1519649749000" expanded="true" signature="167983:168122" ph="SELECT * FRO... ${_DB_PREFIX_}feature_value_lang" />
+                <marker date="1519649749000" expanded="true" signature="169131:169309" ph="SELECT `id_c... ${_DB_PREFIX_}customization_field" />
+                <marker date="1519649749000" expanded="true" signature="169739:170025" ph="SELECT `id_c... ${_DB_PREFIX_}customization_field_lang" />
+                <marker date="1519649749000" expanded="true" signature="172762:172890" ph="SELECT * FRO... ${_DB_PREFIX_}product_supplier" />
+                <marker date="1519649749000" expanded="true" signature="176212:176352" ph="SELECT name ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="183970:184528" ph="SELECT name,... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="184902:185178" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="185993:186157" ph="SELECT COUNT... ${_DB_PREFIX_}cart_product" />
+                <marker date="1519649749000" expanded="true" signature="186535:187295" ph="SELECT cd.`i... ${_DB_PREFIX_}customized_data" />
+                <marker date="1519649749000" expanded="true" signature="188113:188314" ph="SELECT `id_p... ${_DB_PREFIX_}customization" />
+                <marker date="1519649749000" expanded="true" signature="193901:194065" ph="SELECT `id_c... ${_DB_PREFIX_}customization_field" />
+                <marker date="1519649749000" expanded="true" signature="196873:197006" ph="INSERT INTO `${_DB_PREFIX_}customization_field`... " />
+                <marker date="1519649749000" expanded="true" signature="197536:197657" ph="INSERT INTO `${_DB_PREFIX_}customization_field_lang`... " />
+                <marker date="1519649749000" expanded="true" signature="199095:199319" ph="INSERT INTO `${_DB_PREFIX_}customization_field_lang`... " />
+                <marker date="1519649749000" expanded="true" signature="199320:199356" ph="UPDATE `name... " />
+                <marker date="1519649749000" expanded="true" signature="199513:199705" ph="INSERT INTO `${_DB_PREFIX_}customization_field_lang`... " />
+                <marker date="1519649749000" expanded="true" signature="199706:199742" ph="UPDATE `name... " />
+                <marker date="1519649749000" expanded="true" signature="201264:201816" ph="SELECT cf.`i... ${_DB_PREFIX_}customization_field" />
+                <marker date="1519649749000" expanded="true" signature="202549:202735" ph="SELECT 1 FRO... ${_DB_PREFIX_}customization_field" />
+                <marker date="1519649749000" expanded="true" signature="202943:203064" ph="SELECT `id_c... ${_DB_PREFIX_}customization_field" />
+                <marker date="1519649749000" expanded="true" signature="203531:203674" ph="SELECT `id_c... ${_DB_PREFIX_}customization_field" />
+                <marker date="1519649749000" expanded="true" signature="204800:204922" ph="SELECT id_pr... ${_DB_PREFIX_}product" />
+                <marker date="1519649749000" expanded="true" signature="205473:205594" ph="SELECT id_pr... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="206803:207034" ph="SELECT ctg.`... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="207172:207490" ph="SELECT cg.`i... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="209054:210047" ph="SELECT sm.id... ${_DB_PREFIX_}stock_mvt" />
+                <marker date="1519649749000" expanded="true" signature="210199:210808" ph="SELECT pl.`i... ${_DB_PREFIX_}product" />
+                <marker date="1519649749000" expanded="true" signature="211306:211437" ph="SELECT `id_t... ${_DB_PREFIX_}product_shop" />
+                <marker date="1519649749000" expanded="true" signature="213044:213113" ph="DELETE FROM " />
+                <marker date="1519649749000" expanded="true" signature="214140:214367" ph="SELECT cp.`i... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="215385:215496" ph="INSERT INTO `${_DB_PREFIX_}category_product`... " />
+                <marker date="1519649749000" expanded="true" signature="215892:216107" ph="SELECT p.`id... ${_DB_PREFIX_}accessory" />
+                <marker date="1519649749000" expanded="true" signature="216495:216621" ph="INSERT INTO `${_DB_PREFIX_}accessory`... " />
+                <marker date="1519649749000" expanded="true" signature="216892:217062" ph="SELECT pa.`i... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="217580:217750" ph="SELECT pa.`i... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="217993:218075" ph="SELECT pa.`i... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="219174:219263" ph="INSERT INTO `${_DB_PREFIX_}product_attribute`... " />
+                <marker date="1519649749000" expanded="true" signature="219544:219832" ph="SELECT DISTI... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="220085:220222" ph="SELECT posit... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="220801:220946" ph="SELECT `id_p... ${_DB_PREFIX_}category_product" />
+                <marker date="1519649749000" expanded="true" signature="223078:223287" ph="SELECT i.`id... ${_DB_PREFIX_}image" />
+                <marker date="1519649749000" expanded="true" signature="223391:223509" ph="SELECT `id_s... ${_DB_PREFIX_}stock_available" />
+                <marker date="1519649749000" expanded="true" signature="223664:223753" ph="SELECT `id_t... ${_DB_PREFIX_}product_tag" />
+                <marker date="1519649749000" expanded="true" signature="224315:224373" ph="SELECT `id_l... ${_DB_PREFIX_}tag" />
+                <marker date="1519649749000" expanded="true" signature="224557:224646" ph="INSERT INTO `${_DB_PREFIX_}product_tag`... " />
+                <marker date="1519649749000" expanded="true" signature="225678:225775" ph="SELECT `refe... ${_DB_PREFIX_}product" />
+                <marker date="1519649749000" expanded="true" signature="226145:226330" ph="SELECT pa.id... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="226880:227754" ph="SELECT a.`id... ${_DB_PREFIX_}attribute" />
+                <marker date="1519649749000" expanded="true" signature="228109:229070" ph="SELECT DISTI... ${_DB_PREFIX_}attribute" />
+                <marker date="1519649749000" expanded="true" signature="229672:230078" ph="SELECT pac.`... ${_DB_PREFIX_}product_attribute_combination" />
+                <marker date="1519649749000" expanded="true" signature="230365:230647" ph="SELECT `id_a... ${_DB_PREFIX_}attribute" />
+                <marker date="1519649749000" expanded="true" signature="230962:231403" ph="SELECT pac.`... ${_DB_PREFIX_}product_attribute_combination" />
+                <marker date="1519649749000" expanded="true" signature="238979:239074" ph="SELECT `adva... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="239946:240096" ph="SELECT produ... ${_DB_PREFIX_}product" />
+                <marker date="1519649749000" expanded="true" signature="240427:240506" ph="SELECT `id_s... ${_DB_PREFIX_}product_shop" />
+                <marker date="1519649749000" expanded="true" signature="242400:242621" ph="SELECT pa.id... ${_DB_PREFIX_}product_attribute" />
+                <marker date="1519649749000" expanded="true" signature="242768:243203" ph="SELECT id_ta... COUNT" />
+                <marker date="1519649749000" expanded="true" signature="242812:243186" ph="SELECT COUNT... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="244738:244826" ph="SELECT id_pr... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="246021:246781" ph="SELECT sa.id... ${_DB_PREFIX_}" />
+                <marker date="1519649749000" expanded="true" signature="248773:248844" ph="SELECT DISTI... ${_DB_PREFIX_}product" />
+                <marker date="1519649749000" expanded="true" signature="249822:250032" ph="SELECT cd.`i... ${_DB_PREFIX_}customized_data" />
+                <marker date="1519649749000" expanded="true" signature="250564:250727" ph="DELETE FROM " />
+                <marker date="1519649749000" expanded="true" signature="250783:250909" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="namespaced_class_stub.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/cache/dev/namespaced_class_stub.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_content.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl">
+      <file leaf-file-name="Db.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classes/db/Db.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="54" column="35" lean-forward="false" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
+            <state relative-caret-position="213">
+              <caret line="565" column="65" lean-forward="false" selection-start-line="565" selection-start-column="65" selection-end-line="565" selection-end-column="65" />
+              <folding>
+                <marker date="1519649749000" expanded="true" signature="15454:15485" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="configure.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/configure.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addtofavoritesmywishlist.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/addtofavoritesmywishlist.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="131" column="33" lean-forward="false" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -198,7 +378,7 @@
         <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="213">
-              <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="159" selection-end-column="13" />
+              <caret line="102" column="18" lean-forward="false" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="18" />
               <folding>
                 <marker date="1522916773289" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
                 <marker date="1522916773289" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
@@ -216,70 +396,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="back.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/js/back.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4434">
-              <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/form/form.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="17" column="54" lean-forward="false" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="item-option.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/form/item-option.tpl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-312">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>taxonomy_lang_list</find>
-      <find>submitTaxonomyEdit</find>
-      <find>submitTaxonomyLangEdit</find>
-      <find>updategshoppingfeed_taxonomy_lang_list</find>
-      <find>gshoppingfeed_taxonomy_lang_list</find>
-      <find>seoptimize_category_seo_rule</find>
-      <find>$this-&gt;fields_list</find>
-      <find>$helper-&gt;currentIndex</find>
-      <find>+</find>
-      <find>getMailConfigForm</find>
-      <find>$mailingControlForm$mailingControlForm</find>
-      <find>getEditConfigFormValues</find>
-      <find>getCategoryFilterSelected</find>
-      <find>sql</find>
-      <find>execute</find>
-      <find>updategshoppingfeed</find>
-      <find>getConfigFormValues</find>
-      <find>getRules</find>
-      <find>getRulesForm</find>
-      <find>submitSeoptimizeModule</find>
-      <find>postProcess</find>
-      <find>Tools::getValue('id_seoptimize')</find>
-      <find>dump</find>
-      <find>GOOGLE SHOPPING FEED SETTINGS:</find>
-      <find>submitGshoppingfeedModule</find>
-      <find>form</find>
-      <find>id_gshoppingfeed</find>
-      <find>getConfigForm</find>
-      <find>delete</find>
       <find>edit</find>
+      <find>list</find>
+      <find>renderForm</find>
+      <find>return</find>
+      <find>, 'form' =&gt; $form_config), 'form' =&gt; $form_config)</find>
+      <find>Back to list</find>
+      <find>back to list</find>
+      <find>delete</find>
+      <find>context-&gt;coockie</find>
+      <find>redirect</find>
+      <find>redirectAdmin</find>
+      <find>error</find>
+      <find>categoryEx</find>
+      <find>configure</find>
+      <find>postProce</find>
+      <find>errors</find>
+      <find>throw</find>
+      <find>_errors</find>
+      <find>displayErrors</find>
+      <find>exit</find>
+      <find>exp</find>
+      <find>dump</find>
+      <find>postPr</find>
+      <find>join</find>
+      <find>WHERE</find>
+      <find>UPdate</find>
+      <find>UPDATE</find>
+      <find>UPDAT</find>
+      <find>Product</find>
+      <find>constr</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -297,7 +447,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/ps_contactinfo/ps_contactinfo.tpl" />
         <option value="$PROJECT_DIR$/themes/classic/modules/ps_contactinfo/ps_contactinfo.tpl" />
         <option value="$PROJECT_DIR$/themes/classic/modules/ps_contactinfo/ps_contactinfo-rich.tpl" />
         <option value="$PROJECT_DIR$/src/PrestaShopBundle/Controller/Admin/FeatureController.php" />
@@ -343,11 +492,12 @@
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_header.tpl" />
         <option value="$PROJECT_DIR$/modules/seoptimize/views/templates/_configure/helpers/list/list_content.tpl" />
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl" />
-        <option value="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl" />
         <option value="$PROJECT_DIR$/modules/discountfollower/discountfollower.php" />
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php" />
-        <option value="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" />
+        <option value="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl" />
+        <option value="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/configure.tpl" />
         <option value="$PROJECT_DIR$/modules/seoptimize/sql/install.php" />
+        <option value="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" />
       </list>
     </option>
   </component>
@@ -379,20 +529,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scratches" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -533,6 +669,292 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconsforfeatures" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconsforfeatures" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="override" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconsforfeatures" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="override" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iconsforfeatures" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="override" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gshoppingfeed" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -554,196 +976,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="list" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="seoptimize" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gshoppingfeed" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gshoppingfeed" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gshoppingfeed" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gshoppingfeed" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gshoppingfeed" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_configure" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gshoppingfeed" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_configure" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -899,7 +1131,497 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="grouperpro" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouperpro" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouperpro" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouperpro" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouperpro" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouperpro" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouperpro" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouperpro" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="discountfollower" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discountfollower" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discountfollower" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discountfollower" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discountfollower" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discountfollower" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discountfollower" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="list" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="discountfollower" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_configure" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="form" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1078,6 +1800,20 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scratches" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1229,34 +1965,35 @@
       <workItem from="1522650062608" duration="12704000" />
       <workItem from="1522823456540" duration="9183000" />
       <workItem from="1522848764847" duration="5161000" />
-      <workItem from="1522914724494" duration="4630000" />
+      <workItem from="1522914724494" duration="5208000" />
+      <workItem from="1522920504631" duration="15589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248989000" />
+    <option name="totallyTimeSpent" value="265156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1035" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21458998" sideWeight="0.49562362" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21671991" sideWeight="0.49562362" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21115974" sideWeight="0.5021299" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21115974" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25239617" sideWeight="0.50437635" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1280,143 +2017,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/override/controllers/admin/AdminFeaturesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="418" column="37" lean-forward="true" selection-start-line="418" selection-start-column="37" selection-end-line="418" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/module/Module.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="396" column="75" lean-forward="false" selection-start-line="396" selection-start-column="75" selection-end-line="396" selection-end-column="75" />
-          <folding>
-            <marker date="1519649749000" expanded="true" signature="9565:9812" ph="SELECT m.`id... ${_DB_PREFIX_}module" />
-            <marker date="1519649749000" expanded="true" signature="11845:11959" ph="SELECT `id_m... ${_DB_PREFIX_}module" />
-            <marker date="1519649749000" expanded="true" signature="14027:14104" ph="INSERT INTO `${_DB_PREFIX_}authorization_role`... " />
-            <marker date="1519649749000" expanded="true" signature="14179:14620" ph="INSERT INTO `${_DB_PREFIX_}module_access`... " />
-            <marker date="1519649749000" expanded="true" signature="14284:14606" ph="SELECT id_pr... ${_DB_PREFIX_}" />
-            <marker date="1519649749000" expanded="true" signature="25049:25130" ph="SELECT DISTI... ${_DB_PREFIX_}hook_module" />
-            <marker date="1519649749000" expanded="true" signature="25535:25610" ph="SELECT id_me... ${_DB_PREFIX_}meta" />
-            <marker date="1519649749000" expanded="true" signature="25692:25745" ph="DELETE FROM " />
-            <marker date="1519649749000" expanded="true" signature="25804:25852" ph="DELETE FROM " />
-            <marker date="1519649749000" expanded="true" signature="26057:26194" ph="SELECT `id_a... ${_DB_PREFIX_}authorization_role" />
-            <marker date="1519649749000" expanded="true" signature="26334:26409" ph="DELETE FROM " />
-            <marker date="1519649749000" expanded="true" signature="26526:26606" ph="DELETE FROM " />
-            <marker date="1519649749000" expanded="true" signature="26861:26917" ph="DELETE FROM " />
-            <marker date="1519649749000" expanded="true" signature="28269:28356" ph="SELECT `id_s... ${_DB_PREFIX_}module_shop" />
-            <marker date="1519649749000" expanded="true" signature="32134:32214" ph="DELETE FROM " />
-            <marker date="1519649749000" expanded="true" signature="33128:33294" ph="..." />
-            <marker date="1519649749000" expanded="true" signature="33354:33458" ph="..." />
-            <marker date="1519649749000" expanded="true" signature="35228:35347" ph="DELETE FROM " />
-            <marker date="1519649749000" expanded="true" signature="41260:41315" ph="SELECT `id_m... ${_DB_PREFIX_}module" />
-            <marker date="1519649749000" expanded="true" signature="44525:44815" ph="SELECT m.nam... ${_DB_PREFIX_}module" />
-            <marker date="1519649749000" expanded="true" signature="54973:55334" ph="SELECT m.id_... ${_DB_PREFIX_}" />
-            <marker date="1519649749000" expanded="true" signature="55027:55154" ph="SELECT COUNT... ${_DB_PREFIX_}" />
-            <marker date="1519649749000" expanded="true" signature="66242:66341" ph="SELECT * FRO... ${_DB_PREFIX_}module" />
-            <marker date="1519649749000" expanded="true" signature="67495:67536" ph="SELECT m.* F... ${_DB_PREFIX_}module" />
-            <marker date="1519649749000" expanded="true" signature="76645:76722" ph="SELECT `id_h... ${_DB_PREFIX_}hook" />
-            <marker date="1519649749000" expanded="true" signature="76894:78273" ph="SELECT DISTI... ${_DB_PREFIX_}module" />
-            <marker date="1519649749000" expanded="true" signature="79364:79606" ph="SELECT hm.`i... ${_DB_PREFIX_}hook_module" />
-            <marker date="1519649749000" expanded="true" signature="81347:81636" ph="SELECT `id_m... ${_DB_PREFIX_}hook_module" />
-            <marker date="1519649749000" expanded="true" signature="82477:82618" ph="..." />
-            <marker date="1519649749000" expanded="true" signature="82531:82618" ph="..." />
-            <marker date="1519649749000" expanded="false" signature="82603:82610" ph="×" />
-            <marker date="1519649749000" expanded="true" signature="83227:83371" ph="..." />
-            <marker date="1519649749000" expanded="true" signature="83284:83371" ph="..." />
-            <marker date="1519649749000" expanded="false" signature="83356:83363" ph="×" />
-            <marker date="1519649749000" expanded="true" signature="83849:84064" ph="..." />
-            <marker date="1519649749000" expanded="true" signature="83924:84049" ph="..." />
-            <marker date="1519649749000" expanded="false" signature="83995:84002" ph="×" />
-            <marker date="1519649749000" expanded="true" signature="84508:84646" ph="SELECT * FRO... ${_DB_PREFIX_}hook_module_exceptions" />
-            <marker date="1519649749000" expanded="true" signature="87315:87569" ph="SELECT id_mo... ${_DB_PREFIX_}module_shop" />
-            <marker date="1519649749000" expanded="true" signature="87893:88002" ph="SELECT `id_m... ${_DB_PREFIX_}module_shop" />
-            <marker date="1519649749000" expanded="true" signature="88414:88627" ph="SELECT COUNT... ${_DB_PREFIX_}hook_module" />
-            <marker date="1519649749000" expanded="true" signature="98472:99472" ph="..." />
-            <marker date="1519649749000" expanded="true" signature="100887:101398" ph="SELECT `slug... ${_DB_PREFIX_}authorization_role" />
-            <marker date="1519649749000" expanded="true" signature="101913:102262" ph="SELECT `slug... ${_DB_PREFIX_}authorization_role" />
-            <marker date="1519649749000" expanded="true" signature="104711:104890" ph="SELECT m.`id... ${_DB_PREFIX_}module_group" />
-            <marker date="1519649749000" expanded="true" signature="105243:105323" ph="SELECT `id_m... ${_DB_PREFIX_}module" />
-            <marker date="1519649749000" expanded="true" signature="106839:107028" ph="SELECT `posi... ${_DB_PREFIX_}hook_module" />
-            <marker date="1519649749000" expanded="true" signature="108271:108333" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/seoptimize/sql/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/logs/20180329_exception.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/sql/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/Readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/logs/dev.log">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="442">
-          <caret line="17" column="58" lean-forward="false" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/iconsforfeatures/classes/FeaturesIcons.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="599">
-          <caret line="65" column="5" lean-forward="true" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/iconsforfeatures/iconsforfeatures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="74" column="35" lean-forward="false" selection-start-line="74" selection-start-column="35" selection-end-line="74" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/sql/uninstall.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="37" column="26" lean-forward="false" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/seoptimize/sql/uninstall.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="35" column="60" lean-forward="false" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/controllers/front/getList.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1092">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/hook/modules.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1513,41 +2113,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/addtofavoritesmywishlist.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="198" column="33" lean-forward="true" selection-start-line="198" selection-start-column="33" selection-end-line="198" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/views/templates/admin/configure.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/configure.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/discountfollower/classes/FollowerStatistic.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1339">
           <caret line="36" column="38" lean-forward="true" selection-start-line="36" selection-start-column="38" selection-end-line="36" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/classes/db/Db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="547" column="20" lean-forward="false" selection-start-line="547" selection-start-column="20" selection-end-line="547" selection-end-column="20" />
-          <folding>
-            <marker date="1519649749000" expanded="true" signature="15454:15485" ph="DELETE FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1573,20 +2142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="53" column="24" lean-forward="true" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/list/list_content.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classes/helper/Helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1608,13 +2163,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/cache/dev/class_stub.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="165" column="6" lean-forward="false" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/css/back.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="520">
@@ -1626,14 +2174,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
           <caret line="54" column="35" lean-forward="false" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
           <folding />
         </state>
       </provider>
@@ -1860,6 +2400,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/js/back.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/ps_legalcompliance/install/sql_install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1512729034000" expanded="true" signature="1095:1348" ph="CREATE TABLE... IF" />
+            <marker date="1512729034000" expanded="true" signature="1404:1669" ph="CREATE TABLE... IF" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/sql/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/sql/install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="42" column="34" lean-forward="false" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+          <folding>
+            <marker date="1522317199574" expanded="true" signature="1005:1491" ph="CREATE TABLE... IF" />
+            <marker date="1522317199574" expanded="true" signature="1506:2040" ph="CREATE TABLE... IF" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/sql/install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding>
+            <marker date="1522397475677" expanded="true" signature="226:1818" ph="CREATE TABLE... IF" />
+            <marker date="1522397475677" expanded="true" signature="1832:2135" ph="CREATE TABLE... IF" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/iconsforfeatures/override/controllers/admin/AdminFeaturesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="219" column="94" lean-forward="false" selection-start-line="219" selection-start-column="89" selection-end-line="219" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tools/profiling/Tools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="109" column="37" lean-forward="false" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/form/item-option.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/form/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/form/form.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1868,18 +2505,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/form/item-option.tpl">
+    <entry file="file://$PROJECT_DIR$/modules/grouperpro/views/templates/admin/_configure/grouper/helpers/form/form.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
+        <state relative-caret-position="-1638">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/js/back.js">
+    <entry file="file://$PROJECT_DIR$/modules/grouperpro/grouperpro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4434">
-          <caret line="17" column="53" lean-forward="false" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
+        <state relative-caret-position="-468">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1522061455003" expanded="true" signature="2011:2341" ph="CREATE TABLE... IF" />
+            <marker date="1522061455003" expanded="true" signature="2395:3009" ph="CREATE TABLE... IF" />
+            <marker date="1522061455003" expanded="true" signature="3458:3540" ph="SELECT `id_c... ${_DB_PREFIX_}_cron" />
+            <marker date="1522061455003" expanded="true" signature="4186:4242" ph="DROP TABLE I... " />
+            <marker date="1522061455003" expanded="true" signature="4247:4308" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/grouperpro/views/templates/admin/download.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/list/list_content.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="52" lean-forward="false" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/form/form.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/views/templates/admin/configure.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/configure.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/db/Db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="565" column="65" lean-forward="false" selection-start-line="565" selection-start-column="65" selection-end-line="565" selection-end-column="65" />
+          <folding>
+            <marker date="1519649749000" expanded="true" signature="15454:15485" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/addtofavoritesmywishlist.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="131" column="33" lean-forward="false" selection-start-line="131" selection-start-column="27" selection-end-line="131" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1887,7 +2588,7 @@
     <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
-          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="159" selection-end-column="13" />
+          <caret line="102" column="18" lean-forward="false" selection-start-line="102" selection-start-column="13" selection-end-line="102" selection-end-column="18" />
           <folding>
             <marker date="1522916773289" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
             <marker date="1522916773289" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
@@ -1904,49 +2605,219 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
+    <entry file="file://$PROJECT_DIR$/modules/seoptimize/sql/install.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="99" column="37" lean-forward="false" selection-start-line="99" selection-start-column="37" selection-end-line="99" selection-end-column="37" />
+        <state relative-caret-position="172">
+          <caret line="48" column="41" lean-forward="false" selection-start-line="48" selection-start-column="41" selection-end-line="48" selection-end-column="41" />
           <folding>
-            <marker date="1522919165018" expanded="true" signature="6492:6568" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522919165018" expanded="true" signature="6492:6899" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522919165018" expanded="true" signature="7795:7878" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
-            <marker date="1522919165018" expanded="true" signature="11441:11530" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1522919165018" expanded="true" signature="12699:12968" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522919165018" expanded="true" signature="12699:12989" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522919165018" expanded="true" signature="12699:12990" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1522919165018" expanded="true" signature="13796:13925" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522933709644" expanded="true" signature="1005:1197" ph="CREATE TABLE... IF" />
+            <marker date="1522933709644" expanded="true" signature="1212:1523" ph="CREATE TABLE... IF" />
+            <marker date="1522933709644" expanded="true" signature="1538:1956" ph="CREATE TABLE... IF" />
+            <marker date="1522933709644" expanded="true" signature="1971:2294" ph="CREATE TABLE... IF" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/sql/install.php">
+    <entry file="file://$PROJECT_DIR$/app/cache/dev/namespaced_class_stub.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="43" column="37" lean-forward="false" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-          <folding>
-            <marker date="1522397475677" expanded="true" signature="226:1818" ph="CREATE TABLE... IF" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/addtofavoritesmywishlist/sql/install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="98" />
+        <state relative-caret-position="222">
+          <caret line="73" column="25" lean-forward="false" selection-start-line="73" selection-start-column="25" selection-end-line="73" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/seoptimize/sql/install.php">
+    <entry file="file://$PROJECT_DIR$/classes/Pack.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="78">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding>
-            <marker date="1522919354485" expanded="true" signature="1005:1197" ph="CREATE TABLE... IF" />
-            <marker date="1522919354485" expanded="true" signature="1212:1639" ph="CREATE TABLE... IF" />
-            <marker date="1522919354485" expanded="true" signature="1654:2182" ph="CREATE TABLE... IF" />
+            <marker date="1519649749000" expanded="true" signature="1571:1638" ph="SELECT COUNT... ${_DB_PREFIX_}pack" />
+            <marker date="1519649749000" expanded="true" signature="2526:2593" ph="SELECT COUNT... ${_DB_PREFIX_}pack" />
+            <marker date="1519649749000" expanded="true" signature="2954:3081" ph="SELECT COUNT... ${_DB_PREFIX_}pack" />
+            <marker date="1519649749000" expanded="true" signature="4397:4508" ph="SELECT id_pr... ${_DB_PREFIX_}pack" />
+            <marker date="1519649749000" expanded="true" signature="5039:6035" ph="SELECT agl.`... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="7234:8444" ph="SELECT p.*, ${_DB_PREFIX_}pack" />
+            <marker date="1519649749000" expanded="true" signature="8835:10065" ph="SELECT agl.`... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="11302:11404" ph="SELECT GROUP... ${_DB_PREFIX_}pack" />
+            <marker date="1519649749000" expanded="true" signature="11555:12531" ph="SELECT p.*, ${_DB_PREFIX_}product" />
+            <marker date="1519649749000" expanded="true" signature="13223:13283" ph="DELETE FROM " />
+            <marker date="1519649749000" expanded="true" signature="14505:14792" ph="INSERT INTO `${_DB_PREFIX_}pack`... " />
+            <marker date="1519649749000" expanded="true" signature="14622:14767" ph="SELECT ${(in... ${_DB_PREFIX_}pack" />
+            <marker date="1519649749000" expanded="true" signature="15566:15620" ph="SELECT `id_p... ${_DB_PREFIX_}pack" />
+            <marker date="1519649749000" expanded="true" signature="17568:17661" ph="SELECT `id_p... ${_DB_PREFIX_}pack" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/cache/dev/class_stub.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="72" column="28" lean-forward="false" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classes/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="542" column="77" lean-forward="false" selection-start-line="542" selection-start-column="77" selection-end-line="542" selection-end-column="77" />
+          <folding>
+            <marker date="1519649749000" expanded="true" signature="27952:28180" ph="SELECT cp.`i... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="30420:30590" ph="SELECT `id_p... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="31425:31631" ph="SELECT `id_p... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="33147:33328" ph="SELECT produ... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="33558:33992" ph="SELECT produ... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="34110:34380" ph="SELECT produ... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="34625:34858" ph="SELECT produ... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="42936:43101" ph="SELECT id_ca... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="44501:44825" ph="SELECT c.`id... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="45678:45839" ph="SELECT `id_c... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="46727:46828" ph="SELECT `id_c... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="47906:47979" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
+            <marker date="1519649749000" expanded="true" signature="49706:50705" ph="SELECT p.*, ${_DB_PREFIX_}product" />
+            <marker date="1519649749000" expanded="true" signature="51434:51821" ph="SELECT p.`id... ${_DB_PREFIX_}product" />
+            <marker date="1519649749000" expanded="true" signature="51984:52384" ph="SELECT p.id_... ${_DB_PREFIX_}product" />
+            <marker date="1519649749000" expanded="true" signature="52846:53281" ph="SELECT pac.`... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="71895:72040" ph="SELECT SUM(q... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="74601:74671" ph="DELETE FROM " />
+            <marker date="1519649749000" expanded="true" signature="75085:75178" ph="SELECT id_at... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="75728:75800" ph="DELETE FROM " />
+            <marker date="1519649749000" expanded="true" signature="76233:76307" ph="DELETE FROM " />
+            <marker date="1519649749000" expanded="true" signature="76980:77088" ph="DELETE FROM " />
+            <marker date="1519649749000" expanded="true" signature="77309:77375" ph="DELETE FROM " />
+            <marker date="1519649749000" expanded="true" signature="80591:80924" ph="SELECT p.*, ${_DB_PREFIX_}feature_product" />
+            <marker date="1519649749000" expanded="true" signature="81213:81283" ph="DELETE FROM " />
+            <marker date="1519649749000" expanded="true" signature="81361:81436" ph="DELETE FROM " />
+            <marker date="1519649749000" expanded="true" signature="82480:82709" ph="SELECT pa.*,... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="85202:86245" ph="SELECT pa.*,... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="87297:88421" ph="SELECT pa.*,... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="89337:89434" ph="SELECT `id_p... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="89755:90147" ph="SELECT pai.`... ${_DB_PREFIX_}product_attribute_image" />
+            <marker date="1519649749000" expanded="true" signature="90639:91043" ph="SELECT pai.`... ${_DB_PREFIX_}product_attribute_image" />
+            <marker date="1519649749000" expanded="true" signature="91460:91607" ph="SELECT COUNT... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="93850:94193" ph="SELECT COUNT... ${_DB_PREFIX_}product" />
+            <marker date="1519649749000" expanded="true" signature="99658:99713" ph="INSERT INTO `${_DB_PREFIX_}product_reductions`... " />
+            <marker date="1519649749000" expanded="true" signature="100240:101033" ph="SELECT produ... ${_DB_PREFIX_}product_reductions" />
+            <marker date="1519649749000" expanded="true" signature="105631:106069" ph="SELECT COUNT... ${_DB_PREFIX_}product" />
+            <marker date="1519649749000" expanded="true" signature="109152:109237" ph="SELECT `id_c... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="109826:110245" ph="SELECT cp.`i... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="110803:111042" ph="SELECT c.* F... ${_DB_PREFIX_}product_carrier" />
+            <marker date="1519649749000" expanded="true" signature="111516:111619" ph="DELETE FROM " />
+            <marker date="1519649749000" expanded="true" signature="112298:112625" ph="SELECT image... ${_DB_PREFIX_}image" />
+            <marker date="1519649749000" expanded="true" signature="113047:113238" ph="SELECT image... ${_DB_PREFIX_}image" />
+            <marker date="1519649749000" expanded="true" signature="117963:118091" ph="SELECT SUM(`... ${_DB_PREFIX_}cart_product" />
+            <marker date="1519649749000" expanded="true" signature="131010:131132" ph="SELECT SUM(`... ${_DB_PREFIX_}cart_product" />
+            <marker date="1519649749000" expanded="true" signature="133395:133621" ph="SELECT pa.`i... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="133840:134067" ph="SELECT pa.`i... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="140044:140242" ph="SELECT COUNT... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="140757:140957" ph="SELECT pa.id... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="141087:141266" ph="SELECT MIN(p... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="144080:145639" ph="SELECT ag.`i... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="146572:146974" ph="SELECT p.`id... ${_DB_PREFIX_}accessory" />
+            <marker date="1519649749000" expanded="true" signature="149965:150049" ph="SELECT `id_p... ${_DB_PREFIX_}product_lang" />
+            <marker date="1519649749000" expanded="true" signature="152062:152258" ph="INSERT INTO `${_DB_PREFIX_}feature_product`... " />
+            <marker date="1519649749000" expanded="true" signature="152259:152287" ph="UPDATE `id_f... " />
+            <marker date="1519649749000" expanded="true" signature="152867:153097" ph="SELECT fp.id... ${_DB_PREFIX_}feature_product" />
+            <marker date="1519649749000" expanded="true" signature="153737:153885" ph="SELECT id_fe... ${_DB_PREFIX_}feature_product" />
+            <marker date="1519649749000" expanded="true" signature="154727:155264" ph="SELECT id_pr... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="158520:158689" ph="SELECT pa.*,... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="159070:159171" ph="SELECT * FRO... ${_DB_PREFIX_}product_attribute_combination" />
+            <marker date="1519649749000" expanded="true" signature="160830:160972" ph="SELECT * FRO... ${_DB_PREFIX_}product_supplier" />
+            <marker date="1519649749000" expanded="true" signature="161474:161576" ph="INSERT INTO `${_DB_PREFIX_}attribute_impact`... " />
+            <marker date="1519649749000" expanded="true" signature="162305:162427" ph="SELECT ai.`i... ${_DB_PREFIX_}attribute_impact" />
+            <marker date="1519649749000" expanded="true" signature="163051:163152" ph="SELECT `id_i... ${_DB_PREFIX_}product_attribute_image" />
+            <marker date="1519649749000" expanded="true" signature="163492:163560" ph="SELECT * FRO... ${_DB_PREFIX_}accessory" />
+            <marker date="1519649749000" expanded="true" signature="164003:164085" ph="SELECT `id_t... ${_DB_PREFIX_}product_tag" />
+            <marker date="1519649749000" expanded="true" signature="164631:164835" ph="SELECT `disp... ${_DB_PREFIX_}product_download" />
+            <marker date="1519649749000" expanded="true" signature="166018:166103" ph="SELECT `id_a... ${_DB_PREFIX_}product_attachment" />
+            <marker date="1519649749000" expanded="true" signature="167060:167132" ph="SELECT * FRO... ${_DB_PREFIX_}feature_product" />
+            <marker date="1519649749000" expanded="true" signature="167247:167325" ph="SELECT * FRO... ${_DB_PREFIX_}feature_value" />
+            <marker date="1519649749000" expanded="true" signature="167718:167795" ph="SELECT MAX(`... ${_DB_PREFIX_}feature_value" />
+            <marker date="1519649749000" expanded="true" signature="167983:168122" ph="SELECT * FRO... ${_DB_PREFIX_}feature_value_lang" />
+            <marker date="1519649749000" expanded="true" signature="169131:169309" ph="SELECT `id_c... ${_DB_PREFIX_}customization_field" />
+            <marker date="1519649749000" expanded="true" signature="169739:170025" ph="SELECT `id_c... ${_DB_PREFIX_}customization_field_lang" />
+            <marker date="1519649749000" expanded="true" signature="172762:172890" ph="SELECT * FRO... ${_DB_PREFIX_}product_supplier" />
+            <marker date="1519649749000" expanded="true" signature="176212:176352" ph="SELECT name ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="183970:184528" ph="SELECT name,... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="184902:185178" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="185993:186157" ph="SELECT COUNT... ${_DB_PREFIX_}cart_product" />
+            <marker date="1519649749000" expanded="true" signature="186535:187295" ph="SELECT cd.`i... ${_DB_PREFIX_}customized_data" />
+            <marker date="1519649749000" expanded="true" signature="188113:188314" ph="SELECT `id_p... ${_DB_PREFIX_}customization" />
+            <marker date="1519649749000" expanded="true" signature="193901:194065" ph="SELECT `id_c... ${_DB_PREFIX_}customization_field" />
+            <marker date="1519649749000" expanded="true" signature="196873:197006" ph="INSERT INTO `${_DB_PREFIX_}customization_field`... " />
+            <marker date="1519649749000" expanded="true" signature="197536:197657" ph="INSERT INTO `${_DB_PREFIX_}customization_field_lang`... " />
+            <marker date="1519649749000" expanded="true" signature="199095:199319" ph="INSERT INTO `${_DB_PREFIX_}customization_field_lang`... " />
+            <marker date="1519649749000" expanded="true" signature="199320:199356" ph="UPDATE `name... " />
+            <marker date="1519649749000" expanded="true" signature="199513:199705" ph="INSERT INTO `${_DB_PREFIX_}customization_field_lang`... " />
+            <marker date="1519649749000" expanded="true" signature="199706:199742" ph="UPDATE `name... " />
+            <marker date="1519649749000" expanded="true" signature="201264:201816" ph="SELECT cf.`i... ${_DB_PREFIX_}customization_field" />
+            <marker date="1519649749000" expanded="true" signature="202549:202735" ph="SELECT 1 FRO... ${_DB_PREFIX_}customization_field" />
+            <marker date="1519649749000" expanded="true" signature="202943:203064" ph="SELECT `id_c... ${_DB_PREFIX_}customization_field" />
+            <marker date="1519649749000" expanded="true" signature="203531:203674" ph="SELECT `id_c... ${_DB_PREFIX_}customization_field" />
+            <marker date="1519649749000" expanded="true" signature="204800:204922" ph="SELECT id_pr... ${_DB_PREFIX_}product" />
+            <marker date="1519649749000" expanded="true" signature="205473:205594" ph="SELECT id_pr... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="206803:207034" ph="SELECT ctg.`... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="207172:207490" ph="SELECT cg.`i... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="209054:210047" ph="SELECT sm.id... ${_DB_PREFIX_}stock_mvt" />
+            <marker date="1519649749000" expanded="true" signature="210199:210808" ph="SELECT pl.`i... ${_DB_PREFIX_}product" />
+            <marker date="1519649749000" expanded="true" signature="211306:211437" ph="SELECT `id_t... ${_DB_PREFIX_}product_shop" />
+            <marker date="1519649749000" expanded="true" signature="213044:213113" ph="DELETE FROM " />
+            <marker date="1519649749000" expanded="true" signature="214140:214367" ph="SELECT cp.`i... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="215385:215496" ph="INSERT INTO `${_DB_PREFIX_}category_product`... " />
+            <marker date="1519649749000" expanded="true" signature="215892:216107" ph="SELECT p.`id... ${_DB_PREFIX_}accessory" />
+            <marker date="1519649749000" expanded="true" signature="216495:216621" ph="INSERT INTO `${_DB_PREFIX_}accessory`... " />
+            <marker date="1519649749000" expanded="true" signature="216892:217062" ph="SELECT pa.`i... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="217580:217750" ph="SELECT pa.`i... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="217993:218075" ph="SELECT pa.`i... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="219174:219263" ph="INSERT INTO `${_DB_PREFIX_}product_attribute`... " />
+            <marker date="1519649749000" expanded="true" signature="219544:219832" ph="SELECT DISTI... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="220085:220222" ph="SELECT posit... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="220801:220946" ph="SELECT `id_p... ${_DB_PREFIX_}category_product" />
+            <marker date="1519649749000" expanded="true" signature="223078:223287" ph="SELECT i.`id... ${_DB_PREFIX_}image" />
+            <marker date="1519649749000" expanded="true" signature="223391:223509" ph="SELECT `id_s... ${_DB_PREFIX_}stock_available" />
+            <marker date="1519649749000" expanded="true" signature="223664:223753" ph="SELECT `id_t... ${_DB_PREFIX_}product_tag" />
+            <marker date="1519649749000" expanded="true" signature="224315:224373" ph="SELECT `id_l... ${_DB_PREFIX_}tag" />
+            <marker date="1519649749000" expanded="true" signature="224557:224646" ph="INSERT INTO `${_DB_PREFIX_}product_tag`... " />
+            <marker date="1519649749000" expanded="true" signature="225678:225775" ph="SELECT `refe... ${_DB_PREFIX_}product" />
+            <marker date="1519649749000" expanded="true" signature="226145:226330" ph="SELECT pa.id... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="226880:227754" ph="SELECT a.`id... ${_DB_PREFIX_}attribute" />
+            <marker date="1519649749000" expanded="true" signature="228109:229070" ph="SELECT DISTI... ${_DB_PREFIX_}attribute" />
+            <marker date="1519649749000" expanded="true" signature="229672:230078" ph="SELECT pac.`... ${_DB_PREFIX_}product_attribute_combination" />
+            <marker date="1519649749000" expanded="true" signature="230365:230647" ph="SELECT `id_a... ${_DB_PREFIX_}attribute" />
+            <marker date="1519649749000" expanded="true" signature="230962:231403" ph="SELECT pac.`... ${_DB_PREFIX_}product_attribute_combination" />
+            <marker date="1519649749000" expanded="true" signature="238979:239074" ph="SELECT `adva... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="239946:240096" ph="SELECT produ... ${_DB_PREFIX_}product" />
+            <marker date="1519649749000" expanded="true" signature="240427:240506" ph="SELECT `id_s... ${_DB_PREFIX_}product_shop" />
+            <marker date="1519649749000" expanded="true" signature="242400:242621" ph="SELECT pa.id... ${_DB_PREFIX_}product_attribute" />
+            <marker date="1519649749000" expanded="true" signature="242768:243203" ph="SELECT id_ta... COUNT" />
+            <marker date="1519649749000" expanded="true" signature="242812:243186" ph="SELECT COUNT... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="244738:244826" ph="SELECT id_pr... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="246021:246781" ph="SELECT sa.id... ${_DB_PREFIX_}" />
+            <marker date="1519649749000" expanded="true" signature="248773:248844" ph="SELECT DISTI... ${_DB_PREFIX_}product" />
+            <marker date="1519649749000" expanded="true" signature="249822:250032" ph="SELECT cd.`i... ${_DB_PREFIX_}customized_data" />
+            <marker date="1519649749000" expanded="true" signature="250564:250727" ph="DELETE FROM " />
+            <marker date="1519649749000" expanded="true" signature="250783:250909" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="423" column="21" lean-forward="true" selection-start-line="423" selection-start-column="21" selection-end-line="423" selection-end-column="21" />
+          <folding>
+            <marker date="1522939748682" expanded="true" signature="7052:7459" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522939748682" expanded="true" signature="8354:8437" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1522939748682" expanded="true" signature="11974:12063" ph="SELECT `id_c... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1522939748682" expanded="true" signature="13233:13524" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522939748682" expanded="true" signature="14209:14285" ph="SELECT `*` F... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1522939748682" expanded="true" signature="14209:14314" ph="SELECT `*` F... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1522939748682" expanded="true" signature="14209:14333" ph="SELECT `*` F... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1522939748682" expanded="true" signature="14209:14347" ph="SELECT `*` F... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1522939748682" expanded="true" signature="14209:14495" ph="SELECT `*` F... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1522939748682" expanded="true" signature="14977:15106" ph="SELECT `*` F... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1522939748682" expanded="true" signature="16275:16524" ph="SELECT `*` F... ${_DB_PREFIX_}product_lang" />
+            <marker date="1522939748682" expanded="true" signature="16602:17130" ph="SELECT `name... ${_DB_PREFIX_}category_seo_rule" />
           </folding>
         </state>
       </provider>
