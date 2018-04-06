@@ -19,4 +19,26 @@
     {else}
         {$smarty.block.parent}
     {/if}
+
+    {if isset($params.type) && $params.type == 'rules_meta'}
+        <b>title:</b><br>
+        {$tr.seo_meta_title}<br>
+        <b>description:</b><br>
+        {$tr.seo_meta_description}<br>
+        <b>keywords:</b><br>
+        {$tr.seo_meta_keywords}<br>
+        <b>image alt:</b><br>
+        {$tr.seo_image_alt}
+    {/if}
+
+    {if isset($params.type) && $params.type == 'custom_meta'}
+        <b>title:</b><br>
+        {$tr.meta_title}<br>
+        <b>description:</b><br>
+        {$tr.meta_description}<br>
+        <b>keywords:</b><br>
+        {$tr.meta_keywords}<br>
+        <b>image alt:</b><br>
+        {$tr.legend}
+    {/if}
 {/block}

@@ -42,9 +42,10 @@ $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seo_rule_lang` (
     `id_seoptimize_lang` int(11) NOT NULL AUTO_INCREMENT,
     `id_seoptimize` int(11) unsigned DEFAULT NULL,
     `id_lang` int(11) unsigned DEFAULT NULL,
-    `meta_title` TEXT DEFAULT NULL,
-    `meta_description` TEXT DEFAULT NULL,
-    `meta_keywords` TEXT DEFAULT NULL,
+    `seo_meta_title` TEXT DEFAULT NULL,
+    `seo_meta_description` TEXT DEFAULT NULL,
+    `seo_meta_keywords` TEXT DEFAULT NULL,
+    `seo_image_alt` TEXT DEFAULT NULL,
     PRIMARY KEY (`id_seoptimize_lang`)
 ) ENGINE='._MYSQL_ENGINE_.' DEFAULT CHARSET=utf8;';
 

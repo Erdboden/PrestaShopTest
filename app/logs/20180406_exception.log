@@ -1,0 +1,99 @@
+*ERROR* 	v1.7.3.0	2018/04/06 - 11:21:50: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3<br /><br /><pre>SELECT *
+                        FROM `ps_product_lang` AS `pl`
+                        where `pl`.`id_product`=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/06 - 11:23:20: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3<br /><br /><pre>SELECT *
+                        FROM `ps_product_lang` AS `pl`
+                        where `pl`.`id_product`=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/06 - 11:25:14: Duplicate entry '0-1' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ps_product_shop` (`id_category_default`, `id_tax_rules_group`, `on_sale`, `online_only`, `ecotax`, `minimal_quantity`, `low_stock_threshold`, `low_stock_alert`, `price`, `wholesale_price`, `unity`, `unit_price_ratio`, `additional_shipping_cost`, `customizable`, `text_fields`, `uploadable_files`, `active`, `redirect_type`, `id_type_redirected`, `available_for_order`, `available_date`, `show_condition`, `condition`, `show_price`, `indexed`, `visibility`, `cache_default_attribute`, `advanced_stock_management`, `date_add`, `date_upd`, `pack_stock_type`, `id_product`, `id_shop`) VALUES ('0', '1', '0', '0', '0', '1', NULL, '0', '0', '0', '', '0', '0', '0', '0', '0', '1', '', '0', '1', '0000-00-00', '0', 'new', '1', '0', 'both', '0', '0', '2018-04-06 11:25:14', '2018-04-06 11:25:14', '3', '0', '1')</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/06 - 11:26:02: Duplicate entry '0-1' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ps_product_shop` (`id_category_default`, `id_tax_rules_group`, `on_sale`, `online_only`, `ecotax`, `minimal_quantity`, `low_stock_threshold`, `low_stock_alert`, `price`, `wholesale_price`, `unity`, `unit_price_ratio`, `additional_shipping_cost`, `customizable`, `text_fields`, `uploadable_files`, `active`, `redirect_type`, `id_type_redirected`, `available_for_order`, `available_date`, `show_condition`, `condition`, `show_price`, `indexed`, `visibility`, `cache_default_attribute`, `advanced_stock_management`, `date_add`, `date_upd`, `pack_stock_type`, `id_product`, `id_shop`) VALUES ('0', '1', '0', '0', '0', '1', NULL, '0', '0', '0', '', '0', '0', '0', '0', '0', '1', '', '0', '1', '0000-00-00', '0', 'new', '1', '0', 'both', '0', '0', '2018-04-06 11:26:02', '2018-04-06 11:26:02', '3', '0', '1')</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/06 - 14:39:23: Unknown column 'Array' in 'where clause'<br /><br /><pre>UPDATE `ps_image_lang` SET `legend` = '' WHERE id_image=Array</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/06 - 15:12:58: Unknown column 'Men' in 'where clause'<br /><br /><pre>SELECT *
+                        FROM `ps_product_lang` AS `pl`
+                        JOIN `ps_category_product` AS `cp`
+                        ON `pl`.`id_product`=`cp`.`id_product`
+                        JOIN `ps_category_seo_rule` as `csr`
+                        on `cp`.`id_category`=`csr`.`id_category`
+                        JOIN `ps_seo_rule_lang` as `srl`
+                        on `csr`.`id_seoptimize`=`srl`.`id_seoptimize`
+                        JOIN `ps_image` AS `i`
+                        on `pl`.`id_product`=`i`.`id_product`
+                        JOIN `ps_image_lang` AS `il`
+                        on `i`.`id_image`=`il`.`id_image`
+                        JOIN `ps_category_lang` AS `cl`
+                        on `cp`.`id_category`=`cl`.`id_category`
+                        where `srl`.`id_lang`=1
+                        and `cl`.`name`=Men
+                        group by `pl`.`id_product`</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/06 - 15:13:31: Unknown column 'Men' in 'where clause'<br /><br /><pre>SELECT *
+                        FROM `ps_product_lang` AS `pl`
+                        JOIN `ps_category_product` AS `cp`
+                        ON `pl`.`id_product`=`cp`.`id_product`
+                        JOIN `ps_category_seo_rule` as `csr`
+                        on `cp`.`id_category`=`csr`.`id_category`
+                        JOIN `ps_seo_rule_lang` as `srl`
+                        on `csr`.`id_seoptimize`=`srl`.`id_seoptimize`
+                        JOIN `ps_image` AS `i`
+                        on `pl`.`id_product`=`i`.`id_product`
+                        JOIN `ps_image_lang` AS `il`
+                        on `i`.`id_image`=`il`.`id_image`
+                        JOIN `ps_category_lang` AS `cl`
+                        on `cp`.`id_category`=`cl`.`id_category`
+                        where `srl`.`id_lang`=1
+                        and `cl`.`name`=`Men`
+                        group by `pl`.`id_product`</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/06 - 15:15:00: Unknown column 'Men' in 'where clause'<br /><br /><pre>SELECT *
+                        FROM `ps_product_lang` AS `pl`
+                        JOIN `ps_category_product` AS `cp`
+                        ON `pl`.`id_product`=`cp`.`id_product`
+                        JOIN `ps_category_seo_rule` as `csr`
+                        on `cp`.`id_category`=`csr`.`id_category`
+                        JOIN `ps_seo_rule_lang` as `srl`
+                        on `csr`.`id_seoptimize`=`srl`.`id_seoptimize`
+                        JOIN `ps_image` AS `i`
+                        on `pl`.`id_product`=`i`.`id_product`
+                        JOIN `ps_image_lang` AS `il`
+                        on `i`.`id_image`=`il`.`id_image`
+                        JOIN `ps_category_lang` AS `cl`
+                        on `cp`.`id_category`=`cl`.`id_category`
+                        where `srl`.`id_lang`=1
+                        and `cl`.`name`=Men
+                        group by `pl`.`id_product`</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/06 - 15:56:07: Unknown column 'cp.id_category' in 'on clause'<br /><br /><pre>SELECT *
+                        FROM `ps_product_lang` AS `pl`
+                        JOIN `ps_category_lang` AS `cl`
+                        on `cp`.`id_category`=`cl`.`id_category`
+                        JOIN `ps_category_product` AS `cp`
+                        ON `pl`.`id_product`=`cp`.`id_product`
+                        JOIN `ps_category_seo_rule` as `csr`
+                        on `cp`.`id_category`=`csr`.`id_category`
+                        JOIN `ps_seo_rule_lang` as `srl`
+                        on `csr`.`id_seoptimize`=`srl`.`id_seoptimize`
+                        JOIN `ps_image` AS `i`
+                        on `pl`.`id_product`=`i`.`id_product`
+                        JOIN `ps_image_lang` AS `il`
+                        on `i`.`id_image`=`il`.`id_image`
+                        where `srl`.`id_lang`=1
+                        group by `pl`.`id_product`</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/06 - 15:59:01: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `ps_product_lang` AS `pl`
+                        JOIN `ps_category_product' at line 6<br /><br /><pre>
+                        SELECT `pl`.`meta_title`,
+                               `pl`.`meta_description`,
+                               `pl`.`meta_keywords`,
+                               `cl`.`name`,
+                               `il`.`legend`,
+                        FROM `ps_product_lang` AS `pl`
+                        JOIN `ps_category_product` AS `cp`
+                        ON `pl`.`id_product`=`cp`.`id_product`
+                        JOIN `ps_category_lang` AS `cl`
+                        on `cp`.`id_category`=`cl`.`id_category`
+                        JOIN `ps_category_seo_rule` as `csr`
+                        on `cp`.`id_category`=`csr`.`id_category`
+                        JOIN `ps_seo_rule_lang` as `srl`
+                        on `csr`.`id_seoptimize`=`srl`.`id_seoptimize`
+                        JOIN `ps_image` AS `i`
+                        on `pl`.`id_product`=`i`.`id_product`
+                        JOIN `ps_image_lang` AS `il`
+                        on `i`.`id_image`=`il`.`id_image`
+                        where `srl`.`id_lang`=1
+                        group by `pl`.`id_product`</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/06 - 16:32:20: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<br /><br /><pre>UPDATE `ps_image_lang` SET `legend` = '' WHERE id_image=</pre> at line 746 in file classes/db/Db.php

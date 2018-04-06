@@ -24,8 +24,8 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_ba3eea0eb32beb853f92de68fc1bd1ff813cca824110368c2af86a949364be44 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_ba3eea0eb32beb853f92de68fc1bd1ff813cca824110368c2af86a949364be44->enter($__internal_ba3eea0eb32beb853f92de68fc1bd1ff813cca824110368c2af86a949364be44_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Collector/time.html.twig"));
+        $__internal_d130b15e8662af97e0467587fe6d330b67665567c6e05c151f6a98dacd9b7df4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d130b15e8662af97e0467587fe6d330b67665567c6e05c151f6a98dacd9b7df4->enter($__internal_d130b15e8662af97e0467587fe6d330b67665567c6e05c151f6a98dacd9b7df4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@WebProfiler/Collector/time.html.twig"));
 
         // line 3
         $context["helper"] = $this;
@@ -37,15 +37,15 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
         // line 1
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_ba3eea0eb32beb853f92de68fc1bd1ff813cca824110368c2af86a949364be44->leave($__internal_ba3eea0eb32beb853f92de68fc1bd1ff813cca824110368c2af86a949364be44_prof);
+        $__internal_d130b15e8662af97e0467587fe6d330b67665567c6e05c151f6a98dacd9b7df4->leave($__internal_d130b15e8662af97e0467587fe6d330b67665567c6e05c151f6a98dacd9b7df4_prof);
 
     }
 
     // line 17
     public function block_toolbar($context, array $blocks = array())
     {
-        $__internal_e41c6fd290012ca1ae3deb083f54103fc40ceb3600e9b4faf2172245b39d1401 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e41c6fd290012ca1ae3deb083f54103fc40ceb3600e9b4faf2172245b39d1401->enter($__internal_e41c6fd290012ca1ae3deb083f54103fc40ceb3600e9b4faf2172245b39d1401_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "toolbar"));
+        $__internal_c3a83c084b7156ef33cabc971856754456b943114cc051482da6a292394814e4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_c3a83c084b7156ef33cabc971856754456b943114cc051482da6a292394814e4->enter($__internal_c3a83c084b7156ef33cabc971856754456b943114cc051482da6a292394814e4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "toolbar"));
 
         // line 18
         echo "    ";
@@ -102,15 +102,15 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
         echo "
 ";
         
-        $__internal_e41c6fd290012ca1ae3deb083f54103fc40ceb3600e9b4faf2172245b39d1401->leave($__internal_e41c6fd290012ca1ae3deb083f54103fc40ceb3600e9b4faf2172245b39d1401_prof);
+        $__internal_c3a83c084b7156ef33cabc971856754456b943114cc051482da6a292394814e4->leave($__internal_c3a83c084b7156ef33cabc971856754456b943114cc051482da6a292394814e4_prof);
 
     }
 
     // line 42
     public function block_menu($context, array $blocks = array())
     {
-        $__internal_8b8f560fbe767406506fdb962a13394b28fb654dc301e6d4e00ee3327f62468e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_8b8f560fbe767406506fdb962a13394b28fb654dc301e6d4e00ee3327f62468e->enter($__internal_8b8f560fbe767406506fdb962a13394b28fb654dc301e6d4e00ee3327f62468e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
+        $__internal_d686d38f007ae9543d41c9df7292b5ae12fd001a90633b6b460104df124188e6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_d686d38f007ae9543d41c9df7292b5ae12fd001a90633b6b460104df124188e6->enter($__internal_d686d38f007ae9543d41c9df7292b5ae12fd001a90633b6b460104df124188e6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "menu"));
 
         // line 43
         echo "    <span class=\"label\">
@@ -122,15 +122,15 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
     </span>
 ";
         
-        $__internal_8b8f560fbe767406506fdb962a13394b28fb654dc301e6d4e00ee3327f62468e->leave($__internal_8b8f560fbe767406506fdb962a13394b28fb654dc301e6d4e00ee3327f62468e_prof);
+        $__internal_d686d38f007ae9543d41c9df7292b5ae12fd001a90633b6b460104df124188e6->leave($__internal_d686d38f007ae9543d41c9df7292b5ae12fd001a90633b6b460104df124188e6_prof);
 
     }
 
     // line 49
     public function block_panel($context, array $blocks = array())
     {
-        $__internal_385de24e0c647aeb24703a382f1a42e7686b6f2dc17054231045805644a2c67c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_385de24e0c647aeb24703a382f1a42e7686b6f2dc17054231045805644a2c67c->enter($__internal_385de24e0c647aeb24703a382f1a42e7686b6f2dc17054231045805644a2c67c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "panel"));
+        $__internal_bdbe5eef5f3aea5deb329c1671bcce8b4ac177b3a58c5f97affe2d0388f17350 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_bdbe5eef5f3aea5deb329c1671bcce8b4ac177b3a58c5f97affe2d0388f17350->enter($__internal_bdbe5eef5f3aea5deb329c1671bcce8b4ac177b3a58c5f97affe2d0388f17350_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "panel"));
 
         // line 50
         echo "    <h2>Performance metrics</h2>
@@ -236,15 +236,15 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
     ";
         }
         
-        $__internal_385de24e0c647aeb24703a382f1a42e7686b6f2dc17054231045805644a2c67c->leave($__internal_385de24e0c647aeb24703a382f1a42e7686b6f2dc17054231045805644a2c67c_prof);
+        $__internal_bdbe5eef5f3aea5deb329c1671bcce8b4ac177b3a58c5f97affe2d0388f17350->leave($__internal_bdbe5eef5f3aea5deb329c1671bcce8b4ac177b3a58c5f97affe2d0388f17350_prof);
 
     }
 
     // line 101
     public function block_panelContent($context, array $blocks = array())
     {
-        $__internal_e7c1a7e35cd89438eab9190c9be76a5ad782d2acea361d6fa080a173f4c4b94f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_e7c1a7e35cd89438eab9190c9be76a5ad782d2acea361d6fa080a173f4c4b94f->enter($__internal_e7c1a7e35cd89438eab9190c9be76a5ad782d2acea361d6fa080a173f4c4b94f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "panelContent"));
+        $__internal_e59b4419e5ff584c364993a3e625a6261bef6bedd45d6946e027e8183018a0e6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e59b4419e5ff584c364993a3e625a6261bef6bedd45d6946e027e8183018a0e6->enter($__internal_e59b4419e5ff584c364993a3e625a6261bef6bedd45d6946e027e8183018a0e6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "panelContent"));
 
         // line 102
         echo "    <form id=\"timeline-control\" action=\"\" method=\"get\">
@@ -749,7 +749,7 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
         echo "</script>
 ";
         
-        $__internal_e7c1a7e35cd89438eab9190c9be76a5ad782d2acea361d6fa080a173f4c4b94f->leave($__internal_e7c1a7e35cd89438eab9190c9be76a5ad782d2acea361d6fa080a173f4c4b94f_prof);
+        $__internal_e59b4419e5ff584c364993a3e625a6261bef6bedd45d6946e027e8183018a0e6->leave($__internal_e59b4419e5ff584c364993a3e625a6261bef6bedd45d6946e027e8183018a0e6_prof);
 
     }
 
@@ -768,11 +768,11 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
 
         ob_start();
         try {
-            $__internal_53779ffa3566d0bff92076419a95c1ed467a36d7922da0dc06f6d440301985f7 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-            $__internal_53779ffa3566d0bff92076419a95c1ed467a36d7922da0dc06f6d440301985f7->enter($__internal_53779ffa3566d0bff92076419a95c1ed467a36d7922da0dc06f6d440301985f7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "macro", "dump_request_data"));
+            $__internal_67591bec3bdbff42ede8c4a50138ade9e9b566cb8dfbae95c534bdddc7e1acc0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+            $__internal_67591bec3bdbff42ede8c4a50138ade9e9b566cb8dfbae95c534bdddc7e1acc0->enter($__internal_67591bec3bdbff42ede8c4a50138ade9e9b566cb8dfbae95c534bdddc7e1acc0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "macro", "dump_request_data"));
 
             // line 503
-            $context["__internal_703451a3cbd79127e35a50d21798f82c15c81bcebf981ae5e6e1bbcd57fe72c5"] = $this;
+            $context["__internal_b2f4f51868c0fe0ab94fef9147d6f94681386cb61d2489ada9d9fde85ff73963"] = $this;
             // line 504
             echo "                {
                     \"id\": \"";
@@ -786,13 +786,13 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
                     \"events\": [
 ";
             // line 508
-            echo $context["__internal_703451a3cbd79127e35a50d21798f82c15c81bcebf981ae5e6e1bbcd57fe72c5"]->getdump_events(($context["events"] ?? $this->getContext($context, "events")));
+            echo $context["__internal_b2f4f51868c0fe0ab94fef9147d6f94681386cb61d2489ada9d9fde85ff73963"]->getdump_events(($context["events"] ?? $this->getContext($context, "events")));
             echo "
                     ]
                 }
 ";
             
-            $__internal_53779ffa3566d0bff92076419a95c1ed467a36d7922da0dc06f6d440301985f7->leave($__internal_53779ffa3566d0bff92076419a95c1ed467a36d7922da0dc06f6d440301985f7_prof);
+            $__internal_67591bec3bdbff42ede8c4a50138ade9e9b566cb8dfbae95c534bdddc7e1acc0->leave($__internal_67591bec3bdbff42ede8c4a50138ade9e9b566cb8dfbae95c534bdddc7e1acc0_prof);
 
         } catch (Exception $e) {
             ob_end_clean();
@@ -819,8 +819,8 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
 
         ob_start();
         try {
-            $__internal_8cb979aacb8ec391acd6ad55e970553848cffe4dfa8e47c638d5f90c56399c5d = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-            $__internal_8cb979aacb8ec391acd6ad55e970553848cffe4dfa8e47c638d5f90c56399c5d->enter($__internal_8cb979aacb8ec391acd6ad55e970553848cffe4dfa8e47c638d5f90c56399c5d_prof = new Twig_Profiler_Profile($this->getTemplateName(), "macro", "dump_events"));
+            $__internal_61c28060084d6679fdef07f455b6b4eedbd8943aa2082fbc03e3bc3964062827 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+            $__internal_61c28060084d6679fdef07f455b6b4eedbd8943aa2082fbc03e3bc3964062827->enter($__internal_61c28060084d6679fdef07f455b6b4eedbd8943aa2082fbc03e3bc3964062827_prof = new Twig_Profiler_Profile($this->getTemplateName(), "macro", "dump_events"));
 
             // line 516
             $context['_parent'] = $context;
@@ -929,7 +929,7 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
             unset($context['_seq'], $context['_iterated'], $context['name'], $context['event'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
             
-            $__internal_8cb979aacb8ec391acd6ad55e970553848cffe4dfa8e47c638d5f90c56399c5d->leave($__internal_8cb979aacb8ec391acd6ad55e970553848cffe4dfa8e47c638d5f90c56399c5d_prof);
+            $__internal_61c28060084d6679fdef07f455b6b4eedbd8943aa2082fbc03e3bc3964062827->leave($__internal_61c28060084d6679fdef07f455b6b4eedbd8943aa2082fbc03e3bc3964062827_prof);
 
         } catch (Exception $e) {
             ob_end_clean();
@@ -958,8 +958,8 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
 
         ob_start();
         try {
-            $__internal_0e10dfcc6b5dc9786d5cc173b7ac52bbc8f298f0151d4dc18cb1febb82c8b578 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-            $__internal_0e10dfcc6b5dc9786d5cc173b7ac52bbc8f298f0151d4dc18cb1febb82c8b578->enter($__internal_0e10dfcc6b5dc9786d5cc173b7ac52bbc8f298f0151d4dc18cb1febb82c8b578_prof = new Twig_Profiler_Profile($this->getTemplateName(), "macro", "display_timeline"));
+            $__internal_43044cba912466d5f1f19c194751ff367e14e7b76d5489c59340610c4c49b107 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+            $__internal_43044cba912466d5f1f19c194751ff367e14e7b76d5489c59340610c4c49b107->enter($__internal_43044cba912466d5f1f19c194751ff367e14e7b76d5489c59340610c4c49b107_prof = new Twig_Profiler_Profile($this->getTemplateName(), "macro", "display_timeline"));
 
             // line 538
             echo "    <div class=\"sf-profiler-timeline\">
@@ -989,7 +989,7 @@ class __TwigTemplate_28b1008564747aa383aab301e231f3a71988ccf05423ff860f60f1dd4de
     </div>
 ";
             
-            $__internal_0e10dfcc6b5dc9786d5cc173b7ac52bbc8f298f0151d4dc18cb1febb82c8b578->leave($__internal_0e10dfcc6b5dc9786d5cc173b7ac52bbc8f298f0151d4dc18cb1febb82c8b578_prof);
+            $__internal_43044cba912466d5f1f19c194751ff367e14e7b76d5489c59340610c4c49b107->leave($__internal_43044cba912466d5f1f19c194751ff367e14e7b76d5489c59340610c4c49b107_prof);
 
         } catch (Exception $e) {
             ob_end_clean();
