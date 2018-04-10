@@ -358,7 +358,7 @@ class AdminFeaturesController extends AdminFeaturesControllerCore
         $sql = new DbQuery();
         $sql->select('*');
         $sql->from('features_icons', 'fi');
-        $sql->where('fi.id_feature = ' . $obj->id);
+        $sql->where('fi.id_feature = ' . (int)$obj->id);
 
         return Db::getInstance()->executeS($sql);
     }

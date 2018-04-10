@@ -324,7 +324,7 @@ class Iconsforfeatures extends Module
         $sql = new DbQuery();
         $sql->select('*');
         $sql->from('features_icons', 'fi');
-        $sql->where('fi.id_feature = ' . $obj['id_feature']);
+        $sql->where('fi.id_feature = ' . (int)$obj['id_feature']);
 
         return Db::getInstance()->executeS($sql);
     }

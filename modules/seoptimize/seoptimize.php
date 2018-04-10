@@ -279,17 +279,22 @@ class Seoptimize extends Module
         );
         $this->fields_list['name']        = array(
             'title'      => $this->l('Category'),
-            'type'       => 'text',
-            'filter_key' => 'name'
+            'type'       => 'category_name',
+            'filter_key' => 'name',
+            'search'  => false,
+            'orderby' => false
         );
         $this->fields_list['rules_meta']  = array(
-            'title'  => $this->l('Meta by rules'),
-            'type'   => 'rules_meta',
-            'search' => true,
+            'title'   => $this->l('Meta by rules'),
+            'type'    => 'rules_meta',
+            'search'  => false,
+            'orderby' => false
         );
         $this->fields_list['custom_meta'] = array(
-            'title' => $this->l('Custom meta'),
-            'type'  => 'custom_meta'
+            'title'   => $this->l('Custom meta'),
+            'type'    => 'custom_meta',
+            'search'  => false,
+            'orderby' => false
         );
 
         $helper                = new HelperList();
@@ -322,13 +327,10 @@ class Seoptimize extends Module
                                `srl`.`seo_meta_description`,
                                `srl`.`seo_meta_keywords`,
                                `srl`.`seo_image_alt`,
-                               `cl`.`name`,
                                `il`.`legend`
                         FROM `' . _DB_PREFIX_ . 'product_lang` AS `pl`
                         JOIN `' . _DB_PREFIX_ . 'category_product` AS `cp`
                         ON `pl`.`id_product`=`cp`.`id_product`
-                        JOIN `' . _DB_PREFIX_ . 'category_lang` AS `cl`
-                        on `cp`.`id_category`=`cl`.`id_category`
                         JOIN `' . _DB_PREFIX_ . 'category_seo_rule` as `csr`
                         on `cp`.`id_category`=`csr`.`id_category`
                         JOIN `' . _DB_PREFIX_ . 'seo_rule_lang` as `srl`
@@ -339,9 +341,28 @@ class Seoptimize extends Module
                         on `i`.`id_image`=`il`.`id_image`
                         where `srl`.`id_lang`=1
                         group by `pl`.`id_product`');
+            foreach ($result as $key => $product) {
+                $categoriesSql  = Db::getInstance()->executeS("
+                        SELECT `cl`.`name`
+                        FROM `" . _DB_PREFIX_ . "category_lang` AS `cl`
+                        join `" . _DB_PREFIX_ . "category_product` AS `cp`
+                        on `cl`.`id_category`=`cp`.`id_category`
+                        where `cp`.`id_product`=" . $product['id_product'] . "
+                        group by `cl`.`name`");
+                $result[$key][] = $categoriesSql;
+            }
 
         } else {
-            $result = Db::getInstance()->executeS("SELECT *
+            $result = Db::getInstance()->executeS("
+                        SELECT `pl`.`meta_title`,
+                               `pl`.`meta_description`,
+                               `pl`.`meta_keywords`,
+                               `pl`.`id_product`,
+                               `srl`.`seo_meta_title`,
+                               `srl`.`seo_meta_description`,
+                               `srl`.`seo_meta_keywords`,
+                               `srl`.`seo_image_alt`,
+                               `il`.`legend`
                         FROM `" . _DB_PREFIX_ . "product_lang` AS `pl`
                         JOIN `" . _DB_PREFIX_ . "category_product` AS `cp`
                         ON `pl`.`id_product`=`cp`.`id_product`
@@ -640,7 +661,7 @@ class Seoptimize extends Module
                         $products = Db::getInstance()->executeS($products);
 
                         foreach ($products as $product) {
-                            $id_image = Db::getInstance()->getRow("SELECT `id_image` FROM `" . _DB_PREFIX_ . "image`
+                            $id_image    = Db::getInstance()->getRow("SELECT `id_image` FROM `" . _DB_PREFIX_ . "image`
                              WHERE `id_product` = " . (int)($product['id_product']) . "
                              AND `cover` = 1");
                             $img         = new Image((int)$id_image['id_image'], (int)$lang['id_lang']);
@@ -766,12 +787,12 @@ class Seoptimize extends Module
                                 AND `id_category`=" . $category;
                 $categoryName     = Db::getInstance()->getRow($categoryName);
                 $product          = Db::getInstance()->getRow($product);
-                $replacedProduct  = str_replace('{product}',
+                $replacedProduct  = str_replace('\'', '', str_replace('{product}',
                     $product['name'],
-                    $meta);
-                $replacedCategory = str_replace('{category}',
+                    $meta));
+                $replacedCategory = str_replace('\'', '', str_replace('{category}',
                     $categoryName['name'],
-                    $replacedProduct);
+                    $replacedProduct));
 
                 return $replacedCategory;
             }
@@ -782,9 +803,9 @@ class Seoptimize extends Module
                                 AND `id_category`=" . $category;
                 $categoryName = Db::getInstance()->getRow($categoryName);
 
-                return str_replace('{category}',
+                return str_replace('\'', '', str_replace('{category}',
                     $categoryName['name'],
-                    $meta);
+                    $meta));
             }
         } elseif (substr_count($meta, '{product}') > 0) {
             foreach ($categories as $category) {
@@ -795,9 +816,9 @@ class Seoptimize extends Module
                     AND `cp`.`id_category`=" . $category . "";
                 $product = Db::getInstance()->getRow($product);
 
-                return str_replace('{product}',
+                return str_replace('\'', '', str_replace('{product}',
                     $product['name'],
-                    $meta);
+                    $meta));
             }
         } else {
             return $meta;

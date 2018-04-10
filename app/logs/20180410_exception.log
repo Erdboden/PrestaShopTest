@@ -1,0 +1,75 @@
+*ERROR* 	v1.7.3.0	2018/04/10 - 09:52:49: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/10 - 09:54:20: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/10 - 09:58:57: Unknown column 'feature_icon' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY feature_icon ASC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/10 - 09:59:04: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/10 - 09:59:08: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/10 - 09:59:35: Unknown column 'image' in 'order clause'<br /><br /><pre>SELECT SQL_CALC_FOUND_ROWS b.*, a.*
+
+FROM `ps_feature` a 
+LEFT JOIN `ps_feature_lang` b
+                ON (b.`id_feature` = a.`id_feature` AND b.`id_lang` = 1)
+
+ WHERE 1 
+
+ ORDER BY image DESC  LIMIT 0, 50</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/10 - 11:55:24: Unknown column 'cp.id_category' in 'on clause'<br /><br /><pre>
+                        SELECT `pl`.`meta_title`,
+                               `pl`.`meta_description`,
+                               `pl`.`meta_keywords`,
+                               `pl`.`id_product`,
+                               `srl`.`seo_meta_title`,
+                               `srl`.`seo_meta_description`,
+                               `srl`.`seo_meta_keywords`,
+                               `srl`.`seo_image_alt`,
+                               `il`.`legend`
+                        FROM `ps_product_lang` AS `pl`
+                        JOIN `ps_category_seo_rule` as `csr`
+                        on `cp`.`id_category`=`csr`.`id_category`
+                        JOIN `ps_seo_rule_lang` as `srl`
+                        on `csr`.`id_seoptimize`=`srl`.`id_seoptimize`
+                        JOIN `ps_image` AS `i`
+                        on `pl`.`id_product`=`i`.`id_product`
+                        JOIN `ps_image_lang` AS `il`
+                        on `i`.`id_image`=`il`.`id_image`
+                        where `srl`.`id_lang`=1
+                        group by `pl`.`id_product`</pre> at line 746 in file classes/db/Db.php
