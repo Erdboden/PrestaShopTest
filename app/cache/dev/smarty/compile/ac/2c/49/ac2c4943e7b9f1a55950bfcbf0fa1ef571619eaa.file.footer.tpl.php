@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-10 09:51:59
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-10 15:25:00
          compiled from "/var/www/html/admin786elpbmm/themes/new-theme/template/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17494493215acc5f0f57f5c9-85577335%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:20762318895accad1cf2aec1-04029162%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17494493215acc5f0f57f5c9-85577335',
+  'nocache_hash' => '20762318895accad1cf2aec1-04029162',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5acc5f0f583e86_35945202',
+  'unifunc' => 'content_5accad1cf2f4e3_79894929',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5acc5f0f583e86_35945202')) {function content_5acc5f0f583e86_35945202($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5accad1cf2f4e3_79894929')) {function content_5accad1cf2f4e3_79894929($_smarty_tpl) {?>
 <div id="footer" class="bootstrap">
     <?php echo $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0][0]->smartyHook(array('h'=>"displayBackOfficeFooter"),$_smarty_tpl);?>
 

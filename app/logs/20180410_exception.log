@@ -73,3 +73,4 @@ LEFT JOIN `ps_feature_lang` b
                         on `i`.`id_image`=`il`.`id_image`
                         where `srl`.`id_lang`=1
                         group by `pl`.`id_product`</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/10 - 12:28:24: Property Image->legend is not valid at line 1000 in file classes/ObjectModel.php

@@ -274,15 +274,15 @@ class Seoptimize extends Module
     {
         $this->fields_list                = array();
         $this->fields_list['id_product']  = array(
-            'title' => $this->l('Product'),
-            'type'  => 'text'
+            'title'   => $this->l('Product'),
+            'type'    => 'text',
+            'search'  => false,
+            'orderby' => false
         );
         $this->fields_list['name']        = array(
             'title'      => $this->l('Category'),
             'type'       => 'category_name',
-            'filter_key' => 'name',
-            'search'  => false,
-            'orderby' => false
+            'filter_key' => 'name'
         );
         $this->fields_list['rules_meta']  = array(
             'title'   => $this->l('Meta by rules'),
@@ -323,6 +323,7 @@ class Seoptimize extends Module
                                `pl`.`meta_description`,
                                `pl`.`meta_keywords`,
                                `pl`.`id_product`,
+                               `srl`.`id_seoptimize_lang`,
                                `srl`.`seo_meta_title`,
                                `srl`.`seo_meta_description`,
                                `srl`.`seo_meta_keywords`,
@@ -331,25 +332,28 @@ class Seoptimize extends Module
                         FROM `' . _DB_PREFIX_ . 'product_lang` AS `pl`
                         JOIN `' . _DB_PREFIX_ . 'category_product` AS `cp`
                         ON `pl`.`id_product`=`cp`.`id_product`
-                        JOIN `' . _DB_PREFIX_ . 'category_seo_rule` as `csr`
+                        LEFT JOIN `' . _DB_PREFIX_ . 'category_seo_rule` as `csr`
                         on `cp`.`id_category`=`csr`.`id_category`
-                        JOIN `' . _DB_PREFIX_ . 'seo_rule_lang` as `srl`
+                        LEFT JOIN `' . _DB_PREFIX_ . 'seo_rule_lang` as `srl`
                         on `csr`.`id_seoptimize`=`srl`.`id_seoptimize`
                         JOIN `' . _DB_PREFIX_ . 'image` AS `i`
                         on `pl`.`id_product`=`i`.`id_product`
                         JOIN `' . _DB_PREFIX_ . 'image_lang` AS `il`
                         on `i`.`id_image`=`il`.`id_image`
-                        where `srl`.`id_lang`=1
+                        where `pl`.`id_lang`=1
                         group by `pl`.`id_product`');
             foreach ($result as $key => $product) {
-                $categoriesSql  = Db::getInstance()->executeS("
+                $categoriesSql         = Db::getInstance()->executeS("
                         SELECT `cl`.`name`
                         FROM `" . _DB_PREFIX_ . "category_lang` AS `cl`
                         join `" . _DB_PREFIX_ . "category_product` AS `cp`
                         on `cl`.`id_category`=`cp`.`id_category`
                         where `cp`.`id_product`=" . $product['id_product'] . "
                         group by `cl`.`name`");
-                $result[$key][] = $categoriesSql;
+                $images = Product::getCover($product['id_product']);
+                $image_url = $this->context->link->getImageLink('', $images['id_image'], ImageType::getFormatedName('home'));
+
+                $result[$key][]        = $categoriesSql;
             }
 
         } else {
@@ -358,6 +362,7 @@ class Seoptimize extends Module
                                `pl`.`meta_description`,
                                `pl`.`meta_keywords`,
                                `pl`.`id_product`,
+                               `srl`.`id_seoptimize_lang`,
                                `srl`.`seo_meta_title`,
                                `srl`.`seo_meta_description`,
                                `srl`.`seo_meta_keywords`,
@@ -379,7 +384,19 @@ class Seoptimize extends Module
                         where `srl`.`id_lang`=1
                         and `cl`.`name`='" . $categoryName . "'
                         group by `pl`.`id_product`");
+            foreach ($result as $key => $product) {
+                $categoriesSql  = Db::getInstance()->executeS("
+                        SELECT `cl`.`name`
+                        FROM `" . _DB_PREFIX_ . "category_lang` AS `cl`
+                        join `" . _DB_PREFIX_ . "category_product` AS `cp`
+                        on `cl`.`id_category`=`cp`.`id_category`
+                        where `cp`.`id_product`=" . $product['id_product'] . "
+                        group by `cl`.`name`");
+                $result[$key][] = $categoriesSql;
+            }
         }
+//        dump($result);
+//        exit();
 
         return $result;
     }

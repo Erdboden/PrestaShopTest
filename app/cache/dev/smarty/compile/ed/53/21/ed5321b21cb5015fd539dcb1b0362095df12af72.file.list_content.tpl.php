@@ -1,13 +1,13 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2018-04-10 12:07:59
+<?php /* Smarty version Smarty-3.1.19, created on 2018-04-10 15:59:06
          compiled from "/var/www/html/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1720817465acc7eef800518-64217471%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:17472910765accb51ad69043-84422037%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'ed5321b21cb5015fd539dcb1b0362095df12af72' => 
     array (
       0 => '/var/www/html/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl',
-      1 => 1523351274,
+      1 => 1523364743,
       2 => 'file',
     ),
     'c85c7eba8fbf15f907e18109f55121f007c5833b' => 
@@ -17,7 +17,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1720817465acc7eef800518-64217471',
+  'nocache_hash' => '17472910765accb51ad69043-84422037',
   'function' => 
   array (
   ),
@@ -55,9 +55,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5acc7eefc36d56_18397767',
+  'unifunc' => 'content_5accb51b2eb4b3_19840128',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5acc7eefc36d56_18397767')) {function content_5acc7eefc36d56_18397767($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/www/html/vendor/prestashop/smarty/plugins/function.counter.php';
+<?php if ($_valid && !is_callable('content_5accb51b2eb4b3_19840128')) {function content_5accb51b2eb4b3_19840128($_smarty_tpl) {?><?php if (!is_callable('smarty_function_counter')) include '/var/www/html/vendor/prestashop/smarty/plugins/function.counter.php';
 ?>
 <?php $_smarty_tpl->_capture_stack[0][] = array('tr_count', null, null); ob_start(); ?><?php echo smarty_function_counter(array('name'=>'tr_count'),$_smarty_tpl);?>
 <?php list($_capture_buffer, $_capture_assign, $_capture_append) = array_pop($_smarty_tpl->_capture_stack[0]);
@@ -288,25 +288,31 @@ $_smarty_tpl->tpl_vars['commaSeparated']->value[] = $_smarty_tpl->tpl_vars['item
 
 
     <?php if (isset($_smarty_tpl->tpl_vars['params']->value['type'])&&$_smarty_tpl->tpl_vars['params']->value['type']=='rules_meta') {?>
-        <b>title:</b>
-        <br>
-        <?php echo $_smarty_tpl->tpl_vars['tr']->value['seo_meta_title'];?>
+        <?php echo $_smarty_tpl->tpl_vars['link']->value->getImageLink($_smarty_tpl->tpl_vars['tr']->value['legend'],$_smarty_tpl->tpl_vars['tr']->value['id_product'],'small_default');?>
 
-        <br>
-        <b>description:</b>
-        <br>
-        <?php echo $_smarty_tpl->tpl_vars['tr']->value['seo_meta_description'];?>
+        <?php if ($_smarty_tpl->tpl_vars['tr']->value['id_seoptimize_lang']==null) {?>
+            No rule
+        <?php } else { ?>
+            <b>title:</b>
+            <br>
+            <?php echo $_smarty_tpl->tpl_vars['tr']->value['seo_meta_title'];?>
 
-        <br>
-        <b>keywords:</b>
-        <br>
-        <?php echo $_smarty_tpl->tpl_vars['tr']->value['seo_meta_keywords'];?>
+            <br>
+            <b>description:</b>
+            <br>
+            <?php echo $_smarty_tpl->tpl_vars['tr']->value['seo_meta_description'];?>
 
-        <br>
-        <b>image alt:</b>
-        <br>
-        <?php echo $_smarty_tpl->tpl_vars['tr']->value['seo_image_alt'];?>
+            <br>
+            <b>keywords:</b>
+            <br>
+            <?php echo $_smarty_tpl->tpl_vars['tr']->value['seo_meta_keywords'];?>
 
+            <br>
+            <b>image alt:</b>
+            <br>
+            <?php echo $_smarty_tpl->tpl_vars['tr']->value['seo_image_alt'];?>
+
+        <?php }?>
     <?php }?>
 
     <?php if (isset($_smarty_tpl->tpl_vars['params']->value['type'])&&$_smarty_tpl->tpl_vars['params']->value['type']=='custom_meta') {?>

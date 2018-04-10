@@ -30,21 +30,26 @@
 
 
     {if isset($params.type) && $params.type == 'rules_meta'}
-        <b>title:</b>
-        <br>
-        {$tr.seo_meta_title}
-        <br>
-        <b>description:</b>
-        <br>
-        {$tr.seo_meta_description}
-        <br>
-        <b>keywords:</b>
-        <br>
-        {$tr.seo_meta_keywords}
-        <br>
-        <b>image alt:</b>
-        <br>
-        {$tr.seo_image_alt}
+        {$link->getImageLink($tr.legend, $tr.id_product, 'small_default')}
+        {if $tr.id_seoptimize_lang==null}
+            No rule
+        {else}
+            <b>title:</b>
+            <br>
+            {$tr.seo_meta_title}
+            <br>
+            <b>description:</b>
+            <br>
+            {$tr.seo_meta_description}
+            <br>
+            <b>keywords:</b>
+            <br>
+            {$tr.seo_meta_keywords}
+            <br>
+            <b>image alt:</b>
+            <br>
+            {$tr.seo_image_alt}
+        {/if}
     {/if}
 
     {if isset($params.type) && $params.type == 'custom_meta'}

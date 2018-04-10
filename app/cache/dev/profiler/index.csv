@@ -23,3 +23,7 @@ b755de,::1,GET,http://localhost/admin786elpbmm/index.php/product/form/6?_token=4
 5390ac,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=QYceljcic8HW44KA8P5FJ8avHgqj6K7UZqixz1nU_js,1523343120,,200
 54feb1,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/reset/iconsforfeatures?_token=QYceljcic8HW44KA8P5FJ8avHgqj6K7UZqixz1nU_js,1523343150,,200
 0693d2,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/configure/seoptimize?_token=QYceljcic8HW44KA8P5FJ8avHgqj6K7UZqixz1nU_js,1523345547,,302
+52cdc9,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog?_token=83SuWQaGQjcnsQZFYnHQhcrq1J88r5XFsvHZJ-br5WQ,1523363088,,200
+75924c,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog/refresh?_token=83SuWQaGQjcnsQZFYnHQhcrq1J88r5XFsvHZJ-br5WQ,1523363095,,200
+3cf7b1,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=83SuWQaGQjcnsQZFYnHQhcrq1J88r5XFsvHZJ-br5WQ,1523363102,,200
+30d678,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/configure/seoptimize?_token=83SuWQaGQjcnsQZFYnHQhcrq1J88r5XFsvHZJ-br5WQ,1523363108,,302
