@@ -15,8 +15,8 @@ class __TwigTemplate_7714b4654dec29c6f09f478a012042b893ec7c3b7c592da43f3407b52e0
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_65fa915390f72dba552969f3149b44aa3120bf5d7f58a5ece375ed878d28b7cc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_65fa915390f72dba552969f3149b44aa3120bf5d7f58a5ece375ed878d28b7cc->enter($__internal_65fa915390f72dba552969f3149b44aa3120bf5d7f58a5ece375ed878d28b7cc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:card_grid_addons.html.twig"));
+        $__internal_fdabb3a75c9c6e095301516c871317a6c512f5005fffb8c6de8b55b43158b5f0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_fdabb3a75c9c6e095301516c871317a6c512f5005fffb8c6de8b55b43158b5f0->enter($__internal_fdabb3a75c9c6e095301516c871317a6c512f5005fffb8c6de8b55b43158b5f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:card_grid_addons.html.twig"));
 
         // line 25
         echo "<div class=\"module-addons-item-grid col-md-12 col-lg-6 col-xl-3\">
@@ -41,7 +41,7 @@ class __TwigTemplate_7714b4654dec29c6f09f478a012042b893ec7c3b7c592da43f3407b52e0
 </div>
 ";
         
-        $__internal_65fa915390f72dba552969f3149b44aa3120bf5d7f58a5ece375ed878d28b7cc->leave($__internal_65fa915390f72dba552969f3149b44aa3120bf5d7f58a5ece375ed878d28b7cc_prof);
+        $__internal_fdabb3a75c9c6e095301516c871317a6c512f5005fffb8c6de8b55b43158b5f0->leave($__internal_fdabb3a75c9c6e095301516c871317a6c512f5005fffb8c6de8b55b43158b5f0_prof);
 
     }
 

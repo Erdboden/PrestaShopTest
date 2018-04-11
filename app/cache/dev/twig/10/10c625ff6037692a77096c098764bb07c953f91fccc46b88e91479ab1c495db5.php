@@ -15,8 +15,8 @@ class __TwigTemplate_203ad5f953221b60257dc9ac7d0e8dd04abd01d3da66dbfd3837f81d7ce
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_dfc3e97f54dc424cf6e397ecbffa54e210fd4c4f064ba11eef63058ae37de375 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_dfc3e97f54dc424cf6e397ecbffa54e210fd4c4f064ba11eef63058ae37de375->enter($__internal_dfc3e97f54dc424cf6e397ecbffa54e210fd4c4f064ba11eef63058ae37de375_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:modal_addons_connect.html.twig"));
+        $__internal_499e295938c228cda6ad19fa4e31d58ca8fd3840ec9815e579eb6958249f0d1a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_499e295938c228cda6ad19fa4e31d58ca8fd3840ec9815e579eb6958249f0d1a->enter($__internal_499e295938c228cda6ad19fa4e31d58ca8fd3840ec9815e579eb6958249f0d1a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:modal_addons_connect.html.twig"));
 
         // line 25
         echo "<div id=\"module-modal-addons-connect\" class=\"modal  modal-vcenter fade\" role=\"dialog\">
@@ -150,7 +150,7 @@ class __TwigTemplate_203ad5f953221b60257dc9ac7d0e8dd04abd01d3da66dbfd3837f81d7ce
 </div>
 ";
         
-        $__internal_dfc3e97f54dc424cf6e397ecbffa54e210fd4c4f064ba11eef63058ae37de375->leave($__internal_dfc3e97f54dc424cf6e397ecbffa54e210fd4c4f064ba11eef63058ae37de375_prof);
+        $__internal_499e295938c228cda6ad19fa4e31d58ca8fd3840ec9815e579eb6958249f0d1a->leave($__internal_499e295938c228cda6ad19fa4e31d58ca8fd3840ec9815e579eb6958249f0d1a_prof);
 
     }
 

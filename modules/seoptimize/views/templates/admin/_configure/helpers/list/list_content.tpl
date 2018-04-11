@@ -30,7 +30,6 @@
 
 
     {if isset($params.type) && $params.type == 'rules_meta'}
-        {$link->getImageLink($tr.legend, $tr.id_product, 'small_default')}
         {if $tr.id_seoptimize_lang==null}
             No rule
         {else}

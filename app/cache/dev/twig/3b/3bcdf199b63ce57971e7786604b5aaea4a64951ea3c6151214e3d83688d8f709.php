@@ -15,8 +15,8 @@ class __TwigTemplate_c731f53eaf116dfcf43f1cb2c73b21eee5ae6433bbd6b6a466b1bafae97
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_655c5acd3f76adfed8f7327d5d2245182fb18d8dd06cf1ccc882ca3cb9e38cbe = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_655c5acd3f76adfed8f7327d5d2245182fb18d8dd06cf1ccc882ca3cb9e38cbe->enter($__internal_655c5acd3f76adfed8f7327d5d2245182fb18d8dd06cf1ccc882ca3cb9e38cbe_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:dropdown_status.html.twig"));
+        $__internal_f1b9ddee2c2e7a6a74622eaecc4f4525349e340c1b14988cb7d04b17d803684f = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f1b9ddee2c2e7a6a74622eaecc4f4525349e340c1b14988cb7d04b17d803684f->enter($__internal_f1b9ddee2c2e7a6a74622eaecc4f4525349e340c1b14988cb7d04b17d803684f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:dropdown_status.html.twig"));
 
         // line 25
         echo "<div class=\"ps-dropdown dropdown btn-group bordered\">
@@ -59,7 +59,7 @@ class __TwigTemplate_c731f53eaf116dfcf43f1cb2c73b21eee5ae6433bbd6b6a466b1bafae97
 </div>
 ";
         
-        $__internal_655c5acd3f76adfed8f7327d5d2245182fb18d8dd06cf1ccc882ca3cb9e38cbe->leave($__internal_655c5acd3f76adfed8f7327d5d2245182fb18d8dd06cf1ccc882ca3cb9e38cbe_prof);
+        $__internal_f1b9ddee2c2e7a6a74622eaecc4f4525349e340c1b14988cb7d04b17d803684f->leave($__internal_f1b9ddee2c2e7a6a74622eaecc4f4525349e340c1b14988cb7d04b17d803684f_prof);
 
     }
 

@@ -21,26 +21,26 @@ class __TwigTemplate_ebca4fd3d7f452e47a1f10ba4fecec80a89aa221f76ef509498c7f64861
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_b51273eb89495ce0c5ab091012ac981ba992479e5c1a261c7d9f1aed26ecd23c = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b51273eb89495ce0c5ab091012ac981ba992479e5c1a261c7d9f1aed26ecd23c->enter($__internal_b51273eb89495ce0c5ab091012ac981ba992479e5c1a261c7d9f1aed26ecd23c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:grid_manage_installed.html.twig"));
+        $__internal_08a115d37bff1350ba413d72acb1f8eac9ccc1cbf5a588fe4a1b62cb76bcf915 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_08a115d37bff1350ba413d72acb1f8eac9ccc1cbf5a588fe4a1b62cb76bcf915->enter($__internal_08a115d37bff1350ba413d72acb1f8eac9ccc1cbf5a588fe4a1b62cb76bcf915_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "PrestaShopBundle:Admin/Module/Includes:grid_manage_installed.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_b51273eb89495ce0c5ab091012ac981ba992479e5c1a261c7d9f1aed26ecd23c->leave($__internal_b51273eb89495ce0c5ab091012ac981ba992479e5c1a261c7d9f1aed26ecd23c_prof);
+        $__internal_08a115d37bff1350ba413d72acb1f8eac9ccc1cbf5a588fe4a1b62cb76bcf915->leave($__internal_08a115d37bff1350ba413d72acb1f8eac9ccc1cbf5a588fe4a1b62cb76bcf915_prof);
 
     }
 
     // line 27
     public function block_addon_card($context, array $blocks = array())
     {
-        $__internal_5acbaeccc1b239aa560dc1975425fba435385a4b35df0dcb75429b205699ed7b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5acbaeccc1b239aa560dc1975425fba435385a4b35df0dcb75429b205699ed7b->enter($__internal_5acbaeccc1b239aa560dc1975425fba435385a4b35df0dcb75429b205699ed7b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "addon_card"));
+        $__internal_282c6e5ec76f1d4e99dd8addaadc600bb34883a9762511b576027e6a15269f39 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_282c6e5ec76f1d4e99dd8addaadc600bb34883a9762511b576027e6a15269f39->enter($__internal_282c6e5ec76f1d4e99dd8addaadc600bb34883a9762511b576027e6a15269f39_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "addon_card"));
 
         // line 28
         echo "  ";
         $this->loadTemplate("PrestaShopBundle:Admin/Module/Includes:card_manage_installed.html.twig", "PrestaShopBundle:Admin/Module/Includes:grid_manage_installed.html.twig", 28)->display(array_merge($context, array("display_type" => ($context["display_type"] ?? $this->getContext($context, "display_type")), "module" => ($context["module"] ?? $this->getContext($context, "module")), "origin" => ((array_key_exists("origin", $context)) ? (_twig_default_filter(($context["origin"] ?? $this->getContext($context, "origin")), "none")) : ("none")))));
         
-        $__internal_5acbaeccc1b239aa560dc1975425fba435385a4b35df0dcb75429b205699ed7b->leave($__internal_5acbaeccc1b239aa560dc1975425fba435385a4b35df0dcb75429b205699ed7b_prof);
+        $__internal_282c6e5ec76f1d4e99dd8addaadc600bb34883a9762511b576027e6a15269f39->leave($__internal_282c6e5ec76f1d4e99dd8addaadc600bb34883a9762511b576027e6a15269f39_prof);
 
     }
 

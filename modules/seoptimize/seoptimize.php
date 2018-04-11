@@ -130,8 +130,11 @@ class Seoptimize extends Module
         }
         $this->context->smarty->assign('module_dir', $this->_path);
         $output_messages = $this->context->smarty->fetch($this->local_path . 'views/templates/admin/configure.tpl');
+        if (((bool)Tools::isSubmit('updateseoptimize_category_seo_rule')) == true) {
+            return $output_messages . $this->renderRulesList() . $this->renderEditForm() . $this->renderProductsList();
+        }
 
-        return $output_messages . $this->renderForm() . $this->renderRulesList() . $this->renderProductsList();
+        return $output_messages . $this->renderRulesList() . $this->renderForm() . $this->renderProductsList();
     }
 
     /**
@@ -142,7 +145,7 @@ class Seoptimize extends Module
         $helper = new HelperForm();
 
         $helper->show_toolbar             = false;
-        $helper->table                    = $this->table;
+        $helper->table                    = 'seoptimize_rules';
         $helper->module                   = $this;
         $helper->default_form_language    = $this->context->language->id;
         $helper->allow_employee_form_lang = Configuration::get('PS_BO_ALLOW_EMPLOYEE_FORM_LANG', 0);
@@ -159,6 +162,31 @@ class Seoptimize extends Module
                 $this->getEditConfigFormValues() : $this->getConfigFormValues(), /* Add values for your inputs */
             'languages'    => $this->context->controller->getLanguages(),
             'id_language'  => $this->context->language->id,
+        );
+
+        return $helper->generateForm(array($this->getConfigForm()));
+    }
+
+    protected function renderEditForm()
+    {
+        $helper = new HelperForm();
+
+        $helper->show_toolbar             = false;
+        $helper->table                    = 'seoptimize_edit_rules';
+        $helper->module                   = $this;
+        $helper->default_form_language    = $this->context->language->id;
+        $helper->allow_employee_form_lang = Configuration::get('PS_BO_ALLOW_EMPLOYEE_FORM_LANG', 0);
+
+        $helper->identifier    = 'id_seoptimize';
+        $helper->submit_action = 'editSeoptimizeModule';
+        $helper->currentIndex  = $this->context->link->getAdminLink('AdminModules', false)
+            . '&configure=' . $this->name . '&tab_module=' . $this->tab . '&module_name=' . $this->name;
+        $helper->token         = Tools::getAdminTokenLite('AdminModules');
+
+        $helper->tpl_vars = array(
+            'fields_value' => $this->getEditConfigFormValues(), /* Add values for your inputs */
+            'languages'    => $this->context->controller->getLanguages(),
+            'id_language'  => $this->context->language->id
         );
 
         return $helper->generateForm(array($this->getConfigForm()));
@@ -274,10 +302,8 @@ class Seoptimize extends Module
     {
         $this->fields_list                = array();
         $this->fields_list['id_product']  = array(
-            'title'   => $this->l('Product'),
-            'type'    => 'text',
-            'search'  => false,
-            'orderby' => false
+            'title' => $this->l('Product'),
+            'type'  => 'product'
         );
         $this->fields_list['name']        = array(
             'title'      => $this->l('Category'),
@@ -323,6 +349,7 @@ class Seoptimize extends Module
                                `pl`.`meta_description`,
                                `pl`.`meta_keywords`,
                                `pl`.`id_product`,
+                               `pl`.`name` AS `product_name`,
                                `srl`.`id_seoptimize_lang`,
                                `srl`.`seo_meta_title`,
                                `srl`.`seo_meta_description`,
@@ -343,17 +370,19 @@ class Seoptimize extends Module
                         where `pl`.`id_lang`=1
                         group by `pl`.`id_product`');
             foreach ($result as $key => $product) {
-                $categoriesSql         = Db::getInstance()->executeS("
+                $categoriesSql = Db::getInstance()->executeS("
                         SELECT `cl`.`name`
                         FROM `" . _DB_PREFIX_ . "category_lang` AS `cl`
                         join `" . _DB_PREFIX_ . "category_product` AS `cp`
                         on `cl`.`id_category`=`cp`.`id_category`
                         where `cp`.`id_product`=" . $product['id_product'] . "
                         group by `cl`.`name`");
-                $images = Product::getCover($product['id_product']);
-                $image_url = $this->context->link->getImageLink('', $images['id_image'], ImageType::getFormatedName('home'));
+                $images        = Product::getCover($product['id_product']);
+                $productImage  = $this->context->link->getImageLink($product['id_product'], $images['id_image'],
+                    ImageType::getFormattedName('small'));
 
-                $result[$key][]        = $categoriesSql;
+                $result[$key][] = $categoriesSql;
+                $result[$key][] = $productImage;
             }
 
         } else {
@@ -362,6 +391,7 @@ class Seoptimize extends Module
                                `pl`.`meta_description`,
                                `pl`.`meta_keywords`,
                                `pl`.`id_product`,
+                               `pl`.`name` AS `product_name`,
                                `srl`.`id_seoptimize_lang`,
                                `srl`.`seo_meta_title`,
                                `srl`.`seo_meta_description`,
@@ -373,30 +403,33 @@ class Seoptimize extends Module
                         ON `pl`.`id_product`=`cp`.`id_product`
                         JOIN `" . _DB_PREFIX_ . "category_lang` AS `cl`
                         on `cp`.`id_category`=`cl`.`id_category`
-                        JOIN `" . _DB_PREFIX_ . "category_seo_rule` as `csr`
+                        LEFT JOIN `" . _DB_PREFIX_ . "category_seo_rule` as `csr`
                         on `cp`.`id_category`=`csr`.`id_category`
-                        JOIN `" . _DB_PREFIX_ . "seo_rule_lang` as `srl`
+                        LEFT JOIN `" . _DB_PREFIX_ . "seo_rule_lang` as `srl`
                         on `csr`.`id_seoptimize`=`srl`.`id_seoptimize`
                         JOIN `" . _DB_PREFIX_ . "image` AS `i`
                         on `pl`.`id_product`=`i`.`id_product`
                         JOIN `" . _DB_PREFIX_ . "image_lang` AS `il`
                         on `i`.`id_image`=`il`.`id_image`
-                        where `srl`.`id_lang`=1
+                        where `pl`.`id_lang`=1
                         and `cl`.`name`='" . $categoryName . "'
                         group by `pl`.`id_product`");
             foreach ($result as $key => $product) {
-                $categoriesSql  = Db::getInstance()->executeS("
+                $categoriesSql = Db::getInstance()->executeS("
                         SELECT `cl`.`name`
                         FROM `" . _DB_PREFIX_ . "category_lang` AS `cl`
                         join `" . _DB_PREFIX_ . "category_product` AS `cp`
                         on `cl`.`id_category`=`cp`.`id_category`
                         where `cp`.`id_product`=" . $product['id_product'] . "
                         group by `cl`.`name`");
+                $images        = Product::getCover($product['id_product']);
+                $productImage  = $this->context->link->getImageLink($product['id_product'], $images['id_image'],
+                    ImageType::getFormattedName('small'));
+
                 $result[$key][] = $categoriesSql;
+                $result[$key][] = $productImage;
             }
         }
-//        dump($result);
-//        exit();
 
         return $result;
     }
@@ -430,6 +463,11 @@ class Seoptimize extends Module
         $helper->table_id      = 'module-seoptimize';
         $helper->currentIndex  = $this->context->link->getAdminLink('AdminModules', false)
             . '&configure=' . $this->name . '&module_name=' . $this->name;
+        if (((bool)Tools::isSubmit('updateseoptimize_category_seo_rule')) == true) {
+            $helper->tpl_vars = array(
+                'back_to_add' => AdminController::$currentIndex . '&configure=' . $this->name . '&token=' . Tools::getAdminTokenLite('AdminModules')
+            );
+        }
 
         return $helper->generateList($this->getRulesList(), $this->fields_list);
     }
@@ -853,7 +891,7 @@ class Seoptimize extends Module
     public
     function hookBackOfficeHeader()
     {
-        if (Tools::getValue('module_name') == $this->name) {
+        if (Tools::getValue('configure') == $this->name) {
             $this->context->controller->addJS($this->_path . 'views/js/back.js');
             $this->context->controller->addCSS($this->_path . 'views/css/back.css');
         }
