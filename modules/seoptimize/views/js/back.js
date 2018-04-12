@@ -29,9 +29,42 @@ $(function () {
     $('#new_rule').click(e => {
         if (!$('#seoptimize_rules_form').is(':visible')) {
             $('#seoptimize_rules_form').show(500);
+            $('#new_rule').text('Hide');
         } else {
             $('#seoptimize_rules_form').hide(500);
+            $('#new_rule').text('New rule');
         }
     });
+
+    $('#change_google_lists').change(function () {
+        reloadProductsContent($(this).val(), reloadProductsUri);
+    });
+
+    function reloadProductsContent(lang, reloadProductsUri) {
+        if (lang > 0) {
+            $.ajax({
+                type: "POST",
+                headers: {"cache-control": "no-cache"},
+                url: reloadProductsUri,
+                data: {
+                    ajax: 'true',
+                    reloadProductsList: 1,
+                    language: lang
+                },
+                beforeSend: function () {
+                    $('.lang_google_lists').prop("disabled", true);
+                },
+                success: function (msg) {
+                    var fm_table = $(msg).find('.table.seoptimize_products').html();
+                    $('.table.seoptimize_products').html('').html(fm_table);
+                    $('.lang_google_lists').prop("disabled", false);
+                },
+                error: function () {
+                    $('.lang_google_lists').prop("disabled", false);
+                }
+            });
+        }
+        return false;
+    }
 });
 

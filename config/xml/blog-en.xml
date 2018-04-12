@@ -6,6 +6,17 @@
     <language>en</language>
      <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>PrestaShop’s solutions in response to the new data protection requirements</title>
+    <link>https://www.prestashop.com/en/blog/prestashops-solutions-in-response-to-the-new-data-protection-requirements</link>
+    <description>
+As you know, on 25 May of this year the new text on personal data protection will come into effect.
+
+You can read our article about it here :</description>
+     <pubDate>Wed, 11 Apr 2018 15:27:51 +0200</pubDate>
+ <dc:creator>camille.teissier</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashops-solutions-in-response-to-the-new-data-protection-requirements</guid>
+  </item>
+  <item>
     <title>Getting hit by chargebacks? How to protect your business and bottom line</title>
     <link>https://www.prestashop.com/en/blog/getting-hit-by-chargebacks-how-to-protect-your-business-and-bottom-line</link>
     <description>Accepting credit cards in your online store is a great way to generate more revenue for your business, but it also brings with it an element of buyer beware, or in this case, seller beware.</description>
@@ -77,14 +88,6 @@
      <pubDate>Thu, 08 Mar 2018 17:11:35 +0100</pubDate>
  <dc:creator>ekomi</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/three-ways-of-collecting-and-displaying-ratings-and-reviews-can-improve-your-seo-and-organic-search-ranking</guid>
-  </item>
-  <item>
-    <title>PrestaShop 1.7.3.0 Is Available!</title>
-    <link>https://www.prestashop.com/en/blog/prestashop-1-7-3-0-is-available</link>
-    <description>EASIER - FASTER - INTERNATIONAL</description>
-     <pubDate>Thu, 08 Mar 2018 11:45:14 +0100</pubDate>
- <dc:creator>camille.teissier</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashop-1-7-3-0-is-available</guid>
   </item>
   </channel>
 </rss>

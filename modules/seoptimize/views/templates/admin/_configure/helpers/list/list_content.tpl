@@ -20,6 +20,12 @@
         {$smarty.block.parent}
     {/if}
 
+    {if isset($params.type) && $params.type == 'product'}
+        <br>
+        {$tr.product_name}<br>
+        <img src="{$tr[1]}">
+    {/if}
+
     {if isset($params.type) && $params.type == 'category_name'}
         {foreach $tr[0] as $item}
             {$commaSeparated[] = $item.name}
