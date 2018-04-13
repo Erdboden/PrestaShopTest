@@ -22,8 +22,9 @@
 
     {if isset($params.type) && $params.type == 'product'}
         <br>
-        {$tr.product_name}<br>
-        <img src="{$tr[1]}">
+        {$tr.product_name}
+        <br>
+        <img src="{$tr[1]}" class="imgm img-thumbnail" height="63" width="63">
     {/if}
 
     {if isset($params.type) && $params.type == 'category_name'}
