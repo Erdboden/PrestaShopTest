@@ -6,6 +6,15 @@
     <language>en</language>
      <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>PrestaShop for a large online store. Is it a good idea?</title>
+    <link>https://www.prestashop.com/en/blog/prestashop-for-a-large-online-store-is-it-a-good-idea</link>
+    <description> 
+Can the PrestaShop eCommerce platform meet the needs of large companies and online stores? We have checked! See the conclusions and specific completed projects. </description>
+     <pubDate>Mon, 16 Apr 2018 16:36:35 +0200</pubDate>
+ <dc:creator>ps_partners</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/prestashop-for-a-large-online-store-is-it-a-good-idea</guid>
+  </item>
+  <item>
     <title>PrestaShop’s solutions in response to the new data protection requirements</title>
     <link>https://www.prestashop.com/en/blog/prestashops-solutions-in-response-to-the-new-data-protection-requirements</link>
     <description>
@@ -80,14 +89,6 @@ You can read our article about it here :</description>
      <pubDate>Thu, 08 Mar 2018 18:08:41 +0100</pubDate>
  <dc:creator>ekomi</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/collection-methods</guid>
-  </item>
-  <item>
-    <title>Three ways of collecting and displaying ratings and reviews can improve your SEO and Organic Search Ranking.</title>
-    <link>https://www.prestashop.com/en/blog/three-ways-of-collecting-and-displaying-ratings-and-reviews-can-improve-your-seo-and-organic-search-ranking</link>
-    <description>In recent years ratings and reviews have turned into must-haves for every ecommerce business.</description>
-     <pubDate>Thu, 08 Mar 2018 17:11:35 +0100</pubDate>
- <dc:creator>ekomi</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/three-ways-of-collecting-and-displaying-ratings-and-reviews-can-improve-your-seo-and-organic-search-ranking</guid>
   </item>
   </channel>
 </rss>

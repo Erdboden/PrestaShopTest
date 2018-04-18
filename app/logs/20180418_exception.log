@@ -1,0 +1,22 @@
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:31:29: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:31:30: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:31:31: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:31:35: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:31:44: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:31:53: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:31:59: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:32:00: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:33:16: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:33:22: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:33:52: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:34:07: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:34:18: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:35:40: Duplicate entry '0-1' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ps_product_shop` (`id_category_default`, `id_tax_rules_group`, `on_sale`, `online_only`, `ecotax`, `minimal_quantity`, `low_stock_threshold`, `low_stock_alert`, `price`, `wholesale_price`, `unity`, `unit_price_ratio`, `additional_shipping_cost`, `customizable`, `text_fields`, `uploadable_files`, `active`, `redirect_type`, `id_type_redirected`, `available_for_order`, `available_date`, `show_condition`, `condition`, `show_price`, `indexed`, `visibility`, `cache_default_attribute`, `advanced_stock_management`, `date_add`, `date_upd`, `pack_stock_type`, `id_product`, `id_shop`) VALUES ('0', '1', '0', '0', '0', '1', NULL, '0', '0', '0', '', '0', '0', '0', '0', '0', '1', '', '0', '1', '0000-00-00', '0', 'new', '1', '0', 'both', '0', '0', '2018-04-18 15:35:40', '2018-04-18 15:35:40', '3', '0', '1')</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:38:13: Duplicate entry '0-1' for key 'PRIMARY'<br /><br /><pre>INSERT INTO `ps_image_shop` (`id_product`, `cover`, `id_image`, `id_shop`) VALUES ('0', NULL, '0', '1')</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:38:35: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:52:10: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:52:16: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:52:17: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:52:18: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:52:19: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/18 - 15:57:51: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php

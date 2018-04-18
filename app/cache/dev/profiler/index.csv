@@ -74,3 +74,16 @@ d26b73,::1,GET,http://localhost/admin786elpbmm/index.php/attribute/product-form-
 149aa5,::1,GET,http://localhost/admin786elpbmm/index.php/combination/36-37-38-39?_token=lOdR3i-KPzFRU_C9-iJCb5vWmJkxHoK3zHztZeiKZok,1523609458,,200
 01db09,127.0.0.1,GET,http://localhost/admin786elpbmm/index.php/_fragment?_path=_format%3Dhtml%26_locale%3Den-US%26_controller%3DPrestaShopBundle%255CController%255CAdmin%255CProductController%253A%253AlistAction,1523609524,a58711,200
 a58711,::1,GET,http://localhost/admin786elpbmm/index.php/product/catalog?_token=lOdR3i-KPzFRU_C9-iJCb5vWmJkxHoK3zHztZeiKZok,1523609524,,200
+f3ce13,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog?_token=lOdR3i-KPzFRU_C9-iJCb5vWmJkxHoK3zHztZeiKZok,1523612105,,200
+baf04a,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog/refresh?_token=lOdR3i-KPzFRU_C9-iJCb5vWmJkxHoK3zHztZeiKZok,1523612120,,200
+137e40,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=lOdR3i-KPzFRU_C9-iJCb5vWmJkxHoK3zHztZeiKZok,1523612126,,200
+0fc31c,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/reset/seoptimize?_token=lOdR3i-KPzFRU_C9-iJCb5vWmJkxHoK3zHztZeiKZok,1523612144,,200
+574111,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/configure/seoptimize?_token=lOdR3i-KPzFRU_C9-iJCb5vWmJkxHoK3zHztZeiKZok,1523612206,,302
+b150a7,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog?_token=lOdR3i-KPzFRU_C9-iJCb5vWmJkxHoK3zHztZeiKZok,1523624545,,200
+8a88c0,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog/refresh?_token=lOdR3i-KPzFRU_C9-iJCb5vWmJkxHoK3zHztZeiKZok,1523624556,,200
+3d2f9d,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=lOdR3i-KPzFRU_C9-iJCb5vWmJkxHoK3zHztZeiKZok,1523624566,,200
+4ac40a,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/configure/seoptimize?_token=lOdR3i-KPzFRU_C9-iJCb5vWmJkxHoK3zHztZeiKZok,1523624578,,302
+0828bf,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog?_token=LJYVd7Z4wtHX3pGiQ_GjY1OvytoWZcF4VkBUrM_SsuM,1524035931,,200
+bfea4c,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog/refresh?_token=LJYVd7Z4wtHX3pGiQ_GjY1OvytoWZcF4VkBUrM_SsuM,1524035943,,200
+8690cf,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=LJYVd7Z4wtHX3pGiQ_GjY1OvytoWZcF4VkBUrM_SsuM,1524035949,,200
+820d5a,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/configure/seoptimize?_token=LJYVd7Z4wtHX3pGiQ_GjY1OvytoWZcF4VkBUrM_SsuM,1524035952,,302

@@ -52,8 +52,22 @@ $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seo_rule_lang` (
 $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seoptimize_product_meta` (
     `id_seoptimize_product_meta` int(11) NOT NULL AUTO_INCREMENT,
     `id_product` int(11) unsigned DEFAULT NULL,
-    `has_custom_meta` tinyint(1) default 0,
+    `has_custom_title` tinyint(1) default 0,
+    `has_custom_description` tinyint(1) default 0,
+    `has_custom_keywords` tinyint(1) default 0,
+    `has_custom_alt` tinyint(1) default 0,
     PRIMARY KEY (`id_seoptimize_product_meta`)
+) ENGINE='._MYSQL_ENGINE_.' DEFAULT CHARSET=utf8;';
+
+$sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seoptimize_product_meta_lang` (
+    `id_seoptimize_product_meta_lang` int(11) NOT NULL AUTO_INCREMENT,
+    `id_lang` int(11) unsigned DEFAULT NULL,
+    `has_custom_meta` tinyint(1) default 0,
+    `seo_meta_title` TEXT DEFAULT NULL,
+    `seo_meta_description` TEXT DEFAULT NULL,
+    `seo_meta_keywords` TEXT DEFAULT NULL,
+    `seo_image_alt` TEXT DEFAULT NULL,
+    PRIMARY KEY (`id_seoptimize_product_meta_lang`)
 ) ENGINE='._MYSQL_ENGINE_.' DEFAULT CHARSET=utf8;';
 
 foreach ($sql as $query) {

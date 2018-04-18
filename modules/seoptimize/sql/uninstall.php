@@ -34,6 +34,8 @@ $sql = array();
 $sql[] = 'DROP TABLE IF EXISTS `'._DB_PREFIX_.'seoptimize`;';
 $sql[] = 'DROP TABLE IF EXISTS `'._DB_PREFIX_.'category_seo_rule`;';
 $sql[] = 'DROP TABLE IF EXISTS `'._DB_PREFIX_.'seo_rule_lang`;';
+$sql[] = 'DROP TABLE IF EXISTS `'._DB_PREFIX_.'seoptimize_product_meta`;';
+$sql[] = 'DROP TABLE IF EXISTS `'._DB_PREFIX_.'seoptimize_product_meta_lang`;';
 
 foreach ($sql as $query) {
     if (Db::getInstance()->execute($query) == false) {

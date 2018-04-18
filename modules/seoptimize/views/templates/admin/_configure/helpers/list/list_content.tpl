@@ -59,20 +59,30 @@
     {/if}
 
     {if isset($params.type) && $params.type == 'custom_meta'}
-        <b>title:</b>
-        <br>
-        {$tr.meta_title}
-        <br>
-        <b>description:</b>
-        <br>
-        {$tr.meta_description}
-        <br>
-        <b>keywords:</b>
-        <br>
-        {$tr.meta_keywords}
-        <br>
-        <b>image alt:</b>
-        <br>
-        {$tr.legend}
+        <div class="edit-meta" contenteditable>
+            <input type="hidden" value="{$tr.$identifier|intval}" name="ind" class="ind">
+            <b>title:</b><br>
+            <div class="mtitle">
+            {$tr.meta_title}
+            </div>
+            <br>
+            <b>description:</b>
+            <br>
+            <div class="mdescription">
+            {$tr.meta_description}
+            </div>
+            <br>
+            <b>keywords:</b>
+            <br>
+            <div class="mkeywords">
+            {$tr.meta_keywords}
+            </div>
+            <br>
+            <b>image alt:</b>
+            <br>
+            <div class="mlegend">
+            {$tr.legend}
+            </div>
+        </div>
     {/if}
 {/block}

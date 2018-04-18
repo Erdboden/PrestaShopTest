@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7d77deb-5d52-4e7e-a32d-083b5314a557" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/cache/dev/ps_mainmenu/MOD_BLOCKTOPMENU_MENU_JSON_2_1.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/30/5b37366637393630306166666237623861343031366531393333623332343433645d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/30/5b37366637393630306166666237623861343031366531393333623332343433645d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/46/5b656e5f6164646f6e735f6d6f64756c65735d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/46/5b656e5f6164646f6e735f6d6f64756c65735d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/66/5b38323132343039346166663039383765333235373766366335363336633434625d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/66/5b38323132343039346166663039383765333235373766366335363336633434625d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/94/5b64626666346438336663373931313432393430643032356334366262366235635d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/94/5b64626666346438336663373931313432393430643032356334366262366235635d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/98/5b31343732376436666435343735386430633461333262383132323862363433645d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/98/5b31343732376436666435343735386430633461333262383132323862363433645d5b315d.doctrinecache.data" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/cb/5b63333131623137343235383365353635333062633439353732636233623334615d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/cb/5b63333131623137343235383365353635333062633439353732636233623334615d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/doctrine/cb/5b656e5f6c6f63616c5f6d6f64756c65735d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/app/cache/dev/doctrine/cb/5b656e5f6c6f63616c5f6d6f64756c65735d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/app/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/18/18fd9fae9ec5656074a77ba89bddbe5c1e3044f13529d387b40cf27c8cd6d121.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/18/18fd9fae9ec5656074a77ba89bddbe5c1e3044f13529d387b40cf27c8cd6d121.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/32/3217674cc711c374f146b1542ad8d8b27cf07133c85c97566c47e17ffe8e2b6e.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/32/3217674cc711c374f146b1542ad8d8b27cf07133c85c97566c47e17ffe8e2b6e.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/81/819037c46a3993f1ca53b702815a46ccf6e5c14a09d95e0c49cb5d2c20b5387b.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/81/819037c46a3993f1ca53b702815a46ccf6e5c14a09d95e0c49cb5d2c20b5387b.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/a7/a7d0db52bc727dbd6aef64d6fec8534c8ee9b001d4cc39f3e1c67044c40275ce.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/a7/a7d0db52bc727dbd6aef64d6fec8534c8ee9b001d4cc39f3e1c67044c40275ce.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/b8/b812e213dc18c52401df3b9749b892a607d9dde6858952c90c034e72bb434f3c.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/b8/b812e213dc18c52401df3b9749b892a607d9dde6858952c90c034e72bb434f3c.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/cache/dev/twig/f2/f244d950873f65d119cf8d9fa294dd7d274258d133113cdeb7a3d89fabe318b5.php" afterPath="$PROJECT_DIR$/app/cache/dev/twig/f2/f244d950873f65d119cf8d9fa294dd7d274258d133113cdeb7a3d89fabe318b5.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/logs/dev.log" afterPath="$PROJECT_DIR$/app/logs/dev.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/blog-en.xml" afterPath="$PROJECT_DIR$/config/xml/blog-en.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/default_country_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" afterPath="$PROJECT_DIR$/config/xml/modules_native_addons.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" afterPath="$PROJECT_DIR$/config/xml/must_have_modules_list.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" afterPath="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/sql/install.php" afterPath="$PROJECT_DIR$/modules/seoptimize/sql/install.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/sql/uninstall.php" afterPath="$PROJECT_DIR$/modules/seoptimize/sql/uninstall.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/js/back.js" afterPath="$PROJECT_DIR$/modules/seoptimize/views/js/back.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl" afterPath="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,73 +48,84 @@
       <file leaf-file-name="seoptimize.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="392" column="58" lean-forward="true" selection-start-line="392" selection-start-column="58" selection-end-line="392" selection-end-column="58" />
+            <state relative-caret-position="287">
+              <caret line="801" column="9" lean-forward="false" selection-start-line="801" selection-start-column="9" selection-end-line="801" selection-end-column="9" />
               <folding>
-                <marker date="1523542174367" expanded="true" signature="9255:9336" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-                <marker date="1523542174367" expanded="true" signature="9255:9635" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-                <marker date="1523542174367" expanded="true" signature="9255:9649" ph="SELECT * FRO... ${_DB_PREFIX_}product" />
-                <marker date="1523542174367" expanded="true" signature="14351:15870" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
-                <marker date="1523542174367" expanded="true" signature="14351:15931" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
-                <marker date="1523542174367" expanded="true" signature="16057:16140" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
-                <marker date="1523542174367" expanded="true" signature="16741:16822" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
-                <marker date="1523542174367" expanded="true" signature="17380:17433" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
-                <marker date="1523542174367" expanded="true" signature="19691:20098" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1523542174367" expanded="true" signature="20996:21079" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
-                <marker date="1523542174367" expanded="true" signature="24861:24950" ph="SELECT `id_c... ${_DB_PREFIX_}category_seo_rule" />
-                <marker date="1523542174367" expanded="true" signature="26120:26389" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1523542174367" expanded="true" signature="27173:27459" ph="SELECT `name... ${_DB_PREFIX_}category_seo_rule" />
-                <marker date="1523542174367" expanded="true" signature="27909:28036" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-                <marker date="1523542174367" expanded="true" signature="29374:29623" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-                <marker date="1523542174367" expanded="true" signature="29818:30000" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
-                <marker date="1523542174367" expanded="true" signature="32845:33094" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-                <marker date="1523542174367" expanded="true" signature="33301:33483" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
-                <marker date="1523542174367" expanded="true" signature="34980:35150" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
-                <marker date="1523542174367" expanded="true" signature="35978:36275" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-                <marker date="1523542174367" expanded="true" signature="36327:36506" ph="SELECT `name... ${_DB_PREFIX_}category_lang" />
-                <marker date="1523542174367" expanded="true" signature="37187:37366" ph="SELECT `name... ${_DB_PREFIX_}category_lang" />
-                <marker date="1523542174367" expanded="true" signature="37748:38063" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-                <marker date="1523542174367" expanded="true" signature="39494:39848" ph="SELECT `cl`.... ${_DB_PREFIX_}category_lang" />
+                <marker date="1524055590693" expanded="true" signature="9839:9920" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
+                <marker date="1524055590693" expanded="true" signature="9839:10219" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
+                <marker date="1524055590693" expanded="true" signature="9839:10233" ph="SELECT * FRO... ${_DB_PREFIX_}product" />
+                <marker date="1524055590693" expanded="true" signature="15009:16528" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
+                <marker date="1524055590693" expanded="true" signature="15009:16544" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
+                <marker date="1524055590693" expanded="true" signature="16656:16739" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
+                <marker date="1524055590693" expanded="true" signature="17340:17421" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
+                <marker date="1524055590693" expanded="true" signature="17979:18024" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
+                <marker date="1524055590693" expanded="true" signature="20282:20689" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1524055590693" expanded="true" signature="21587:21670" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1524055590693" expanded="true" signature="25452:25541" ph="SELECT `id_c... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1524055590693" expanded="true" signature="26711:26980" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1524055590693" expanded="true" signature="27764:28050" ph="SELECT `name... ${_DB_PREFIX_}category_seo_rule" />
+                <marker date="1524055590693" expanded="true" signature="28500:28627" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+                <marker date="1524055590693" expanded="true" signature="32864:33034" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
+                <marker date="1524055590693" expanded="true" signature="33765:33866" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize_product_meta" />
+                <marker date="1524055590693" expanded="true" signature="34085:34255" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
+                <marker date="1524055590693" expanded="true" signature="34871:35168" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
+                <marker date="1524055590693" expanded="true" signature="35220:35399" ph="SELECT `name... ${_DB_PREFIX_}category_lang" />
+                <marker date="1524055590693" expanded="true" signature="36080:36259" ph="SELECT `name... ${_DB_PREFIX_}category_lang" />
+                <marker date="1524055590693" expanded="true" signature="36641:36956" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
+                <marker date="1524055590693" expanded="true" signature="38387:38741" ph="SELECT `cl`.... ${_DB_PREFIX_}category_lang" />
+                <marker date="1524055590693" expanded="true" signature="39014:39263" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
+                <marker date="1524055590693" expanded="true" signature="39429:39530" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize_product_meta" />
+                <marker date="1524055590693" expanded="true" signature="39696:39878" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminProductsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/admin/AdminProductsController.php">
+      <file leaf-file-name="back.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/js/back.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="2709" column="70" lean-forward="false" selection-start-line="2709" selection-start-column="66" selection-end-line="2709" selection-end-column="70" />
+            <state relative-caret-position="453">
+              <caret line="133" column="62" lean-forward="false" selection-start-line="133" selection-start-column="62" selection-end-line="133" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="product-list.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/classic/templates/catalog/listing/product-list.tpl">
+      <file leaf-file-name="list_header.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_header.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+            <state relative-caret-position="51">
+              <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products.tpl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/classic/templates/catalog/_partials/products.tpl">
+      <file leaf-file-name="back.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/js/back.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+            <state relative-caret-position="385">
+              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list_content.tpl" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list_content.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_content.tpl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+            <state relative-caret-position="301">
+              <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -116,17 +135,8 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getConfigForm</find>
-      <find>back</find>
-      <find>new_rule</find>
-      <find>editForm</find>
-      <find>back_to_add</find>
-      <find>(bool)</find>
-      <find>tpl</find>
-      <find>exit</find>
       <find>postPr</find>
       <find>productslist</find>
-      <find>dump</find>
       <find>getProduct</find>
       <find>seoptimize_category_seo_rule</find>
       <find>languages</find>
@@ -139,13 +149,22 @@
       <find>getProductsList</find>
       <find>return</find>
       <find>renderLinksTaxonomyList</find>
-      <find>update_path</find>
       <find>thumbnail</find>
       <find>getImageLink</find>
       <find>Image</find>
       <find>img</find>
-      <find>&lt;br&gt;</find>
       <find>link</find>
+      <find>&lt;br&gt;</find>
+      <find>productsList</find>
+      <find>postProcess</find>
+      <find>fields_list</find>
+      <find>dump</find>
+      <find>updateProductMeta</find>
+      <find>identifier</find>
+      <find>getTaxonomyOptionsContent</find>
+      <find>ajaxEditProductMeta</find>
+      <find>update_path</find>
+      <find>Propaga</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -198,13 +217,11 @@
         <option value="$PROJECT_DIR$/modules/iconsforfeatures/views/templates/admin/configure.tpl" />
         <option value="$PROJECT_DIR$/override/controllers/admin/AdminFeaturesController.php" />
         <option value="$PROJECT_DIR$/modules/addtofavoritesmywishlist/ajax/Services/Favorite.php" />
-        <option value="$PROJECT_DIR$/modules/seoptimize/sql/uninstall.php" />
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/taxonomy_configure.tpl" />
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_header.tpl" />
         <option value="$PROJECT_DIR$/modules/seoptimize/views/templates/_configure/helpers/list/list_content.tpl" />
         <option value="$PROJECT_DIR$/modules/discountfollower/discountfollower.php" />
         <option value="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/configure.tpl" />
-        <option value="$PROJECT_DIR$/modules/seoptimize/sql/install.php" />
         <option value="$PROJECT_DIR$/modules/iconsforfeatures/iconsforfeatures.php" />
         <option value="$PROJECT_DIR$/modules/iconsforfeatures/override/controllers/admin/AdminFeaturesController.php" />
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php" />
@@ -212,9 +229,11 @@
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl" />
         <option value="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_header.tpl" />
         <option value="$PROJECT_DIR$/modules/gshoppingfeed/views/js/back.js" />
-        <option value="$PROJECT_DIR$/modules/seoptimize/views/js/back.js" />
+        <option value="$PROJECT_DIR$/modules/seoptimize/sql/uninstall.php" />
+        <option value="$PROJECT_DIR$/modules/seoptimize/sql/install.php" />
         <option value="$PROJECT_DIR$/modules/seoptimize/seoptimize.php" />
         <option value="$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl" />
+        <option value="$PROJECT_DIR$/modules/seoptimize/views/js/back.js" />
       </list>
     </option>
   </component>
@@ -246,6 +265,21 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Scratches" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1974,21 +2008,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Scratches" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2150,18 +2169,21 @@
       <workItem from="1523525603437" duration="4158000" />
       <workItem from="1523534907614" duration="4596000" />
       <workItem from="1523606864866" duration="44000" />
-      <workItem from="1523608741073" duration="1075000" />
+      <workItem from="1523608741073" duration="3716000" />
+      <workItem from="1523619878429" duration="325000" />
+      <workItem from="1523621790520" duration="3260000" />
+      <workItem from="1524035377434" duration="21418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="335611000" />
+    <option name="totallyTimeSpent" value="363255000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="0" width="1928" height="1035" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23588924" sideWeight="0.49562362" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2428115" sideWeight="0.49562362" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21115974" sideWeight="0.5021299" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2201,13 +2223,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/grouperpro/views/templates/admin/download.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-140">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/discountfollower/views/templates/admin/_configure/helpers/list/list_content.tpl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -2261,13 +2276,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
           <caret line="542" column="77" lean-forward="false" selection-start-line="542" selection-start-column="77" selection-end-line="542" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/seoptimize/sql/install.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -2413,13 +2421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="56" column="38" lean-forward="false" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/css/back.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="458">
@@ -2432,23 +2433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1352">
           <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="54" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/js/back.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4420">
-          <caret line="170" column="14" lean-forward="false" selection-start-line="170" selection-start-column="14" selection-end-line="170" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2456,34 +2440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="137" column="5" lean-forward="true" selection-start-line="137" selection-start-column="5" selection-end-line="137" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1664">
-          <caret line="72" column="140" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="140" />
-          <folding>
-            <marker date="1523439276289" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1523439276289" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
-            <marker date="1523439276289" expanded="true" signature="23640:23738" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-            <marker date="1523439276289" expanded="true" signature="23920:24060" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-            <marker date="1523439276289" expanded="true" signature="24222:24277" ph="SELECT * FRO... ${_DB_PREFIX_}" />
-            <marker date="1523439276289" expanded="true" signature="62667:63530" ph="SELECT c.id_... ${_DB_PREFIX_}" />
-            <marker date="1523439276289" expanded="true" signature="70451:70543" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1523439276289" expanded="true" signature="96697:96789" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1523439276289" expanded="true" signature="98572:98648" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
-            <marker date="1523439276289" expanded="true" signature="108029:108248" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
-            <marker date="1523439276289" expanded="true" signature="113638:113836" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/js/back.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="428">
-          <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2519,65 +2475,143 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/classic/templates/catalog/_partials/products.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="286">
           <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/classic/templates/catalog/listing/product-list.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
+        <state relative-caret-position="1300">
           <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/admin/AdminProductsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="69836">
           <caret line="2709" column="70" lean-forward="false" selection-start-line="2709" selection-start-column="66" selection-end-line="2709" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/seoptimize/sql/uninstall.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="32" column="15" lean-forward="false" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <marker date="1523612158961" expanded="true" signature="1186:1234" ph="DROP TABLE I... " />
+            <marker date="1523612158961" expanded="true" signature="1248:1303" ph="DROP TABLE I... " />
+            <marker date="1523612158961" expanded="true" signature="1317:1368" ph="DROP TABLE I... " />
+            <marker date="1523612158961" expanded="true" signature="1382:1443" ph="DROP TABLE I... " />
+            <marker date="1523612158961" expanded="true" signature="1457:1523" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/seoptimize/sql/install.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="63" column="44" lean-forward="false" selection-start-line="63" selection-start-column="44" selection-end-line="63" selection-end-column="44" />
+          <folding>
+            <marker date="1523624349084" expanded="true" signature="1005:1197" ph="CREATE TABLE... IF" />
+            <marker date="1523624349084" expanded="true" signature="1212:1523" ph="CREATE TABLE... IF" />
+            <marker date="1523624349084" expanded="true" signature="1538:2007" ph="CREATE TABLE... IF" />
+            <marker date="1523624349084" expanded="true" signature="2022:2488" ph="CREATE TABLE... IF" />
+            <marker date="1523624349084" expanded="true" signature="2503:3006" ph="CREATE TABLE... IF" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/gshoppingfeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="129" column="61" lean-forward="false" selection-start-line="129" selection-start-column="61" selection-end-line="129" selection-end-column="61" />
+          <folding>
+            <marker date="1523439276289" expanded="true" signature="4325:4401" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
+            <marker date="1523439276289" expanded="true" signature="19732:20294" ph="SELECT c.id_... ${_DB_PREFIX_}category" />
+            <marker date="1523439276289" expanded="true" signature="23640:23738" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+            <marker date="1523439276289" expanded="true" signature="23920:24060" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+            <marker date="1523439276289" expanded="true" signature="24222:24277" ph="SELECT * FRO... ${_DB_PREFIX_}" />
+            <marker date="1523439276289" expanded="true" signature="62667:63530" ph="SELECT c.id_... ${_DB_PREFIX_}" />
+            <marker date="1523439276289" expanded="true" signature="70451:70543" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
+            <marker date="1523439276289" expanded="true" signature="96697:96789" ph="SELECT `cate... ${_DB_PREFIX_}gshoppingfeed" />
+            <marker date="1523439276289" expanded="true" signature="98572:98648" ph="SELECT * FRO... ${_DB_PREFIX_}gshoppingfeed" />
+            <marker date="1523439276289" expanded="true" signature="108029:108248" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
+            <marker date="1523439276289" expanded="true" signature="113638:113836" ph="SELECT `id_t... ${_DB_PREFIX_}gshoppingfeed_taxonomy" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/js/back.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/seoptimize/seoptimize.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="392" column="58" lean-forward="true" selection-start-line="392" selection-start-column="58" selection-end-line="392" selection-end-column="58" />
+        <state relative-caret-position="287">
+          <caret line="801" column="9" lean-forward="false" selection-start-line="801" selection-start-column="9" selection-end-line="801" selection-end-column="9" />
           <folding>
-            <marker date="1523542174367" expanded="true" signature="9255:9336" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-            <marker date="1523542174367" expanded="true" signature="9255:9635" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-            <marker date="1523542174367" expanded="true" signature="9255:9649" ph="SELECT * FRO... ${_DB_PREFIX_}product" />
-            <marker date="1523542174367" expanded="true" signature="14351:15870" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
-            <marker date="1523542174367" expanded="true" signature="14351:15931" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
-            <marker date="1523542174367" expanded="true" signature="16057:16140" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
-            <marker date="1523542174367" expanded="true" signature="16741:16822" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
-            <marker date="1523542174367" expanded="true" signature="17380:17433" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
-            <marker date="1523542174367" expanded="true" signature="19691:20098" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1523542174367" expanded="true" signature="20996:21079" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
-            <marker date="1523542174367" expanded="true" signature="24861:24950" ph="SELECT `id_c... ${_DB_PREFIX_}category_seo_rule" />
-            <marker date="1523542174367" expanded="true" signature="26120:26389" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1523542174367" expanded="true" signature="27173:27459" ph="SELECT `name... ${_DB_PREFIX_}category_seo_rule" />
-            <marker date="1523542174367" expanded="true" signature="27909:28036" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
-            <marker date="1523542174367" expanded="true" signature="29374:29623" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-            <marker date="1523542174367" expanded="true" signature="29818:30000" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
-            <marker date="1523542174367" expanded="true" signature="32845:33094" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-            <marker date="1523542174367" expanded="true" signature="33301:33483" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
-            <marker date="1523542174367" expanded="true" signature="34980:35150" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
-            <marker date="1523542174367" expanded="true" signature="35978:36275" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-            <marker date="1523542174367" expanded="true" signature="36327:36506" ph="SELECT `name... ${_DB_PREFIX_}category_lang" />
-            <marker date="1523542174367" expanded="true" signature="37187:37366" ph="SELECT `name... ${_DB_PREFIX_}category_lang" />
-            <marker date="1523542174367" expanded="true" signature="37748:38063" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
-            <marker date="1523542174367" expanded="true" signature="39494:39848" ph="SELECT `cl`.... ${_DB_PREFIX_}category_lang" />
+            <marker date="1524055590693" expanded="true" signature="9839:9920" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
+            <marker date="1524055590693" expanded="true" signature="9839:10219" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
+            <marker date="1524055590693" expanded="true" signature="9839:10233" ph="SELECT * FRO... ${_DB_PREFIX_}product" />
+            <marker date="1524055590693" expanded="true" signature="15009:16528" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
+            <marker date="1524055590693" expanded="true" signature="15009:16544" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
+            <marker date="1524055590693" expanded="true" signature="16656:16739" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
+            <marker date="1524055590693" expanded="true" signature="17340:17421" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
+            <marker date="1524055590693" expanded="true" signature="17979:18024" ph="SELECT `pl`.... ${_DB_PREFIX_}product_lang" />
+            <marker date="1524055590693" expanded="true" signature="20282:20689" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1524055590693" expanded="true" signature="21587:21670" ph="SELECT * FRO... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1524055590693" expanded="true" signature="25452:25541" ph="SELECT `id_c... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1524055590693" expanded="true" signature="26711:26980" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1524055590693" expanded="true" signature="27764:28050" ph="SELECT `name... ${_DB_PREFIX_}category_seo_rule" />
+            <marker date="1524055590693" expanded="true" signature="28500:28627" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize" />
+            <marker date="1524055590693" expanded="true" signature="32864:33034" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
+            <marker date="1524055590693" expanded="true" signature="33765:33866" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize_product_meta" />
+            <marker date="1524055590693" expanded="true" signature="34085:34255" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
+            <marker date="1524055590693" expanded="true" signature="34871:35168" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
+            <marker date="1524055590693" expanded="true" signature="35220:35399" ph="SELECT `name... ${_DB_PREFIX_}category_lang" />
+            <marker date="1524055590693" expanded="true" signature="36080:36259" ph="SELECT `name... ${_DB_PREFIX_}category_lang" />
+            <marker date="1524055590693" expanded="true" signature="36641:36956" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
+            <marker date="1524055590693" expanded="true" signature="38387:38741" ph="SELECT `cl`.... ${_DB_PREFIX_}category_lang" />
+            <marker date="1524055590693" expanded="true" signature="39014:39263" ph="SELECT * FRO... ${_DB_PREFIX_}product_lang" />
+            <marker date="1524055590693" expanded="true" signature="39429:39530" ph="SELECT * FRO... ${_DB_PREFIX_}seoptimize_product_meta" />
+            <marker date="1524055590693" expanded="true" signature="39696:39878" ph="SELECT `id_i... ${_DB_PREFIX_}image" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/gshoppingfeed/views/templates/admin/_configure/helpers/list/list_content.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/templates/admin/_configure/helpers/list/list_content.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="26" column="65" lean-forward="false" selection-start-line="26" selection-start-column="65" selection-end-line="26" selection-end-column="65" />
+        <state relative-caret-position="301">
+          <caret line="68" column="31" lean-forward="true" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/seoptimize/views/js/back.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="133" column="62" lean-forward="false" selection-start-line="133" selection-start-column="62" selection-end-line="133" selection-end-column="62" />
           <folding />
         </state>
       </provider>

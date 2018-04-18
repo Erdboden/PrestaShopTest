@@ -99,12 +99,25 @@ class Seoptimize extends Module
          * If values have been submitted in the form, process.
          */
         self::$currentIndex = $_SERVER['SCRIPT_NAME'] . (($controller = Tools::getValue('controller')) ? '?controller=' . $controller : '');
+
         if (Tools::isSubmit('reloadProductsList') && Tools::getValue('reloadProductsList') == 1
             && Tools::getValue('ajax') && Tools::isSubmit('language') && Validate::isInt(Tools::getValue('language'))
             && Tools::getValue('language') > 0
         ) {
 
             die($this->renderProductsList((int)Tools::getValue('language')));
+        }
+
+        if (Tools::isSubmit('ajaxEditProductMeta') && Tools::getValue('ajaxEditProductMeta') == 1
+            && Tools::getValue('ajax')
+        ) {
+            $lang = (int)Tools::getValue('language');
+            $productId = (int)Tools::getValue('product_id');
+            $title = Tools::getValue('title');
+            $description = Tools::getValue('description');
+            $keywords = Tools::getValue('keywords');
+            $legend= Tools::getValue('legend');
+            $this->ajaxEditProductMeta($lang, $productId, $title, $description, $keywords, $legend);
         }
 
         if (((bool)Tools::isSubmit('editProductMeta')) == true) {
@@ -326,10 +339,11 @@ class Seoptimize extends Module
             'orderby' => false
         );
         $this->fields_list['custom_meta'] = array(
-            'title'   => $this->l('Custom meta'),
-            'type'    => 'custom_meta',
-            'search'  => false,
-            'orderby' => false
+            'title'          => $this->l('Custom meta'),
+            'type'           => 'custom_meta',
+            'search'         => false,
+            'orderby'        => false,
+            'remove_onclick' => true
         );
 
         $helper                = new HelperList();
@@ -345,10 +359,11 @@ class Seoptimize extends Module
         $helper->table_id      = 'module-seoptimize';
         $helper->currentIndex  = $this->context->link->getAdminLink('AdminModules', false)
             . '&configure=' . $this->name . '&module_name=' . $this->name;
-        $helper->tpl_vars = array(
-            'languages' => $this->context->controller->getLanguages(false),
+        $helper->tpl_vars      = array(
+            'languages'   => $this->context->controller->getLanguages(false),
             'update_path' => self::$currentIndex . '&configure=' . urlencode($this->name) . '&token=' . Tools::getAdminTokenLite('AdminModules') . '&reloadProductsList'
         );
+
         return $helper->generateList($this->getProductsList($select_lang), $this->fields_list);
     }
 
@@ -380,8 +395,7 @@ class Seoptimize extends Module
                         on `pl`.`id_product`=`i`.`id_product`
                         JOIN `" . _DB_PREFIX_ . "image_lang` AS `il`
                         on `i`.`id_image`=`il`.`id_image`
-                        where `pl`.`id_lang`=".$select_lang."
-                        and `srl`.`id_lang`=".$select_lang;
+                        where `pl`.`id_lang`=" . $select_lang;
         if ($categoryName != '') {
             $result = Db::getInstance()->executeS($sql .
                 " and `cl`.`name`='" . $categoryName . "'
@@ -411,7 +425,7 @@ class Seoptimize extends Module
             }
         } else {
             $result = Db::getInstance()->executeS($sql .
-                        " group by `pl`.`id_product`");
+                " group by `pl`.`id_product`");
             foreach ($result as $key => $product) {
                 $categoriesSql = $this->getProductImage($product);
                 $images        = Product::getCover($product['id_product']);
@@ -700,28 +714,8 @@ class Seoptimize extends Module
                         'seo_image_alt'        => $values['seo_image_alt'][$lang['id_lang']]
                     ), false, true);
 
-                foreach ($categories as $category) {
-                    $products = "SELECT * FROM `" . _DB_PREFIX_ . "product_lang` AS `pl`
-                    JOIN `" . _DB_PREFIX_ . "category_product` AS `cp`
-                    ON `pl`.`id_product`=`cp`.`id_product`
-                    WHERE `cp`.`id_category`=" . $category . "";
-                    $products = Db::getInstance()->executeS($products);
 
-                    foreach ($products as $product) {
-                        $id_image    = Db::getInstance()->getRow("SELECT `id_image` FROM `" . _DB_PREFIX_ . "image`
-                             WHERE `id_product` = " . (int)($product['id_product']) . "
-                             AND `cover` = 1");
-                        $img         = new Image((int)$id_image['id_image'], (int)$lang['id_lang']);
-                        $img->legend = $values['seo_image_alt'][$lang['id_lang']];
-                        $img->update();
-                        $p                   = new Product((int)$product['id_product'], false,
-                            (int)$lang['id_lang']);
-                        $p->meta_title       = $values['seo_meta_title'][$lang['id_lang']];
-                        $p->meta_description = $values['seo_meta_description'][$lang['id_lang']];
-                        $p->meta_keywords    = $values['seo_meta_keywords'][$lang['id_lang']];
-                        $p->update();
-                    }
-                }
+                $this->updateProductMeta($categories, $lang, $values);
             }
         } catch (Exception $e) {
             $this->_errors[] = $this->l('Error save configuration! Exp: ' . $e->getMessage());
@@ -762,28 +756,7 @@ class Seoptimize extends Module
                             'seo_image_alt'        => $values['seo_image_alt'][$lang['id_lang']]
                         ), false, true);
 
-                    foreach ($categories as $category) {
-                        $products = "SELECT * FROM `" . _DB_PREFIX_ . "product_lang` AS `pl`
-                    JOIN `" . _DB_PREFIX_ . "category_product` AS `cp`
-                    ON `pl`.`id_product`=`cp`.`id_product`
-                    WHERE `cp`.`id_category`=" . $category . "";
-                        $products = Db::getInstance()->executeS($products);
-
-                        foreach ($products as $product) {
-                            $id_image    = Db::getInstance()->getRow("SELECT `id_image` FROM `" . _DB_PREFIX_ . "image`
-                             WHERE `id_product` = " . (int)($product['id_product']) . "
-                             AND `cover` = 1");
-                            $img         = new Image((int)$id_image['id_image'], (int)$lang['id_lang']);
-                            $img->legend = $values['seo_image_alt'][$lang['id_lang']];
-                            $img->update();
-                            $p                   = new Product((int)$product['id_product'], false,
-                                (int)$lang['id_lang']);
-                            $p->meta_title       = $values['seo_meta_title'][$lang['id_lang']];
-                            $p->meta_description = $values['seo_meta_description'][$lang['id_lang']];
-                            $p->meta_keywords    = $values['seo_meta_keywords'][$lang['id_lang']];
-                            $p->update();
-                        }
-                    }
+                    $this->updateProductMeta($categories, $lang, $values);
                 }
             }
         } catch (Exception $e) {
@@ -797,6 +770,7 @@ class Seoptimize extends Module
     protected function editProductPostProcess()
     {
         $productId = Tools::getValue('id_product');
+        Db::getInstance()->insert('seoptimize_product_meta', array('id_product' => $productId), false, true);
         $languages = Language::getLanguages(false);
         $values    = array();
         foreach ($languages as $lang) {
@@ -817,6 +791,27 @@ class Seoptimize extends Module
             $p->update();
         }
 
+    }
+
+    protected function ajaxEditProductMeta($lang, $productId, $title, $description, $keywords, $legend)
+    {
+        $res = Db::getInstance()->executeS("SELECT * FROM `" . _DB_PREFIX_ . "seoptimize_product_meta`
+                       WHERE `id_product`=" . $productId);
+        if ($res == null) {
+            Db::getInstance()->insert('seoptimize_product_meta', array('id_product' => $productId), false, true);
+        }
+        $id_image    = Db::getInstance()->getRow("SELECT `id_image` FROM `" . _DB_PREFIX_ . "image`
+                             WHERE `id_product` = " . (int)($productId) . "
+                             AND `cover` = 1");
+        $img         = new Image((int)$id_image['id_image'], (int)$lang);
+        $img->legend = $legend;
+        $img->update();
+
+        $p                   = new Product((int)$productId, false, $lang);
+        $p->meta_title       = $title;
+        $p->meta_description = $description;
+        $p->meta_keywords    = $keywords;
+        $p->update();
     }
 
     public function replaceKeyWithName($categories, $meta, $lang)
@@ -916,5 +911,41 @@ class Seoptimize extends Module
                         group by `cl`.`name`");
 
         return $categoriesSql;
+    }
+
+    /**
+     * @param $categories
+     * @param $lang
+     * @param $values
+     */
+    protected function updateProductMeta($categories, $lang, $values)
+    {
+        foreach ($categories as $category) {
+            $products = "SELECT * FROM `" . _DB_PREFIX_ . "product_lang` AS `pl`
+                    JOIN `" . _DB_PREFIX_ . "category_product` AS `cp`
+                    ON `pl`.`id_product`=`cp`.`id_product`
+                    WHERE `cp`.`id_category`=" . $category . "";
+            $products = Db::getInstance()->executeS($products);
+
+            foreach ($products as $product) {
+
+                $res = Db::getInstance()->executeS("SELECT * FROM `" . _DB_PREFIX_ . "seoptimize_product_meta`
+                       WHERE `id_product`=" . $product['id_product']);
+                if ($res == null || $res[0]['has_custom_meta'] == false) {
+                    $id_image    = Db::getInstance()->getRow("SELECT `id_image` FROM `" . _DB_PREFIX_ . "image`
+                             WHERE `id_product` = " . (int)($product['id_product']) . "
+                             AND `cover` = 1");
+                    $img         = new Image((int)$id_image['id_image'], (int)$lang['id_lang']);
+                    $img->legend = $values['seo_image_alt'][$lang['id_lang']];
+                    $img->update();
+                    $p                   = new Product((int)$product['id_product'], false,
+                        (int)$lang['id_lang']);
+                    $p->meta_title       = $values['seo_meta_title'][$lang['id_lang']];
+                    $p->meta_description = $values['seo_meta_description'][$lang['id_lang']];
+                    $p->meta_keywords    = $values['seo_meta_keywords'][$lang['id_lang']];
+                    $p->update();
+                }
+            }
+        }
     }
 }
