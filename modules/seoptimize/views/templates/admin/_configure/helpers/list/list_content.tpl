@@ -40,6 +40,7 @@
         {if $tr.id_seoptimize_lang==null}
             No rule
         {else}
+            <input type="hidden" value="{$tr.$identifier|intval}" class="ind">
             <b>title:</b>
             <br>
             {$tr.seo_meta_title}
@@ -59,30 +60,43 @@
     {/if}
 
     {if isset($params.type) && $params.type == 'custom_meta'}
-        <div class="edit-meta" contenteditable>
+        <div class="edit-meta">
             <input type="hidden" value="{$tr.$identifier|intval}" name="ind" class="ind">
+            {if $tr.custom_title==null}
+            no custom meta
+                {else}
             <b>title:</b><br>
             <div class="mtitle">
-            {$tr.meta_title}
+                {if $tr.has_custom_title}
+                    <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                           name="has_custom_title" checked>
+                {else}
+                    <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                           name="has_custom_title">
+                {/if}
+                {$tr.custom_title}
             </div>
-            <br>
             <b>description:</b>
-            <br>
             <div class="mdescription">
-            {$tr.meta_description}
+                <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                       name="has_custom_description" value="{$tr.has_custom_description}">
+                {$tr.custom_description}
             </div>
-            <br>
             <b>keywords:</b>
             <br>
             <div class="mkeywords">
-            {$tr.meta_keywords}
+                <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                       name="has_custom_keywords" value="{$tr.has_custom_keywords}">
+                {$tr.custom_keywords}
             </div>
-            <br>
             <b>image alt:</b>
             <br>
             <div class="mlegend">
-            {$tr.legend}
+                <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta" name="has_custom_alt"
+                       value="{$tr.has_custom_alt}">
+                {$tr.custom_alt}
             </div>
+                {/if}
         </div>
     {/if}
 {/block}

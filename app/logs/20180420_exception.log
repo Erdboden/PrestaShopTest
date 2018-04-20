@@ -1,0 +1,76 @@
+*ERROR* 	v1.7.3.0	2018/04/20 - 09:46:11: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 09:46:15: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 09:47:23: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 09:48:08: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 09:48:15: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 09:49:32: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 09:50:21: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 09:51:00: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 09:51:03: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 09:51:05: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 09:57:57: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 11:13:45: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 11:13:53: Property Image->id_product is empty. at line 954 in file classes/ObjectModel.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 11:44:26: Unknown column 'spml.id_seoptimize_product_meta' in 'on clause'<br /><br /><pre>SELECT `spml`.`seo_meta_title`,
+                               `spml`.`seo_meta_description`,
+                               `spml`.`seo_meta_keywords`,
+                               `spml`.`seo_image_alt`,
+                               `spm`.`has_custom_title`,
+                               `spm`.`has_custom_description`,
+                               `spm`.`has_custom_keywords`,
+                               `spm`.`has_custom_alt`,
+                               `pl`.`id_product`,
+                               `pl`.`name` AS `product_name`,
+                               `srl`.`id_seoptimize_lang`,
+                               `srl`.`seo_meta_title`,
+                               `srl`.`seo_meta_description`,
+                               `srl`.`seo_meta_keywords`,
+                               `srl`.`seo_image_alt`,
+                               `il`.`legend`
+                        FROM `ps_product_lang` AS `pl`
+                        JOIN `ps_category_product` AS `cp`
+                        ON `pl`.`id_product`=`cp`.`id_product`
+                        JOIN `ps_category_lang` AS `cl`
+                        on `cp`.`id_category`=`cl`.`id_category`
+                        LEFT JOIN `ps_category_seo_rule` as `csr`
+                        on `cp`.`id_category`=`csr`.`id_category`
+                        LEFT JOIN `ps_seo_rule_lang` as `srl`
+                        on `csr`.`id_seoptimize`=`srl`.`id_seoptimize`
+                        JOIN `ps_image` AS `i`
+                        on `pl`.`id_product`=`i`.`id_product`
+                        JOIN `ps_image_lang` AS `il`
+                        on `i`.`id_image`=`il`.`id_image`
+                        JOIN `ps_seoptimize_product_meta` as `spm`
+                        on `pl`.`id_product`=`spm`.`id_product`
+                        JOIN `ps_seoptimize_product_meta_lang` as `spml`
+                        on `spm`.`id_seoptimize_product_meta` = `spml`.`id_seoptimize_product_meta`
+                        where `pl`.`id_lang`=1 group by `pl`.`id_product`</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 12:08:33: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2<br /><br /><pre>SELECT * FROM `ps_seoptimize_product_meta_lang`
+                       WHERE `id_seoptimize_product_meta`=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 12:09:45: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2<br /><br /><pre>SELECT * FROM `ps_seoptimize_product_meta_lang`
+                       WHERE `id_seoptimize_product_meta`=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 12:11:25: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2<br /><br /><pre>SELECT * FROM `ps_seoptimize_product_meta_lang`
+                       WHERE `id_seoptimize_product_meta`=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 12:17:13: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2<br /><br /><pre>SELECT * FROM `ps_seoptimize_product_meta_lang`
+                       WHERE `id_seoptimize_product_meta`=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 12:17:17: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2<br /><br /><pre>SELECT * FROM `ps_seoptimize_product_meta_lang`
+                       WHERE `id_seoptimize_product_meta`=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 12:20:40: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2<br /><br /><pre>SELECT * FROM `ps_seoptimize_product_meta_lang`
+                       WHERE `id_seoptimize_product_meta`=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 12:20:43: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 2<br /><br /><pre>SELECT * FROM `ps_seoptimize_product_meta_lang`
+                       WHERE `id_seoptimize_product_meta`=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 14:06:01: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<br /><br /><pre>DELETE FROM `ps_seoptimize_product_meta_lang` WHERE id_lang=1 and id_seoptimize_product_meta=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 14:06:05: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<br /><br /><pre>DELETE FROM `ps_seoptimize_product_meta_lang` WHERE id_lang=1 and id_seoptimize_product_meta=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 14:47:24: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<br /><br /><pre>DELETE FROM `ps_seoptimize_product_meta_lang` WHERE id_lang=1 and id_seoptimize_product_meta=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 14:47:53: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<br /><br /><pre>DELETE FROM `ps_seoptimize_product_meta_lang` WHERE id_lang=1 and id_seoptimize_product_meta=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 14:52:45: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<br /><br /><pre>DELETE FROM `ps_seoptimize_product_meta_lang` WHERE id_lang=1 and id_seoptimize_product_meta=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 14:55:14: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1<br /><br /><pre>DELETE FROM `ps_seoptimize_product_meta_lang` WHERE id_lang=1 and id_seoptimize_product_meta=</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 15:56:34: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= `id_seoptimize_product_meta=`' at line 2<br /><br /><pre>select * from `ps_seoptimize_product_meta_lang` 
+        where = `id_seoptimize_product_meta=`</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 15:59:35: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '`
+        where `id_product`=6' at line 1<br /><br /><pre>select * from `ps_`seoptimize_product_meta`
+        where `id_product`=6</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 16:00:00: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6' at line 2<br /><br /><pre>select * from `ps_seoptimize_product_meta_lang` 
+        where `id_seoptimize_product_meta=`6</pre> at line 746 in file classes/db/Db.php
+*ERROR* 	v1.7.3.0	2018/04/20 - 16:00:08: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '6' at line 2<br /><br /><pre>select * from `ps_seoptimize_product_meta_lang` 
+        where `id_seoptimize_product_meta=`6</pre> at line 746 in file classes/db/Db.php

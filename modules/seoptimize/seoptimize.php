@@ -111,13 +111,20 @@ class Seoptimize extends Module
         if (Tools::isSubmit('ajaxEditProductMeta') && Tools::getValue('ajaxEditProductMeta') == 1
             && Tools::getValue('ajax')
         ) {
-            $lang = (int)Tools::getValue('language');
-            $productId = (int)Tools::getValue('product_id');
-            $title = Tools::getValue('title');
+            $lang        = (int)Tools::getValue('language');
+            $productId   = (int)Tools::getValue('product_id');
+            $title       = Tools::getValue('title');
             $description = Tools::getValue('description');
-            $keywords = Tools::getValue('keywords');
-            $legend= Tools::getValue('legend');
-            $this->ajaxEditProductMeta($lang, $productId, $title, $description, $keywords, $legend);
+            $keywords    = Tools::getValue('keywords');
+            $legend      = Tools::getValue('legend');
+            die($this->ajaxEditProductMeta($lang, $productId, $title, $description, $keywords, $legend));
+        }
+
+        if (Tools::isSubmit('ajaxChangeMetaToUse') && Tools::getValue('ajaxChangeMetaToUse') == 1 && Tools::getValue('ajax')) {
+            $productId = (int)Tools::getValue('product_id');
+            $field     = Tools::getValue('name');
+            $isChecked = Tools::getValue('checked');
+            die($this->ajaxMetaToUse($productId, $field, $isChecked));
         }
 
         if (((bool)Tools::isSubmit('editProductMeta')) == true) {
@@ -333,10 +340,11 @@ class Seoptimize extends Module
             'filter_key' => 'name'
         );
         $this->fields_list['rules_meta']  = array(
-            'title'   => $this->l('Meta by rules'),
-            'type'    => 'rules_meta',
-            'search'  => false,
-            'orderby' => false
+            'title'          => $this->l('Meta by rules'),
+            'type'           => 'rules_meta',
+            'search'         => false,
+            'orderby'        => false,
+            'remove_onclick' => true
         );
         $this->fields_list['custom_meta'] = array(
             'title'          => $this->l('Custom meta'),
@@ -371,9 +379,14 @@ class Seoptimize extends Module
     {
         $categoryName = Tools::getValue('seoptimize_productsFilter_name');
         $productName  = Tools::getValue('seoptimize_productsFilter_id_product');
-        $sql          = "SELECT `pl`.`meta_title`,
-                               `pl`.`meta_description`,
-                               `pl`.`meta_keywords`,
+        $sql          = "SELECT `spml`.`seo_meta_title` as `custom_title`,
+                               `spml`.`seo_meta_description` as `custom_description`,
+                               `spml`.`seo_meta_keywords` as `custom_keywords`,
+                               `spml`.`seo_image_alt` as `custom_alt`,
+                               `spm`.`has_custom_title`,
+                               `spm`.`has_custom_description`,
+                               `spm`.`has_custom_keywords`,
+                               `spm`.`has_custom_alt`,
                                `pl`.`id_product`,
                                `pl`.`name` AS `product_name`,
                                `srl`.`id_seoptimize_lang`,
@@ -395,6 +408,10 @@ class Seoptimize extends Module
                         on `pl`.`id_product`=`i`.`id_product`
                         JOIN `" . _DB_PREFIX_ . "image_lang` AS `il`
                         on `i`.`id_image`=`il`.`id_image`
+                        LEFT JOIN `" . _DB_PREFIX_ . "seoptimize_product_meta` as `spm`
+                        on `pl`.`id_product`=`spm`.`id_product`
+                        LEFT JOIN `" . _DB_PREFIX_ . "seoptimize_product_meta_lang` as `spml`
+                        on `spm`.`id_seoptimize_product_meta` = `spml`.`id_seoptimize_product_meta`
                         where `pl`.`id_lang`=" . $select_lang;
         if ($categoryName != '') {
             $result = Db::getInstance()->executeS($sql .
@@ -798,20 +815,35 @@ class Seoptimize extends Module
         $res = Db::getInstance()->executeS("SELECT * FROM `" . _DB_PREFIX_ . "seoptimize_product_meta`
                        WHERE `id_product`=" . $productId);
         if ($res == null) {
-            Db::getInstance()->insert('seoptimize_product_meta', array('id_product' => $productId), false, true);
+            $res = Db::getInstance()->insert('seoptimize_product_meta', array('id_product' => $productId), false, true);
         }
-        $id_image    = Db::getInstance()->getRow("SELECT `id_image` FROM `" . _DB_PREFIX_ . "image`
-                             WHERE `id_product` = " . (int)($productId) . "
-                             AND `cover` = 1");
-        $img         = new Image((int)$id_image['id_image'], (int)$lang);
-        $img->legend = $legend;
-        $img->update();
 
-        $p                   = new Product((int)$productId, false, $lang);
-        $p->meta_title       = $title;
-        $p->meta_description = $description;
-        $p->meta_keywords    = $keywords;
-        $p->update();
+        $resLang = Db::getInstance()->executeS("SELECT * FROM `" . _DB_PREFIX_ . "seoptimize_product_meta_lang`
+                       WHERE `id_lang`=" . $lang);
+//        if ($resLang == null) {
+        try {
+            Db::getInstance()->delete('seoptimize_product_meta_lang',
+                'id_lang=' . $lang . ' and id_seoptimize_product_meta=' . $res[0]['id_seoptimize_product_meta']);
+        } catch (Exception $e) {
+
+        }
+        Db::getInstance()->insert('seoptimize_product_meta_lang', array(
+            'seo_meta_title'             => $title,
+            'seo_meta_description'       => $description,
+            'seo_meta_keywords'          => $keywords,
+            'seo_image_alt'              => $legend,
+            'id_lang'                    => $lang,
+            'id_seoptimize_product_meta' => $res[0]['id_seoptimize_product_meta'],
+        ));
+//        } else {
+//            Db::getInstance()->update('seoptimize_product_meta_lang', array(
+//                'seo_meta_title'       => $title,
+//                'seo_meta_description' => $description,
+//                'seo_meta_keywords'    => $keywords,
+//                'seo_image_alt'        => $legend,
+//                'id_lang'              => $lang,
+//            ), 'id_seoptimize_product_meta=' . $res[0]['id_seoptimize_product_meta']);
+//        }
     }
 
     public function replaceKeyWithName($categories, $meta, $lang)
@@ -931,20 +963,107 @@ class Seoptimize extends Module
 
                 $res = Db::getInstance()->executeS("SELECT * FROM `" . _DB_PREFIX_ . "seoptimize_product_meta`
                        WHERE `id_product`=" . $product['id_product']);
-                if ($res == null || $res[0]['has_custom_meta'] == false) {
-                    $id_image    = Db::getInstance()->getRow("SELECT `id_image` FROM `" . _DB_PREFIX_ . "image`
+//                if ($res == null ) {
+                $id_image = Db::getInstance()->getRow("SELECT `id_image` FROM `" . _DB_PREFIX_ . "image`
                              WHERE `id_product` = " . (int)($product['id_product']) . "
                              AND `cover` = 1");
-                    $img         = new Image((int)$id_image['id_image'], (int)$lang['id_lang']);
+                $img      = new Image((int)$id_image['id_image'], (int)$lang['id_lang']);
+                if ((bool)$res[0]['has_custom_alt'] == false) {
                     $img->legend = $values['seo_image_alt'][$lang['id_lang']];
-                    $img->update();
-                    $p                   = new Product((int)$product['id_product'], false,
-                        (int)$lang['id_lang']);
-                    $p->meta_title       = $values['seo_meta_title'][$lang['id_lang']];
-                    $p->meta_description = $values['seo_meta_description'][$lang['id_lang']];
-                    $p->meta_keywords    = $values['seo_meta_keywords'][$lang['id_lang']];
-                    $p->update();
                 }
+                $img->update();
+                $p = new Product((int)$product['id_product'], false,
+                    (int)$lang['id_lang']);
+                if ((bool)$res[0]['has_custom_title'] == false) {
+                    $p->meta_title = $values['seo_meta_title'][$lang['id_lang']];
+                }
+                if ((bool)$res[0]['has_custom_description'] == false) {
+                    $p->meta_description = $values['seo_meta_description'][$lang['id_lang']];
+                }
+                if ((bool)$res[0]['has_custom_keywords'] == false) {
+                    $p->meta_keywords = $values['seo_meta_keywords'][$lang['id_lang']];
+                }
+                $p->update();
+//                }
+            }
+        }
+    }
+
+    protected function ajaxMetaToUse($productId, $field, $isChecked)
+    {
+        Db::getInstance()->update('seoptimize_product_meta', array($field => $isChecked == 'true' ? 1 : 0),
+            'id_product=' . $productId);
+
+
+        if ($isChecked =='true') {
+
+            $res = Db::getInstance()->executeS("select * from `"._DB_PREFIX_."seoptimize_product_meta`
+        where `id_product`=".$productId);
+            $customMeta = Db::getInstance()->executeS("select * from `" . _DB_PREFIX_ . "seoptimize_product_meta_lang` 
+        where `id_seoptimize_product_meta`=" . $res[0]['id_seoptimize_product_meta']);
+
+            if ($field == 'has_custom_alt') {
+                foreach ($customMeta as $item) {
+                    $id_image    = Db::getInstance()->getRow("SELECT `id_image` FROM `" . _DB_PREFIX_ . "image`
+                                 WHERE `id_product` = " . (int)($productId) . "
+                                 AND `cover` = 1");
+                    $img         = new Image((int)$id_image['id_image'], (int)$item['id_lang']);
+                    $img->legend = $item['seo_image_alt'];
+                    $img->update();
+                }
+            }
+            foreach ($customMeta as $item) {
+                $p = new Product((int)$productId, false,
+                    (int)$item['id_lang']);
+                if ($field == 'has_custom_title') {
+                    $p->meta_title = $item['seo_meta_title'];
+                }
+                if ($field == 'has_custom_description') {
+                    $p->meta_description = $item['seo_meta_description'];
+                }
+                if ($field == 'has_custom_keywords') {
+                    $p->meta_keywords = $item['seo_meta_keywords'];
+                }
+                $p->update();
+            }
+        }else{
+            $productCategories = Db::getInstance()->executeS("select * from `" . _DB_PREFIX_ . "category_product` 
+        where `id_product`=" . $productId);
+$categoryId = null;
+            $rules = Db::getInstance()->executeS("select * from `" . _DB_PREFIX_ . "category_seo_rule` as `csr`
+            LEFT JOIN `"._DB_PREFIX_."seo_rule_lang` as `srl`
+            on `csr`.`id_seoptimize`=`srl`.`id_seoptimize`");
+            foreach ($productCategories as $category){
+                foreach ($rules as $rule){
+                    if($rule['id_category']==$category['id_category']){
+                        $categoryId=$rule['id_category'];
+                    }
+                }
+            }
+
+            if ($field == 'has_custom_alt') {
+                foreach ($rules as $item) {
+                    $id_image    = Db::getInstance()->getRow("SELECT `id_image` FROM `" . _DB_PREFIX_ . "image`
+                                 WHERE `id_product` = " . (int)($productId) . "
+                                 AND `cover` = 1");
+                    $img         = new Image((int)$id_image['id_image'], (int)$item['id_lang']);
+                    $img->legend = $item['seo_image_alt'];
+                    $img->update();
+                }
+            }
+            foreach ($rules as $item) {
+                $p = new Product((int)$productId, false,
+                    (int)$item['id_lang']);
+                if ($field == 'has_custom_title') {
+                    $p->meta_title = $item['seo_meta_title'];
+                }
+                if ($field == 'has_custom_description') {
+                    $p->meta_description = $item['seo_meta_description'];
+                }
+                if ($field == 'has_custom_keywords') {
+                    $p->meta_keywords = $item['seo_meta_keywords'];
+                }
+                $p->update();
             }
         }
     }

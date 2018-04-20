@@ -61,6 +61,7 @@ $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seoptimize_product_meta` (
 
 $sql[] = 'CREATE TABLE IF NOT EXISTS `'._DB_PREFIX_.'seoptimize_product_meta_lang` (
     `id_seoptimize_product_meta_lang` int(11) NOT NULL AUTO_INCREMENT,
+    `id_seoptimize_product_meta` int(11) unsigned DEFAULT NULL,
     `id_lang` int(11) unsigned DEFAULT NULL,
     `has_custom_meta` tinyint(1) default 0,
     `seo_meta_title` TEXT DEFAULT NULL,
@@ -74,4 +75,8 @@ foreach ($sql as $query) {
     if (Db::getInstance()->execute($query) == false) {
         return false;
     }
+}
+$products = Db::getInstance()->executeS("SELECT * FROM `" . _DB_PREFIX_ . "product`");
+foreach ($products as $product){
+    Db::getInstance()->insert('seoptimize_product_meta', array('id_product' => $product['id_product']), false, true);
 }
