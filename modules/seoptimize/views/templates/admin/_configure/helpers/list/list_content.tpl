@@ -24,16 +24,22 @@
         <br>
         {$tr.product_name}
         <br>
-        <img src="{$tr[1]}" class="imgm img-thumbnail" height="63" width="63">
-    {/if}
-
-    {if isset($params.type) && $params.type == 'category_name'}
         {foreach $tr[0] as $item}
             {$commaSeparated[] = $item.name}
         {/foreach}
         {implode(", ",$commaSeparated)}
         {$commaSeparated = null}
+        <br>
+        <img src="{$tr[1]}" class="imgm img-thumbnail" height="63" width="63">
     {/if}
+
+    {*{if isset($params.type) && $params.type == 'category_name'}*}
+    {*{foreach $tr[0] as $item}*}
+    {*{$commaSeparated[] = $item.name}*}
+    {*{/foreach}*}
+    {*{implode(", ",$commaSeparated)}*}
+    {*{$commaSeparated = null}*}
+    {*{/if}*}
 
 
     {*{if isset($params.type) && $params.type == 'rules_meta'}*}
@@ -60,88 +66,234 @@
     {*{/if}*}
 
     {if isset($params.type) && $params.type == 'custom_meta'}
-        <div class="edit-meta">
-            <input type="hidden" value="{$tr.$identifier|intval}" name="ind" class="ind">
-
-            <b>title:</b>
-            <br>
-            <div class="mtitle">
-                <input type="hidden" class="custom-meta" value="{$tr.custom_title}">
-                {if $tr.has_custom_title}
-                    <input type="hidden" class="rules-meta" value="{$tr.seo_meta_title}">
-                    <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
-                           name="seo_meta_title" checked>
-                    <span class="meta-text">
+        <div class="meta-content">
+            <table style="width:100%" class="rules-table">
+                <tr>
+                    <td class="meta-info">
+                        <input type="hidden" value="{$tr.$identifier|intval}" name="ind" class="ind">
+                        <input type="hidden" class="custom-meta" value="{$tr.custom_title}">
+                        <input type="hidden" class="rules-meta" value="{$tr.seo_meta_title}">
+                        Title
+                    </td>
+                    {if $tr.has_custom_title}
+                        <td class="meta-to-use">
+                            <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                                   name="seo_meta_title" checked>
+                        </td>
+                        <td class="table-meta-content">
+                        <span class="meta-text">
                 {$tr.custom_title}
                     </span>
-                    <div class="btn edit-custom-meta"> / Edit</div>
-                {else}
-                    <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
-                           name="seo_meta_title">
-
-                    <span class="meta-text">
+                            <a class="edit-custom-meta"> / Edit</a>
+                        </td>
+                    {else}
+                        <td class="meta-to-use">
+                            <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                                   name="seo_meta_title">
+                        </td>
+                        <td class="table-meta-content">
+                        <span class="meta-text">
                 {$tr.seo_meta_title}
                     </span>
-                {/if}
-
-
-            </div>
-            <b>description:</b>
-            <div class="mdescription">
-                {if $tr.has_custom_description}
-                    <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
-                           name="seo_meta_description" checked>
-                    <span class="meta-text">
-                    {$tr.custom_description}
-                    </span>
-                    <div class="btn edit-custom-meta"> / Edit</div>
-                {else}
-                    <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
-                           name="seo_meta_description">
-                    <span class="meta-text">
+                        </td>
+                    {/if}
+                </tr>
+                <tr>
+                    <td  class="meta-info">
+                        <input type="hidden" value="{$tr.$identifier|intval}" name="ind" class="ind">
+                        <input type="hidden" class="custom-meta" value="{$tr.custom_description}">
+                        <input type="hidden" class="rules-meta" value="{$tr.seo_meta_description}">
+                        Description
+                    </td>
+                    {if $tr.has_custom_description}
+                        <td class="meta-to-use">
+                            <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                                   name="seo_meta_description" checked>
+                        </td>
+                        <td class="table-meta-content">
+                            <span class="meta-text">
+                                {$tr.custom_description}
+                            </span>
+                            <a class="edit-custom-meta"> / Edit</a>
+                        </td>
+                    {else}
+                        <td class="meta-to-use">
+                            <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                                   name="seo_meta_description">
+                        </td>
+                        <td class="table-meta-content">
+                            <span class="meta-text">
                     {$tr.seo_meta_description}
                     </span>
-                {/if}
-
-
-            </div>
-            <b>keywords:</b>
-            <br>
-            <div class="mkeywords">
-                {if $tr.has_custom_keywords}
-                    <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
-                           name="seo_meta_keywords" checked>
-                    <span class="meta-text">
+                        </td>
+                    {/if}
+                </tr>
+                <tr>
+                    <td  class="meta-info">
+                        <input type="hidden" value="{$tr.$identifier|intval}" name="ind" class="ind">
+                        <input type="hidden" class="custom-meta" value="{$tr.custom_keywords}">
+                        <input type="hidden" class="rules-meta" value="{$tr.seo_meta_keywords}">
+                        Keywords
+                    </td>
+                    {if $tr.has_custom_keywords}
+                        <td class="meta-to-use">
+                            <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                                   name="seo_meta_keywords" checked>
+                        </td>
+                        <td class="table-meta-content">
+                        <span class="meta-text">
                     {$tr.custom_keywords}
                     </span>
-                    <div class="btn edit-custom-meta"> / Edit</div>
-                {else}
-                    <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
-                           name="seo_meta_keywords">
-                    <span class="meta-text">
+                            <a class="edit-custom-meta"> / Edit</a>
+                        </td>
+                    {else}
+                        <td class="meta-to-use">
+                            <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                                   name="seo_meta_keywords">
+                        </td>
+                        <td class="table-meta-content">
+                        <span class="meta-text">
                     {$tr.seo_meta_keywords}
                     </span>
-                {/if}
-            </div>
-            <b>image alt:</b>
-            <br>
-            <div class="mlegend">
-                {if $tr.has_custom_alt}
-                    <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
-                           name="seo_image_alt" checked>
-                    <span class="meta-text">
-                    {$tr.custom_alt}
-                    </span>
-                    <div class="btn edit-custom-meta"> / Edit</div>
-                {else}
-                    <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
-                           name="seo_image_alt">
-                    <span class="meta-text">
-                    {$tr.seo_image_alt}
-                    </span>
-                {/if}
+                        </td>
+                    {/if}
+                </tr>
+                <tr>
+                    <td  class="meta-info">
+                        <input type="hidden" value="{$tr.$identifier|intval}" name="ind" class="ind">
+                        <input type="hidden" class="custom-meta" value="{$tr.custom_alt}">
+                        <input type="hidden" class="rules-meta" value="{$tr.seo_image_alt}">
+                        Image alt
+                    </td>
+                    {if $tr.has_custom_alt}
+                        <td class="meta-to-use">
+                            <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                                   name="seo_image_alt" checked>
+                        </td>
+                        <td class="table-meta-content">
+                        <span class="meta-text">
+                        {$tr.custom_alt}
+                        </span>
+                            <a class="edit-custom-meta"> / Edit</a>
+                        </td>
+                    {else}
+                        <td class="meta-to-use">
+                            <input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"
+                                   name="seo_image_alt">
+                        </td>
+                        <td class="table-meta-content">
+                        <span class="meta-text">
+                        {$tr.seo_image_alt}
+                        </span>
+                        </td>
+                    {/if}
+                </tr>
+            </table>
 
-            </div>
+
+            {*<span class="meta-labels">*}
+            {*<label>Title</label>*}
+            {*<label>Description</label>*}
+            {*<label>Keywords</label>*}
+            {*<label>Image alt</label>*}
+        {*</span>*}
+            {*<span class="edit-meta">*}
+            {*<input type="hidden" value="{$tr.$identifier|intval}" name="ind" class="ind">*}
+
+                {*<div class="d-inline">*}
+                {*<span class="mtitle meta-inputs">*}
+                {*<input type="hidden" class="custom-meta" value="{$tr.custom_title}">*}
+                {*<input type="hidden" class="rules-meta" value="{$tr.seo_meta_title}">*}
+                {*{if $tr.has_custom_title}*}
+
+                {*<input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"*}
+                {*name="seo_meta_title" checked>*}
+                {*<span class="meta-text">*}
+                {*{$tr.custom_title}*}
+                {*</span>*}
+                {*<a class="edit-custom-meta"> / Edit</a>*}
+                {*{else}*}
+                {*<input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"*}
+                {*name="seo_meta_title">*}
+                {*<span class="meta-text">*}
+                {*{$tr.seo_meta_title}*}
+                {*</span>*}
+                {*{/if}*}
+                {*</span>*}
+                {*</div>*}
+                {*<div class="d-inline">*}
+            {*<span class="mdescription meta-inputs">*}
+                {*{if $tr.has_custom_description}*}
+                    {*<input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"*}
+                           {*name="seo_meta_description" checked>*}
+                    {*<span class="meta-text">*}
+                    {*{$tr.custom_description}*}
+                    {*</span>*}
+                    {*<a class="edit-custom-meta"> / Edit</a>*}
+
+
+
+{*{else}*}
+
+
+
+                    {*<input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"*}
+                           {*name="seo_meta_description">*}
+                    {*<span class="meta-text">*}
+                    {*{$tr.seo_meta_description}*}
+                    {*</span>*}
+                {*{/if}*}
+            {*</span>*}
+            {*</div>*}
+            {*<div class="d-inline">*}
+            {*<span class="mkeywords meta-inputs">*}
+                {*{if $tr.has_custom_keywords}*}
+                    {*<input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"*}
+                           {*name="seo_meta_keywords" checked>*}
+                    {*<span class="meta-text">*}
+                    {*{$tr.custom_keywords}*}
+                    {*</span>*}
+                    {*<a class="edit-custom-meta"> / Edit</a>*}
+
+
+
+{*{else}*}
+
+
+
+                    {*<input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"*}
+                           {*name="seo_meta_keywords">*}
+                    {*<span class="meta-text">*}
+                    {*{$tr.seo_meta_keywords}*}
+                    {*</span>*}
+                {*{/if}*}
+            {*</span>*}
+            {*</div>*}
+            {*<div class="d-inline">*}
+                {*<span class="mlegend meta-inputs">*}
+                    {*{if $tr.has_custom_alt}*}
+                        {*<input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"*}
+                               {*name="seo_image_alt" checked>*}
+                        {*<span class="meta-text">*}
+                        {*{$tr.custom_alt}*}
+                        {*</span>*}
+                        {*<a class="edit-custom-meta"> / Edit</a>*}
+
+
+
+{*{else}*}
+
+
+
+                        {*<input type="checkbox" onclick="event.stopPropagation()" class="use-rules-meta"*}
+                               {*name="seo_image_alt">*}
+                        {*<span class="meta-text">*}
+                        {*{$tr.seo_image_alt}*}
+                        {*</span>*}
+                    {*{/if}*}
+                {*</span>*}
+            {*</div>*}
+        {*</span>*}
         </div>
     {/if}
 {/block}

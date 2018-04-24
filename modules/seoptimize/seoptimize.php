@@ -330,27 +330,18 @@ class Seoptimize extends Module
         $this->fields_list               = array();
         $this->fields_list['id_product'] = array(
             'title' => $this->l('Product'),
-            'type'  => 'product'
+            'type'  => 'product',
+            'width' => 'auto',
+            'remove_onclick' => true,
         );
-        $this->fields_list['name']       = array(
-            'title'      => $this->l('Category'),
-            'type'       => 'category_name',
-            'filter_key' => 'name'
-        );
-//        $this->fields_list['rules_meta']  = array(
-//            'title'          => $this->l('Meta by rules'),
-//            'type'           => 'rules_meta',
-//            'search'         => false,
-//            'orderby'        => false,
-//            'remove_onclick' => true
-//        );
+
         $this->fields_list['custom_meta'] = array(
             'title'          => $this->l('Custom meta'),
+            'width'          => '500',
             'type'           => 'custom_meta',
             'search'         => false,
             'orderby'        => false,
             'remove_onclick' => true,
-            'width'          => 500
         );
 
         $helper                = new HelperList();
@@ -984,6 +975,7 @@ class Seoptimize extends Module
             $res = Db::getInstance()->executeS("select * from `" . _DB_PREFIX_ . "seoptimize_product_meta` where `id_product`=" . $productId);
             if ($res == null) {
                 Db::getInstance()->insert('seoptimize_product_meta', array('id_product' => $productId), true, false);
+                $res = Db::getInstance()->executeS("select * from `" . _DB_PREFIX_ . "seoptimize_product_meta` where `id_product`=" . $productId);
             }
 
             $languages = Language::getLanguages(false);

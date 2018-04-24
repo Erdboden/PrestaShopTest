@@ -46,18 +46,18 @@ $(function () {
 
     $('.edit-custom-meta').click(e => {
         let target = e.currentTarget;
-        target = $(target).siblings('.use-rules-meta');
-        let ind = $(target).parents('.edit-meta').find('input:eq(0)').val();
-        let name = $(target).attr("name");
+        let ind = $(target).closest('tr').find('input:eq(0)').val();
+        let name = $(target).closest('tr').find('.use-rules-meta').attr("name");
 
         let oldMetaText = $(target).siblings('.meta-text').text();
         let metaTitleInput = "<input type='text' id='meta_" + name + "' name='meta_" + name + "' placeholder='title' value='" + $.trim(oldMetaText) + "'>";
+        target = $(target).closest('tr').find('.meta-text').parent();
         editButtonClicked(target, metaTitleInput, ind, name, oldMetaText);
     });
 
     function getMetaToUse(e) {
         let target = e.currentTarget;
-        let ind = $(target).parents('.edit-meta').find('input:eq(0)').val();
+        let ind = $(target).closest('tr').find('td:eq(0)').find('input:eq(0)').val();
         let check = $(target).is(":checked");
         let name = $(target).attr("name");
         metaToUse(ind, check, name, target);
@@ -79,7 +79,7 @@ $(function () {
                 if (check === true) {
                     isCustomMeta(target, ind, name);
                 } else {
-                    let editBtn = $(target).parent();
+                    let editBtn = $(target).closest('tr');
                     $(editBtn).find('.meta-text').text($(editBtn).find(".rules-meta").val());
 
                     $(editBtn).find(".edit-custom-meta").remove();
@@ -102,11 +102,13 @@ $(function () {
                 field: field
             },
             success: function (msg) {
-                let titleDiv = $(target).parent();
+                let titleDiv = target;
+
                 $(titleDiv).find("#meta_" + field).remove();
                 $(titleDiv).find(".save-custom-meta").remove();
-                $(titleDiv).append("<span class='meta-text'>" + oldTitle + "</span>");
-                // $(titleDiv).append("<div class='btn edit-custom-meta'> /Edit</a>");
+                $(titleDiv).removeClass('edit-custom-meta');
+                $(titleDiv).closest('tr').find('.custom-meta').val(meta);
+                $(titleDiv).append("<span class='meta-text'>" + meta + "</span>");
 
                 isCustomMeta(target, id, field);
             }
@@ -114,32 +116,33 @@ $(function () {
     }
 
     function isCustomMeta(target, ind, name) {
-        let oldMetaText = $(target).siblings('.custom-meta').val();
-        $(target).siblings('.meta-text').text(oldMetaText);
-        let metaTitleEditBtn = "<div class='btn edit-custom-meta'> /Edit</a>";
-        let metaTitleInput = "<input type='text' id='meta_" + name + "' name='meta_" + name + "' placeholder='title' value='" + $.trim(oldMetaText) + "'>";
-        $(target).parent().append(metaTitleEditBtn);
-        let editBtnClick = $(target).parent().find('.edit-custom-meta');
+        let oldMetaText = $(target).closest('tr').find('.custom-meta').val();
+        $(target).closest('tr').find('.meta-text').text(oldMetaText);
+        target = $(target).closest('tr').find('.meta-text').parent();
+        let metaTitleEditBtn = "<a class='edit-custom-meta'> /Edit</a>";
+        let metaTitleInput = "<input type='text' id='meta_" + name + "' name='meta_" + name + "' placeholder='title' style='margin-left: 50px' value='" + $.trim(oldMetaText) + "'>";
+        $(target).append(metaTitleEditBtn);
+        let editBtnClick = $(target).find('.edit-custom-meta');
         $(editBtnClick).click(e => {
             editButtonClicked(target, metaTitleInput, ind, name, oldMetaText);
         });
     }
 
     function editButtonClicked(target, metaTitleInput, ind, name, oldMetaText) {
-        let metaTitleSaveBtn = "<div class='btn save-custom-meta'> /Save</div>";
-        let titleDiv = $(target).parent();
+        let metaTitleSaveBtn = "<a class='save-custom-meta'> /Save</a>";
+        let titleDiv = $(target);
         $(titleDiv).find(".meta-text").remove();
         $(titleDiv).find(".edit-custom-meta").remove();
+        $(titleDiv).attr('class', 'edit-custom-meta');
         $(titleDiv).append(metaTitleInput);
         $(titleDiv).append(metaTitleSaveBtn);
 
-        let saveBtnClick = $(target).parent().find('.save-custom-meta');
-
+        let saveBtnClick = $(titleDiv).find('.save-custom-meta');
         $(saveBtnClick).click(e => {
-            let title = $(target).parent().find('input:eq(3)').val();
+            let title = $(titleDiv).find('input:eq(0)').val();
             let language = $('#change_google_lists').val();
 
-            editProductMeta(ind, language, name, title, target, oldMetaText);
+            editProductMeta(ind, language, name, title, titleDiv, oldMetaText);
         });
     }
 
@@ -170,7 +173,7 @@ $(function () {
                         let name = $(target).attr("name");
 
                         let oldMetaText = $(target).siblings('.meta-text').text();
-                        let metaTitleInput = "<input type='text' id='meta_" + name + "' name='meta_" + name + "' placeholder='title' value='" + $.trim(oldMetaText) + "'>";
+                        let metaTitleInput = "<input type='text' id='meta_" + name + "' name='meta_" + name + "' placeholder='title'  style='margin-left: 50px' value='" + $.trim(oldMetaText) + "'>";
                         editButtonClicked(target, metaTitleInput, ind, name, oldMetaText);
                     });
                     $('.lang_google_lists').prop("disabled", false);

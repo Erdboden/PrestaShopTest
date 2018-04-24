@@ -6,6 +6,14 @@
     <language>en</language>
      <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>How To Use Visuals Through A Buyer’s Journey</title>
+    <link>https://www.prestashop.com/en/blog/how-to-use-visuals-through-a-buyers-journey</link>
+    <description>Alternate title: How To Use Visuals Through A Buyer’s Journey</description>
+     <pubDate>Mon, 23 Apr 2018 16:31:11 +0200</pubDate>
+ <dc:creator>Anonymous</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/how-to-use-visuals-through-a-buyers-journey</guid>
+  </item>
+  <item>
     <title>PrestaShop for a large online store. Is it a good idea?</title>
     <link>https://www.prestashop.com/en/blog/prestashop-for-a-large-online-store-is-it-a-good-idea</link>
     <description> 
@@ -81,14 +89,6 @@ You can read our article about it here :</description>
      <pubDate>Tue, 13 Mar 2018 12:26:01 +0100</pubDate>
  <dc:creator>bluesnap</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/en/blog/5-must-have-tips-to-capture-more-global-shoppers</guid>
-  </item>
-  <item>
-    <title>Why do review collection methods matter?</title>
-    <link>https://www.prestashop.com/en/blog/collection-methods</link>
-    <description>Ratings and reviews have become an integral part of every ecommerce business.</description>
-     <pubDate>Thu, 08 Mar 2018 18:08:41 +0100</pubDate>
- <dc:creator>ekomi</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/collection-methods</guid>
   </item>
   </channel>
 </rss>

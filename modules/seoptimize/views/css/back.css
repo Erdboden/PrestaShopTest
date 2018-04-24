@@ -29,3 +29,43 @@
 #seoptimize_rules_form {
     display: none;
 }
+/*.meta-content{*/
+    /*display: inline-flex;*/
+/*}*/
+/*.use-rules-meta{*/
+    /*margin-left: 50px;*/
+/*}*/
+/*.meta-labels label{*/
+    /*display: block;*/
+    /*margin-bottom: 40px;*/
+    /*margin-top: 8px;*/
+/*}*/
+/*.edit-meta div{*/
+    /*margin-left: 20px;*/
+    /*margin-bottom: 40px;*/
+/*}*/
+/*.meta-text{*/
+    /*padding-left: 50px;*/
+/*}*/
+/*.meta-inputs{*/
+    /*display: inline-flex;*/
+    /*align-items: center;*/
+/*}*/
+/*.meta-inputs input{*/
+    /*display: inline-flex;*/
+    /*align-items: center;*/
+/*}*/
+.edit-custom-meta{
+    display: flex;
+    align-items: center;
+}
+.table-meta-content{
+    width: auto;
+    display: flex;
+}
+.meta-info{
+    width: 100px;
+}
+.meta-to-use{
+    width: 100px;
+}

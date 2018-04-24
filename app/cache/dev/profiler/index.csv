@@ -158,3 +158,15 @@ c03b46,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/c
 a6c6dc,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=GkGuCMSOy4Uk9ylCuBEO1oBU7rklSZ2cZ1YF39SH8-c,1524492394,,200
 e62719,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/reset/seoptimize?_token=GkGuCMSOy4Uk9ylCuBEO1oBU7rklSZ2cZ1YF39SH8-c,1524492404,,200
 d0b7ec,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/configure/seoptimize?_token=GkGuCMSOy4Uk9ylCuBEO1oBU7rklSZ2cZ1YF39SH8-c,1524492409,,302
+508896,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524551142,,200
+729050,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog/refresh?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524551166,,200
+9614b3,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524551295,,200
+098653,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/configure/seoptimize?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524551299,,302
+75d3da,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524556537,,200
+86d2eb,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog/refresh?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524556545,,200
+d1ef30,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524556551,,200
+52ff4e,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/configure/seoptimize?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524556554,,302
+73082e,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524557213,,200
+a0c0f9,::1,GET,http://localhost/admin786elpbmm/index.php/module/catalog/refresh?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524557224,,200
+4605d1,::1,GET,http://localhost/admin786elpbmm/index.php/module/manage?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524557315,,200
+6dd4a1,::1,POST,http://localhost/admin786elpbmm/index.php/module/manage/action/configure/seoptimize?_token=8lQdXMHSPROb06WuOoA3Wj6hOkMRCh3_ogwRVNbSc2A,1524557318,,302
